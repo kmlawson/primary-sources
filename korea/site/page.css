@@ -1,0 +1,106 @@
+/* The Primary Sources page: serif, quiet, and readable at any width. The palette is the one the
+   Modern Japanese History page uses (japan-bib site/app.css), light and dark. */
+:root{
+  --bg:#f3f5f8;--panel:#fff;--ink:#16273d;--muted:#5d6f84;--line:#d9e0e8;--accent:#12539e;--accent-ink:#fff;
+  --hit:#cfe3ff;--link:#1257a8;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f1621;--panel:#16202c;--ink:#e6edf5;--muted:#9ab0c6;--line:#2a3746;--accent:#5aa2ff;--accent-ink:#0f1621;
+  --hit:#204a7a;--link:#8cc2ff;}}
+:root[data-theme="dark"]{
+  --bg:#0f1621;--panel:#16202c;--ink:#e6edf5;--muted:#9ab0c6;--line:#2a3746;--accent:#5aa2ff;--accent-ink:#0f1621;
+  --hit:#204a7a;--link:#8cc2ff;}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+a{color:var(--link)}
+code{font-size:.9em;background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:1px 5px;overflow-wrap:anywhere}
+
+:root { --serif: Georgia, "Iowan Old Style", "Times New Roman", serif; }
+
+body.page { font-family: var(--serif); }
+.wrap { max-width: 980px; margin: 0 auto; padding: 0 16px; }
+
+header.site { padding: 26px 0 6px; }
+header.site h1 { font: 700 30px/1.15 var(--serif); margin: 0 0 6px; cursor: default; display: block; }
+header.site h1:hover { color: inherit; }
+header.site p.lede { margin: 0 0 8px; color: var(--muted); font-size: 15px; }
+header.site p.also { margin: 2px 0 14px; font-size: 14px; text-align: center; }
+header.site p.also a { color: var(--link); }
+header.site p.also .sep { color: var(--line); padding: 0 2px; }
+
+/* the row of buttons: one per section of the page, wrapping together */
+nav.jumps { padding: 6px 0 18px; border-bottom: 1px solid var(--line); }
+nav.jumps .sections { display: flex; flex-wrap: wrap; gap: 8px; }
+nav.jumps button {
+  font: 600 14px/1.2 var(--serif); padding: 9px 14px; border: 1px solid var(--line); border-radius: 999px;
+  background: var(--panel); color: var(--ink); cursor: pointer;
+}
+nav.jumps button:hover { border-color: var(--link); color: var(--link); }
+/* an open section: a light blue fill, so it reads as pressed */
+nav.jumps button[aria-expanded="true"] { background: var(--hit); border-color: var(--link); color: var(--link); }
+/* open or close every section at once: a light wash of the accent blue, and it follows the theme
+   because it is mixed from the accent colour rather than written out */
+nav.jumps button.openall {
+  background: color-mix(in srgb, var(--accent) 16%, var(--panel));
+  border-color: color-mix(in srgb, var(--accent) 38%, var(--panel));
+  color: var(--accent); font-weight: 700;
+}
+nav.jumps button.openall:hover {
+  background: color-mix(in srgb, var(--accent) 26%, var(--panel));
+  border-color: var(--accent); color: var(--accent);
+}
+
+
+/* a section of the list: hidden until its button is pressed */
+section.md { padding: 6px 0 4px; border-bottom: 1px solid var(--line); }
+section.md > h2 {
+  font: 700 22px/1.25 var(--serif); margin: 18px 0 10px; cursor: pointer; display: flex; align-items: baseline; gap: 10px;
+}
+section.md > h2:hover { color: var(--link); }
+section.md > h2::after { content: "▲"; font-size: 11px; color: var(--muted); }
+section.md .body { font-size: 16px; line-height: 1.55; padding-bottom: 14px; }
+section.md .body ul { margin: 8px 0; padding-left: 22px; }
+section.md .body li { margin: 4px 0; }
+section.md .body li ul { margin: 2px 0; }
+section.md .body a { color: var(--link); }
+/* a bullet marked <!--pills--> and ending in a colon turns its indented list into a row of small bubbles */
+section.md .body ul.pills { display: flex; flex-wrap: wrap; gap: 6px 10px; list-style: none; padding-left: 0; margin: 6px 0 12px; }
+section.md .body ul.pills li { margin: 0; display: inline-flex; align-items: baseline; gap: 6px; max-width: 100%; }
+section.md .body a.pill-link {
+  display: inline-block; padding: 3px 11px; border-radius: 999px; text-decoration: none;
+  font: 600 13.5px/1.4 var(--serif); color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 12%, var(--panel));
+  border: 1px solid color-mix(in srgb, var(--accent) 32%, var(--panel));
+}
+section.md .body a.pill-link:hover { background: color-mix(in srgb, var(--accent) 24%, var(--panel)); border-color: var(--accent); }
+section.md .body .pill-note { font-size: 12.5px; color: var(--muted); }
+/* a bubble inside an ordinary list: no bullet, and whatever is indented under it sits just below */
+section.md .body li.pill-own { list-style: none; }
+section.md .body li.pill-own > ul.pills { margin: 4px 0 2px; }
+section.md .body p { margin: 10px 0; }
+section.md .body em { font-style: italic; }
+
+
+/* back to the top: out of the way until the page has been scrolled */
+button.totop {
+  position: fixed; right: 18px; bottom: 18px; z-index: 6;
+  width: 42px; height: 42px; border-radius: 50%; cursor: pointer;
+  border: 1px solid var(--accent); background: var(--accent); color: var(--accent-ink);
+  font: 600 18px/1 var(--serif); box-shadow: 0 2px 8px rgba(18, 83, 158, .3);
+}
+button.totop:hover { filter: brightness(1.08); }
+button.totop[hidden] { display: none; }
+@media (max-width: 640px) { button.totop { right: 12px; bottom: 12px; } }
+
+/* no rule of its own: the buttons and every open section already end in one */
+footer.credit { padding: 14px 0 38px; font-size: 13px; color: var(--muted); margin-top: 18px; }
+footer.credit p { margin: 10px 0 0; }
+footer.credit p.version { font-size: 12.5px; }
+footer.credit a { color: var(--link); }
+footer.site { padding: 18px 0 40px; font-size: 14px; color: var(--muted); }
+footer.site a { color: var(--link); }
+footer.site ul { padding-left: 20px; }
+
+@media (max-width: 640px) {
+  header.site h1 { font-size: 24px; }
+}

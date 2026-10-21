@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Primary Sources: History of Taiwan</title>
+<meta name="description" content="A list of open access primary sources for the study of the history of Taiwan, aimed primarily at students working with sources in English.">
+<style>
+/* The Primary Sources page: serif, quiet, and readable at any width. The palette is the one the
+   Modern Japanese History page uses (japan-bib site/app.css), light and dark. */
+:root{
+  --bg:#f3f5f8;--panel:#fff;--ink:#16273d;--muted:#5d6f84;--line:#d9e0e8;--accent:#12539e;--accent-ink:#fff;
+  --hit:#cfe3ff;--link:#1257a8;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f1621;--panel:#16202c;--ink:#e6edf5;--muted:#9ab0c6;--line:#2a3746;--accent:#5aa2ff;--accent-ink:#0f1621;
+  --hit:#204a7a;--link:#8cc2ff;}}
+:root[data-theme="dark"]{
+  --bg:#0f1621;--panel:#16202c;--ink:#e6edf5;--muted:#9ab0c6;--line:#2a3746;--accent:#5aa2ff;--accent-ink:#0f1621;
+  --hit:#204a7a;--link:#8cc2ff;}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+a{color:var(--link)}
+code{font-size:.9em;background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:1px 5px;overflow-wrap:anywhere}
+
+:root { --serif: Georgia, "Iowan Old Style", "Times New Roman", serif; }
+
+body.page { font-family: var(--serif); }
+.wrap { max-width: 980px; margin: 0 auto; padding: 0 16px; }
+
+header.site { padding: 26px 0 6px; }
+header.site h1 { font: 700 30px/1.15 var(--serif); margin: 0 0 6px; cursor: default; display: block; }
+header.site h1:hover { color: inherit; }
+header.site p.lede { margin: 0 0 8px; color: var(--muted); font-size: 15px; }
+header.site p.also { margin: 2px 0 14px; font-size: 14px; text-align: center; }
+header.site p.also a { color: var(--link); }
+header.site p.also .sep { color: var(--line); padding: 0 2px; }
+
+/* the row of buttons: one per section of the page, wrapping together */
+nav.jumps { padding: 6px 0 18px; border-bottom: 1px solid var(--line); }
+nav.jumps .sections { display: flex; flex-wrap: wrap; gap: 8px; }
+nav.jumps button {
+  font: 600 14px/1.2 var(--serif); padding: 9px 14px; border: 1px solid var(--line); border-radius: 999px;
+  background: var(--panel); color: var(--ink); cursor: pointer;
+}
+nav.jumps button:hover { border-color: var(--link); color: var(--link); }
+/* an open section: a light blue fill, so it reads as pressed */
+nav.jumps button[aria-expanded="true"] { background: var(--hit); border-color: var(--link); color: var(--link); }
+/* open or close every section at once: a light wash of the accent blue, and it follows the theme
+   because it is mixed from the accent colour rather than written out */
+nav.jumps button.openall {
+  background: color-mix(in srgb, var(--accent) 16%, var(--panel));
+  border-color: color-mix(in srgb, var(--accent) 38%, var(--panel));
+  color: var(--accent); font-weight: 700;
+}
+nav.jumps button.openall:hover {
+  background: color-mix(in srgb, var(--accent) 26%, var(--panel));
+  border-color: var(--accent); color: var(--accent);
+}
+
+
+/* a section of the list: hidden until its button is pressed */
+section.md { padding: 6px 0 4px; border-bottom: 1px solid var(--line); }
+section.md > h2 {
+  font: 700 22px/1.25 var(--serif); margin: 18px 0 10px; cursor: pointer; display: flex; align-items: baseline; gap: 10px;
+}
+section.md > h2:hover { color: var(--link); }
+section.md > h2::after { content: "▲"; font-size: 11px; color: var(--muted); }
+section.md .body { font-size: 16px; line-height: 1.55; padding-bottom: 14px; }
+section.md .body ul { margin: 8px 0; padding-left: 22px; }
+section.md .body li { margin: 4px 0; }
+section.md .body li ul { margin: 2px 0; }
+section.md .body a { color: var(--link); }
+/* a bullet marked <!--pills--> and ending in a colon turns its indented list into a row of small bubbles */
+section.md .body ul.pills { display: flex; flex-wrap: wrap; gap: 6px 10px; list-style: none; padding-left: 0; margin: 6px 0 12px; }
+section.md .body ul.pills li { margin: 0; display: inline-flex; align-items: baseline; gap: 6px; max-width: 100%; }
+section.md .body a.pill-link {
+  display: inline-block; padding: 3px 11px; border-radius: 999px; text-decoration: none;
+  font: 600 13.5px/1.4 var(--serif); color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 12%, var(--panel));
+  border: 1px solid color-mix(in srgb, var(--accent) 32%, var(--panel));
+}
+section.md .body a.pill-link:hover { background: color-mix(in srgb, var(--accent) 24%, var(--panel)); border-color: var(--accent); }
+section.md .body .pill-note { font-size: 12.5px; color: var(--muted); }
+/* a bubble inside an ordinary list: no bullet, and whatever is indented under it sits just below */
+section.md .body li.pill-own { list-style: none; }
+section.md .body li.pill-own > ul.pills { margin: 4px 0 2px; }
+section.md .body p { margin: 10px 0; }
+section.md .body em { font-style: italic; }
+
+
+/* back to the top: out of the way until the page has been scrolled */
+button.totop {
+  position: fixed; right: 18px; bottom: 18px; z-index: 6;
+  width: 42px; height: 42px; border-radius: 50%; cursor: pointer;
+  border: 1px solid var(--accent); background: var(--accent); color: var(--accent-ink);
+  font: 600 18px/1 var(--serif); box-shadow: 0 2px 8px rgba(18, 83, 158, .3);
+}
+button.totop:hover { filter: brightness(1.08); }
+button.totop[hidden] { display: none; }
+@media (max-width: 640px) { button.totop { right: 12px; bottom: 12px; } }
+
+/* no rule of its own: the buttons and every open section already end in one */
+footer.credit { padding: 14px 0 38px; font-size: 13px; color: var(--muted); margin-top: 18px; }
+footer.credit p { margin: 10px 0 0; }
+footer.credit p.version { font-size: 12.5px; }
+footer.credit a { color: var(--link); }
+footer.site { padding: 18px 0 40px; font-size: 14px; color: var(--muted); }
+footer.site a { color: var(--link); }
+footer.site ul { padding-left: 20px; }
+
+@media (max-width: 640px) {
+  header.site h1 { font-size: 24px; }
+}
+</style>
+</head>
+<body class="page">
+<div class="wrap">
+  <header class="site">
+    <h1>Primary Sources: History of Taiwan</h1>
+    <p class="lede">A list of open access primary sources for the study of the history of Taiwan. Aimed primarily at students working with sources in English, though some Chinese and Japanese language sources are listed too. Choose a heading to open it. See also:</p>
+    <p class="also"><a href="https://froginawell.net/reference/modern-japan/" target="_blank" rel="noopener">Primary Sources: Modern Japanese History</a> <span class="sep">·</span> <a href="https://www.froginawell.net/frog/sources/primary-sources-modern-korean-history/" target="_blank" rel="noopener">Primary Sources: Modern Korean History</a> <span class="sep">·</span> <a href="https://www.froginawell.net/frog/sources/primary-sources-missionary-perspectives-on-china/" target="_blank" rel="noopener">Primary Sources: Missionary Perspectives on China</a> <span class="sep">·</span> <a href="https://froginawell.net/frog/sources/" target="_blank" rel="noopener">Other Frog in a Well Resources</a></p>
+  </header>
+  <nav class="jumps">
+    <div class="sections">
+      <button type="button" class="jump openall" data-target="all" aria-expanded="false">Open All</button>
+      <button type="button" class="jump" data-target="s-images-audio-and-film" aria-expanded="false">Images, Audio, and Film</button>
+      <button type="button" class="jump" data-target="s-japanese-reports-related-to-colonial-taiwan" aria-expanded="false">Japanese Reports Related to Colonial Taiwan</button>
+      <button type="button" class="jump" data-target="s-missionary-reports-and-minutes" aria-expanded="false">Missionary Reports and Minutes</button>
+      <button type="button" class="jump" data-target="s-wilson-center-digital-archive" aria-expanded="false">Wilson Center Digital Archive</button>
+      <button type="button" class="jump" data-target="s-foreign-relations-of-the-united-states" aria-expanded="false">Foreign Relations of the United States</button>
+      <button type="button" class="jump" data-target="s-travel-guidebooks" aria-expanded="false">Travel Guidebooks</button>
+      <button type="button" class="jump" data-target="s-other-online-archives-and-collections" aria-expanded="false">Other Online Archives and Collections</button>
+      <button type="button" class="jump" data-target="s-maps-of-taiwan" aria-expanded="false">Maps of Taiwan</button>
+      <button type="button" class="jump" data-target="s-taiwan-related-books-online" aria-expanded="false">Taiwan Related Books Online</button>
+      <button type="button" class="jump" data-target="s-chinese-and-japanese-language-sources" aria-expanded="false">Chinese and Japanese Language Sources</button>
+    </div>
+  </nav>
+  <section class="md" id="s-images-audio-and-film" hidden>
+    <h2 tabindex="0" role="button" title="Hide this section">Images, Audio, and Film</h2>
+    <div class="body">
+<ul>
+<li><a href="http://digital.lafayette.edu/islandora/search/*:*?f[0]=cdm.Relation.IsPartOf:%22East%20Asia%20Image%20Collection%22&amp;f[1]=eastasia.Coverage.Location.Country:%22Taiwan%22" target="_blank" rel="noopener">East Asia Image Collection at Skillman Library, Lafayette College - Taiwan</a> - Over a thousand postcards and photographs, many from Taipei. See also specifically the <a href="http://digital.lafayette.edu/collections/eastasia/tjwar-postcards/browse?fbclid=IwAR1mZ3WW5NwoZLzNRtDRUgqxAXo0ZJQnibXaxV4hEl_l8Fb2w_ov_tz4aQ0" target="_blank" rel="noopener">Truku-Japanese War Commemorative Postcard Collection</a> this includes.</li>
+<li><a href="https://rdc.reed.edu/c/formosa/home/?fbclid=IwAR2E09-KcgvTBuHLTAA1d93ZZwiT9Cg5WTydhvzplEkUHCLKlQSA6cU9caU" target="_blank" rel="noopener">Formosa Nineteenth Century Images</a> - &quot;This digital library gathers together a large body of primarily European and American images of the island of Taiwan – called &quot;Formosa&quot; by foreign visitors in the nineteenth century – and its various peoples, natural resources, wildlife, and built environment. These textual and visual representations, maps, and linguistic data were originally published in European and North American books and journals during the 19th century, but are not easily accessible to those interested in the history of Taiwan today.&quot;</li>
+<li><a href="http://photo.lib.ntu.edu.tw/pic/db/oldphoto.jsp" target="_blank" rel="noopener">National Taiwan University Taiwan Historical Photo Archive</a> - This has a rich collection of historical photographs related to Taiwan. You will have to enter your search terms in Chinese however. For pictures of Taipei (台北 or 臺北) enter the Chinese version in 簡易查詢 box and press the 送出查詢 button next to it.</li>
+<li><a href="http://newnrch.digital.ntu.edu.tw/prototype/index.php" target="_blank" rel="noopener">Taiwan National Repository of Cultural Heritage</a> - This search engine works best when you search in Chinese but some English terms produce results too. Includes many old photographs and maps.</li>
+<li><a href="http://tcbfm.digital.ntu.edu.tw/#" target="_blank" rel="noopener">Taiwan Ethnological Collections in Overseas Museums</a> - The interface is mostly in Chinese but once in you can browse information and photographs of many of the holdings of museums around the world related to the peoples of Taiwan. Great for material history.</li>
+<li><a href="https://web.archive.org/web/20180216100821/http://www.taipics.com/" target="_blank" rel="noopener">Vintage Formosa</a> - This was the largest collection of historical images of Taiwan. The site has been since discontinued, but archived versions of its collection remain on the Internet Archive.</li>
+<li><em>Cushing Library Medical Posters - Taiwan</em> - Yale University&#x27;s Cushing Library has a nice collection of over 40 medical posters, mostly from 1950s Taiwan with messages related to hygiene and health. Search by &quot;Department of Education, Taiwan.&quot; <a href="http://findit.library.yale.edu/?utf8=%E2%9C%93&amp;id=digcoll%3A2819769&amp;search_field=creator&amp;q=Department+of+Education%2C+Taiwan" target="_blank" rel="noopener">This link</a> should reach the results. Yale&#x27;s broader digital collection has several hundred maps and images <a href="http://findit.library.yale.edu/?id=digcoll%3A2819769&amp;per_page=100&amp;q=Taiwan&amp;search_field=topic&amp;utf8=%E2%9C%93" target="_blank" rel="noopener">related to Taiawn</a>.</li>
+<li><a href="http://digital.soas.ac.uk/LOAA003941/00001" target="_blank" rel="noopener">Sun&#x27;s wife and Miss Liu jointly manifest the great victory in Taiwan 勝大縣化彰中会姐小劉同會人夫孫</a> - from SOAS digital collections.</li>
+<li><a href="https://taipeiairstation.blogspot.com/2019/11/frank-smiths-photos-of-taipei-area.html?fbclid=IwAR0OifbU4wYGD04pXRAv6FwbOXUykexZckR9DjqjILKvR5vvTrUzQ6SbjYc" target="_blank" rel="noopener">Taipei Air Station</a> - Collection of photographs.</li>
+<li><a href="https://wellcomecollection.org/works" target="_blank" rel="noopener">Wellcome Collection</a> - The digital holdings of the Wellcome collection have many historical photographs from Taiwan if you search <a href="https://wellcomecollection.org/works?query=formosa&amp;fbclid=IwAR1LP1tc-0dYeoMyvxmP9kXWyuzfH1QrIUC9B2DbVyRgREF7kaI6iu7F1cc" target="_blank" rel="noopener">using the term</a> (also by &quot;Formosa&quot;).</li>
+<li><a href="https://tme.ncl.edu.tw/en/old-photographs?fbclid=IwAR3vLxNE9mE_Irt7MhuAN8_IutFb3cpvL_WYkISdXQWNzMXWolDPxkTnhDw" target="_blank" rel="noopener">Old Pictures of Taiwan</a> - Part of the Taiwan Memory Exhibition</li>
+</ul>
+    </div>
+  </section>
+  <section class="md" id="s-japanese-reports-related-to-colonial-taiwan" hidden>
+    <h2 tabindex="0" role="button" title="Hide this section">Japanese Reports Related to Colonial Taiwan</h2>
+    <div class="body">
+<ul>
+<li>*<a href="https://archive.org/details/the-progress-of-taiwan-1905/page/1/mode/2up" target="_blank" rel="noopener">The Progress of Taiwan (Formosa) for Ten Years 1895-1904</a>* (1905)</li>
+<li><a href="https://archive.org/details/cu31924023931680" target="_blank" rel="noopener"><em>The Statistical Summary of Taiwan Japanese Government General in Japan</em></a> (1912)</li>
+<li>*<a href="https://archive.org/details/taiwan.-report-on-the-control-of-the-aborigines-in-formosa/page/n4/mode/2up" target="_blank" rel="noopener">Report On The Control Of The Aborigines In Formosa</a>* (1911)</li>
+<li>*<a href="https://archive.org/details/okamatsu-provisional-report-on-investigations-of-laws-and-customs-in-the-island-of-formosa/page/n6/mode/2up" target="_blank" rel="noopener">Provisional Report On Investigations Of Laws And Customs In The Island Of Formosa</a>* (1900)</li>
+<li>*<a href="https://archive.org/details/isoda-the-island-of-formosa/mode/2up" target="_blank" rel="noopener">The Island Of Formosa: Handbook and Catalogue of Exhibits at the Agriculture Building, World&#x27;s Fair, St Louis</a>* (1904)</li>
+<li>*<a href="https://archive.org/details/taihoku-sokkojo.-the-climate-typhoons-and-earthquakes-full-view/page/n10/mode/2up" target="_blank" rel="noopener">The Climate, Typhoons, And Earthquakes of the Island of Formosa (Taiwan)</a>* (1914)</li>
+<li>*<a href="https://archive.org/details/annual-return-of-the-trade-of-taiwan-formosa.-1905-full-view/mode/2up" target="_blank" rel="noopener">Annual Return of the Foreign Trade of Taiwan</a>* (1905)</li>
+<li>*<a href="https://archive.org/details/annual-return-of-the-trade-of-taiwan-formosa.-1907-full-view/page/n10/mode/2up" target="_blank" rel="noopener">Annual Return of the Foreign Trade of Taiwan</a>* (1907)</li>
+<li>*<a href="https://archive.org/details/annual-return-on-trade-on-the-island-of-formosa-1918/page/n4/mode/2up" target="_blank" rel="noopener">Annual Return of the Trade of Taiwan</a>* (1918)</li>
+</ul>
+    </div>
+  </section>
+  <section class="md" id="s-missionary-reports-and-minutes" hidden>
+    <h2 tabindex="0" role="button" title="Hide this section">Missionary Reports and Minutes</h2>
+    <div class="body">
+<ul>
+<li><em>The Christian Movement in the Japanese Empire including Korea and Formosa</em> - Published by the Conference of Federated Missions, with hefty sections on Korea, with each volume over 600 pages in length. A number of volumes are on Internet Archive: <a href="https://archive.org/details/christianmovemen16conf/page/n9/mode/2up" target="_blank" rel="noopener">1913</a>, <a href="https://archive.org/details/christianmovemen00conf/page/n8/mode/2up" target="_blank" rel="noopener">1916</a>, <a href="https://archive.org/details/christianmovemen17conf/page/n8/mode/2up" target="_blank" rel="noopener">1919</a>, <a href="https://archive.org/details/christianmovemen18conf/page/n12/mode/2up" target="_blank" rel="noopener">1920</a></li>
+<li><em>Reports of the Foreign Missions China, Formosa, the Straits Settlements, and India - Presbyterian Church of England</em> - These reports, usually 100-200 pages in length are reports of the English Presbyterians Mission (EPM), founded at Xiamen (Amoy) in 1850, and later at Shantou (Swatow), Guangdond, and in Taiwan in 1865. You can read an overview of their archival records and <a href="https://www.soas.ac.uk/library/archives/news/file55128.pdf" target="_blank" rel="noopener">missions here</a>. See also L. Cheng <em>A Short History of the Presbyterian Church among the Mountain Tribes in Taiwan</em> (1965). Here is a <a href="https://archive.org/search.php?query=title%3A%28report%20of%20the%20Foreign%20Missions%20China%2C%20Formosa%29" target="_blank" rel="noopener">list of issues</a> on the Internet Archive:
+<ul>
+<li><a href="https://archive.org/details/presbyterianchur00pres_43/page/n1/mode/2up" target="_blank" rel="noopener">1894</a>, <a href="https://archive.org/details/presbyterianchur00pres_44/mode/2up" target="_blank" rel="noopener">1903</a>, <a href="https://archive.org/details/presbyterianchur00pres_45/mode/2up" target="_blank" rel="noopener">1904</a>, <a href="https://archive.org/details/presbyterianchur00pres_46/mode/2up" target="_blank" rel="noopener">1905</a>, <a href="https://archive.org/details/presbyterianchur00pres_47/mode/2up" target="_blank" rel="noopener">1906</a>, <a href="https://archive.org/details/presbyterianchur00pres_48/mode/2up" target="_blank" rel="noopener">1907</a>, <a href="https://archive.org/details/presbyterianchur00pres_49/mode/2up" target="_blank" rel="noopener">1908</a>, <a href="https://archive.org/details/presbyterianchur00pres_50/mode/2up" target="_blank" rel="noopener">1909</a>, <a href="https://archive.org/details/presbyterianchur00pres_51/mode/2up" target="_blank" rel="noopener">1910</a>, <a href="https://archive.org/details/presbyterianchur00pres_52/mode/2up" target="_blank" rel="noopener">1911</a>, <a href="https://archive.org/details/presbyterianchur00pres_53/mode/2up" target="_blank" rel="noopener">1912</a>, <a href="https://archive.org/details/presbyterianchur00pres_54/mode/2up" target="_blank" rel="noopener">1913</a>, <a href="https://archive.org/details/presbyterianchur00pres_55/mode/2up" target="_blank" rel="noopener">1914</a>, <a href="https://archive.org/details/presbyterianchur00pres_56/mode/2up" target="_blank" rel="noopener">1915</a>, <a href="https://archive.org/details/presbyterianchur00pres_57/mode/2up" target="_blank" rel="noopener">1916</a>, <a href="https://archive.org/details/presbyterianchur00pres_58/mode/2up" target="_blank" rel="noopener">1917</a>, <a href="https://archive.org/details/presbyterianchur00pres_59/mode/2up" target="_blank" rel="noopener">1918</a>, <a href="https://archive.org/details/presbyterianchur00pres_60/mode/2up" target="_blank" rel="noopener">1919</a>, <a href="https://archive.org/details/presbyterianchur00pres_61/mode/2up" target="_blank" rel="noopener">1920</a>, <a href="https://archive.org/details/presbyterianchur00pres_62/mode/2up" target="_blank" rel="noopener">1921</a></li>
+</ul>
+</li>
+<li>Johnstoun, J. <a href="https://archive.org/details/chinaformosastor00john" target="_blank" rel="noopener"><em>China and Formosa : the story of the Presbyterian Church of England</em></a> (1897)</li>
+</ul>
+<p>See also many of the missionary publications available on this page of sources: <a href="https://www.froginawell.net/frog/sources/primary-sources-missionary-perspectives-on-china/" target="_blank" rel="noopener">Primary Sources: Missionary Perspectives on China</a></p>
+    </div>
+  </section>
+  <section class="md" id="s-wilson-center-digital-archive" hidden>
+    <h2 tabindex="0" role="button" title="Hide this section">Wilson Center Digital Archive</h2>
+    <div class="body">
+<p>The Wilson Center&#x27;s <a href="https://digitalarchive.wilsoncenter.org" target="_blank" rel="noopener">Digital Archive</a> related to Cold War History is the largest open access collection of historical documents on the Cold War and East Asia is its main focus. There are many documents related to the Republic of China on Taiwan from 1945 onwards. Some of collections particularly relevant include:</p>
+<ul>
+<li><a href="https://digitalarchive.wilsoncenter.org/collection/193/asian-peoples-anti-communist-league" target="_blank" rel="noopener">Asian Peoples&#x27; Anti-Communist League</a></li>
+<li><a href="https://digitalarchive.wilsoncenter.org/collection/178/china-at-the-united-nations" target="_blank" rel="noopener">China at the United Nations</a></li>
+<li><a href="https://digitalarchive.wilsoncenter.org/collection/177/taiwan-strait-crises" target="_blank" rel="noopener">Taiwan Strait Crises</a></li>
+<li><a href="https://digitalarchive.wilsoncenter.org/collection/270/taiwan-s-cold-war-in-southeast-asia" target="_blank" rel="noopener">Taiwan’s Cold War in Southeast Asia</a></li>
+<li><a href="https://digitalarchive.wilsoncenter.org/collection/201/the-overseas-chinese-and-the-cold-war" target="_blank" rel="noopener">The Overseas Chinese and the Cold War</a></li>
+</ul>
+    </div>
+  </section>
+  <section class="md" id="s-foreign-relations-of-the-united-states" hidden>
+    <h2 tabindex="0" role="button" title="Hide this section">Foreign Relations of the United States</h2>
+    <div class="body">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Foreign_Relations_of_the_United_States_%28book_series%29#E-books" target="_blank" rel="noopener">Wikipedia</a> | <a href="https://history.state.gov/historicaldocuments/ebooks" target="_blank" rel="noopener">Office of the Historian FRUS E-books</a> | <a href="https://uwdc.library.wisc.edu/collections/FRUS/" target="_blank" rel="noopener">University of Wisconsin FRUS Collection</a></li>
+</ul>
+<p><em>FRUS</em> - The Foreign Relations of the United States is a series of books which offers a historical record of American foreign relations. It combines documents from a range of state sources relating to foreign diplomacy of the United States and new volumes with new materials are eagerly awaited by historians as they come out. E-book editions of all the volumes can be downloaded directly from the <a href="https://history.state.gov/historicaldocuments/ebooks" target="_blank" rel="noopener">Office of the Historian</a>. The University of Wisconsin <a href="https://uwdc.library.wisc.edu/collections/FRUS/" target="_blank" rel="noopener">digital FRUS collection</a> offers nice PDF downloads of the volumes (sometimes several hundred megabytes each). Some of the volumes most relevant to Taiwan:</p>
+<ul>
+<li><a href="http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&amp;id=FRUS.FRUS1945v07" target="_blank" rel="noopener">FRUS : diplomatic papers, 1945. The Far East, China</a> (1945)</li>
+<li><a href="http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&amp;id=FRUS.FRUS1946v09" target="_blank" rel="noopener">FRUS, 1946. The Far East: China</a> (v9 1946)</li>
+<li><a href="http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&amp;id=FRUS.FRUS1946v10" target="_blank" rel="noopener">FRUS, 1946. The Far East: China</a> (v10 1946)</li>
+<li><a href="http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&amp;id=FRUS.FRUS1947v07" target="_blank" rel="noopener">FRUS, 1947. The Far East: China</a> (1947)</li>
+<li><a href="http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&amp;id=FRUS.FRUS1948v07" target="_blank" rel="noopener">FRUS, 1948. The Far East: China</a> (v7 1948)</li>
+<li><a href="http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&amp;id=FRUS.FRUS1948v08" target="_blank" rel="noopener">FRUS, 1948. The Far East: China</a> (1948)</li>
+<li><a href="http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&amp;id=FRUS.FRUS1949v08" target="_blank" rel="noopener">FRUS, 1949. The Far East: China</a> (v8 1978)</li>
+<li><a href="http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&amp;id=FRUS.FRUS1949v09" target="_blank" rel="noopener">FRUS, 1949. The Far East: China</a> (v9 1974)</li>
+<li><a href="http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&amp;id=FRUS.FRUS1951v07p1" target="_blank" rel="noopener">FRUS, 1951. Korea and China (in two parts)</a> (v7.1 1951)</li>
+<li><a href="http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&amp;id=FRUS.FRUS1951v07p2" target="_blank" rel="noopener">FRUS, 1951. Korea and China (in two parts)</a> (v7.2 1951)</li>
+<li><a href="http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&amp;id=FRUS.FRUS195254v14p1" target="_blank" rel="noopener">FRUS, 1952-1954. China and Japan (in two parts)</a> (14.1 1952-1954)</li>
+<li><a href="http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&amp;id=FRUS.FRUS195254v14p2" target="_blank" rel="noopener">FRUS, 1952-1954. China and Japan (in two parts)</a> (14.2 1952-1954)</li>
+<li><a href="http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&amp;id=FRUS.FRUS195557v02" target="_blank" rel="noopener">FRUS, 1955-1957. China</a> (v2 1955-1957)</li>
+<li><a href="http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&amp;id=FRUS.FRUS195557v03" target="_blank" rel="noopener">FRUS, 1955-1957. China</a> (v3 1955-1957)</li>
+<li><a href="http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&amp;id=FRUS.FRUS195860v19" target="_blank" rel="noopener">FRUS, 1958-1960. China</a> (1958-1960)</li>
+</ul>
+    </div>
+  </section>
+  <section class="md" id="s-travel-guidebooks" hidden>
+    <h2 tabindex="0" role="button" title="Hide this section">Travel Guidebooks</h2>
+    <div class="body">
+<ul>
+<li><em>Terry&#x27;s Japanese Empire : including Korea and Formosa : with chapters on Manchuria, the Trans-Siberian railway, and the chief ocean routes to Japan : a guidebook for travelers</em>
+<ul>
+<li><a href="https://archive.org/details/terrysjapaneseem00terr/page/n6/mode/2up" target="_blank" rel="noopener">1914 Ed.</a> | <a href="https://archive.org/details/terry_terrysjapaneseempireincludingkoreaandformosawithchaptersonmanchuriathetrans-siberianrail_1919/page/n4/mode/2up" target="_blank" rel="noopener">1919 Ed.</a> | <a href="https://archive.org/details/terry_terrysguidetothejapaneseempireincludingkoreaandformosawithchaptersonmanchuriathetrans-si_1927" target="_blank" rel="noopener">1927 Ed.</a> | <a href="https://archive.org/details/terry_terrysguidetothejapaneseempire_1928/page/i/mode/2up" target="_blank" rel="noopener">1928 Ed.</a></li>
+</ul>
+</li>
+<li>Chamberlain, Basil Hall. <em>A Handbook For Travellers In Japan, Including Formosa</em>. Editions on the Internet Archive: <a href="https://archive.org/details/ahandbookfortra04firgoog/page/n12/mode/2up" target="_blank" rel="noopener">1891</a> | <a href="https://archive.org/details/ahandbookfortra14firgoog/page/n6/mode/2up" target="_blank" rel="noopener">1893</a> | <a href="https://archive.org/details/ahandbookfortra00masogoog/page/n4/mode/2up" target="_blank" rel="noopener">1894</a> | <a href="https://archive.org/details/handbookfortrave00murr/page/n7/mode/2up" target="_blank" rel="noopener">1898</a> | <a href="https://archive.org/details/ahandbookfortra00masogoog/page/n4/mode/2up" target="_blank" rel="noopener">1899</a> | <a href="https://archive.org/details/handbookfortravejohn/page/n10/mode/2up" target="_blank" rel="noopener">1903</a> | <a href="https://archive.org/details/handbookfortrav00cham/page/n8/mode/2up" target="_blank" rel="noopener">1901</a> | <a href="https://archive.org/details/ahandbookfortra00chamgoog/page/n7/mode/2up" target="_blank" rel="noopener">1907</a> | <a href="https://archive.org/details/handbookfortrave01john/page/n16/mode/2up" target="_blank" rel="noopener">1913</a></li>
+<li>*<a href="https://archive.org/details/the-hot-springs-of-japan-including-formosa/page/iii/mode/2up" target="_blank" rel="noopener">The Hot Springs Of Japan including Chosen (Korea), Taiwan (Formosa), and South Manchuria</a>* (1922)</li>
+<li><a href="https://archive.org/details/taiwan-railway-map-1931" target="_blank" rel="noopener">Taiwan Formosa Railway Guide and Map</a> (1931)</li>
+</ul>
+    </div>
+  </section>
+  <section class="md" id="s-other-online-archives-and-collections" hidden>
+    <h2 tabindex="0" role="button" title="Hide this section">Other Online Archives and Collections</h2>
+    <div class="body">
+<ul>
+<li><a href="http://www.taiwandocuments.org/" target="_blank" rel="noopener">Taiwan Documents Project</a> - &quot;Taiwan Documents Project was established in 1999 to provide researchers and other interested persons a comprehensive source of primary material relating to the dispute over Taiwan. The Project seeks not only to gather together the most complete collection of Taiwan-related documents available anywhere, but also to present objective, introductory analyses of legal and other issues surrounding the Taiwan Strait Situation.&quot;</li>
+<li><a href="http://dtrap.lib.ntu.edu.tw/DTRAP/index.htm" target="_blank" rel="noopener">V. S. Beausset Collection</a> - &quot;Valery S. de Beausset was an influential figure in budget and development planning during the period of U.S. Aid to Taiwan. An engineer and advisor to the J. G. White Corporation, contractor of many U.S.-aided development projects as well as the consulting firm to the U.S. Government at the time, de Beausset became a leading figure in U.S. Aid to Taiwan between 1950 and 1957. He was instrumental in drawing up a list of priorities for granting American aid. As a key coordinator he had close contacts with many Taiwan officials, including Jing-guo Jiang, Jia-gan Yan, Guo-zhen Wu, and Guo-ding Li.&quot; This is one of several collection (more below), and though the interface is in Chinese, clicking through to the 狄寶賽文庫 collection offers over a thousand documents, many of which are in English.</li>
+<li><a href="https://www.ntm.gov.tw/en/" target="_blank" rel="noopener">National Taiwan Museum 國立台灣博物館</a></li>
+<li><a href="https://www.nationaltreasure.tw/en" target="_blank" rel="noopener">Taiwan National Treasure 國家寶藏</a> - Digital collection of mostly English language documents related to the history of Taiwan from sources such as the US National Archives, the UN, and the Hoover Institution.</li>
+<li><em>The View from Taiwan</em> - This blog by Michael Turton ran from 2005 to 2018 and is filled with difficult to find historical photographs, quoted passages from historical works, and links to resources related to Taiwanese history and culture.</li>
+<li><a href="https://chenwillie.blogspot.com/" target="_blank" rel="noopener">衛城的閱讀空間 Willie Chen&#x27;s Digest of Historic Places</a> - Fantastic focus on the spatial history of Taiwan with photographs of many key locations and links and information on them.</li>
+<li><a href="https://danshuihistory.blogspot.com/" target="_blank" rel="noopener">漁人碼頭的戰爭 - The Battle of Fisherman&#x27;s Wharf</a> - Some great links and historical photographs shared here.</li>
+<li><em>Taipei Times</em> - The &quot;Taiwan in Time&quot; series among its features often introduce interesting historical materials, including photographs. One way to find many of these pieces is through a google search: <code>site:taipeitimes.com/News/feat &quot;Taiwan in Time&quot;</code> - see also the &quot;Highways &amp; Byways&quot; feature series: <code>site:taipeitimes.com/News/feat &quot;Highways &amp; Byways&quot;</code></li>
+<li><a href="https://taiwanleaftea.com/info/history-of-tea-in-taiwan" target="_blank" rel="noopener">History of Tea in Taiwan</a></li>
+<li><a href="https://www.taiwangazette.org/" target="_blank" rel="noopener">Taiwan Gazette</a> Oral accounts of 2.28 <a href="https://www.taiwangazette.org/news/2019/3/5/the-228-massacre-in-chiayi-the-airport-and-train-station-were-washed-with-blood?fbclid=IwAR1CSGujoEQumpLrbKgSr07slZfidRQ0DOkGh4nKAmXOpdNVF79pjMYa-Nw" target="_blank" rel="noopener">translated here</a>.</li>
+<li><a href="https://taiwaninsight.org/" target="_blank" rel="noopener">Taiwan Insight</a> - Part of the University of Nottingham Taiwan Studies Programme.</li>
+</ul>
+    </div>
+  </section>
+  <section class="md" id="s-maps-of-taiwan" hidden>
+    <h2 tabindex="0" role="button" title="Hide this section">Maps of Taiwan</h2>
+    <div class="body">
+<ul>
+<li>*<a href="https://archive.org/details/gazetteer-to-maps-and-charts-of-formosa/page/i/mode/2up" target="_blank" rel="noopener">Gazetteer To Maps And Charts Of Formosa</a>* (1944)</li>
+<li>*<a href="https://archive.org/details/gazetteer-to-maps-of-formosa-taiwan/page/n6/mode/2up" target="_blank" rel="noopener">Gazetteer To Maps Of Formosa (Taiwan)</a>* (1945)</li>
+<li><a href="http://legacy.lib.utexas.edu/maps/taiwan.html" target="_blank" rel="noopener">The Perry-Castañeda Library Map Collection</a> at the University of Texas has a nice collection of Taiwan maps.</li>
+<li><a href="https://collections.lib.uwm.edu/digital/collection/agdm/id/25449" target="_blank" rel="noopener">Taiwan 1950</a> - UWM</li>
+<li><a href="https://geodata.mit.edu/catalog/princeton-8s45qc32k" target="_blank" rel="noopener">Formosa, southern part, to illustrate the paper by M. Beazeley, M. Inst. C.E.</a></li>
+<li><a href="https://geodata.mit.edu/catalog/princeton-k0698893d" target="_blank" rel="noopener">Giran, Formosa (Taiwan), Taihoku Shu. A.M.S. L991 1945</a></li>
+<li><a href="https://geodata.mit.edu/catalog/princeton-nz806114c" target="_blank" rel="noopener">Heito, Formosa (Taiwan), Takao-Shu. A.M.S. L991 1944</a></li>
+<li><a href="https://geodata.mit.edu/catalog/princeton-2801pj08m" target="_blank" rel="noopener">Hokko, Formosa (Taiwan), Tainan-Shu. A.M.S. L991 1945</a></li>
+<li><a href="https://geodata.mit.edu/catalog/princeton-gb19f742n" target="_blank" rel="noopener">Hozan, Formosa (Taiwan), Hozan-shu. A.M.S. L991 1945</a></li>
+<li><a href="https://geodata.mit.edu/catalog/princeton-h989r4907" target="_blank" rel="noopener">Kagi, Formosa (Taiwan), Kagi-shu. A.M.S. L991 1945</a></li>
+<li><a href="https://geodata.mit.edu/catalog/princeton-ws859h33r" target="_blank" rel="noopener">Karenko, Formosa (Taiwan), Karenko-Cho. A.M.S. L991 1945</a></li>
+<li><a href="https://geodata.mit.edu/catalog/princeton-zk51vj296" target="_blank" rel="noopener">Kato, Formosa (Taiwan), Takao-shu. A.M.S. L991 1944</a></li>
+<li><a href="https://geodata.mit.edu/catalog/princeton-q811km34m" target="_blank" rel="noopener">Kiirun, Formosa (Taiwan), Taihoku-shu. A.M.S. L991 1945</a></li>
+<li><a href="https://geodata.mit.edu/catalog/princeton-5999n5049" target="_blank" rel="noopener">Mako, Formosa (Taiwan), Boko-cho, Mako-Shicho. A.M.S. L991 1945</a></li>
+<li><a href="https://geodata.mit.edu/catalog/princeton-vd66w162q" target="_blank" rel="noopener">Rato, Formosa (Taiwan), Taihoku-shu. A.M.S. L991. 1944</a></li>
+<li><a href="https://geodata.mit.edu/catalog/princeton-3b591b081" target="_blank" rel="noopener">Rokko, Formosa (Taiwan), Taichu-shu. A.M.S. L991. 1944</a></li>
+<li><a href="https://geodata.mit.edu/catalog/princeton-1g05fd153" target="_blank" rel="noopener">Okayama, Formosa (Taiwan), Takao-shu. A.M.S. L991 1945</a></li>
+<li><a href="https://geodata.mit.edu/catalog/princeton-r207tq881" target="_blank" rel="noopener">Seira, Formosa (Taiwan). A.M.S. L991 1945</a></li>
+<li><a href="https://geodata.mit.edu/catalog/princeton-zk51vj366" target="_blank" rel="noopener">Shinchiku, Formosa (Taiwan), Shinchiku-Shu. A.M.S. L991 1945</a></li>
+<li><a href="https://geodata.mit.edu/catalog/princeton-1n79h577j" target="_blank" rel="noopener">Shoka, Formosa (Taiwan), Taichu-Shu. A.M.S. L991 1945</a></li>
+<li><a href="https://geodata.mit.edu/catalog/princeton-2227mr10z" target="_blank" rel="noopener">Suo, Formosa (Taiwan), Taihoku-Shu. A.M.S. L991</a></li>
+<li><a href="https://geodata.mit.edu/catalog/princeton-kw52j970z" target="_blank" rel="noopener">Taichu, Formosa (Taiwan), Taichu Shu. A.M.S. L991 1945</a></li>
+<li><a href="https://geodata.mit.edu/catalog/princeton-bk128c47c" target="_blank" rel="noopener">Taito, Formosa, Taito-cho, Taito-gun. A.M.S. L991 1945</a></li>
+<li><a href="https://geodata.mit.edu/catalog/princeton-08612q284" target="_blank" rel="noopener">Takao.Takao-Shu, Formosa (Taiwan). A.M.S. L991 1945</a></li>
+<li><a href="https://geodata.mit.edu/catalog/princeton-m613n015x" target="_blank" rel="noopener">Tansui, Formosa (Taiwan), Taihoku-shu. A.M.S. L991 1945</a></li>
+<li><a href="https://geodata.mit.edu/catalog/princeton-8336h361c" target="_blank" rel="noopener">Toen, Formosa (Taiwan), Shinchiku-shu. A.M.S. L991 1944</a></li>
+<li><a href="https://geodata.mit.edu/catalog/princeton-dv13zv971" target="_blank" rel="noopener">Toko, Formosa (Taiwan), Takao-shu. A.M.S. L991 1944</a></li>
+<li><a href="https://geodata.mit.edu/catalog/princeton-2r36v011g" target="_blank" rel="noopener">Toshien, Formosa (Taiwan), Takao-Shu. A.M.S. L991 1945</a></li>
+<li><a href="https://geodata.mit.edu/catalog/princeton-rb68xd49j" target="_blank" rel="noopener">Chikunan, Shinchiku-shu, Formosa (Taiwan). A.M.S. L991 1944</a></li>
+<li><a href="https://catalog.princeton.edu/catalog/7768571" target="_blank" rel="noopener">Taiwan - Karte von Ost-China (map) / Kartographische Abteilung der Königl (1903)</a></li>
+<li><a href="https://catalog.princeton.edu/catalog/7702659" target="_blank" rel="noopener">Originalkarte der Insel Taiwan (Formosa) (1905)</a></li>
+<li><a href="https://cartotecadigital.icgc.cat/digital/collection/fonscec/id/382" target="_blank" rel="noopener">Taiwan Railway Map (1931)</a></li>
+<li><a href="https://geodata.mit.edu/catalog/princeton-pk02cd236" target="_blank" rel="noopener">Sketch map of southern Formosa to accompany the paper by J. Thomson Esqre 1873</a></li>
+<li><a href="https://geodata.mit.edu/catalog/princeton-f7623g10h" target="_blank" rel="noopener">Originalkarte der Insel Taiwan (Formosa) 1905</a></li>
+<li><a href="https://collections.lib.uwm.edu/digital/collection/agdm/id/9133" target="_blank" rel="noopener">Taiwan Scenic Map 1953</a></li>
+<li><a href="http://ecaidata.org/zh_TW/dataset/formosa?fbclid=IwAR3_7D0l4eC-tibqXAUvvrn1lXa6qLb4nnWq_CEZMU_719XYGMXkM1_ot2M" target="_blank" rel="noopener">Formosa (Taiwan) Map Series, U.S. Army Map Service, 1944</a></li>
+<li><a href="http://ecaidata.org/zh_TW/dataset/carte-de-l-isle-formose-et-aux-costes-de-la-chine" target="_blank" rel="noopener">Carte de L&#x27;Isle Formose et aux costes de la Chine</a> (1764)</li>
+<li><a href="https://digitalarchives.tw/Apps/TaipeiHistoricalMaps/index_en.html" target="_blank" rel="noopener">Taipei Historical Maps App</a></li>
+<li><a href="http://japanmaps.davidrumsey.com/luna/servlet/view/all/where/Taiwan?fbclid=IwAR3gvhtXTHu-fOe_6ifpXzjXA6BlVI-usupXVj7fPOG_GjH3lJLfqyuMCzA" target="_blank" rel="noopener">David Rumsey Japan Maps Collection: Taiwan</a></li>
+<li><a href="https://jcb.lunaimaging.com/luna/servlet/detail/JCBMAPS~1~1~5969~115902035:%C3%96en-Forsmos-og-et-stykke-af-Landkan;JSESSIONID=c6753d93-4d30-4c40-a790-9bb9f801877b?qvq=q%3Ataiwan%3Bsort%3Anormalized_date%2Cfile_name%2Csource_author%2Csource_title%3Blc%3AJCBMAPS%7E1%7E1&amp;sort=normalized_date%2Cfile_name%2Csource_author%2Csource_title&amp;mi=5&amp;trs=8&amp;cic=JCBMAPS%7E1%7E1" target="_blank" rel="noopener">Öen Forsmos og et stykke af Landkanten af China efter de nyeste Korter og Bernerkninger, besönderig af P.P. Jesuiterne Udkastet af N. Bellin. 1751</a></li>
+</ul>
+    </div>
+  </section>
+  <section class="md" id="s-taiwan-related-books-online" hidden>
+    <h2 tabindex="0" role="button" title="Hide this section">Taiwan Related Books Online</h2>
+    <div class="body">
+<ul>
+<li>For an annotated bibliography of old books and articles related to Taiwan see the Stanford University *<a href="https://archive.org/details/stanford-university.-bibliography-of-taiwan-formosa/page/n1/mode/2up" target="_blank" rel="noopener">Bibliography Of Taiwan ( Formosa)</a>* (1956)</li>
+<li>Arnold, Julean Herbert *<a href="https://archive.org/details/educationinformo00arno/page/n8/mode/2up" target="_blank" rel="noopener">Education in Formosa</a>* (1908)</li>
+<li>Arnold, Julean Herbert *<a href="https://archive.org/details/people-of-formosa/page/n1/mode/2up" target="_blank" rel="noopener">The Peoples Of Formosa</a>* (1909)</li>
+<li>Aubertin, John James. *<a href="https://archive.org/details/wanderingswonde01aubegoog/page/n10/mode/2up" target="_blank" rel="noopener">Wanderings &amp; wonderings. India, Burma, Kashmir, Ceylon, Singapore, Java, Siam, Japan, Manila, Formosa, Korea, China, Cambodia, Australia, New Zealand, Alaska, the States</a>*</li>
+<li>Ballantine, Joseph. *<a href="https://archive.org/details/ballantine-formosa/page/iii/mode/2up" target="_blank" rel="noopener">Formosa: A Problem for United States Foreign Policy</a>* (1952)</li>
+<li>Bax, Bonham Ward. *<a href="https://archive.org/details/easternseasvoya00baxgoog/page/n7/mode/2up" target="_blank" rel="noopener">The Eastern Seas: The Voyage Of H.M.S. &#x27;Dwarf&#x27; In China, Japan, And Formosa</a>* (1875)</li>
+<li>Bigelow, Poultney *<a href="https://archive.org/details/bigelow-japan-and-her-colonies-being-extracts-from/page/iii/mode/2up" target="_blank" rel="noopener">Japan And Her Colonies, Being Extracts From a Diary Made Whilst Visiting Formosa, Manchuria, Shantung, Korea and Saghalin in the Year 1921</a>* (1923)</li>
+<li>Cameron, W. H. Morton. *<a href="https://archive.org/details/presentdayimpres00came/page/n14/mode/2up" target="_blank" rel="noopener">Present Day Impressions Of Japan; The History, People, Commerce, Industries And Resources Of Japan And Japan&#x27;S Colonial Empire, Kwantung, Chosen, Taiwan, Karafuto</a>* (1919)</li>
+<li>Campbell, William. *<a href="https://archive.org/details/sketches-from-formosa/page/n6/mode/2up" target="_blank" rel="noopener">Sketches from Formosa</a>* by W. Campbell (1915)</li>
+<li>Campbell, William. *<a href="https://archive.org/details/cu31924023514403/page/n6/mode/2up" target="_blank" rel="noopener">Formosa Under The Dutch : Described From Contemporary Records, With Explanatory Notes And A Bibliography Of The Island</a>* (1903)</li>
+<li>Campbell, William. *<a href="https://archive.org/details/accountofmission02camp/page/n4/mode/2up" target="_blank" rel="noopener">An Account of Missionary Success in the Island of Formosa</a>* (1889)</li>
+<li>Campbell, William. *<a href="https://archive.org/details/dictionaryofamoy00camp/page/n14/mode/2up" target="_blank" rel="noopener">A Dictionary Of The Amoy Vernacular Spoken Throughout The Prefectures Of Chin-Chiu, Chiang-Chiu And Formosa</a>* (1913)</li>
+<li>Campbell, William. *<a href="https://archive.org/details/past-and-future-of-formosa/page/n1/mode/2up" target="_blank" rel="noopener">Past And Future Of Formosa</a>* (1896)</li>
+<li>Carr, Floyd A. *<a href="https://archive.org/details/georgelesliemack00carr/mode/2up" target="_blank" rel="noopener">George Leslie Mackay: Pioneer Missionary In Northern Formosa</a>* (1926)</li>
+<li>Clark, John D. *<a href="https://archive.org/details/formosa00unkngoog" target="_blank" rel="noopener">Formosa</a>* (1896)</li>
+<li>Collingwood, Cuthbert. *<a href="https://archive.org/details/cu31924024005807/page/n6/mode/2up" target="_blank" rel="noopener">Rambles Of A Naturalist On The Shores And Waters Of The China Sea : Being Observations In Natural History During A Voyage To China, Formosa, Borneo, Singapore, Etc., Made In Her Majesty&#x27;S Vessels In 1866 And 1867</a>* (1868)</li>
+<li>Coyett, Frederik C. E. S. *<a href="https://archive.org/details/tverwaerloosdef00coyegoog/page/n10/mode/2up" target="_blank" rel="noopener">&#x27;t verwaerloosde Formosa, of Waerachtig verhael, hoedanigh door verwaerloosinge der...</a>* (1675)</li>
+<li>Davidson, James. <a href="https://archive.org/details/islandofformosap00davi/page/n10/mode/2up" target="_blank" rel="noopener"><em>The Island of Formosa : Historical View from 1430 to 1900: History, People, Resources and Commercial Prospects</em></a> (1903)</li>
+<li>Dickson, Lillian. *<a href="https://archive.org/details/dickson-these-my-people/page/1/mode/2up" target="_blank" rel="noopener">These My People: Serving Christ Among the Mountain People of Formosa</a>* (1958)</li>
+<li>Dodd, John. *<a href="https://archive.org/details/cu31924023514452/page/n4/mode/2up" target="_blank" rel="noopener">Journal Of A Blockaded Resident In North Formosa During The Franco-Chinese War, 1884-5</a>* (1888)</li>
+<li>Grajdanzev, Andrew J. <em>Formosa Today: An Analysis of the Economic Development and Strategic Importance of Japan&#x27;s Tropical Colony</em> (1943)</li>
+<li>Guillemard, Francis Henry Hill. *<a href="https://archive.org/details/cruiseofmarchesa02guil/page/n10/mode/2up" target="_blank" rel="noopener">The Cruise Of The Marchesa To Kamschatka &amp; New Guinea : With Notices Of Formosa, Liu-Kiu, And Various Islands Of The Malay Archipelago</a>* (1886)</li>
+<li>Fischer, Adolph. *<a href="https://archive.org/details/fischer-streifzuge-durch-formosa.-full-view/page/n8/mode/2up" target="_blank" rel="noopener">Streifzuge Durch Formosa</a>* (1900)</li>
+<li>Fitch, Geraldine. *<a href="https://archive.org/details/fitch-formosa-beachhead./page/n6/mode/2up" target="_blank" rel="noopener">Formosa Beachhead</a>* (1953)</li>
+<li>Franck, Harry A. <a href="https://archive.org/details/in.ernet.dli.2015.173812/page/n3/mode/2up" target="_blank" rel="noopener"><em>Glimpses of Japan and Formosa</em></a> (1924)</li>
+<li>Fraser, Thurlow. *<a href="https://archive.org/details/callofeastromanc0000fras/mode/2up" target="_blank" rel="noopener">The Call Of The East; A Romance Of Far Formosa</a>* (1914 / 1902)</li>
+<li>Focht, Harold and Alice. *<a href="https://archive.org/details/unfathomed-japan/page/1/mode/2up" target="_blank" rel="noopener">Unfathomed Japan: A Travel Tale in the Highways and Byways of Japan and Formosa</a>*</li>
+<li>Ginsburg, Norton S. *<a href="https://archive.org/details/ginsburg-the-economic-resources-and-development-of-formosa/page/n6/mode/2up" target="_blank" rel="noopener">The Economic Resources And Development Of Formosa</a>*</li>
+<li>Hannah, John A. *<a href="https://archive.org/details/hannah-korea-japan-taiwan-formosa-and-the-philippines/page/n3/mode/2up" target="_blank" rel="noopener">Korea, Japan, Taiwan ( Formosa) And The Philippines</a>*</li>
+<li>Hofmann, Amerigo. *<a href="https://archive.org/details/ausdenwaldungen00hofmgoog/page/n9/mode/2up" target="_blank" rel="noopener">Aus Den Waldungen Des Fernen Ostens; Forstliche Reisen Und Studien In Japan, Formosa, Korea Und Den Angrenzenden Gebieten Ostasiens</a>* (1913)</li>
+<li>Holmes, Burton. *<a href="https://archive.org/details/japan-korea-and-formosa/page/n4/mode/2up" target="_blank" rel="noopener">Japan Korea And Formosa</a>* (1940)</li>
+<li>House, Edward Howard. *<a href="https://archive.org/details/japaneseexpedit03housgoog/page/n7/mode/2up" target="_blank" rel="noopener">The Japanese Expedition to Formosa</a>* (1875)</li>
+<li>Hughes, Thomas Francis. *<a href="https://archive.org/details/cu31924023225463/page/n6/mode/2up" target="_blank" rel="noopener">Among The Sons Of Han : Notes Of Six Years&#x27; Residence In Various Parts Of China And Formosa</a>* (1881)</li>
+<li>Johnston, James. *<a href="https://archive.org/details/cu31924022972396/page/n10/mode/2up" target="_blank" rel="noopener">China And Formosa : The Story Of The Mission Of The Presbyterian Church Of England</a>* (1897)</li>
+<li>Keith, Marian <a href="https://archive.org/details/blackbeardedbar00keit/page/n5/mode/2up" target="_blank" rel="noopener"><em>The Black-Bearded Barbarian : The Life of George Leslie Mackay of Formosa</em></a> (1930)</li>
+<li>Kerr, George H. *<a href="http://homepage.usask.ca/~llr130/taiwanlibrary/kerr/" target="_blank" rel="noopener">Formosa Betrayed</a>* (1965) <a href="http://homepage.usask.ca/~llr130/taiwanlibrary/kerr/kerr.pdf" target="_blank" rel="noopener">PDF Download</a> | <a href="https://web.archive.org/web/20200508090937/http://homepage.usask.ca/~llr130/taiwanlibrary/kerr/" target="_blank" rel="noopener">Archive.org Saved URL</a></li>
+<li>Landsborough, Marjorie. *<a href="https://archive.org/details/cu31924023021458/mode/2up" target="_blank" rel="noopener">In Beautiful Formosa : Being A Personally Conducted Tour Of Boys And Girls To View The People, The Scenery, And The Work Of The Missionaries In Strange And Lovely Places</a>* (1922)</li>
+<li>Lee, Tsoung Chao. *<a href="https://archive.org/details/economic-study-of-land-use-in-the-taipei-area-taiwan-1961" target="_blank" rel="noopener">Economic Study Of Land Use In The Taipei Area, Taiwan 1961</a>*</li>
+<li>LeGendre, Charles. *<a href="https://archive.org/details/is-aboriginal-formosa-a-part-of-the-chinese-empire/mode/2up" target="_blank" rel="noopener">Is Aboriginal Formosa A Part Of The Chinese Empire?</a>* (1874)</li>
+<li>Mackay, George. *<a href="https://archive.org/details/fromfarformosai00macdgoog" target="_blank" rel="noopener">From Far Formosa The Island: The Island, Its People And Missions</a>* (1896)</li>
+<li>Mailla, Father de. *<a href="https://archive.org/details/mailla-the-early-history-of-formosa/page/1/mode/2up" target="_blank" rel="noopener">The Early History Of Formosa</a>* (1874 / 1715)</li>
+<li>Maus, L. Mervin. *<a href="https://archive.org/details/armyofficeronlea00mausiala/page/n12/mode/2up" target="_blank" rel="noopener">An Army Officer On Leave In Japan; Including A Sketch Of Manila And Environment, Philippine Insurrection Of 1896-7, Dewey&#x27;S Battle Of Manila Bay And A Description Of Formosa</a>* (1911)</li>
+<li>McCleod, Duncan. *<a href="https://archive.org/details/islandbeautifuls00macl/mode/2up" target="_blank" rel="noopener">The Island Beautiful : The Story Of Fifty Years In North Formosa</a>* (1923)</li>
+<li>McGovern, Janet. *<a href="https://archive.org/details/amongheadhunters00mcgouoft" target="_blank" rel="noopener">Among the Head-hunters of Formosa</a>* (1922) - <a href="http://www.gutenberg.org/ebooks/53746" target="_blank" rel="noopener">raw text</a> on Project Gutenberg</li>
+<li>McGovern, Janet. *<a href="https://archive.org/details/mc-govern-the-butterflies-of-taiwan-full-view/page/n6/mode/2up" target="_blank" rel="noopener">The Butterflies Of Taiwan and other Fantasies</a>* (1924)</li>
+<li>Mitchell, Charles Archibald. *<a href="https://archive.org/details/mitchell-camphor-in-japan-and-in-formosa/page/n10/mode/2up" target="_blank" rel="noopener">Camphor In Japan And In Formosa</a>* (1900)</li>
+<li>Moody, Campbell N. *<a href="https://archive.org/details/moody-the-heathen-heart-full-view" target="_blank" rel="noopener">The Heathen Heart : An Account Of The Reception Of The Gospel Among The Chinese Of Formosa</a>* (1907)</li>
+<li>Peng, Ming-min *<a href="http://homepage.usask.ca/~llr130/taiwanlibrary/peng/freeframes.htm" target="_blank" rel="noopener">A Taste of Freedom: Memoirs of a Taiwanese Independence Leader</a>* (1994) <a href="https://web.archive.org/save/http://homepage.usask.ca/~llr130/taiwanlibrary/peng/freeframes.htm" target="_blank" rel="noopener">Archive.org Saved URL</a></li>
+<li>Perkins, N. *<a href="https://archive.org/details/perkins-report-on-formosa/page/1/mode/2up" target="_blank" rel="noopener">Report On Formosa</a>* (1896)</li>
+<li>Pickering, W. A. *<a href="https://archive.org/details/in.ernet.dli.2015.31822/page/n9/mode/2up" target="_blank" rel="noopener">Pioneering in Formosa</a>* (1898)</li>
+<li>Psalmanazar, George *<a href="https://archive.org/details/historicalgeogra00psal" target="_blank" rel="noopener">An Historical And Geographical Description Of Formosa. : Giving An Account Of The Religion, Customs, Manners, &amp;C., Of The Inhabitants.</a><em> (1705) - See </em>The Pretended Asian: George Psalmanazar&#x27;s Eighteenth-century Formosan Hoax* by Michael Keevak for background.</li>
+<li>Psalmanazar, George *<a href="https://archive.org/details/memoirsof00psaluoft/page/n8/mode/2up" target="_blank" rel="noopener">Memoirs of . Commonly Known as George Psalmanazar; A Reputed Native of Formosa</a>* (1765) - see entry above.</li>
+<li>Riess, Ludwig. *<a href="https://archive.org/details/riess-geschichte-der-insel-formosa.-full-view/page/n2/mode/2up" target="_blank" rel="noopener">Geschichte Der Insel Formosa</a>* (1897)</li>
+<li>Riggs, Fred W. *<a href="https://archive.org/details/formosa-under-chinese-nationalist-rule/page/n6/mode/2up" target="_blank" rel="noopener">Formosa Under Chinese Nationalist Rule</a>* (1952)</li>
+<li>Rutter, Owen. *<a href="https://archive.org/details/throughformosaac00ruttuoft/page/n9/mode/2up" target="_blank" rel="noopener">Through Formosa : An Account Of Japan&#x27;S Island Colony</a>* (1923)</li>
+<li>Shackleton, Allen J. *<a href="http://homepage.usask.ca/~llr130/taiwanlibrary/formosacalling/formosaframes.htm" target="_blank" rel="noopener">Formosa Calling: An Eyewitnes Account of the February 28th, 1947 Incident</a>* <a href="https://web.archive.org/web/20191010063006fw_/http://homepage.usask.ca/~llr130/taiwanlibrary/formosacalling/formosa-calling.pdf" target="_blank" rel="noopener">PDF Version</a> | <a href="https://web.archive.org/web/20191008224559/http://homepage.usask.ca/~llr130/taiwanlibrary/formosacalling/formosaframes.htm" target="_blank" rel="noopener">Archive.org Saved URL</a></li>
+<li>Smith, Robert Ross. *<a href="https://archive.org/details/luzon-vs-formosa/page/n4/mode/2up" target="_blank" rel="noopener">Luzon Vs Formosa</a>*</li>
+<li>Stöpel, Karl Theodor. *<a href="https://archive.org/details/bub_gb_pB87AQAAIAAJ/mode/2up" target="_blank" rel="noopener">Eine Reise In Das Innere Der Insel Formosa Und Die Erste Besteigung Des Niitakayama (Mount Morrison), Weihnachten 1898</a>* (1905)</li>
+<li>Takaki, T. *<a href="https://archive.org/details/diehygienischenv00form/page/n10/mode/2up" target="_blank" rel="noopener">Die Hygienischen Verhaltnisse Der Insel Formosa, Im Auftrage Des Generalgouvernements Formosa</a>* (1911)</li>
+<li>Takekoshi, Yosaburō. *<a href="https://archive.org/details/japaneseruleinf00takegoog" target="_blank" rel="noopener">Japanese Rule in Formosa</a>* (1907)</li>
+<li>Wiedfeldt, O. *<a href="https://archive.org/details/wiedfeldt-wirtschaftliche-rechtliche-und-soziale-grundtatsachen/page/n8/mode/2up" target="_blank" rel="noopener">Wirtschaftliche, Rechtliche Und Soziale Grundtatsachen und Grundformen der Atayalen auf Formosa</a>* (1915)</li>
+<li>*<a href="https://archive.org/details/united-states-tariff-commission.-annotated-tabular-taiwan/mode/2up" target="_blank" rel="noopener">Japanese Trade Studies Annotated Tabular Survey of the Trade of Japan Proper (Including that of Korea and Formosa)</a>* (1945)</li>
+<li>*<a href="https://archive.org/details/u.-s.-economic-assistance-to-formosa/mode/2up" target="_blank" rel="noopener">U. S. Economic Assistance To Formosa</a>* (1950)</li>
+<li>British Foreign Office: *<a href="https://archive.org/details/annual-report-on-the-trade-of-north-formosa-1886-1909/page/n6/mode/2up" target="_blank" rel="noopener">Annual Report On The Trade Of North Formosa 1886-1909</a>*</li>
+<li>British Foreign Office: *<a href="https://archive.org/details/annual-report-on-the-trade-of-south-formosa.-1887-1909/page/n5/mode/2up" target="_blank" rel="noopener">Annual Report On The Trade Of South Formosa. 1887-1909</a>*</li>
+<li>British Foreign Office: *<a href="https://archive.org/details/japan-1913-14-trade-on-the-island-of-formosa_202005/mode/2up" target="_blank" rel="noopener">Report for the Year 1913 on the Trade of the Island of Formosa</a>*</li>
+<li>US Navy Department Civil Affairs Handbooks on Taiwan (1944-5): *<a href="https://archive.org/details/united-states.-taiwan-formosa-karenko-and-taito-provinces.-full-view/mode/2up" target="_blank" rel="noopener">Karenko And Taito Provinces</a><em> | </em><a href="https://archive.org/details/taiwan-formosa-shinchiku-province-1944/page/n4/mode/2up" target="_blank" rel="noopener">Shinchiku Province</a><em> | </em><a href="https://archive.org/details/taiwan-formosa-taichu-province-1944/page/i/mode/2up" target="_blank" rel="noopener">Taichu Province</a><em> | </em><a href="https://archive.org/details/taiwan-formosa-tainan-province-1944/mode/2up" target="_blank" rel="noopener">Tainan Province</a><em> | </em><a href="https://archive.org/details/united-states.-taiwan-formosa-the-pescadores-islands.-full-view/page/1944/mode/2up" target="_blank" rel="noopener">The Pescadores</a><em> | </em><a href="https://archive.org/details/taiwan-formosa-economic-supplement/page/n4/mode/2up" target="_blank" rel="noopener">Economic Supplement</a><em> | </em><a href="https://archive.org/details/the-fishing-industry-in-taiwan-formosa/page/1944/mode/2up" target="_blank" rel="noopener">Fishing Industry In Taiwan</a><em> | </em><a href="https://archive.org/details/united-states.-japanese-administrative-organization/page/n2/mode/2up" target="_blank" rel="noopener">Japanese Administrative Organization in Taiwan</a>*</li>
+<li>Barclay, Paul D. *<a href="https://doi.org/10.1525/luminos.41" target="_blank" rel="noopener">Outcasts of Empire Japan&#x27;s Rule on Taiwan&#x27;s &quot;Savage Border,&quot; 1874-1945</a>* (2018) - Although not a primary source, Paul Barclay&#x27;s recent book is fully open access through Luminosoa.</li>
+</ul>
+    </div>
+  </section>
+  <section class="md" id="s-chinese-and-japanese-language-sources" hidden>
+    <h2 tabindex="0" role="button" title="Hide this section">Chinese and Japanese Language Sources</h2>
+    <div class="body">
+<ul>
+<li><a href="http://archives.ith.sinica.edu.tw/resources_list.php?fbclid=IwAR1z1A4i6fQlKlSlO5OYYfrxB9NwcB7EQd8lC4buiZv7NLU5JRnxCSetjr8" target="_blank" rel="noopener">Archives of the Institute of Taiwan History, Academia Sinica 中央研究院臺灣史研究所檔案館 - 臺灣歷史檔案資源網</a> - This is of the richest collections of digitized historical materials related to Taiwan. They include the <a href="http://tais.ith.sinica.edu.tw/sinicafrsFront/index.jsp" target="_blank" rel="noopener">臺灣史檔案資源系統</a>, the <a href="http://rarebooks.ith.sinica.edu.tw/sinicafrsFront99/index.htm" target="_blank" rel="noopener">臺灣研究古籍資料庫</a>, the <a href="http://sotokufu.sinica.edu.tw/" target="_blank" rel="noopener">臺灣總督府公文類纂查詢系統</a>, the <a href="http://taco.ith.sinica.edu.tw/tdk/" target="_blank" rel="noopener">臺灣日記知識庫</a>, the <a href="http://archives.ith.sinica.edu.tw/news_con.php?no=230" target="_blank" rel="noopener">臺灣文獻叢刊資料庫</a>, and the <a href="http://who.ith.sinica.edu.tw/" target="_blank" rel="noopener">臺灣總督府職員錄系統</a> among other resources and links. Some resources require registration.</li>
+<li><em>國史館 Academica Historica</em> - Together with Academia Sinica and the national archives, one of the three key archival sites for researchers of the Republic of China, both on the mainland and in Taiwan. They now host a range of digital materials open on the web. Some can be seen even without application, if you click on the first image of a document in the reader. Their online archive system is here: <a href="https://ahonline.drnh.gov.tw/index.php?act=Archive" target="_blank" rel="noopener">國史館檔案史料文物查詢系統</a>, and look for documents with a blue 線上閱覽 link.</li>
+<li><a href="https://www.th.gov.tw/new_site/index.php" target="_blank" rel="noopener">國史館臺灣文獻館 Taiwan Historica</a> - Read an <a href="https://www.th.gov.tw/new_site/01archives/04introduction/" target="_blank" rel="noopener">introduction</a> to the materials available or head to their list of databases: <a href="https://www.th.gov.tw/new_site/01archives/01file_archives/" target="_blank" rel="noopener">檔案查詢系統</a>. They include colonial period materials in their 臺灣總督府檔案, which you can apply for access to here: <a href="http://ds3.th.gov.tw/ds3/app000/" target="_blank" rel="noopener">查詢餘額申請表</a>. They also have their Chiang Kai-shek collection available here: <a href="https://across.archives.gov.tw/naahyint/sendurl.jsp?dbid=DB3174" target="_blank" rel="noopener">國史館—蔣中正總統文物</a></li>
+<li><a href="https://enwww.ncl.edu.tw/" target="_blank" rel="noopener">National Central Library 國家圖書館</a> - One of two national libraries in Taiwan.</li>
+<li><a href="https://www.ntl.edu.tw/" target="_blank" rel="noopener">National Taiwan Library</a> - The other national library, which houses many colonial period historical works in open stacks.</li>
+<li><a href="https://tm.ncl.edu.tw/index?lang=chn" target="_blank" rel="noopener">Taiwan Memory 台灣記憶</a> - Mentioned above for some of its English language pages, this rich collection of sources, including many photographs, postcards, and books. The books often link to the catalog entry in the National Central Library.</li>
+<li><a href="http://dtrap.lib.ntu.edu.tw/DTRAP/index.htm" target="_blank" rel="noopener">National Taiwan University Digital Taiwan-Related Archives Project 臺灣大學深化臺灣研究核心典藏數位化計畫</a> - See an introduction to the contents of this collection of digital archives here: <a href="http://dtrap.lib.ntu.edu.tw/DTRAP/intro.htm" target="_blank" rel="noopener">內容簡介</a>. There is some background available in English as well <a href="http://dtrap.lib.ntu.edu.tw/DTRAP/en/project.htm" target="_blank" rel="noopener">here</a> but effective use of it requires Chinese. See their online English language <a href="https://www.lib.ntu.edu.tw/doc/CG/resources/project/drapexbi01/e_map_index.html" target="_blank" rel="noopener">web exhibition</a> (and <a href="https://www.lib.ntu.edu.tw/doc/CG/resources/project/drapexbi01/index.html" target="_blank" rel="noopener">Chinese</a>.</li>
+<li><a href="http://nhd.drnh.gov.tw/AHDPortal/index.jsp" target="_blank" rel="noopener">Taiwan Postwar National Historical Archive</a> (Chinese)</li>
+<li><a href="https://twtjcdb.tjc.gov.tw/" target="_blank" rel="noopener">臺灣轉型正義資料庫 Taiwan Transitional Justice Commission Archive</a> - This newly available (2020) archive contains case files and other information related to repression during Taiwan&#x27;s period of white terror and authoritarian rule. For more details on the sources and background, see the <a href="https://twtjcdb.tjc.gov.tw/Manual/Detail/1025" target="_blank" rel="noopener">使用說明 資料庫內容設定、資料來源、建置過程與編碼工作</a>.</li>
+<li><a href="https://228.drnh.gov.tw/" target="_blank" rel="noopener">二二八事件檔案資料庫</a> - This archive of materials related to the 2.28 Incident and its aftermath is hosted by Academia Historica. Many of the documents are for request through this system, but a good many of the documents here have scanned images that can be viewed directly in the browser.</li>
+<li><a href="http://buddhistinformatics.dila.edu.tw/taiwanbuddhism/tb/" target="_blank" rel="noopener">台灣佛教史料庫 Taiwanese Buddhism Archive</a> - This rich collection of archival documents and publications related to buddhism in Taiwan includes online <a href="http://buddhistinformatics.dila.edu.tw/taiwanbuddhism/tb/mq/mq_gaz.html" target="_blank" rel="noopener">gazetteers</a>, online archive of the colonial period <a href="http://buddhistinformatics.dila.edu.tw/taiwanbuddhism/tb/ny_new.html" target="_blank" rel="noopener">南瀛佛教會報 South Seas Buddhist Magazine</a>, as well as selected postwar materials, bibliographies, and links to other resources.</li>
+<li><a href="http://www.digital.ntu.edu.tw/en/achievements.jsp" target="_blank" rel="noopener">National Taiwan University Digital Projects Home</a> (Chinese)</li>
+<li><a href="http://thdl.ntu.edu.tw/" target="_blank" rel="noopener">Taiwan History Digital Library 台灣歷史數位圖書館</a> (Chinese) - This digital library combines sources from a number of distinct collections. To read more about it, see the article <a href="http://thdl.ntu.edu.tw/thdl_pdf/%E5%8F%B0%E7%81%A3%E5%8F%A4%E5%A5%91%E7%B4%84%E6%96%87%E6%9B%B8%E5%85%A8%E6%96%87%E8%B3%87%E6%96%99%E5%BA%AB%E7%9A%84%E5%BB%BA%E7%BD%AE%EF%BC%88%E9%A0%85%E6%BD%94%EF%BC%89.pdf" target="_blank" rel="noopener">台灣古契約文書全文資料庫的建置</a>, especially page three for the overview of its holdings. See some of the publications making use of the collection in the 相關論文 below.</li>
+<li><a href="http://thdl.ntu.edu.tw/tools/" target="_blank" rel="noopener">Research Tools for Taiwan History Digital Library 臺灣歷史數位圖書館研究工具集</a> - Tied closely to the materials housed in the above digital library, this collection of open digital tools include some related to Taiwanese history such as the <a href="http://thdlgis.digital.ntu.edu.tw/" target="_blank" rel="noopener">臺灣總督府抄錄契約文書歷史地理資訊系統</a> (「使用者除可以關鍵字詞，契書種類及契書地點進行檢索外，亦可透過多邊形檢索功能自行框取範圍，並搭配時間軸呈現檢索結果。可供選擇比較的地圖資料包括1904年臺灣堡圖、地形圖、衛星地圖、古今對照及行政區域圖」), the <a href="http://thdltm.digital.ntu.edu.tw/treemap-infovis.php" target="_blank" rel="noopener">THDL臺灣總督府抄錄契書地區分析</a> (「本工具以階層圖形式提供使用者分析並觀察THDL臺灣總督府抄錄契書分布情形。階層圖中外層的區塊為『堡』，內層的區塊為『庄』，區塊越大的堡、庄代表隸屬於此區域範圍的契書數量越多，並同時呈現『庄隸屬於堡』的階層關係。」),</li>
+<li><a href="http://dore.tacp.gov.tw/tacp/pingpu/index.html" target="_blank" rel="noopener">台灣原住民族數位典藏資料庫</a> - A rich collection of sources, including photographs, oral histories and recordings, as well as material culture objects related to the indigenous peoples of Taiwan.</li>
+<li><a href="http://ebooks.lib.ntu.edu.tw/Home/ListBooks" target="_blank" rel="noopener">National Taiwan University Library Open Access Books 臺灣大學圖書館 公開取用電子書</a></li>
+<li><a href="http://tccra.lib.ntu.edu.tw/tccra_develop/" target="_blank" rel="noopener">Taiwan Colonial Court Records</a> (Chinese/Japanese) - requires online application for access</li>
+<li><a href="http://tcsd.lib.ntu.edu.tw/" target="_blank" rel="noopener">Taiwan Database for Empirical Legal Studies</a> (Chinese)</li>
+<li><a href="http://journal.th.gov.tw/" target="_blank" rel="noopener">Digital Library of Local Councils Journals 中華民國地方議會議事錄總庫</a></li>
+<li><a href="https://drtpa.th.gov.tw/" target="_blank" rel="noopener">Digital Repository of Taiwan Provincial Assembly 臺灣省議會史料總庫</a> (Chinese) - requires online application for access</li>
+<li><a href="http://nrch.culture.tw/Default.aspx" target="_blank" rel="noopener">文化資料庫</a> - Both a portal to other resources and host to digital materials, including thousands of old photographs.</li>
+<li><a href="http://ntur.lib.ntu.edu.tw/" target="_blank" rel="noopener">National Taiwan University Institutional Repository</a> (Chinese)</li>
+<li><a href="https://dl.ndl.go.jp/" target="_blank" rel="noopener"><em>National Diet Library of Japan Digital Collections</em></a> - Japan&#x27;s national library has thousands of books related to Taiwan. Search for those which are available online (インターネット公開資料) and you will be able to download PDFs of most of them from earlier periods.</li>
+<li><a href="https://www.jacar.go.jp/" target="_blank" rel="noopener">JACAR</a> - The Japan Center for Asian Historical Records has many digital records related to Japanese colonial rule in Taiwan. See also their special web exhibit on <a href="https://www.jacar.go.jp/english/jacarbl-fsjwar-e/index.html" target="_blank" rel="noopener">The Sino-Japanese War of 1894-1895</a>, after which Taiwan became a colony of Japan.</li>
+<li><a href="https://babel.hathitrust.org/" target="_blank" rel="noopener">HathiTrust</a> - Especially if you are connecting from the United States, there are hundreds of full view books on the HathiTrust in Japanese (the majority but not all of the English works are already on archive.org where PDF download is simpler) related to Taiwan. If you connect from outside the US many of these full view books have search only restrictions.</li>
+<li>For Japanese materials on colonial Taiwan, see also links and sources covered by Sayaka Chatani in her <a href="http://froginawell.net/guides/japanese-colonialism.html" target="_blank" rel="noopener">Basic Guide to Resources on Japanese Colonialism</a>.</li>
+</ul>
+<p>There are other great overviews of materials related to Taiwan and more detailed descriptions of some of the resources above. See, for example: Paul D. Barclay. “Japanese Empire in Taiwan.” In the <em>Oxford Research Encyclopedia of Asian History</em>. Ed. David Ludden. New York: Oxford University Press, forthcoming.</p>
+    </div>
+  </section>
+  <footer class="credit" id="credits">
+    <p>Contributors: Links, suggestions and corrections with help of Konrad M. Lawson, Evan Dawley, Paul Barclay, Yang Chanrong, Brent Ho, Katy Hui-Wen Hung, Kerim Friedman, and Tobie Openshaw. Lots of ideas for links here also came from the <a href="https://www.facebook.com/groups/811812725675036/?ref=group_header" target="_blank" rel="noopener">Taiwan History</a> facebook group.</p>
+    <p>We most welcome your corrections or suggestions for additions to the page. You can reach Konrad at kmlawson@froginawell.net or @kmlawson on Twitter.</p>
+    <p>The code and design of this page were created with the use of Anthropic Claude with Konrad M. Lawson at the prompt, following the design of the <a href="https://froginawell.net/reference/modern-japan/" target="_blank" rel="noopener">Modern Japanese History</a> page. The links themselves were gathered over several years by Konrad and the contributors named above. Feel free to use this page as a starting point for building your own collection of resources: the list is kept as markdown on GitHub, and pull requests and forks are welcome.</p>
+    <p class="version">Version 1.0001 · Last Updated: 21 October 2026 ·
+      <a href="https://github.com/kmlawson/primary-sources/tree/master/taiwan" target="_blank" rel="noopener">Source on GitHub</a></p>
+  </footer>
+</div>
+<button id="totop" type="button" class="totop" title="Back to the top" aria-label="Back to the top" hidden>↑</button>
+<script>
+// Each button opens or closes its section; a section's own heading closes it.
+const openAll = document.querySelector("nav.jumps button.openall");
+function setOpen(sec, open) {
+  sec.hidden = !open;
+  const b = document.querySelector(`nav.jumps button[data-target="${sec.id}"]`);
+  if (b) b.setAttribute("aria-expanded", open ? "true" : "false");
+}
+function syncOpenAll() {
+  const secs = [...document.querySelectorAll("section.md")];
+  const all = secs.every(s => !s.hidden);
+  openAll.textContent = all ? "Close All" : "Open All";
+  openAll.setAttribute("aria-expanded", all ? "true" : "false");
+}
+openAll.addEventListener("click", () => {
+  const secs = [...document.querySelectorAll("section.md")];
+  const open = secs.some(s => s.hidden);
+  for (const s of secs) setOpen(s, open);
+  syncOpenAll();
+  if (open) secs[0].scrollIntoView({ behavior: "smooth", block: "start" });
+});
+for (const b of document.querySelectorAll("nav.jumps button:not(.openall)")) {
+  b.addEventListener("click", () => {
+    const sec = document.getElementById(b.dataset.target);
+    if (!sec) return;
+    const open = sec.hidden;
+    setOpen(sec, open);
+    syncOpenAll();
+    if (open) sec.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+}
+// a way back up from the middle of a long list
+const toTop = document.getElementById("totop");
+addEventListener("scroll", () => { toTop.hidden = scrollY < 400; }, { passive: true });
+toTop.addEventListener("click", () => scrollTo({ top: 0, behavior: "smooth" }));
+
+for (const h of document.querySelectorAll("section.md > h2")) {
+  const close = () => {
+    const sec = h.parentElement;
+    setOpen(sec, false);
+    syncOpenAll();
+    const b = document.querySelector(`nav.jumps button[data-target="${sec.id}"]`);
+    if (b) b.scrollIntoView({ behavior: "smooth", block: "center" });
+  };
+  h.addEventListener("click", close);
+  h.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); close(); } });
+}
+</script>
+</body>
+</html>
