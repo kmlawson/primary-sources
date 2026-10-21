@@ -1,0 +1,162 @@
+[
+ {
+  "url": "https://digitalarchive.wilsoncenter.org",
+  "broken": true,
+  "reason": "Host no longer resolves (dangling Cloudflare CNAME); the Digital Archive moved to the University of Maryland.",
+  "replacement": "https://digitalarchive.umd.edu/",
+  "confidence": "high",
+  "evidence": "Wilson Center Digital Archive moved to the University of Maryland (History and Public Policy Program, School of Public Policy); digitalarchive.wilsoncenter.org now has a dangling Cloudflare CNAME (no A record via dns.google; WebFetch: ENOTFOUND). Fetched https://digitalarchive.umd.edu/: 'Home Page | Digital Archive', still carries the 'Wilson Center Digital Archive' logo, 'constructed and maintained by the University of Maryland's History and Public Policy Program'. Web search confirms CWIHP and its Digital Archive moved to UMD."
+ },
+ {
+  "url": "https://digitalarchive.wilsoncenter.org/collection/193/asian-peoples-anti-communist-league",
+  "broken": true,
+  "reason": "Host no longer resolves; archive moved to digitalarchive.umd.edu, old /collection/<id>/<slug> URLs replaced by /topics/<slug>.",
+  "replacement": "https://digitalarchive.umd.edu/topics/asian-peoples-anti-communist-league",
+  "confidence": "high",
+  "evidence": "Wilson Center Digital Archive moved to the University of Maryland (History and Public Policy Program, School of Public Policy); digitalarchive.wilsoncenter.org now has a dangling Cloudflare CNAME (no A record via dns.google; WebFetch: ENOTFOUND). Fetched https://digitalarchive.umd.edu/topics/asian-peoples-anti-communist-league: HTTP 200, title 'Asian Peoples' Anti-Communist League | Digital Archive', same collection description; slug found in the site's /topics listing."
+ },
+ {
+  "url": "https://digitalarchive.wilsoncenter.org/collection/178/china-at-the-united-nations",
+  "broken": true,
+  "reason": "Host no longer resolves; archive moved to digitalarchive.umd.edu, old /collection/<id>/<slug> URLs replaced by /topics/<slug>.",
+  "replacement": "https://digitalarchive.umd.edu/topics/china-united-nations",
+  "confidence": "high",
+  "evidence": "Wilson Center Digital Archive moved to the University of Maryland (History and Public Policy Program, School of Public Policy); digitalarchive.wilsoncenter.org now has a dangling Cloudflare CNAME (no A record via dns.google; WebFetch: ENOTFOUND). Fetched https://digitalarchive.umd.edu/topics/china-united-nations: HTTP 200, title 'China at the United Nations | Digital Archive', same collection description; slug found in the site's /topics listing."
+ },
+ {
+  "url": "https://digitalarchive.wilsoncenter.org/collection/177/taiwan-strait-crises",
+  "broken": true,
+  "reason": "Host no longer resolves; archive moved to digitalarchive.umd.edu, old /collection/<id>/<slug> URLs replaced by /topics/<slug>.",
+  "replacement": "https://digitalarchive.umd.edu/topics/taiwan-strait-crises",
+  "confidence": "high",
+  "evidence": "Wilson Center Digital Archive moved to the University of Maryland (History and Public Policy Program, School of Public Policy); digitalarchive.wilsoncenter.org now has a dangling Cloudflare CNAME (no A record via dns.google; WebFetch: ENOTFOUND). Fetched https://digitalarchive.umd.edu/topics/taiwan-strait-crises: HTTP 200, title 'Taiwan Strait Crises | Digital Archive', same collection description; slug found in the site's /topics listing."
+ },
+ {
+  "url": "https://digitalarchive.wilsoncenter.org/collection/270/taiwan-s-cold-war-in-southeast-asia",
+  "broken": true,
+  "reason": "Host no longer resolves; archive moved to digitalarchive.umd.edu, old /collection/<id>/<slug> URLs replaced by /topics/<slug>.",
+  "replacement": "https://digitalarchive.umd.edu/topics/taiwans-cold-war-southeast-asia",
+  "confidence": "high",
+  "evidence": "Wilson Center Digital Archive moved to the University of Maryland (History and Public Policy Program, School of Public Policy); digitalarchive.wilsoncenter.org now has a dangling Cloudflare CNAME (no A record via dns.google; WebFetch: ENOTFOUND). Fetched https://digitalarchive.umd.edu/topics/taiwans-cold-war-southeast-asia: HTTP 200, title 'Taiwan’s Cold War in Southeast Asia | Digital Archive', same collection description; slug found in the site's /topics listing."
+ },
+ {
+  "url": "https://digitalarchive.wilsoncenter.org/collection/201/the-overseas-chinese-and-the-cold-war",
+  "broken": true,
+  "reason": "Host no longer resolves; archive moved to digitalarchive.umd.edu, old /collection/<id>/<slug> URLs replaced by /topics/<slug>.",
+  "replacement": "https://digitalarchive.umd.edu/topics/overseas-chinese-and-cold-war",
+  "confidence": "high",
+  "evidence": "Wilson Center Digital Archive moved to the University of Maryland (History and Public Policy Program, School of Public Policy); digitalarchive.wilsoncenter.org now has a dangling Cloudflare CNAME (no A record via dns.google; WebFetch: ENOTFOUND). Fetched https://digitalarchive.umd.edu/topics/overseas-chinese-and-cold-war: HTTP 200, title 'The Overseas Chinese and the Cold War | Digital Archive', same collection description; slug found in the site's /topics listing."
+ },
+ {
+  "url": "https://www.nationaltreasure.tw/en",
+  "broken": true,
+  "reason": "Site appears defunct: www.nationaltreasure.tw is a CNAME to a CloudFront distribution that no longer resolves (no A record), and the apex redirects to www.",
+  "replacement": null,
+  "confidence": null,
+  "evidence": "dns.google: www -> d2fey2evmc0yiu.cloudfront.net with no A answer; WebFetch ENOTFOUND. Web searches (Taiwan National Treasure Foundation / 國家寶藏) find only 2017-2019 coverage, no new home. Owner may want to remove the entry or point to a Wayback copy (Wayback API rate-limited us)."
+ },
+ {
+  "url": "http://rarebooks.ith.sinica.edu.tw/sinicafrsFront99/index.htm",
+  "broken": "unknown",
+  "reason": "Probably alive: 503 came from our proxy ('upstream connect error'); the host now redirects to https on port 8443, which our sandbox cannot reach (connection reset).",
+  "replacement": "https://rarebooks.ith.sinica.edu.tw:8443/sinicafrsFront99/index.htm",
+  "confidence": "medium",
+  "evidence": "https://rarebooks.ith.sinica.edu.tw/ redirected to https://rarebooks.ith.sinica.edu.tw:8443/sinicafrsFront99/index.htm; ITH's own resource list (archives.ith.sinica.edu.tw/resources_list.php, fetched today) links 臺灣研究古籍資料庫 to exactly that URL. Could not load it from here."
+ },
+ {
+  "url": "http://sotokufu.sinica.edu.tw/",
+  "broken": "unknown",
+  "reason": "Host answers (redirects to https) but serves an ASCDC '關於本服務暫時中斷' (service temporarily interrupted) page with HTTP 503; may be a temporary outage or a block on foreign IPs.",
+  "replacement": null,
+  "confidence": null,
+  "evidence": "Fetched https://sotokufu.sinica.edu.tw/: server 'ascdc', title 數位文化中心, text '關於本服務 暫時中斷…ASCDC團隊敬上'. No relocation notice found by web search. (Taiwan Historica's onlinearchives.th.gov.tw also holds 總督府公文類纂 7,320冊 as an alternative, but it is a different system.)"
+ },
+ {
+  "url": "https://www.th.gov.tw/new_site/index.php",
+  "broken": true,
+  "reason": "Taiwan Historica rebuilt its site; the old /new_site/ paths return 404.",
+  "replacement": "https://www.th.gov.tw/",
+  "confidence": "high",
+  "evidence": "Fetched https://www.th.gov.tw/: HTTP 200, 國史館臺灣文獻館 homepage with 2026 news items; old link was to the front page."
+ },
+ {
+  "url": "https://www.th.gov.tw/new_site/01archives/04introduction/",
+  "broken": true,
+  "reason": "Old /new_site/ page returns 404; no equivalent 'introduction to the holdings' page found on the new site.",
+  "replacement": null,
+  "confidence": "low",
+  "evidence": "Homepage nav and /CL/47 (檔案查詢) show no holdings-introduction page; /sitemap 404; the path does not exist on ws.th.gov.tw/002/th/new_site/ either. Closest content: the holdings tree on https://onlinearchives.th.gov.tw/index.php?act=Archive (not an equivalent). Owner could drop the 'introduction' link."
+ },
+ {
+  "url": "https://www.th.gov.tw/new_site/01archives/01file_archives/",
+  "broken": true,
+  "reason": "Old /new_site/ page returns 404; the new site's 檔案查詢 page is the list of archive databases.",
+  "replacement": "https://www.th.gov.tw/CL/47",
+  "confidence": "high",
+  "evidence": "Fetched https://www.th.gov.tw/CL/47 (redirects to /CL/47/): title 國史館-臺灣文獻館-檔案查詢系統, lists 文獻檔案查詢系統 (onlinearchives.th.gov.tw), 臺灣省議會史料總庫, 地方議會議事錄總庫; linked from the homepage as 檔案查詢."
+ },
+ {
+  "url": "http://ds3.th.gov.tw/ds3/app000/",
+  "broken": true,
+  "reason": "Host ds3.th.gov.tw no longer exists (NXDOMAIN from th.gov.tw's own nameserver); access applications for 臺灣總督府檔案 now go through the 文獻檔案查詢系統.",
+  "replacement": "https://onlinearchives.th.gov.tw/index.php?act=Archive",
+  "confidence": "medium",
+  "evidence": "dns.google: Status 3 (NXDOMAIN). Fetched onlinearchives.th.gov.tw: 國史館臺灣文獻館典藏管理系統 / 文獻檔案查詢系統 with 帳號註冊, 申請閱覽, 檔案應用申請書 and the 臺灣總督府檔案 fonds (12,995冊). A system front page, not the exact application form."
+ },
+ {
+  "url": "https://across.archives.gov.tw/naahyint/sendurl.jsp?dbid=DB3174",
+  "broken": true,
+  "reason": "Soft 404: the NAA cross-archive portal redirects this deep link (and intro.jsp?id=DB3174) to its front page; the 蔣中正總統文物 collection itself lives in Academia Historica's own system.",
+  "replacement": "https://ahonline.drnh.gov.tw/index.php?act=Archive",
+  "confidence": "medium",
+  "evidence": "Fetched across.archives.gov.tw/naahyint/intro.jsp?id=DB3174 -> redirected to https://across.archives.gov.tw/. Fetched ahonline.drnh.gov.tw: 國史館檔案史料文物查詢系統, fonds 002 蔣中正總統文物 listed (overview PDF at https://ahonline.drnh.gov.tw/docs/zong/002.pdf, fetched). Not a deep link to the fonds; note the page already links ahonline elsewhere. Alternative: nha.drnh.gov.tw also lists 蔣中正總統文物 (378,105)."
+ },
+ {
+  "url": "https://enwww.ncl.edu.tw/",
+  "broken": true,
+  "reason": "Old English subdomain returns 503 from the load balancer (twice, 30s apart); NCL's own site now links its English version at www.ncl.edu.tw/en.",
+  "replacement": "https://www.ncl.edu.tw/en",
+  "confidence": "high",
+  "evidence": "Fetched https://www.ncl.edu.tw/: the 'English' link points to https://www.ncl.edu.tw/en; fetched that: HTTP 200, title 'Home | National Central Library'. enwww.ncl.edu.tw: 503 'Avi Vantage' page."
+ },
+ {
+  "url": "http://nhd.drnh.gov.tw/AHDPortal/index.jsp",
+  "broken": "unknown",
+  "reason": "Host resolves but times out / resets from here (proxy 503 'connection timeout', https reset); no current reference to nhd.drnh.gov.tw or AHDPortal found online, so it is probably retired.",
+  "replacement": "https://nha.drnh.gov.tw/",
+  "confidence": "medium",
+  "evidence": "Search for \"nhd.drnh.gov.tw\" surfaces Academia Historica's 國家歷史檔案整合平台 (National Historical Archives search) at nha.drnh.gov.tw; fetched it (needs the TWCA intermediate the server omits): unified catalogue of 國史館, 臺灣文獻館 and 檔案管理局, 680 fonds incl. postwar central/local government archives. Successor relationship is inferred, not documented."
+ },
+ {
+  "url": "https://twtjcdb.tjc.gov.tw/",
+  "broken": true,
+  "reason": "The Transitional Justice Commission was dissolved in 2022 and tjc.gov.tw's nameservers no longer answer; the database is now run by the National Human Rights Museum.",
+  "replacement": "https://twtjdb.nhrm.gov.tw/",
+  "confidence": "high",
+  "evidence": "NHRM news (nhrm.gov.tw/w/nhrm/News_22053110173592810): 促轉會「臺灣轉型正義資料庫」自111年5月31日起改由國家人權博物館維運. Fetched https://twtjdb.nhrm.gov.tw/: 臺灣轉型正義資料庫系統, says it was built by 促進轉型正義委員會 in 2019 and is now expanded by 國家人權博物館. (Search also lists twtjcdb.nhrm.gov.tw, unreachable from here.)"
+ },
+ {
+  "url": "https://twtjcdb.tjc.gov.tw/Manual/Detail/1025",
+  "broken": true,
+  "reason": "Old TJC host is gone; the successor database has a 資料庫介紹 page covering the same content scope, data sources and coding work.",
+  "replacement": "https://twtjdb.nhrm.gov.tw/introudce-1.html",
+  "confidence": "medium",
+  "evidence": "Fetched https://twtjdb.nhrm.gov.tw/introudce-1.html: 資料庫介紹 (內容範圍, 資料來源, 編碼 phases; updated 2025-11-14) with a linked PDF (dl-110-3d9516ec6a274458ba05057c492a127e.html: 一、本資料庫收錄內容範圍與資料來源 / 編碼說明). Revised NHRM version, not the identical TJC manual page."
+ },
+ {
+  "url": "https://228.drnh.gov.tw/",
+  "broken": false,
+  "reason": "Site is up; our TLS error is because the server sends the wrong intermediate certificate (browsers usually work around this).",
+  "replacement": null,
+  "confidence": null,
+  "evidence": "With the missing TWCA intermediate (fetched from the cert's AIA URL) added to the CA bundle, https://228.drnh.gov.tw/ returns 200, title 二二八事件檔案資料庫 (國史館 with 檔案管理局; 17,000+ records, 130,000+ page images), recent collaboration edits 2025-2026."
+ },
+ {
+  "url": "http://dore.tacp.gov.tw/tacp/pingpu/index.html",
+  "broken": true,
+  "reason": "Host dore.tacp.gov.tw no longer exists (NXDOMAIN from tacp.gov.tw's own nameserver).",
+  "replacement": "https://digitalarchives.tacp.gov.tw/",
+  "confidence": "medium",
+  "evidence": "Web search finds 臺灣原住民族數位典藏入口網 at digitalarchives.tacp.gov.tw (same agency domain, 原住民族文化發展中心); it resolves (202.39.249.24) but returned 503/reset to us, so content unconfirmed. Not a deep link to the old pingpu (平埔) section. portal.tacp.gov.tw (also in search) is NXDOMAIN."
+ }
+]

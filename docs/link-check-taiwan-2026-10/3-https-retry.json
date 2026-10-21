@@ -1,0 +1,138 @@
+{
+ "http://digital.lafayette.edu/islandora/search/*:*?f[0]=cdm.Relation.IsPartOf:%22East%20Asia%20Image%20Collection%22&f[1]=eastasia.Coverage.Location.Country:%22Taiwan%22": {
+  "https": "https://digital.lafayette.edu/islandora/search/*:*?f[0]=cdm.Relation.IsPartOf:%22East%20Asia%20Image%20Collection%22&f[1]=eastasia.Coverage.Location.Country:%22Taiwan%22",
+  "code": "200",
+  "final": "https://dss.lafayette.edu/",
+  "title": "Digital Scholarship Services &middot; Lafayette College",
+  "len": 57293,
+  "err": ""
+ },
+ "http://digital.lafayette.edu/collections/eastasia/tjwar-postcards/browse?fbclid=IwAR1mZ3WW5NwoZLzNRtDRUgqxAXo0ZJQnibXaxV4hEl_l8Fb2w_ov_tz4aQ0": {
+  "https": "https://digital.lafayette.edu/collections/eastasia/tjwar-postcards/browse?fbclid=IwAR1mZ3WW5NwoZLzNRtDRUgqxAXo0ZJQnibXaxV4hEl_l8Fb2w_ov_tz4aQ0",
+  "code": "403",
+  "final": "https://ldr.lafayette.edu/redirect?url=http://digital.lafayette.edu/collections/eastasia/tjwar-postcards/browsefbclid=IwAR1mZ3WW5NwoZLzNRtDRUgqxAXo0ZJQnibXaxV4hEl_l8Fb2w_ov_tz4aQ0",
+  "title": "ERROR: The request could not be satisfied",
+  "len": 919,
+  "err": ""
+ },
+ "http://newnrch.digital.ntu.edu.tw/prototype/index.php": {
+  "https": "https://newnrch.digital.ntu.edu.tw/prototype/index.php",
+  "code": "000",
+  "final": "https://newnrch.digital.ntu.edu.tw/prototype/index.php",
+  "title": "ERROR: The request could not be satisfied",
+  "len": 919,
+  "err": "curl: (35) Recv failure: Connection reset by peer"
+ },
+ "http://findit.library.yale.edu/?utf8=%E2%9C%93&id=digcoll%3A2819769&search_field=creator&q=Department+of+Education%2C+Taiwan": {
+  "https": "https://findit.library.yale.edu/?utf8=%E2%9C%93&id=digcoll%3A2819769&search_field=creator&q=Department+of+Education%2C+Taiwan",
+  "code": "200",
+  "final": "https://collections.library.yale.edu/",
+  "title": "Yale University Libraries - Digital Collections",
+  "len": 33307,
+  "err": ""
+ },
+ "http://findit.library.yale.edu/?id=digcoll%3A2819769&per_page=100&q=Taiwan&search_field=topic&utf8=%E2%9C%93": {
+  "https": "https://findit.library.yale.edu/?id=digcoll%3A2819769&per_page=100&q=Taiwan&search_field=topic&utf8=%E2%9C%93",
+  "code": "200",
+  "final": "https://collections.library.yale.edu/",
+  "title": "Yale University Libraries - Digital Collections",
+  "len": 33307,
+  "err": ""
+ },
+ "http://digital.soas.ac.uk/LOAA003941/00001": {
+  "https": "https://digital.soas.ac.uk/LOAA003941/00001",
+  "code": "403",
+  "final": "https://digital.soas.ac.uk/LOAA003941/00001",
+  "title": "Page Not Available",
+  "len": 3055,
+  "err": ""
+ },
+ "http://archives.ith.sinica.edu.tw/resources_list.php?fbclid=IwAR1z1A4i6fQlKlSlO5OYYfrxB9NwcB7EQd8lC4buiZv7NLU5JRnxCSetjr8": {
+  "https": "https://archives.ith.sinica.edu.tw/resources_list.php?fbclid=IwAR1z1A4i6fQlKlSlO5OYYfrxB9NwcB7EQd8lC4buiZv7NLU5JRnxCSetjr8",
+  "code": "200",
+  "final": "https://archives.ith.sinica.edu.tw/resources_list.php?fbclid=IwAR1z1A4i6fQlKlSlO5OYYfrxB9NwcB7EQd8lC4buiZv7NLU5JRnxCSetjr8",
+  "title": "館藏查詢 | 中央研究院臺灣史研究所檔案館 - 臺灣歷史檔案資源網",
+  "len": 13010,
+  "err": ""
+ },
+ "http://tais.ith.sinica.edu.tw/sinicafrsFront/index.jsp": {
+  "https": "https://tais.ith.sinica.edu.tw/sinicafrsFront/index.jsp",
+  "code": "200",
+  "final": "https://tais.ith.sinica.edu.tw/",
+  "title": "臺灣史檔案資源系統",
+  "len": 18880,
+  "err": ""
+ },
+ "http://rarebooks.ith.sinica.edu.tw/sinicafrsFront99/index.htm": {
+  "https": "https://rarebooks.ith.sinica.edu.tw/sinicafrsFront99/index.htm",
+  "code": "000",
+  "final": "https://rarebooks.ith.sinica.edu.tw:8443/sinicafrsFront99/index.htm",
+  "title": "臺灣史檔案資源系統",
+  "len": 18880,
+  "err": "curl: (35) Recv failure: Connection reset by peer"
+ },
+ "http://sotokufu.sinica.edu.tw/": {
+  "https": "https://sotokufu.sinica.edu.tw/",
+  "code": "503",
+  "final": "https://sotokufu.sinica.edu.tw/",
+  "title": "數位文化中心",
+  "len": 4265,
+  "err": ""
+ },
+ "http://taco.ith.sinica.edu.tw/tdk/": {
+  "https": "https://taco.ith.sinica.edu.tw/tdk/",
+  "code": "200",
+  "final": "https://taco.ith.sinica.edu.tw/tdk/%E9%A6%96%E9%A0%81",
+  "title": "臺灣日記知識庫",
+  "len": 59168,
+  "err": ""
+ },
+ "http://archives.ith.sinica.edu.tw/news_con.php?no=230": {
+  "https": "https://archives.ith.sinica.edu.tw/news_con.php?no=230",
+  "code": "200",
+  "final": "https://archives.ith.sinica.edu.tw/news_con.php?no=230",
+  "title": "臺灣文獻叢刊資料庫 | 中央研究院臺灣史研究所檔案館 - 臺灣歷史檔案資源網",
+  "len": 6423,
+  "err": ""
+ },
+ "http://who.ith.sinica.edu.tw/": {
+  "https": "https://who.ith.sinica.edu.tw/",
+  "code": "200",
+  "final": "https://who.ith.sinica.edu.tw/",
+  "title": "臺灣總督府職員錄系統",
+  "len": 60550,
+  "err": ""
+ },
+ "http://nhd.drnh.gov.tw/AHDPortal/index.jsp": {
+  "https": "https://nhd.drnh.gov.tw/AHDPortal/index.jsp",
+  "code": "000",
+  "final": "https://nhd.drnh.gov.tw/AHDPortal/index.jsp",
+  "title": "臺灣總督府職員錄系統",
+  "len": 60550,
+  "err": "curl: (35) Recv failure: Connection reset by peer"
+ },
+ "http://journal.th.gov.tw/": {
+  "https": "https://journal.th.gov.tw/",
+  "code": "200",
+  "final": "https://journal.th.gov.tw/",
+  "title": "中華民國地方議會議事錄總庫",
+  "len": 12738,
+  "err": ""
+ },
+ "http://nrch.culture.tw/Default.aspx": {
+  "https": "https://nrch.culture.tw/Default.aspx",
+  "code": "200",
+  "final": "https://nrch.culture.tw/Default.aspx",
+  "title": "",
+  "len": 14086,
+  "err": ""
+ },
+ "http://ntur.lib.ntu.edu.tw/": {
+  "https": "https://ntur.lib.ntu.edu.tw/",
+  "code": "000",
+  "final": "https://ntur.lib.ntu.edu.tw/",
+  "title": "",
+  "len": 14086,
+  "err": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore "
+ }
+}

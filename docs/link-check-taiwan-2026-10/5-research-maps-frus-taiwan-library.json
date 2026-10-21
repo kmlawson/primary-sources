@@ -1,0 +1,386 @@
+[
+ {
+  "url": "http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1945v07",
+  "broken": true,
+  "reason": "Old UWDC FRUS cgi now redirects to the generic AFRUS collection page; the specific volume is lost.",
+  "replacement": "https://search.library.wisc.edu/digital/AL6X4VWUCIHTFZ8M",
+  "confidence": "high",
+  "evidence": "Volume found in the UWDC 'Foreign relations of the United States' series list (search.library.wisc.edu/digital/AG5OAT7XT7HRHX84). Fetched /digital/AL6X4VWUCIHTFZ8M: HTTP 200, title matches FRUS1945v07 (same year, volume, part and subject)."
+ },
+ {
+  "url": "http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1946v09",
+  "broken": true,
+  "reason": "Old UWDC FRUS cgi now redirects to the generic AFRUS collection page; the specific volume is lost.",
+  "replacement": "https://search.library.wisc.edu/digital/A2PS4H5UHBBVXT87",
+  "confidence": "high",
+  "evidence": "Volume found in the UWDC 'Foreign relations of the United States' series list (search.library.wisc.edu/digital/AG5OAT7XT7HRHX84). Fetched /digital/A2PS4H5UHBBVXT87: HTTP 200, title matches FRUS1946v09 (same year, volume, part and subject)."
+ },
+ {
+  "url": "http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1946v10",
+  "broken": true,
+  "reason": "Old UWDC FRUS cgi now redirects to the generic AFRUS collection page; the specific volume is lost.",
+  "replacement": "https://search.library.wisc.edu/digital/AYNQUYOJ3VA6TG8G",
+  "confidence": "high",
+  "evidence": "Volume found in the UWDC 'Foreign relations of the United States' series list (search.library.wisc.edu/digital/AG5OAT7XT7HRHX84). Fetched /digital/AYNQUYOJ3VA6TG8G: HTTP 200, title matches FRUS1946v10 (same year, volume, part and subject)."
+ },
+ {
+  "url": "http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1947v07",
+  "broken": true,
+  "reason": "Old UWDC FRUS cgi now redirects to the generic AFRUS collection page; the specific volume is lost.",
+  "replacement": "https://search.library.wisc.edu/digital/AECRCWL24HCL7R8D",
+  "confidence": "high",
+  "evidence": "Volume found in the UWDC 'Foreign relations of the United States' series list (search.library.wisc.edu/digital/AG5OAT7XT7HRHX84). Fetched /digital/AECRCWL24HCL7R8D: HTTP 200, title matches FRUS1947v07 (same year, volume, part and subject)."
+ },
+ {
+  "url": "http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1948v07",
+  "broken": true,
+  "reason": "Old UWDC FRUS cgi now redirects to the generic AFRUS collection page; the specific volume is lost.",
+  "replacement": "https://search.library.wisc.edu/digital/A3ZRT6AWATPVI383",
+  "confidence": "high",
+  "evidence": "Volume found in the UWDC 'Foreign relations of the United States' series list (search.library.wisc.edu/digital/AG5OAT7XT7HRHX84). Fetched /digital/A3ZRT6AWATPVI383: HTTP 200, title matches FRUS1948v07 (same year, volume, part and subject)."
+ },
+ {
+  "url": "http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1948v08",
+  "broken": true,
+  "reason": "Old UWDC FRUS cgi now redirects to the generic AFRUS collection page; the specific volume is lost.",
+  "replacement": "https://search.library.wisc.edu/digital/ARD27ZRAGAU7KQ8A",
+  "confidence": "high",
+  "evidence": "Volume found in the UWDC 'Foreign relations of the United States' series list (search.library.wisc.edu/digital/AG5OAT7XT7HRHX84). Fetched /digital/ARD27ZRAGAU7KQ8A: HTTP 200, title matches FRUS1948v08 (same year, volume, part and subject)."
+ },
+ {
+  "url": "http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1949v08",
+  "broken": true,
+  "reason": "Old UWDC FRUS cgi now redirects to the generic AFRUS collection page; the specific volume is lost.",
+  "replacement": "https://search.library.wisc.edu/digital/ANQZE5N6WAPUCX9A",
+  "confidence": "high",
+  "evidence": "Volume found in the UWDC 'Foreign relations of the United States' series list (search.library.wisc.edu/digital/AG5OAT7XT7HRHX84). Fetched /digital/ANQZE5N6WAPUCX9A: HTTP 200, title matches FRUS1949v08 (same year, volume, part and subject)."
+ },
+ {
+  "url": "http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1949v09",
+  "broken": true,
+  "reason": "Old UWDC FRUS cgi now redirects to the generic AFRUS collection page; the specific volume is lost.",
+  "replacement": "https://search.library.wisc.edu/digital/AREMRICVU5MPTS8Q",
+  "confidence": "high",
+  "evidence": "Volume found in the UWDC 'Foreign relations of the United States' series list (search.library.wisc.edu/digital/AG5OAT7XT7HRHX84). Fetched /digital/AREMRICVU5MPTS8Q: HTTP 200, title matches FRUS1949v09 (same year, volume, part and subject)."
+ },
+ {
+  "url": "http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1951v07p1",
+  "broken": true,
+  "reason": "Old UWDC FRUS cgi now redirects to the generic AFRUS collection page; the specific volume is lost.",
+  "replacement": "https://search.library.wisc.edu/digital/ADMRJE2KOOOAFA8V",
+  "confidence": "high",
+  "evidence": "Volume found in the UWDC 'Foreign relations of the United States' series list (search.library.wisc.edu/digital/AG5OAT7XT7HRHX84). Fetched /digital/ADMRJE2KOOOAFA8V: HTTP 200, title matches FRUS1951v07p1 (same year, volume, part and subject)."
+ },
+ {
+  "url": "http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1951v07p2",
+  "broken": true,
+  "reason": "Old UWDC FRUS cgi now redirects to the generic AFRUS collection page; the specific volume is lost.",
+  "replacement": "https://search.library.wisc.edu/digital/A6KIW6T74T4FMS8M",
+  "confidence": "high",
+  "evidence": "Volume found in the UWDC 'Foreign relations of the United States' series list (search.library.wisc.edu/digital/AG5OAT7XT7HRHX84). Fetched /digital/A6KIW6T74T4FMS8M: HTTP 200, title matches FRUS1951v07p2 (same year, volume, part and subject)."
+ },
+ {
+  "url": "http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS195254v14p1",
+  "broken": true,
+  "reason": "Old UWDC FRUS cgi now redirects to the generic AFRUS collection page; the specific volume is lost.",
+  "replacement": "https://search.library.wisc.edu/digital/A2LWVT7DTTEDZP8W",
+  "confidence": "high",
+  "evidence": "Volume found in the UWDC 'Foreign relations of the United States' series list (search.library.wisc.edu/digital/AG5OAT7XT7HRHX84). Fetched /digital/A2LWVT7DTTEDZP8W: HTTP 200, title matches FRUS195254v14p1 (same year, volume, part and subject)."
+ },
+ {
+  "url": "http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS195254v14p2",
+  "broken": true,
+  "reason": "Old UWDC FRUS cgi now redirects to the generic AFRUS collection page; the specific volume is lost.",
+  "replacement": "https://search.library.wisc.edu/digital/AK2LAZMHNOB6AG83",
+  "confidence": "high",
+  "evidence": "Volume found in the UWDC 'Foreign relations of the United States' series list (search.library.wisc.edu/digital/AG5OAT7XT7HRHX84). Fetched /digital/AK2LAZMHNOB6AG83: HTTP 200, title matches FRUS195254v14p2 (same year, volume, part and subject)."
+ },
+ {
+  "url": "http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS195557v02",
+  "broken": true,
+  "reason": "Old UWDC FRUS cgi now redirects to the generic AFRUS collection page; the specific volume is lost.",
+  "replacement": "https://search.library.wisc.edu/digital/AK7LYDN2XR55Z78Q",
+  "confidence": "high",
+  "evidence": "Volume found in the UWDC 'Foreign relations of the United States' series list (search.library.wisc.edu/digital/AG5OAT7XT7HRHX84). Fetched /digital/AK7LYDN2XR55Z78Q: HTTP 200, title matches FRUS195557v02 (same year, volume, part and subject)."
+ },
+ {
+  "url": "http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS195557v03",
+  "broken": true,
+  "reason": "Old UWDC FRUS cgi now redirects to the generic AFRUS collection page; the specific volume is lost.",
+  "replacement": "https://search.library.wisc.edu/digital/AE2Y7M4YSBVFD68M",
+  "confidence": "high",
+  "evidence": "Volume found in the UWDC 'Foreign relations of the United States' series list (search.library.wisc.edu/digital/AG5OAT7XT7HRHX84). Fetched /digital/AE2Y7M4YSBVFD68M: HTTP 200, title matches FRUS195557v03 (same year, volume, part and subject)."
+ },
+ {
+  "url": "http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS195860v19",
+  "broken": true,
+  "reason": "Old UWDC FRUS cgi now redirects to the generic AFRUS collection page; the specific volume is lost.",
+  "replacement": "https://search.library.wisc.edu/digital/AICXSFFJ5EOUXD86",
+  "confidence": "high",
+  "evidence": "Volume found in the UWDC 'Foreign relations of the United States' series list (search.library.wisc.edu/digital/AG5OAT7XT7HRHX84). Fetched /digital/AICXSFFJ5EOUXD86: HTTP 200, title matches FRUS195860v19 (same year, volume, part and subject)."
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-8s45qc32k",
+  "broken": true,
+  "reason": "MIT GeoData no longer harvests Princeton records (HTTP 410 Gone).",
+  "replacement": "https://maps.princeton.edu/catalog/princeton-8s45qc32k",
+  "confidence": "high",
+  "evidence": "Fetched https://maps.princeton.edu/catalog/princeton-8s45qc32k.json (Princeton's own GeoBlacklight portal, same record id): title 'Formosa, southern part, to illustrate the paper by M. Beazeley, M. Inst. C.E.' matches the link text. The HTML page shows a Cloudflare Turnstile 'verify you are human' step that ordinary browsers pass."
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-k0698893d",
+  "broken": true,
+  "reason": "MIT GeoData no longer harvests Princeton records (HTTP 410 Gone).",
+  "replacement": "https://maps.princeton.edu/catalog/princeton-k0698893d",
+  "confidence": "high",
+  "evidence": "Fetched https://maps.princeton.edu/catalog/princeton-k0698893d.json (Princeton's own GeoBlacklight portal, same record id): title 'Giran, Formosa (Taiwan), Taihoku Shu. A.M.S. L991' matches the link text. The HTML page shows a Cloudflare Turnstile 'verify you are human' step that ordinary browsers pass."
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-nz806114c",
+  "broken": true,
+  "reason": "MIT GeoData no longer harvests Princeton records (HTTP 410 Gone).",
+  "replacement": "https://maps.princeton.edu/catalog/princeton-nz806114c",
+  "confidence": "high",
+  "evidence": "Fetched https://maps.princeton.edu/catalog/princeton-nz806114c.json (Princeton's own GeoBlacklight portal, same record id): title 'Heito, Formosa (Taiwan), Takao-Shu. A.M.S. L991' matches the link text. The HTML page shows a Cloudflare Turnstile 'verify you are human' step that ordinary browsers pass."
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-2801pj08m",
+  "broken": true,
+  "reason": "MIT GeoData no longer harvests Princeton records (HTTP 410 Gone).",
+  "replacement": "https://maps.princeton.edu/catalog/princeton-2801pj08m",
+  "confidence": "high",
+  "evidence": "Fetched https://maps.princeton.edu/catalog/princeton-2801pj08m.json (Princeton's own GeoBlacklight portal, same record id): title 'Hokko, Formosa (Taiwan), Tainan-Shu. A.M.S. L991' matches the link text. The HTML page shows a Cloudflare Turnstile 'verify you are human' step that ordinary browsers pass."
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-gb19f742n",
+  "broken": true,
+  "reason": "MIT GeoData no longer harvests Princeton records (HTTP 410 Gone).",
+  "replacement": "https://maps.princeton.edu/catalog/princeton-gb19f742n",
+  "confidence": "high",
+  "evidence": "Fetched https://maps.princeton.edu/catalog/princeton-gb19f742n.json (Princeton's own GeoBlacklight portal, same record id): title 'Hozan, Formosa (Taiwan), Hozan-shu. A.M.S. L991' matches the link text. The HTML page shows a Cloudflare Turnstile 'verify you are human' step that ordinary browsers pass."
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-h989r4907",
+  "broken": true,
+  "reason": "MIT GeoData no longer harvests Princeton records (HTTP 410 Gone).",
+  "replacement": "https://maps.princeton.edu/catalog/princeton-h989r4907",
+  "confidence": "high",
+  "evidence": "Fetched https://maps.princeton.edu/catalog/princeton-h989r4907.json (Princeton's own GeoBlacklight portal, same record id): title 'Kagi, Formosa (Taiwan), Kagi-shu. A.M.S. L991' matches the link text. The HTML page shows a Cloudflare Turnstile 'verify you are human' step that ordinary browsers pass."
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-ws859h33r",
+  "broken": true,
+  "reason": "MIT GeoData no longer harvests Princeton records (HTTP 410 Gone).",
+  "replacement": "https://maps.princeton.edu/catalog/princeton-ws859h33r",
+  "confidence": "high",
+  "evidence": "Fetched https://maps.princeton.edu/catalog/princeton-ws859h33r.json (Princeton's own GeoBlacklight portal, same record id): title 'Karenko, Formosa (Taiwan), Karenko-Cho. A.M.S. L991' matches the link text. The HTML page shows a Cloudflare Turnstile 'verify you are human' step that ordinary browsers pass."
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-zk51vj296",
+  "broken": true,
+  "reason": "MIT GeoData no longer harvests Princeton records (HTTP 410 Gone).",
+  "replacement": "https://maps.princeton.edu/catalog/princeton-zk51vj296",
+  "confidence": "high",
+  "evidence": "Fetched https://maps.princeton.edu/catalog/princeton-zk51vj296.json (Princeton's own GeoBlacklight portal, same record id): title 'Kato, Formosa (Taiwan), Takao-shu. A.M.S. L991' matches the link text. The HTML page shows a Cloudflare Turnstile 'verify you are human' step that ordinary browsers pass."
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-q811km34m",
+  "broken": true,
+  "reason": "MIT GeoData no longer harvests Princeton records (HTTP 410 Gone).",
+  "replacement": "https://maps.princeton.edu/catalog/princeton-q811km34m",
+  "confidence": "high",
+  "evidence": "Fetched https://maps.princeton.edu/catalog/princeton-q811km34m.json (Princeton's own GeoBlacklight portal, same record id): title 'Kiirun, Formosa (Taiwan), Taihoku-shu. A.M.S. L991' matches the link text. The HTML page shows a Cloudflare Turnstile 'verify you are human' step that ordinary browsers pass."
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-5999n5049",
+  "broken": true,
+  "reason": "MIT GeoData no longer harvests Princeton records (HTTP 410 Gone).",
+  "replacement": "https://maps.princeton.edu/catalog/princeton-5999n5049",
+  "confidence": "high",
+  "evidence": "Fetched https://maps.princeton.edu/catalog/princeton-5999n5049.json (Princeton's own GeoBlacklight portal, same record id): title 'Mako, Formosa (Taiwan), Boko-cho, Mako-Shicho. A.M.S. L991' matches the link text. The HTML page shows a Cloudflare Turnstile 'verify you are human' step that ordinary browsers pass."
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-vd66w162q",
+  "broken": true,
+  "reason": "MIT GeoData no longer harvests Princeton records (HTTP 410 Gone).",
+  "replacement": "https://maps.princeton.edu/catalog/princeton-vd66w162q",
+  "confidence": "high",
+  "evidence": "Fetched https://maps.princeton.edu/catalog/princeton-vd66w162q.json (Princeton's own GeoBlacklight portal, same record id): title 'Rato, Formosa (Taiwan), Taihoku-shu. A.M.S. L991.' matches the link text. The HTML page shows a Cloudflare Turnstile 'verify you are human' step that ordinary browsers pass."
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-3b591b081",
+  "broken": true,
+  "reason": "MIT GeoData no longer harvests Princeton records (HTTP 410 Gone).",
+  "replacement": "https://maps.princeton.edu/catalog/princeton-3b591b081",
+  "confidence": "high",
+  "evidence": "Fetched https://maps.princeton.edu/catalog/princeton-3b591b081.json (Princeton's own GeoBlacklight portal, same record id): title 'Rokko, Formosa (Taiwan), Taichu-shu. A.M.S. L991.' matches the link text. The HTML page shows a Cloudflare Turnstile 'verify you are human' step that ordinary browsers pass."
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-1g05fd153",
+  "broken": true,
+  "reason": "MIT GeoData no longer harvests Princeton records (HTTP 410 Gone).",
+  "replacement": "https://maps.princeton.edu/catalog/princeton-1g05fd153",
+  "confidence": "high",
+  "evidence": "Fetched https://maps.princeton.edu/catalog/princeton-1g05fd153.json (Princeton's own GeoBlacklight portal, same record id): title 'Okayama, Formosa (Taiwan), Takao-shu. A.M.S. L991.' matches the link text. The HTML page shows a Cloudflare Turnstile 'verify you are human' step that ordinary browsers pass."
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-r207tq881",
+  "broken": true,
+  "reason": "MIT GeoData no longer harvests Princeton records (HTTP 410 Gone).",
+  "replacement": "https://maps.princeton.edu/catalog/princeton-r207tq881",
+  "confidence": "high",
+  "evidence": "Fetched https://maps.princeton.edu/catalog/princeton-r207tq881.json (Princeton's own GeoBlacklight portal, same record id): title 'Seira, Formosa (Taiwan). A.M.S. L991' matches the link text. The HTML page shows a Cloudflare Turnstile 'verify you are human' step that ordinary browsers pass."
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-zk51vj366",
+  "broken": true,
+  "reason": "MIT GeoData no longer harvests Princeton records (HTTP 410 Gone).",
+  "replacement": "https://maps.princeton.edu/catalog/princeton-zk51vj366",
+  "confidence": "high",
+  "evidence": "Fetched https://maps.princeton.edu/catalog/princeton-zk51vj366.json (Princeton's own GeoBlacklight portal, same record id): title 'Shinchiku, Formosa (Taiwan), Shinchiku-Shu. A.M.S. L991' matches the link text. The HTML page shows a Cloudflare Turnstile 'verify you are human' step that ordinary browsers pass."
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-1n79h577j",
+  "broken": true,
+  "reason": "MIT GeoData no longer harvests Princeton records (HTTP 410 Gone).",
+  "replacement": "https://maps.princeton.edu/catalog/princeton-1n79h577j",
+  "confidence": "high",
+  "evidence": "Fetched https://maps.princeton.edu/catalog/princeton-1n79h577j.json (Princeton's own GeoBlacklight portal, same record id): title 'Shoka' matches the link text. The HTML page shows a Cloudflare Turnstile 'verify you are human' step that ordinary browsers pass."
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-2227mr10z",
+  "broken": true,
+  "reason": "MIT GeoData no longer harvests Princeton records (HTTP 410 Gone).",
+  "replacement": "https://maps.princeton.edu/catalog/princeton-2227mr10z",
+  "confidence": "high",
+  "evidence": "Fetched https://maps.princeton.edu/catalog/princeton-2227mr10z.json (Princeton's own GeoBlacklight portal, same record id): title 'Suo, Formosa (Taiwan), Taihoku-Shu. A.M.S. L991' matches the link text. The HTML page shows a Cloudflare Turnstile 'verify you are human' step that ordinary browsers pass."
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-kw52j970z",
+  "broken": true,
+  "reason": "MIT GeoData no longer harvests Princeton records (HTTP 410 Gone).",
+  "replacement": "https://maps.princeton.edu/catalog/princeton-kw52j970z",
+  "confidence": "high",
+  "evidence": "Fetched https://maps.princeton.edu/catalog/princeton-kw52j970z.json (Princeton's own GeoBlacklight portal, same record id): title 'Taichu, Formosa (Taiwan), Taichu Shu. A.M.S. L991' matches the link text. The HTML page shows a Cloudflare Turnstile 'verify you are human' step that ordinary browsers pass."
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-bk128c47c",
+  "broken": true,
+  "reason": "MIT GeoData no longer harvests Princeton records (HTTP 410 Gone).",
+  "replacement": "https://maps.princeton.edu/catalog/princeton-bk128c47c",
+  "confidence": "high",
+  "evidence": "Fetched https://maps.princeton.edu/catalog/princeton-bk128c47c.json (Princeton's own GeoBlacklight portal, same record id): title 'Taito, Formosa, Taito-cho, Taito-gun. A.M.S. L991' matches the link text. The HTML page shows a Cloudflare Turnstile 'verify you are human' step that ordinary browsers pass."
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-08612q284",
+  "broken": true,
+  "reason": "MIT GeoData no longer harvests Princeton records (HTTP 410 Gone).",
+  "replacement": "https://maps.princeton.edu/catalog/princeton-08612q284",
+  "confidence": "high",
+  "evidence": "Fetched https://maps.princeton.edu/catalog/princeton-08612q284.json (Princeton's own GeoBlacklight portal, same record id): title 'Takao.Takao-Shu, Formosa (Taiwan). A.M.S. L991' matches the link text. The HTML page shows a Cloudflare Turnstile 'verify you are human' step that ordinary browsers pass."
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-m613n015x",
+  "broken": true,
+  "reason": "MIT GeoData no longer harvests Princeton records (HTTP 410 Gone).",
+  "replacement": "https://maps.princeton.edu/catalog/princeton-m613n015x",
+  "confidence": "high",
+  "evidence": "Fetched https://maps.princeton.edu/catalog/princeton-m613n015x.json (Princeton's own GeoBlacklight portal, same record id): title 'Tansui, Formosa (Taiwan), Taihoku-shu. A.M.S. L991' matches the link text. The HTML page shows a Cloudflare Turnstile 'verify you are human' step that ordinary browsers pass."
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-8336h361c",
+  "broken": true,
+  "reason": "MIT GeoData no longer harvests Princeton records (HTTP 410 Gone).",
+  "replacement": "https://maps.princeton.edu/catalog/princeton-8336h361c",
+  "confidence": "high",
+  "evidence": "Fetched https://maps.princeton.edu/catalog/princeton-8336h361c.json (Princeton's own GeoBlacklight portal, same record id): title 'Toen, Formosa (Taiwan), Shinchiku-shu. A.M.S. L991' matches the link text. The HTML page shows a Cloudflare Turnstile 'verify you are human' step that ordinary browsers pass."
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-dv13zv971",
+  "broken": true,
+  "reason": "MIT GeoData no longer harvests Princeton records (HTTP 410 Gone).",
+  "replacement": "https://maps.princeton.edu/catalog/princeton-dv13zv971",
+  "confidence": "high",
+  "evidence": "Fetched https://maps.princeton.edu/catalog/princeton-dv13zv971.json (Princeton's own GeoBlacklight portal, same record id): title 'Toko, Formosa (Taiwan), Takao-shu. A.M.S. L991' matches the link text. The HTML page shows a Cloudflare Turnstile 'verify you are human' step that ordinary browsers pass."
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-2r36v011g",
+  "broken": true,
+  "reason": "MIT GeoData no longer harvests Princeton records (HTTP 410 Gone).",
+  "replacement": "https://maps.princeton.edu/catalog/princeton-2r36v011g",
+  "confidence": "high",
+  "evidence": "Fetched https://maps.princeton.edu/catalog/princeton-2r36v011g.json (Princeton's own GeoBlacklight portal, same record id): title 'Toshien / prepared under the direction of the Chief of Engineers by the Army Map Service (A<).' matches the link text. The HTML page shows a Cloudflare Turnstile 'verify you are human' step that ordinary browsers pass."
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-rb68xd49j",
+  "broken": true,
+  "reason": "MIT GeoData no longer harvests Princeton records (HTTP 410 Gone).",
+  "replacement": "https://maps.princeton.edu/catalog/princeton-rb68xd49j",
+  "confidence": "high",
+  "evidence": "Fetched https://maps.princeton.edu/catalog/princeton-rb68xd49j.json (Princeton's own GeoBlacklight portal, same record id): title 'Chikunan, Shinchiku-shu, Formosa (Taiwan). A.M.S. L991' matches the link text. The HTML page shows a Cloudflare Turnstile 'verify you are human' step that ordinary browsers pass."
+ },
+ {
+  "url": "https://catalog.princeton.edu/catalog/7768571",
+  "broken": false,
+  "reason": "Works. The cert error is a sandbox issue: the server chains to emSign Root CA - G1, which is in Mozilla's root store but not in ours. The old Voyager id 302-redirects to the new Alma id.",
+  "replacement": "https://catalog.princeton.edu/catalog/9977685713506421",
+  "confidence": "high",
+  "evidence": "With Mozilla's CA bundle, https://catalog.princeton.edu/catalog/7768571.json returned 302 to /catalog/9977685713506421; the JSON for record 9977685713506421: map set, author 'Prussia (Germany). Landesaufnahme. Kartogr. Abteilung', published [Berlin]: Königl. Preuss. Landes-Aufnahme, 1901-, eastern China 1:1,000,000 set (Karte von Ost-China). Optional canonical-URL update. The old URL still works via the redirect (behind a Turnstile human check)."
+ },
+ {
+  "url": "https://catalog.princeton.edu/catalog/7702659",
+  "broken": false,
+  "reason": "Works. The cert error is a sandbox issue: the server chains to emSign Root CA - G1, which is in Mozilla's root store but not in ours. The old Voyager id 302-redirects to the new Alma id.",
+  "replacement": "https://catalog.princeton.edu/catalog/9977026593506421",
+  "confidence": "high",
+  "evidence": "With Mozilla's CA bundle, https://catalog.princeton.edu/catalog/7702659.json returned 302 to /catalog/9977026593506421; the JSON for record 9977026593506421: map, published Leipzig: Engelmann; Gotha: Petermann's Geogr. Mitteilungen, Justus Perthes, [1905]; subjects Taiwan--Maps, Yamasaki Naomasa (Originalkarte der Insel Taiwan). Optional canonical-URL update. The old URL still works via the redirect (behind a Turnstile human check)."
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-pk02cd236",
+  "broken": true,
+  "reason": "MIT GeoData no longer harvests Princeton records (HTTP 410 Gone).",
+  "replacement": "https://maps.princeton.edu/catalog/princeton-pk02cd236",
+  "confidence": "high",
+  "evidence": "Fetched https://maps.princeton.edu/catalog/princeton-pk02cd236.json (Princeton's own GeoBlacklight portal, same record id): title 'Sketch map of southern Formosa to accompany the paper by J. Thomson Esqre' matches the link text. The HTML page shows a Cloudflare Turnstile 'verify you are human' step that ordinary browsers pass."
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-f7623g10h",
+  "broken": true,
+  "reason": "MIT GeoData no longer harvests Princeton records (HTTP 410 Gone).",
+  "replacement": "https://maps.princeton.edu/catalog/princeton-f7623g10h",
+  "confidence": "high",
+  "evidence": "Fetched https://maps.princeton.edu/catalog/princeton-f7623g10h.json (Princeton's own GeoBlacklight portal, same record id): title 'Originalkarte der Insel Taiwan (Formosa)' matches the link text. The HTML page shows a Cloudflare Turnstile 'verify you are human' step that ordinary browsers pass."
+ },
+ {
+  "url": "http://homepage.usask.ca/~llr130/taiwanlibrary/kerr/",
+  "broken": true,
+  "reason": "homepage.usask.ca no longer resolves in DNS.",
+  "replacement": "https://romanization.com/books/formosabetrayed/",
+  "confidence": "medium",
+  "evidence": "romanization.com (Mark Swofford; mirrored at pinyin.info) hosts the full Formosa Betrayed with the Preface to the New Edition, 22 chapters and appendices, 'with the permission of Taiwan Publishing Co.' (the 1992 reprint publisher). Could not compare it word-for-word with the usask copy because Wayback was unreachable. The page already has a Wayback copy (20200508090937)."
+ },
+ {
+  "url": "http://homepage.usask.ca/~llr130/taiwanlibrary/kerr/kerr.pdf",
+  "broken": true,
+  "reason": "homepage.usask.ca no longer resolves in DNS.",
+  "replacement": null,
+  "confidence": "low",
+  "evidence": "romanization.com/books/formosabetrayed/ (same Taiwan Publishing Co.-permitted text) links a PDF at formosa.org/betrayed/kerr.pdf, but that host timed out (503) from here, so it is unverified. Its Wayback copy could not be checked (web.archive.org resets connections here). Consider dropping this link or using the Wayback copy of kerr.pdf if one exists."
+ },
+ {
+  "url": "http://homepage.usask.ca/~llr130/taiwanlibrary/peng/freeframes.htm",
+  "broken": true,
+  "reason": "homepage.usask.ca no longer resolves in DNS.",
+  "replacement": "https://romanization.com/books/peng/",
+  "confidence": "medium",
+  "evidence": "romanization.com/books/peng/ has the 2nd ed. (Taiwan Publishing Co. 1994), full 13 chapters plus the Kerr foreword. Its electronic version is by the Nation Building Union of Taiwan, 'proofreading by Leslie L. Ruo in 1999' (likely the usask user llr130), with HTML by M. Swofford, 'reprinted with permission'. Very likely the same text, but not compared to an archive copy. NOTE: the page's 'Archive.org Saved URL' for this row is a web.archive.org/save/... link, not a real snapshot."
+ },
+ {
+  "url": "http://homepage.usask.ca/~llr130/taiwanlibrary/formosacalling/formosaframes.htm",
+  "broken": true,
+  "reason": "homepage.usask.ca no longer resolves in DNS.",
+  "replacement": null,
+  "confidence": null,
+  "evidence": "Web searches found no other free online copy of Shackleton's Formosa Calling (it is in print from Camphor Press as an ebook and paperback). It is not on romanization.com or pinyin.info. The page already gives Wayback copies (the frames page 20191008224559 and the PDF 20191010063006); keep those as the working links."
+ }
+]

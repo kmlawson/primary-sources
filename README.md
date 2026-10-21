@@ -16,6 +16,10 @@ static pages at <https://kmlawson.github.io/primary-sources/>. They follow the d
 
 `index.html` at the root is the home page linking to them; it is written by hand.
 
+How the pages came to be, the decisions made along the way and what is still to do are in
+[docs/HISTORY.md](docs/HISTORY.md); the October 2026 link check of the Taiwan page is reported in
+[docs/link-check-taiwan-2026-10.md](docs/link-check-taiwan-2026-10.md).
+
 ## Editing a page
 
 Each page's directory holds its own content, in `page/`:

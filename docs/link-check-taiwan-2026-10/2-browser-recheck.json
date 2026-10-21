@@ -1,0 +1,202 @@
+{
+ "http://findit.library.yale.edu/?utf8=%E2%9C%93&id=digcoll%3A2819769&search_field=creator&q=Department+of+Education%2C+Taiwan": {
+  "status": 405,
+  "final": "http://findit.library.yale.edu/?utf8=%E2%9C%93&id=digcoll%3A2819769&search_field=creator&q=Department+of+Education%2C+Taiwan",
+  "title": "",
+  "text": "agent-proxy relay: this proxy only accepts HTTPS CONNECT tunnels. Plain-HTTP/absolute-form requests are not supported — common causes are axios releases before 1.16.1 (broken HTTPS proxy handling) or a tool configured with HTTP_PROXY pointing at this relay. GET /__agentproxy/status on this proxy port shows proxy state and recent failures. "
+ },
+ "http://newnrch.digital.ntu.edu.tw/prototype/index.php": {
+  "status": 405,
+  "final": "http://newnrch.digital.ntu.edu.tw/prototype/index.php",
+  "title": "",
+  "text": "agent-proxy relay: this proxy only accepts HTTPS CONNECT tunnels. Plain-HTTP/absolute-form requests are not supported — common causes are axios releases before 1.16.1 (broken HTTPS proxy handling) or a tool configured with HTTP_PROXY pointing at this relay. GET /__agentproxy/status on this proxy port shows proxy state and recent failures. "
+ },
+ "http://digital.lafayette.edu/islandora/search/*:*?f[0]=cdm.Relation.IsPartOf:%22East%20Asia%20Image%20Collection%22&f[1]=eastasia.Coverage.Location.Country:%22Taiwan%22": {
+  "status": 405,
+  "final": "http://digital.lafayette.edu/islandora/search/*:*?f[0]=cdm.Relation.IsPartOf:%22East%20Asia%20Image%20Collection%22&f[1]=eastasia.Coverage.Location.Country:%22Taiwan%22",
+  "title": "",
+  "text": "agent-proxy relay: this proxy only accepts HTTPS CONNECT tunnels. Plain-HTTP/absolute-form requests are not supported — common causes are axios releases before 1.16.1 (broken HTTPS proxy handling) or a tool configured with HTTP_PROXY pointing at this relay. GET /__agentproxy/status on this proxy port shows proxy state and recent failures. "
+ },
+ "http://findit.library.yale.edu/?id=digcoll%3A2819769&per_page=100&q=Taiwan&search_field=topic&utf8=%E2%9C%93": {
+  "status": 405,
+  "final": "http://findit.library.yale.edu/?id=digcoll%3A2819769&per_page=100&q=Taiwan&search_field=topic&utf8=%E2%9C%93",
+  "title": "",
+  "text": "agent-proxy relay: this proxy only accepts HTTPS CONNECT tunnels. Plain-HTTP/absolute-form requests are not supported — common causes are axios releases before 1.16.1 (broken HTTPS proxy handling) or a tool configured with HTTP_PROXY pointing at this relay. GET /__agentproxy/status on this proxy port shows proxy state and recent failures. "
+ },
+ "http://digital.soas.ac.uk/LOAA003941/00001": {
+  "status": 405,
+  "final": "http://digital.soas.ac.uk/LOAA003941/00001",
+  "title": "",
+  "text": "agent-proxy relay: this proxy only accepts HTTPS CONNECT tunnels. Plain-HTTP/absolute-form requests are not supported — common causes are axios releases before 1.16.1 (broken HTTPS proxy handling) or a tool configured with HTTP_PROXY pointing at this relay. GET /__agentproxy/status on this proxy port shows proxy state and recent failures. "
+ },
+ "https://digitalarchive.wilsoncenter.org": {
+  "status": 0,
+  "error": "page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://digitalarchive.wilsoncenter.org/"
+ },
+ "https://digitalarchive.wilsoncenter.org/collection/193/asian-peoples-anti-communist-league": {
+  "status": 0,
+  "error": "page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://digitalarchive.wilsoncenter.org/collection/193/asian-peoples-anti-communist-league"
+ },
+ "https://digitalarchive.wilsoncenter.org/collection/178/china-at-the-united-nations": {
+  "status": 0,
+  "error": "page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://digitalarchive.wilsoncenter.org/collection/178/china-at-the-united-nations"
+ },
+ "https://digitalarchive.wilsoncenter.org/collection/177/taiwan-strait-crises": {
+  "status": 0,
+  "error": "page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://digitalarchive.wilsoncenter.org/collection/177/taiwan-strait-crises"
+ },
+ "https://digitalarchive.wilsoncenter.org/collection/270/taiwan-s-cold-war-in-southeast-asia": {
+  "status": 0,
+  "error": "page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://digitalarchive.wilsoncenter.org/collection/270/taiwan-s-cold-war-in-southeast-asia"
+ },
+ "https://digitalarchive.wilsoncenter.org/collection/201/the-overseas-chinese-and-the-cold-war": {
+  "status": 0,
+  "error": "page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://digitalarchive.wilsoncenter.org/collection/201/the-overseas-chinese-and-the-cold-war"
+ },
+ "https://www.nationaltreasure.tw/en": {
+  "status": 0,
+  "error": "page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://www.nationaltreasure.tw/en"
+ },
+ "https://catalog.princeton.edu/catalog/7768571": {
+  "status": 0,
+  "error": "page.goto: net::ERR_CERT_INVALID at https://catalog.princeton.edu/catalog/7768571"
+ },
+ "https://catalog.princeton.edu/catalog/7702659": {
+  "status": 0,
+  "error": "page.goto: net::ERR_CERT_INVALID at https://catalog.princeton.edu/catalog/7702659"
+ },
+ "https://tme.ncl.edu.tw/en/old-photographs?fbclid=IwAR3vLxNE9mE_Irt7MhuAN8_IutFb3cpvL_WYkISdXQWNzMXWolDPxkTnhDw": {
+  "status": 500,
+  "final": "https://tme.ncl.edu.tw/en/old-photographs?fbclid=IwAR3vLxNE9mE_Irt7MhuAN8_IutFb3cpvL_WYkISdXQWNzMXWolDPxkTnhDw",
+  "title": "系統臨時維護公告 / System Maintenance",
+  "text": "TEMPORARY MAINTENANCE 系統臨時維護公告 The service is temporarily suspended for emergency optimization 您好，為了保障本館系統資料安全並進行緊急的系統調整，本站目前正處於臨時維護階段。相關服務暫時無法直接瀏覽。 感謝您的耐心等待與配合，造成不便敬請見諒。"
+ },
+ "http://archives.ith.sinica.edu.tw/resources_list.php?fbclid=IwAR1z1A4i6fQlKlSlO5OYYfrxB9NwcB7EQd8lC4buiZv7NLU5JRnxCSetjr8": {
+  "status": 405,
+  "final": "http://archives.ith.sinica.edu.tw/resources_list.php?fbclid=IwAR1z1A4i6fQlKlSlO5OYYfrxB9NwcB7EQd8lC4buiZv7NLU5JRnxCSetjr8",
+  "title": "",
+  "text": "agent-proxy relay: this proxy only accepts HTTPS CONNECT tunnels. Plain-HTTP/absolute-form requests are not supported — common causes are axios releases before 1.16.1 (broken HTTPS proxy handling) or a tool configured with HTTP_PROXY pointing at this relay. GET /__agentproxy/status on this proxy port shows proxy state and recent failures. "
+ },
+ "http://tais.ith.sinica.edu.tw/sinicafrsFront/index.jsp": {
+  "status": 405,
+  "final": "http://tais.ith.sinica.edu.tw/sinicafrsFront/index.jsp",
+  "title": "",
+  "text": "agent-proxy relay: this proxy only accepts HTTPS CONNECT tunnels. Plain-HTTP/absolute-form requests are not supported — common causes are axios releases before 1.16.1 (broken HTTPS proxy handling) or a tool configured with HTTP_PROXY pointing at this relay. GET /__agentproxy/status on this proxy port shows proxy state and recent failures. "
+ },
+ "http://rarebooks.ith.sinica.edu.tw/sinicafrsFront99/index.htm": {
+  "status": 405,
+  "final": "http://rarebooks.ith.sinica.edu.tw/sinicafrsFront99/index.htm",
+  "title": "",
+  "text": "agent-proxy relay: this proxy only accepts HTTPS CONNECT tunnels. Plain-HTTP/absolute-form requests are not supported — common causes are axios releases before 1.16.1 (broken HTTPS proxy handling) or a tool configured with HTTP_PROXY pointing at this relay. GET /__agentproxy/status on this proxy port shows proxy state and recent failures. "
+ },
+ "http://sotokufu.sinica.edu.tw/": {
+  "status": 405,
+  "final": "http://sotokufu.sinica.edu.tw/",
+  "title": "",
+  "text": "agent-proxy relay: this proxy only accepts HTTPS CONNECT tunnels. Plain-HTTP/absolute-form requests are not supported — common causes are axios releases before 1.16.1 (broken HTTPS proxy handling) or a tool configured with HTTP_PROXY pointing at this relay. GET /__agentproxy/status on this proxy port shows proxy state and recent failures. "
+ },
+ "http://taco.ith.sinica.edu.tw/tdk/": {
+  "status": 405,
+  "final": "http://taco.ith.sinica.edu.tw/tdk/",
+  "title": "",
+  "text": "agent-proxy relay: this proxy only accepts HTTPS CONNECT tunnels. Plain-HTTP/absolute-form requests are not supported — common causes are axios releases before 1.16.1 (broken HTTPS proxy handling) or a tool configured with HTTP_PROXY pointing at this relay. GET /__agentproxy/status on this proxy port shows proxy state and recent failures. "
+ },
+ "http://archives.ith.sinica.edu.tw/news_con.php?no=230": {
+  "status": 405,
+  "final": "http://archives.ith.sinica.edu.tw/news_con.php?no=230",
+  "title": "",
+  "text": "agent-proxy relay: this proxy only accepts HTTPS CONNECT tunnels. Plain-HTTP/absolute-form requests are not supported — common causes are axios releases before 1.16.1 (broken HTTPS proxy handling) or a tool configured with HTTP_PROXY pointing at this relay. GET /__agentproxy/status on this proxy port shows proxy state and recent failures. "
+ },
+ "http://who.ith.sinica.edu.tw/": {
+  "status": 405,
+  "final": "http://who.ith.sinica.edu.tw/",
+  "title": "",
+  "text": "agent-proxy relay: this proxy only accepts HTTPS CONNECT tunnels. Plain-HTTP/absolute-form requests are not supported — common causes are axios releases before 1.16.1 (broken HTTPS proxy handling) or a tool configured with HTTP_PROXY pointing at this relay. GET /__agentproxy/status on this proxy port shows proxy state and recent failures. "
+ },
+ "https://web.archive.org/web/20180216100821/http://www.taipics.com/": {
+  "status": 0,
+  "error": "page.goto: net::ERR_CONNECTION_RESET at https://web.archive.org/web/20180216100821/http://www.taipics.com/"
+ },
+ "https://across.archives.gov.tw/naahyint/sendurl.jsp?dbid=DB3174": {
+  "status": 200,
+  "final": "https://across.archives.gov.tw/",
+  "title": "",
+  "text": ""
+ },
+ "https://www.lib.ntu.edu.tw/doc/CG/resources/project/drapexbi01/e_map_index.html": {
+  "status": 200,
+  "final": "https://www.lib.ntu.edu.tw/doc/CG/resources/project/drapexbi01/e_map_index.html",
+  "title": "error page",
+  "text": "Oops!We couldn't find it. You have requested a page or file which does not exist so we notified the web administrator to check it out. Here are a few options to find what you are looking for. Double check the web address for typos. Head back to our home page via the navigation below. 臺大圖書館 借還書服務：02-33662353 tulcir@ntu.edu.tw｜參考諮詢：02-33662326 tul@ntu.edu.tw 臺北市10617羅斯福路四段一號 臺大圖書館"
+ },
+ "http://nhd.drnh.gov.tw/AHDPortal/index.jsp": {
+  "status": 405,
+  "final": "http://nhd.drnh.gov.tw/AHDPortal/index.jsp",
+  "title": "",
+  "text": "agent-proxy relay: this proxy only accepts HTTPS CONNECT tunnels. Plain-HTTP/absolute-form requests are not supported — common causes are axios releases before 1.16.1 (broken HTTPS proxy handling) or a tool configured with HTTP_PROXY pointing at this relay. GET /__agentproxy/status on this proxy port shows proxy state and recent failures. "
+ },
+ "https://twtjcdb.tjc.gov.tw/": {
+  "status": 0,
+  "error": "page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://twtjcdb.tjc.gov.tw/"
+ },
+ "https://228.drnh.gov.tw/": {
+  "status": 0,
+  "error": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://228.drnh.gov.tw/"
+ },
+ "https://twtjcdb.tjc.gov.tw/Manual/Detail/1025": {
+  "status": 0,
+  "error": "page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://twtjcdb.tjc.gov.tw/Manual/Detail/1025"
+ },
+ "http://journal.th.gov.tw/": {
+  "status": 405,
+  "final": "http://journal.th.gov.tw/",
+  "title": "",
+  "text": "agent-proxy relay: this proxy only accepts HTTPS CONNECT tunnels. Plain-HTTP/absolute-form requests are not supported — common causes are axios releases before 1.16.1 (broken HTTPS proxy handling) or a tool configured with HTTP_PROXY pointing at this relay. GET /__agentproxy/status on this proxy port shows proxy state and recent failures. "
+ },
+ "http://nrch.culture.tw/Default.aspx": {
+  "status": 405,
+  "final": "http://nrch.culture.tw/Default.aspx",
+  "title": "",
+  "text": "agent-proxy relay: this proxy only accepts HTTPS CONNECT tunnels. Plain-HTTP/absolute-form requests are not supported — common causes are axios releases before 1.16.1 (broken HTTPS proxy handling) or a tool configured with HTTP_PROXY pointing at this relay. GET /__agentproxy/status on this proxy port shows proxy state and recent failures. "
+ },
+ "http://ntur.lib.ntu.edu.tw/": {
+  "status": 405,
+  "final": "http://ntur.lib.ntu.edu.tw/",
+  "title": "",
+  "text": "agent-proxy relay: this proxy only accepts HTTPS CONNECT tunnels. Plain-HTTP/absolute-form requests are not supported — common causes are axios releases before 1.16.1 (broken HTTPS proxy handling) or a tool configured with HTTP_PROXY pointing at this relay. GET /__agentproxy/status on this proxy port shows proxy state and recent failures. "
+ },
+ "https://babel.hathitrust.org/": {
+  "status": 403,
+  "final": "https://babel.hathitrust.org/",
+  "title": "Just a moment...",
+  "text": "babel.hathitrust.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a4de6dc3fcdfdfc2 Performance and Security by Cloudflare Privacy"
+ },
+ "https://drtpa.th.gov.tw/": {
+  "status": 200,
+  "final": "https://drtpa.th.gov.tw/",
+  "title": "臺灣省議會史料總庫",
+  "text": "首頁 資料檢索 使用說明 相關連結 臺灣省議會史料總庫 臺灣省議會史料總庫由臺灣省諮議會所建，收錄臺灣省參議會、臨時省議會與省議會時期之資料，包含檔案、議事錄、公報、議員傳記、等四大內容，時間自1946年迄1998年12月20日，涵蓋臺灣戰後初期臺灣省參議會、臨時省議會、省議會時期。 資料庫內容不僅與行政及議政相關，亦為各時期民意趨勢及政府行政互動縮影，對研究臺灣民主政治及議政主題深具歷史與學術價值 臺灣省諮議因該會去任務化，國史館臺灣文獻館於民國107年11月23日接管該系統，唯本館僅提供系統數位圖檔閱覽服務，史料實體檔案移交國家發展委員會檔案管理局；地方議會議事錄屬各地方議會所有，若需申請授權者，請逕洽原件典藏單位。 訪客登入 帳號登入 註冊新帳號 收錄內容 總計4大類, 463,923 筆資料 臺灣省議會檔案 1946~1998 省議會檔案數位化資料，共98,795筆 臺灣省"
+ },
+ "https://enwww.ncl.edu.tw/": {
+  "status": 503,
+  "final": "https://enwww.ncl.edu.tw/",
+  "title": "503 Service Temporarily Unavailable",
+  "text": "503 Service Temporarily Unavailable Avi Vantage/"
+ },
+ "https://web.archive.org/web/20200508090937/http://homepage.usask.ca/~llr130/taiwanlibrary/kerr/": {
+  "status": 0,
+  "error": "page.goto: net::ERR_CONNECTION_RESET at https://web.archive.org/web/20200508090937/http://homepage.usask.ca/~llr130/taiwanlibrary/kerr/"
+ },
+ "https://web.archive.org/save/http://homepage.usask.ca/~llr130/taiwanlibrary/peng/freeframes.htm": {
+  "status": 0,
+  "error": "page.goto: net::ERR_CONNECTION_RESET at https://web.archive.org/save/http://homepage.usask.ca/~llr130/taiwanlibrary/peng/freeframes.htm"
+ },
+ "https://web.archive.org/web/20191010063006fw_/http://homepage.usask.ca/~llr130/taiwanlibrary/formosacalling/formosa-calling.pdf": {
+  "status": 0,
+  "error": "page.goto: net::ERR_CONNECTION_RESET at https://web.archive.org/web/20191010063006fw_/http://homepage.usask.ca/~llr130/taiwanlibrary/formosacalling/formosa-calling.pdf"
+ },
+ "https://web.archive.org/web/20191008224559/http://homepage.usask.ca/~llr130/taiwanlibrary/formosacalling/formosaframes.htm": {
+  "status": 0,
+  "error": "page.goto: net::ERR_CONNECTION_RESET at https://web.archive.org/web/20191008224559/http://homepage.usask.ca/~llr130/taiwanlibrary/formosacalling/formosaframes.htm"
+ }
+}

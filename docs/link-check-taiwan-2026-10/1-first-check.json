@@ -1,0 +1,6636 @@
+[
+ {
+  "url": "https://froginawell.net/reference/modern-japan/",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://froginawell.net/reference/modern-japan/",
+    "redirects": 0,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Primary Sources: Modern Japanese History",
+    "notfound_text": false,
+    "size": 98990,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Primary Sources: History of Taiwan (line 16): Primary Sources: Modern Japanese History",
+   "config credits: Modern Japanese History"
+  ]
+ },
+ {
+  "url": "https://www.froginawell.net/frog/sources/primary-sources-modern-korean-history/",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://froginawell.net/frog/sources/primary-sources-modern-korean-history/",
+    "redirects": 1,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Primary Sources: Modern Korean History &#8211; Frog in a Well",
+    "notfound_text": false,
+    "size": 135557,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Primary Sources: History of Taiwan (line 17): Primary Sources: Modern Korean History"
+  ]
+ },
+ {
+  "url": "https://www.froginawell.net/frog/sources/primary-sources-missionary-perspectives-on-china/",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 0,
+    "final": "https://www.froginawell.net/frog/sources/primary-sources-missionary-perspectives-on-china/",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 35,
+    "error": "curl: (35) Recv failure: Connection reset by peer",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "tls"
+   },
+   {
+    "code": 200,
+    "final": "https://froginawell.net/frog/sources/primary-sources-missionary-perspectives-on-china/",
+    "redirects": 1,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Primary Sources: Missionary Perspectives on China &#8211; Frog in a Well",
+    "notfound_text": false,
+    "size": 89079,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Primary Sources: History of Taiwan (line 18): Primary Sources: Missionary Perspectives on China",
+   "Missionary Reports and Minutes (line 54): Primary Sources: Missionary Perspectives on China"
+  ]
+ },
+ {
+  "url": "https://froginawell.net/frog/sources/",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://froginawell.net/frog/sources/",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Primary Sources and Other Resources &#8211; Frog in a Well",
+    "notfound_text": false,
+    "size": 34015,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Primary Sources: History of Taiwan (line 19): Other Frog in a Well Resources"
+  ]
+ },
+ {
+  "url": "http://digital.lafayette.edu/islandora/search/*:*?f[0]=cdm.Relation.IsPartOf:%22East%20Asia%20Image%20Collection%22&f[1]=eastasia.Coverage.Location.Country:%22Taiwan%22",
+  "verdict": "unreachable",
+  "attempts": [
+   {
+    "code": 0,
+    "final": "",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 3,
+    "error": "curl: (3) bad range in URL position 53:\nhttp://digital.lafayette.edu/islandora/search/*:*?f[0]=cdm.Relation.IsPartOf:%22East%20Asia%20Image%20Collection%22&f[1]=eastasia.Coverage.Location.Country:%22Taiwan%22\n                                                    ^",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "unreachable"
+   },
+   {
+    "code": 0,
+    "final": "",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 3,
+    "error": "curl: (3) bad range in URL position 53:\nhttp://digital.lafayette.edu/islandora/search/*:*?f[0]=cdm.Relation.IsPartOf:%22East%20Asia%20Image%20Collection%22&f[1]=eastasia.Coverage.Location.Country:%22Taiwan%22\n                                                    ^",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "unreachable"
+   },
+   {
+    "code": 0,
+    "final": "",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 3,
+    "error": "curl: (3) bad range in URL position 53:\nhttp://digital.lafayette.edu/islandora/search/*:*?f[0]=cdm.Relation.IsPartOf:%22East%20Asia%20Image%20Collection%22&f[1]=eastasia.Coverage.Location.Country:%22Taiwan%22\n                                                    ^",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "unreachable"
+   }
+  ],
+  "where": [
+   "Images, Audio, and Film (line 23): East Asia Image Collection at Skillman Library, Lafayette College - Ta"
+  ]
+ },
+ {
+  "url": "http://digital.lafayette.edu/collections/eastasia/tjwar-postcards/browse?fbclid=IwAR1mZ3WW5NwoZLzNRtDRUgqxAXo0ZJQnibXaxV4hEl_l8Fb2w_ov_tz4aQ0",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 404,
+    "final": "https://ldr.lafayette.edu/redirect?url=http://digital.lafayette.edu/collections/eastasia/tjwar-postcards/browsefbclid=IwAR1mZ3WW5NwoZLzNRtDRUgqxAXo0ZJQnibXaxV4hEl_l8Fb2w_ov_tz4aQ0",
+    "redirects": 2,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Page not found // Lafayette Digital Repository",
+    "notfound_text": true,
+    "size": 4469,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Images, Audio, and Film (line 23): Truku-Japanese War Commemorative Postcard Collection"
+  ]
+ },
+ {
+  "url": "https://rdc.reed.edu/c/formosa/home/?fbclid=IwAR2E09-KcgvTBuHLTAA1d93ZZwiT9Cg5WTydhvzplEkUHCLKlQSA6cU9caU",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 202,
+    "final": "https://rdc.reed.edu/c/formosa/home/?fbclid=IwAR2E09-KcgvTBuHLTAA1d93ZZwiT9Cg5WTydhvzplEkUHCLKlQSA6cU9caU",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 2403,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Images, Audio, and Film (line 24): Formosa Nineteenth Century Images"
+  ]
+ },
+ {
+  "url": "http://photo.lib.ntu.edu.tw/pic/db/oldphoto.jsp",
+  "verdict": "dns",
+  "attempts": [
+   {
+    "code": 0,
+    "final": "http://photo.lib.ntu.edu.tw/pic/db/oldphoto.jsp",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: photo.lib.ntu.edu.tw",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   },
+   {
+    "code": 0,
+    "final": "http://photo.lib.ntu.edu.tw/pic/db/oldphoto.jsp",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: photo.lib.ntu.edu.tw",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   },
+   {
+    "code": 0,
+    "final": "http://photo.lib.ntu.edu.tw/pic/db/oldphoto.jsp",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: photo.lib.ntu.edu.tw",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   }
+  ],
+  "dns_check": {
+   "exists": false,
+   "status": 3,
+   "answers": []
+  },
+  "where": [
+   "Images, Audio, and Film (line 25): National Taiwan University Taiwan Historical Photo Archive"
+  ]
+ },
+ {
+  "url": "http://newnrch.digital.ntu.edu.tw/prototype/index.php",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 503,
+    "final": "http://newnrch.digital.ntu.edu.tw/prototype/index.php",
+    "redirects": 0,
+    "type": "text/plain",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 114,
+    "verdict": "http-error"
+   },
+   {
+    "code": 503,
+    "final": "http://newnrch.digital.ntu.edu.tw/prototype/index.php",
+    "redirects": 0,
+    "type": "text/plain",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 114,
+    "verdict": "http-error"
+   },
+   {
+    "code": 503,
+    "final": "http://newnrch.digital.ntu.edu.tw/prototype/index.php",
+    "redirects": 0,
+    "type": "text/plain",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 114,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Images, Audio, and Film (line 26): Taiwan National Repository of Cultural Heritage"
+  ]
+ },
+ {
+  "url": "http://tcbfm.digital.ntu.edu.tw/#",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "http://tcbfm.digital.ntu.edu.tw/",
+    "redirects": 0,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "TECOM > login",
+    "notfound_text": false,
+    "size": 5583,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Images, Audio, and Film (line 27): Taiwan Ethnological Collections in Overseas Museums"
+  ]
+ },
+ {
+  "url": "https://web.archive.org/web/20180216100821/http://www.taipics.com/",
+  "verdict": "tls",
+  "attempts": [
+   {
+    "code": 0,
+    "final": "https://web.archive.org/web/20180216100821/http://www.taipics.com/",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 35,
+    "error": "curl: (35) Recv failure: Connection reset by peer",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "tls"
+   },
+   {
+    "code": 0,
+    "final": "https://web.archive.org/web/20180216100821/http://www.taipics.com/",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 35,
+    "error": "curl: (35) Recv failure: Connection reset by peer",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "tls"
+   },
+   {
+    "code": 0,
+    "final": "https://web.archive.org/web/20180216100821/http://www.taipics.com/",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 35,
+    "error": "curl: (35) Recv failure: Connection reset by peer",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "tls"
+   }
+  ],
+  "where": [
+   "Images, Audio, and Film (line 28): Vintage Formosa"
+  ]
+ },
+ {
+  "url": "http://findit.library.yale.edu/?utf8=%E2%9C%93&id=digcoll%3A2819769&search_field=creator&q=Department+of+Education%2C+Taiwan",
+  "verdict": "soft-404",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://collections.library.yale.edu/",
+    "redirects": 3,
+    "type": "text/html; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Yale University Libraries - Digital Collections",
+    "notfound_text": false,
+    "size": 33307,
+    "verdict": "soft-404"
+   }
+  ],
+  "where": [
+   "Images, Audio, and Film (line 29): This link"
+  ]
+ },
+ {
+  "url": "http://findit.library.yale.edu/?id=digcoll%3A2819769&per_page=100&q=Taiwan&search_field=topic&utf8=%E2%9C%93",
+  "verdict": "soft-404",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://collections.library.yale.edu/",
+    "redirects": 3,
+    "type": "text/html; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Yale University Libraries - Digital Collections",
+    "notfound_text": false,
+    "size": 33307,
+    "verdict": "soft-404"
+   }
+  ],
+  "where": [
+   "Images, Audio, and Film (line 29): related to Taiwan"
+  ]
+ },
+ {
+  "url": "http://digital.soas.ac.uk/LOAA003941/00001",
+  "verdict": "blocked",
+  "attempts": [
+   {
+    "code": 403,
+    "final": "http://digital.soas.ac.uk/LOAA003941/00001",
+    "redirects": 0,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Page Not Available",
+    "notfound_text": false,
+    "size": 3055,
+    "verdict": "blocked"
+   },
+   {
+    "code": 403,
+    "final": "http://digital.soas.ac.uk/LOAA003941/00001",
+    "redirects": 0,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Page Not Available",
+    "notfound_text": false,
+    "size": 3055,
+    "verdict": "blocked"
+   },
+   {
+    "code": 403,
+    "final": "http://digital.soas.ac.uk/LOAA003941/00001",
+    "redirects": 0,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Page Not Available",
+    "notfound_text": false,
+    "size": 3055,
+    "verdict": "blocked"
+   }
+  ],
+  "where": [
+   "Images, Audio, and Film (line 30): Sun's wife and Miss Liu jointly manifest the great victory in Taiwan 勝"
+  ]
+ },
+ {
+  "url": "https://taipeiairstation.blogspot.com/2019/11/frank-smiths-photos-of-taipei-area.html?fbclid=IwAR0OifbU4wYGD04pXRAv6FwbOXUykexZckR9DjqjILKvR5vvTrUzQ6SbjYc",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://taipeiairstation.blogspot.com/2019/11/frank-smiths-photos-of-taipei-area.html?fbclid=IwAR0OifbU4wYGD04pXRAv6FwbOXUykexZckR9DjqjILKvR5vvTrUzQ6SbjYc",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Taipei Air Station: Frank Smith's Photos of the Taipei Area - September 1963",
+    "notfound_text": false,
+    "size": 290535,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Images, Audio, and Film (line 31): Taipei Air Station"
+  ]
+ },
+ {
+  "url": "https://wellcomecollection.org/works",
+  "verdict": "moved-ok",
+  "attempts": [
+   {
+    "code": 202,
+    "final": "https://wellcomecollection.org/search/works",
+    "redirects": 1,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 2011,
+    "verdict": "moved-ok"
+   }
+  ],
+  "where": [
+   "Images, Audio, and Film (line 32): Wellcome Collection"
+  ]
+ },
+ {
+  "url": "https://wellcomecollection.org/works?query=formosa&fbclid=IwAR1LP1tc-0dYeoMyvxmP9kXWyuzfH1QrIUC9B2DbVyRgREF7kaI6iu7F1cc",
+  "verdict": "moved-ok",
+  "attempts": [
+   {
+    "code": 202,
+    "final": "https://wellcomecollection.org/search/works?query=formosa",
+    "redirects": 1,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 2011,
+    "verdict": "moved-ok"
+   }
+  ],
+  "where": [
+   "Images, Audio, and Film (line 32): using the term"
+  ]
+ },
+ {
+  "url": "https://tme.ncl.edu.tw/en/old-photographs?fbclid=IwAR3vLxNE9mE_Irt7MhuAN8_IutFb3cpvL_WYkISdXQWNzMXWolDPxkTnhDw",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 500,
+    "final": "https://tme.ncl.edu.tw/en/old-photographs?fbclid=IwAR3vLxNE9mE_Irt7MhuAN8_IutFb3cpvL_WYkISdXQWNzMXWolDPxkTnhDw",
+    "redirects": 0,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "系統臨時維護公告 / System Maintenance",
+    "notfound_text": false,
+    "size": 113636,
+    "verdict": "http-error"
+   },
+   {
+    "code": 500,
+    "final": "https://tme.ncl.edu.tw/en/old-photographs?fbclid=IwAR3vLxNE9mE_Irt7MhuAN8_IutFb3cpvL_WYkISdXQWNzMXWolDPxkTnhDw",
+    "redirects": 0,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "系統臨時維護公告 / System Maintenance",
+    "notfound_text": false,
+    "size": 113636,
+    "verdict": "http-error"
+   },
+   {
+    "code": 500,
+    "final": "https://tme.ncl.edu.tw/en/old-photographs?fbclid=IwAR3vLxNE9mE_Irt7MhuAN8_IutFb3cpvL_WYkISdXQWNzMXWolDPxkTnhDw",
+    "redirects": 0,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "系統臨時維護公告 / System Maintenance",
+    "notfound_text": false,
+    "size": 113636,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Images, Audio, and Film (line 33): Old Pictures of Taiwan"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/the-progress-of-taiwan-1905/page/1/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/the-progress-of-taiwan-1905/page/1/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "台湾日日新報社 台湾十年間之進歩 The Progress Of Taiwan 1905 : Government General of Taiwan : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 226585,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Japanese Reports Related to Colonial Taiwan (line 37): The Progress of Taiwan (Formosa) for Ten Years 1895-1904"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/cu31924023931680",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/cu31924023931680",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "The statistical summary of Taiwan : Taiwan : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 284797,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Japanese Reports Related to Colonial Taiwan (line 38): *The Statistical Summary of Taiwan Japanese Government General in Japa"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/taiwan.-report-on-the-control-of-the-aborigines-in-formosa/page/n4/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/taiwan.-report-on-the-control-of-the-aborigines-in-formosa/page/n4/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Report On The Control Of The Aborigines In Formosa : Bureau of Aboriginal Affairs : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 226742,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Japanese Reports Related to Colonial Taiwan (line 39): Report On The Control Of The Aborigines In Formosa"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/okamatsu-provisional-report-on-investigations-of-laws-and-customs-in-the-island-of-formosa/page/n6/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/okamatsu-provisional-report-on-investigations-of-laws-and-customs-in-the-island-of-formosa/page/n6/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Provisional Report On Investigations Of Laws And Customs In The Island Of Formosa : Government-General of Formosa : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 229605,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Japanese Reports Related to Colonial Taiwan (line 40): Provisional Report On Investigations Of Laws And Customs In The Island"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/isoda-the-island-of-formosa/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/isoda-the-island-of-formosa/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "The Island Of Formosa: Handbook and Catalogue of Exhibits - World's Fair St Louis 1904 : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 221894,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Japanese Reports Related to Colonial Taiwan (line 41): The Island Of Formosa: Handbook and Catalogue of Exhibits at the Agric"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/taihoku-sokkojo.-the-climate-typhoons-and-earthquakes-full-view/page/n10/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/taihoku-sokkojo.-the-climate-typhoons-and-earthquakes-full-view/page/n10/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "The Climate, Typhoons, And Earthquakes : Taihoku Sokkōjo. : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 226054,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Japanese Reports Related to Colonial Taiwan (line 42): The Climate, Typhoons, And Earthquakes of the Island of Formosa (Taiwa"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/annual-return-of-the-trade-of-taiwan-formosa.-1905-full-view/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/annual-return-of-the-trade-of-taiwan-formosa.-1905-full-view/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Annual Return Of The Trade Of Taiwan ( Formosa). 1905 : Government-General of Taiwan : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 225315,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Japanese Reports Related to Colonial Taiwan (line 43): Annual Return of the Foreign Trade of Taiwan"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/annual-return-of-the-trade-of-taiwan-formosa.-1907-full-view/page/n10/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/annual-return-of-the-trade-of-taiwan-formosa.-1907-full-view/page/n10/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Annual Return Of The Trade Of Taiwan ( Formosa). 1907 : Government General of Taiwan : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 226037,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Japanese Reports Related to Colonial Taiwan (line 44): Annual Return of the Foreign Trade of Taiwan"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/annual-return-on-trade-on-the-island-of-formosa-1918/page/n4/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/annual-return-on-trade-on-the-island-of-formosa-1918/page/n4/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Annual Return On Trade On The Island Of Taiwan 1918 : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 224120,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Japanese Reports Related to Colonial Taiwan (line 45): Annual Return of the Trade of Taiwan"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/christianmovemen16conf/page/n9/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/christianmovemen16conf/page/n9/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "The Christian movement in the Japanese empire : Conference of Federated Missions (Japan) : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 291710,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Missionary Reports and Minutes (line 49): 1913"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/christianmovemen00conf/page/n8/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/christianmovemen00conf/page/n8/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "The Christian movement in the Japanese empire : Conference of Federated Missions (Japan) : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 281516,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Missionary Reports and Minutes (line 49): 1916"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/christianmovemen17conf/page/n8/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/christianmovemen17conf/page/n8/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "The Christian movement in the Japanese empire : Conference of Federated Missions (Japan) : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 282319,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Missionary Reports and Minutes (line 49): 1919"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/christianmovemen18conf/page/n12/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/christianmovemen18conf/page/n12/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "The Christian movement in the Japanese empire : Conference of Federated Missions (Japan) : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 260773,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Missionary Reports and Minutes (line 49): 1920"
+  ]
+ },
+ {
+  "url": "https://www.soas.ac.uk/library/archives/news/file55128.pdf",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 404,
+    "final": "https://www.soas.ac.uk/library/archives/news/file55128.pdf",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "404 - Page not found | SOAS",
+    "notfound_text": false,
+    "size": 173071,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Missionary Reports and Minutes (line 50): missions here"
+  ]
+ },
+ {
+  "url": "https://archive.org/search.php?query=title%3A%28report%20of%20the%20Foreign%20Missions%20China%2C%20Formosa%29",
+  "verdict": "moved-ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/search?query=title%3A%28report%20of%20the%20Foreign%20Missions%20China%2C%20Formosa%29",
+    "redirects": 1,
+    "type": "text/html; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Internet Archive: Digital Library of Free &amp; Borrowable Texts, Movies, Music &amp; Wayback Machine",
+    "notfound_text": false,
+    "size": 1951,
+    "verdict": "moved-ok"
+   }
+  ],
+  "where": [
+   "Missionary Reports and Minutes (line 50): list of issues"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/presbyterianchur00pres_43/page/n1/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/presbyterianchur00pres_43/page/n1/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Presbyterian Church of England : report of the Foreign Missions China, Formosa, the Straits Settlements, and India. : Presbyterian Church of England. Foreign Missions Committee : Free Download, Borrow",
+    "notfound_text": false,
+    "size": 239861,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Missionary Reports and Minutes (line 51): 1894"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/presbyterianchur00pres_44/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/presbyterianchur00pres_44/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Presbyterian Church of England : report of the Foreign Missions China, Formosa, the Straits Settlements, and India. : Presbyterian Church of England. Foreign Missions Committee : Free Download, Borrow",
+    "notfound_text": false,
+    "size": 239070,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Missionary Reports and Minutes (line 51): 1903"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/presbyterianchur00pres_45/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/presbyterianchur00pres_45/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Presbyterian Church of England : report of the Foreign Missions China, Formosa, the Straits Settlements, and India. : Presbyterian Church of England. Foreign Missions Committee : Free Download, Borrow",
+    "notfound_text": false,
+    "size": 245123,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Missionary Reports and Minutes (line 51): 1904"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/presbyterianchur00pres_46/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/presbyterianchur00pres_46/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Presbyterian Church of England : report of the Foreign Missions China, Formosa, the Straits Settlements, and India. : Presbyterian Church of England. Foreign Missions Committee : Free Download, Borrow",
+    "notfound_text": false,
+    "size": 241397,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Missionary Reports and Minutes (line 51): 1905"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/presbyterianchur00pres_47/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/presbyterianchur00pres_47/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Presbyterian Church of England : report of the Foreign Missions China, Formosa, the Straits Settlements, and India. : Presbyterian Church of England. Foreign Missions Committee : Free Download, Borrow",
+    "notfound_text": false,
+    "size": 249825,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Missionary Reports and Minutes (line 51): 1906"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/presbyterianchur00pres_48/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/presbyterianchur00pres_48/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Presbyterian Church of England : report of the Foreign Missions China, Formosa, the Straits Settlements, and India. : Presbyterian Church of England. Foreign Missions Committee : Free Download, Borrow",
+    "notfound_text": false,
+    "size": 250575,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Missionary Reports and Minutes (line 51): 1907"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/presbyterianchur00pres_49/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/presbyterianchur00pres_49/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Presbyterian Church of England : report of the Foreign Missions China, Formosa, the Straits Settlements, and India. : Presbyterian Church of England. Foreign Missions Committee : Free Download, Borrow",
+    "notfound_text": false,
+    "size": 251896,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Missionary Reports and Minutes (line 51): 1908"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/presbyterianchur00pres_50/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/presbyterianchur00pres_50/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Presbyterian Church of England : report of the Foreign Missions China, Formosa, the Straits Settlements, and India. : Presbyterian Church of England. Foreign Missions Committee : Free Download, Borrow",
+    "notfound_text": false,
+    "size": 247306,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Missionary Reports and Minutes (line 51): 1909"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/presbyterianchur00pres_51/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/presbyterianchur00pres_51/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Presbyterian Church of England : report of the Foreign Missions China, Formosa, the Straits Settlements, and India. : Presbyterian Church of England. Foreign Missions Committee : Free Download, Borrow",
+    "notfound_text": false,
+    "size": 249890,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Missionary Reports and Minutes (line 51): 1910"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/presbyterianchur00pres_52/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/presbyterianchur00pres_52/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Presbyterian Church of England : report of the Foreign Missions China, Formosa, the Straits Settlements, and India. : Presbyterian Church of England. Foreign Missions Committee : Free Download, Borrow",
+    "notfound_text": false,
+    "size": 246663,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Missionary Reports and Minutes (line 51): 1911"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/presbyterianchur00pres_53/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/presbyterianchur00pres_53/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Presbyterian Church of England : report of the Foreign Missions China, Formosa, the Straits Settlements, and India. : Presbyterian Church of England. Foreign Missions Committee : Free Download, Borrow",
+    "notfound_text": false,
+    "size": 247619,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Missionary Reports and Minutes (line 51): 1912"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/presbyterianchur00pres_54/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/presbyterianchur00pres_54/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Presbyterian Church of England : report of the Foreign Missions China, Formosa, the Straits Settlements, and India. : Presbyterian Church of England. Foreign Missions Committee : Free Download, Borrow",
+    "notfound_text": false,
+    "size": 247762,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Missionary Reports and Minutes (line 51): 1913"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/presbyterianchur00pres_55/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/presbyterianchur00pres_55/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Presbyterian Church of England : report of the Foreign Missions China, Formosa, the Straits Settlements, and India. : Presbyterian Church of England. Foreign Missions Committee : Free Download, Borrow",
+    "notfound_text": false,
+    "size": 248439,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Missionary Reports and Minutes (line 51): 1914"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/presbyterianchur00pres_56/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/presbyterianchur00pres_56/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Presbyterian Church of England : report of the Foreign Missions China, Formosa, the Straits Settlements, and India. : Presbyterian Church of England. Foreign Missions Committee : Free Download, Borrow",
+    "notfound_text": false,
+    "size": 248442,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Missionary Reports and Minutes (line 51): 1915"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/presbyterianchur00pres_57/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/presbyterianchur00pres_57/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Presbyterian Church of England : report of the Foreign Missions China, Formosa, the Straits Settlements, and India. : Presbyterian Church of England. Foreign Missions Committee : Free Download, Borrow",
+    "notfound_text": false,
+    "size": 245496,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Missionary Reports and Minutes (line 51): 1916"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/presbyterianchur00pres_58/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/presbyterianchur00pres_58/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Presbyterian Church of England : report of the Foreign Missions China, Formosa, the Straits Settlements, and India. : Presbyterian Church of England. Foreign Missions Committee : Free Download, Borrow",
+    "notfound_text": false,
+    "size": 240166,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Missionary Reports and Minutes (line 51): 1917"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/presbyterianchur00pres_59/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/presbyterianchur00pres_59/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Presbyterian Church of England : report of the Foreign Missions China, Formosa, the Straits Settlements, and India. : Presbyterian Church of England. Foreign Missions Committee : Free Download, Borrow",
+    "notfound_text": false,
+    "size": 240299,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Missionary Reports and Minutes (line 51): 1918"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/presbyterianchur00pres_60/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/presbyterianchur00pres_60/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Presbyterian Church of England : report of the Foreign Missions China, Formosa, the Straits Settlements, and India. : Presbyterian Church of England. Foreign Missions Committee : Free Download, Borrow",
+    "notfound_text": false,
+    "size": 241147,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Missionary Reports and Minutes (line 51): 1919"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/presbyterianchur00pres_61/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/presbyterianchur00pres_61/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Presbyterian Church of England : report of the Foreign Missions China, Formosa, the Straits Settlements, and India. : Presbyterian Church of England. Foreign Missions Committee : Free Download, Borrow",
+    "notfound_text": false,
+    "size": 240262,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Missionary Reports and Minutes (line 51): 1920"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/presbyterianchur00pres_62/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/presbyterianchur00pres_62/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Presbyterian Church of England : report of the Foreign Missions China, Formosa, the Straits Settlements, and India. : Presbyterian Church of England. Foreign Missions Committee : Free Download, Borrow",
+    "notfound_text": false,
+    "size": 240319,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Missionary Reports and Minutes (line 51): 1921"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/chinaformosastor00john",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/chinaformosastor00john",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "China and Formosa : the story of the Presbyterian Church of England : Johnstoun, James : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 273625,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Missionary Reports and Minutes (line 52): *China and Formosa : the story of the Presbyterian Church of England*"
+  ]
+ },
+ {
+  "url": "https://digitalarchive.wilsoncenter.org",
+  "verdict": "proxy",
+  "attempts": [
+   {
+    "code": 0,
+    "final": "https://digitalarchive.wilsoncenter.org/",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 56,
+    "error": "curl: (56) CONNECT tunnel failed, response 502",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "proxy"
+   }
+  ],
+  "where": [
+   "Wilson Center Digital Archive (line 58): Digital Archive"
+  ]
+ },
+ {
+  "url": "https://digitalarchive.wilsoncenter.org/collection/193/asian-peoples-anti-communist-league",
+  "verdict": "proxy",
+  "attempts": [
+   {
+    "code": 0,
+    "final": "https://digitalarchive.wilsoncenter.org/collection/193/asian-peoples-anti-communist-league",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 56,
+    "error": "curl: (56) CONNECT tunnel failed, response 502",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "proxy"
+   }
+  ],
+  "where": [
+   "Wilson Center Digital Archive (line 60): Asian Peoples' Anti-Communist League"
+  ]
+ },
+ {
+  "url": "https://digitalarchive.wilsoncenter.org/collection/178/china-at-the-united-nations",
+  "verdict": "proxy",
+  "attempts": [
+   {
+    "code": 0,
+    "final": "https://digitalarchive.wilsoncenter.org/collection/178/china-at-the-united-nations",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 56,
+    "error": "curl: (56) CONNECT tunnel failed, response 502",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "proxy"
+   }
+  ],
+  "where": [
+   "Wilson Center Digital Archive (line 61): China at the United Nations"
+  ]
+ },
+ {
+  "url": "https://digitalarchive.wilsoncenter.org/collection/177/taiwan-strait-crises",
+  "verdict": "proxy",
+  "attempts": [
+   {
+    "code": 0,
+    "final": "https://digitalarchive.wilsoncenter.org/collection/177/taiwan-strait-crises",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 56,
+    "error": "curl: (56) CONNECT tunnel failed, response 502",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "proxy"
+   }
+  ],
+  "where": [
+   "Wilson Center Digital Archive (line 62): Taiwan Strait Crises"
+  ]
+ },
+ {
+  "url": "https://digitalarchive.wilsoncenter.org/collection/270/taiwan-s-cold-war-in-southeast-asia",
+  "verdict": "proxy",
+  "attempts": [
+   {
+    "code": 0,
+    "final": "https://digitalarchive.wilsoncenter.org/collection/270/taiwan-s-cold-war-in-southeast-asia",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 56,
+    "error": "curl: (56) CONNECT tunnel failed, response 502",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "proxy"
+   }
+  ],
+  "where": [
+   "Wilson Center Digital Archive (line 63): Taiwan’s Cold War in Southeast Asia"
+  ]
+ },
+ {
+  "url": "https://digitalarchive.wilsoncenter.org/collection/201/the-overseas-chinese-and-the-cold-war",
+  "verdict": "proxy",
+  "attempts": [
+   {
+    "code": 0,
+    "final": "https://digitalarchive.wilsoncenter.org/collection/201/the-overseas-chinese-and-the-cold-war",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 56,
+    "error": "curl: (56) CONNECT tunnel failed, response 502",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "proxy"
+   }
+  ],
+  "where": [
+   "Wilson Center Digital Archive (line 64): The Overseas Chinese and the Cold War"
+  ]
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Foreign_Relations_of_the_United_States_%28book_series%29#E-books",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://en.wikipedia.org/wiki/Foreign_Relations_of_the_United_States_%28book_series%29#E-books",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Foreign Relations of the United States (book series) - Wikipedia",
+    "notfound_text": false,
+    "size": 107590,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Foreign Relations of the United States (line 68): Wikipedia"
+  ]
+ },
+ {
+  "url": "https://history.state.gov/historicaldocuments/ebooks",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://history.state.gov/historicaldocuments/ebooks",
+    "redirects": 0,
+    "type": "text/html;charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Ebooks - Office of the Historian",
+    "notfound_text": false,
+    "size": 399290,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Foreign Relations of the United States (line 68): Office of the Historian FRUS E-books",
+   "Foreign Relations of the United States (line 70): Office of the Historian"
+  ]
+ },
+ {
+  "url": "https://uwdc.library.wisc.edu/collections/FRUS/",
+  "verdict": "moved-ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://search.library.wisc.edu/search/digital",
+    "redirects": 1,
+    "type": "text/html; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "UWDC Search - UW-Madison Libraries",
+    "notfound_text": false,
+    "size": 183290,
+    "verdict": "moved-ok"
+   }
+  ],
+  "where": [
+   "Foreign Relations of the United States (line 68): University of Wisconsin FRUS Collection",
+   "Foreign Relations of the United States (line 70): digital FRUS collection"
+  ]
+ },
+ {
+  "url": "http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1945v07",
+  "verdict": "moved-ok",
+  "attempts": [
+   {
+    "code": 503,
+    "final": "http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1945v07",
+    "redirects": 0,
+    "type": "text/plain",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 114,
+    "verdict": "http-error"
+   },
+   {
+    "code": 200,
+    "final": "https://search.library.wisc.edu/digital/AFRUS",
+    "redirects": 3,
+    "type": "text/html; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "‎Foreign relations of the United States - Collection - UWDC - UW-Madison Libraries",
+    "notfound_text": false,
+    "size": 143774,
+    "verdict": "moved-ok"
+   }
+  ],
+  "where": [
+   "Foreign Relations of the United States (line 72): FRUS : diplomatic papers, 1945. The Far East, China"
+  ]
+ },
+ {
+  "url": "http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1946v09",
+  "verdict": "moved-ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://search.library.wisc.edu/digital/AFRUS",
+    "redirects": 3,
+    "type": "text/html; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "‎Foreign relations of the United States - Collection - UWDC - UW-Madison Libraries",
+    "notfound_text": false,
+    "size": 143774,
+    "verdict": "moved-ok"
+   }
+  ],
+  "where": [
+   "Foreign Relations of the United States (line 73): FRUS, 1946. The Far East: China"
+  ]
+ },
+ {
+  "url": "http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1946v10",
+  "verdict": "moved-ok",
+  "attempts": [
+   {
+    "code": 503,
+    "final": "http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1946v10",
+    "redirects": 0,
+    "type": "text/plain",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 114,
+    "verdict": "http-error"
+   },
+   {
+    "code": 200,
+    "final": "https://search.library.wisc.edu/digital/AFRUS",
+    "redirects": 3,
+    "type": "text/html; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "‎Foreign relations of the United States - Collection - UWDC - UW-Madison Libraries",
+    "notfound_text": false,
+    "size": 143774,
+    "verdict": "moved-ok"
+   }
+  ],
+  "where": [
+   "Foreign Relations of the United States (line 74): FRUS, 1946. The Far East: China"
+  ]
+ },
+ {
+  "url": "http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1947v07",
+  "verdict": "moved-ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://search.library.wisc.edu/digital/AFRUS",
+    "redirects": 3,
+    "type": "text/html; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "‎Foreign relations of the United States - Collection - UWDC - UW-Madison Libraries",
+    "notfound_text": false,
+    "size": 143774,
+    "verdict": "moved-ok"
+   }
+  ],
+  "where": [
+   "Foreign Relations of the United States (line 75): FRUS, 1947. The Far East: China"
+  ]
+ },
+ {
+  "url": "http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1948v07",
+  "verdict": "moved-ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://search.library.wisc.edu/digital/AFRUS",
+    "redirects": 3,
+    "type": "text/html; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "‎Foreign relations of the United States - Collection - UWDC - UW-Madison Libraries",
+    "notfound_text": false,
+    "size": 143774,
+    "verdict": "moved-ok"
+   }
+  ],
+  "where": [
+   "Foreign Relations of the United States (line 76): FRUS, 1948. The Far East: China"
+  ]
+ },
+ {
+  "url": "http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1948v08",
+  "verdict": "moved-ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://search.library.wisc.edu/digital/AFRUS",
+    "redirects": 3,
+    "type": "text/html; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "‎Foreign relations of the United States - Collection - UWDC - UW-Madison Libraries",
+    "notfound_text": false,
+    "size": 143774,
+    "verdict": "moved-ok"
+   }
+  ],
+  "where": [
+   "Foreign Relations of the United States (line 77): FRUS, 1948. The Far East: China"
+  ]
+ },
+ {
+  "url": "http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1949v08",
+  "verdict": "moved-ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://search.library.wisc.edu/digital/AFRUS",
+    "redirects": 3,
+    "type": "text/html; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "‎Foreign relations of the United States - Collection - UWDC - UW-Madison Libraries",
+    "notfound_text": false,
+    "size": 143774,
+    "verdict": "moved-ok"
+   }
+  ],
+  "where": [
+   "Foreign Relations of the United States (line 78): FRUS, 1949. The Far East: China"
+  ]
+ },
+ {
+  "url": "http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1949v09",
+  "verdict": "moved-ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://search.library.wisc.edu/digital/AFRUS",
+    "redirects": 3,
+    "type": "text/html; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "‎Foreign relations of the United States - Collection - UWDC - UW-Madison Libraries",
+    "notfound_text": false,
+    "size": 143774,
+    "verdict": "moved-ok"
+   }
+  ],
+  "where": [
+   "Foreign Relations of the United States (line 79): FRUS, 1949. The Far East: China"
+  ]
+ },
+ {
+  "url": "http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1951v07p1",
+  "verdict": "moved-ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://search.library.wisc.edu/digital/AFRUS",
+    "redirects": 3,
+    "type": "text/html; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "‎Foreign relations of the United States - Collection - UWDC - UW-Madison Libraries",
+    "notfound_text": false,
+    "size": 143774,
+    "verdict": "moved-ok"
+   }
+  ],
+  "where": [
+   "Foreign Relations of the United States (line 80): FRUS, 1951. Korea and China (in two parts)"
+  ]
+ },
+ {
+  "url": "http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1951v07p2",
+  "verdict": "moved-ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://search.library.wisc.edu/digital/AFRUS",
+    "redirects": 3,
+    "type": "text/html; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "‎Foreign relations of the United States - Collection - UWDC - UW-Madison Libraries",
+    "notfound_text": false,
+    "size": 143774,
+    "verdict": "moved-ok"
+   }
+  ],
+  "where": [
+   "Foreign Relations of the United States (line 81): FRUS, 1951. Korea and China (in two parts)"
+  ]
+ },
+ {
+  "url": "http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS195254v14p1",
+  "verdict": "moved-ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://search.library.wisc.edu/digital/AFRUS",
+    "redirects": 3,
+    "type": "text/html; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "‎Foreign relations of the United States - Collection - UWDC - UW-Madison Libraries",
+    "notfound_text": false,
+    "size": 143774,
+    "verdict": "moved-ok"
+   }
+  ],
+  "where": [
+   "Foreign Relations of the United States (line 82): FRUS, 1952-1954. China and Japan (in two parts)"
+  ]
+ },
+ {
+  "url": "http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS195254v14p2",
+  "verdict": "moved-ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://search.library.wisc.edu/digital/AFRUS",
+    "redirects": 3,
+    "type": "text/html; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "‎Foreign relations of the United States - Collection - UWDC - UW-Madison Libraries",
+    "notfound_text": false,
+    "size": 143774,
+    "verdict": "moved-ok"
+   }
+  ],
+  "where": [
+   "Foreign Relations of the United States (line 83): FRUS, 1952-1954. China and Japan (in two parts)"
+  ]
+ },
+ {
+  "url": "http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS195557v02",
+  "verdict": "moved-ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://search.library.wisc.edu/digital/AFRUS",
+    "redirects": 3,
+    "type": "text/html; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "‎Foreign relations of the United States - Collection - UWDC - UW-Madison Libraries",
+    "notfound_text": false,
+    "size": 143774,
+    "verdict": "moved-ok"
+   }
+  ],
+  "where": [
+   "Foreign Relations of the United States (line 84): FRUS, 1955-1957. China"
+  ]
+ },
+ {
+  "url": "http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS195557v03",
+  "verdict": "moved-ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://search.library.wisc.edu/digital/AFRUS",
+    "redirects": 3,
+    "type": "text/html; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "‎Foreign relations of the United States - Collection - UWDC - UW-Madison Libraries",
+    "notfound_text": false,
+    "size": 143774,
+    "verdict": "moved-ok"
+   }
+  ],
+  "where": [
+   "Foreign Relations of the United States (line 85): FRUS, 1955-1957. China"
+  ]
+ },
+ {
+  "url": "http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS195860v19",
+  "verdict": "moved-ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://search.library.wisc.edu/digital/AFRUS",
+    "redirects": 3,
+    "type": "text/html; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "‎Foreign relations of the United States - Collection - UWDC - UW-Madison Libraries",
+    "notfound_text": false,
+    "size": 143774,
+    "verdict": "moved-ok"
+   }
+  ],
+  "where": [
+   "Foreign Relations of the United States (line 86): FRUS, 1958-1960. China"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/terrysjapaneseem00terr/page/n6/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/terrysjapaneseem00terr/page/n6/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Terry's Japanese empire : including Korea and Formosa : with chapters on Manchuria, the Trans-Siberian railway, and the chief ocean routes to Japan : a guidebook for travelers : Terry, T. Philip (Thom",
+    "notfound_text": false,
+    "size": 338456,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Travel Guidebooks (line 91): 1914 Ed."
+  ]
+ },
+ {
+  "url": "https://archive.org/details/terry_terrysjapaneseempireincludingkoreaandformosawithchaptersonmanchuriathetrans-siberianrail_1919/page/n4/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/terry_terrysjapaneseempireincludingkoreaandformosawithchaptersonmanchuriathetrans-siberianrail_1919/page/n4/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Terry's Japanese Empire, including Korea and Formosa, with chapters on Manchuria, the Trans-Siberian Railway, and the chief ocean routes to Japan : Terry, T. Philip : Free Download, Borrow, and Stream",
+    "notfound_text": false,
+    "size": 241137,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Travel Guidebooks (line 91): 1919 Ed."
+  ]
+ },
+ {
+  "url": "https://archive.org/details/terry_terrysguidetothejapaneseempireincludingkoreaandformosawithchaptersonmanchuriathetrans-si_1927",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/terry_terrysguidetothejapaneseempireincludingkoreaandformosawithchaptersonmanchuriathetrans-si_1927",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Terry's guide to the Japanese empire, including Korea and Formosa, with chapters on Manchuria, the Trans-Siberian railway, and the chief ocean routes to Japan; a handbook for travellers with 8 special",
+    "notfound_text": false,
+    "size": 241978,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Travel Guidebooks (line 91): 1927 Ed."
+  ]
+ },
+ {
+  "url": "https://archive.org/details/terry_terrysguidetothejapaneseempire_1928/page/i/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/terry_terrysguidetothejapaneseempire_1928/page/i/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Terry's guide to the Japanese empire : including Korea and Formosa, with chapters on Manchuria, the Trans-Siberian Railway, and the chief ocean routes to Japan : a handbook for travellers : Terry, T. ",
+    "notfound_text": false,
+    "size": 232424,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Travel Guidebooks (line 91): 1928 Ed."
+  ]
+ },
+ {
+  "url": "https://archive.org/details/ahandbookfortra04firgoog/page/n12/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/ahandbookfortra04firgoog/page/n12/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "A handbook for travellers in Japan : John Murray (Firm), publisher, London : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 293901,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Travel Guidebooks (line 92): 1891"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/ahandbookfortra14firgoog/page/n6/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/ahandbookfortra14firgoog/page/n6/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "A handbook for travellers in Japan : John Murray (Firm) : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 275553,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Travel Guidebooks (line 92): 1893"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/ahandbookfortra00masogoog/page/n4/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/ahandbookfortra00masogoog/page/n4/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "A handbook for travellers in Japan : John Murray (Firm) : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 288776,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Travel Guidebooks (line 92): 1894",
+   "Travel Guidebooks (line 92): 1899"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/handbookfortrave00murr/page/n7/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/handbookfortrave00murr/page/n7/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "A handbook for travellers in Japan : Murray, John, publisher, London. [from old catalog] : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 289028,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Travel Guidebooks (line 92): 1898"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/handbookfortravejohn/page/n10/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/handbookfortravejohn/page/n10/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "A handbook for travellers in Japan, including the whole empire from Yezo to Formosa : John Murray (Firm) : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 297479,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Travel Guidebooks (line 92): 1903"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/handbookfortrav00cham/page/n8/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/handbookfortrav00cham/page/n8/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "A handbook for travellers in Japan : Chamberlain, Basil Hall, 1850-1935 : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 296592,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Travel Guidebooks (line 92): 1901"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/ahandbookfortra00chamgoog/page/n7/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/ahandbookfortra00chamgoog/page/n7/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "A handbook for travellers in Japan including the whole empire from Saghalien to Formosa : John Murray (Firm) : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 281890,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Travel Guidebooks (line 92): 1907"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/handbookfortrave01john/page/n16/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/handbookfortrave01john/page/n16/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "A handbook for travellers in Japan, including Formosa : John Murray (Firm) : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 291184,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Travel Guidebooks (line 92): 1913"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/the-hot-springs-of-japan-including-formosa/page/iii/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/the-hot-springs-of-japan-including-formosa/page/iii/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "The Hot Springs Of Japan (including Formosa) : Japanese Government Railways : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 224045,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Travel Guidebooks (line 93): The Hot Springs Of Japan including Chosen (Korea), Taiwan (Formosa), a"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/taiwan-railway-map-1931",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/taiwan-railway-map-1931",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Formosa Taiwan Railways : Taiwan Government Railways : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 228401,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Travel Guidebooks (line 94): Taiwan Formosa Railway Guide and Map"
+  ]
+ },
+ {
+  "url": "http://www.taiwandocuments.org/",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "http://www.taiwandocuments.org/",
+    "redirects": 0,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Taiwan Documents Project Gateway",
+    "notfound_text": false,
+    "size": 12241,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Other Online Archives and Collections (line 98): Taiwan Documents Project"
+  ]
+ },
+ {
+  "url": "http://dtrap.lib.ntu.edu.tw/DTRAP/index.htm",
+  "verdict": "dns",
+  "attempts": [
+   {
+    "code": 0,
+    "final": "http://dtrap.lib.ntu.edu.tw/DTRAP/index.htm",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: dtrap.lib.ntu.edu.tw",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   },
+   {
+    "code": 0,
+    "final": "http://dtrap.lib.ntu.edu.tw/DTRAP/index.htm",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: dtrap.lib.ntu.edu.tw",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   },
+   {
+    "code": 0,
+    "final": "http://dtrap.lib.ntu.edu.tw/DTRAP/index.htm",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: dtrap.lib.ntu.edu.tw",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   }
+  ],
+  "dns_check": {
+   "exists": false,
+   "status": 3,
+   "answers": []
+  },
+  "where": [
+   "Other Online Archives and Collections (line 99): V. S. Beausset Collection",
+   "Chinese and Japanese Language Sources (line 166): National Taiwan University Digital Taiwan-Related Archives Project 臺灣大"
+  ]
+ },
+ {
+  "url": "https://www.ntm.gov.tw/en/",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://www.ntm.gov.tw/en/",
+    "redirects": 0,
+    "type": "text/html; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "National Taiwan Museum",
+    "notfound_text": false,
+    "size": 93955,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Other Online Archives and Collections (line 100): National Taiwan Museum 國立台灣博物館"
+  ]
+ },
+ {
+  "url": "https://www.nationaltreasure.tw/en",
+  "verdict": "proxy",
+  "attempts": [
+   {
+    "code": 0,
+    "final": "https://www.nationaltreasure.tw/en",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 56,
+    "error": "curl: (56) CONNECT tunnel failed, response 502",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "proxy"
+   }
+  ],
+  "where": [
+   "Other Online Archives and Collections (line 101): Taiwan National Treasure 國家寶藏"
+  ]
+ },
+ {
+  "url": "https://chenwillie.blogspot.com/",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://chenwillie.blogspot.com/",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "衛城的閱讀空間 Willie Chen&#39;s Digest of Historic Places",
+    "notfound_text": false,
+    "size": 143373,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Other Online Archives and Collections (line 103): 衛城的閱讀空間 Willie Chen's Digest of Historic Places"
+  ]
+ },
+ {
+  "url": "https://danshuihistory.blogspot.com/",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://danshuihistory.blogspot.com/",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "漁人碼頭的戰爭 - The Battle of Fisherman's Wharf",
+    "notfound_text": false,
+    "size": 110519,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Other Online Archives and Collections (line 104): 漁人碼頭的戰爭 - The Battle of Fisherman's Wharf"
+  ]
+ },
+ {
+  "url": "https://taiwanleaftea.com/info/history-of-tea-in-taiwan",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://taiwanleaftea.com/info/history-of-tea-in-taiwan",
+    "redirects": 0,
+    "type": "text/html; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "History of Tea in Taiwan - Taiwanleaftea.com",
+    "notfound_text": false,
+    "size": 37894,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Other Online Archives and Collections (line 106): History of Tea in Taiwan"
+  ]
+ },
+ {
+  "url": "https://www.taiwangazette.org/",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://www.taiwangazette.org/",
+    "redirects": 0,
+    "type": "text/html;charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "The Taiwan Gazette",
+    "notfound_text": false,
+    "size": 399517,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Other Online Archives and Collections (line 107): Taiwan Gazette"
+  ]
+ },
+ {
+  "url": "https://www.taiwangazette.org/news/2019/3/5/the-228-massacre-in-chiayi-the-airport-and-train-station-were-washed-with-blood?fbclid=IwAR1CSGujoEQumpLrbKgSr07slZfidRQ0DOkGh4nKAmXOpdNVF79pjMYa-Nw",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://www.taiwangazette.org/news/2019/3/5/the-228-massacre-in-chiayi-the-airport-and-train-station-were-washed-with-blood?fbclid=IwAR1CSGujoEQumpLrbKgSr07slZfidRQ0DOkGh4nKAmXOpdNVF79pjMYa-Nw",
+    "redirects": 0,
+    "type": "text/html;charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "The 228 Massacre in Chiayi: &quot;The Airport and Train Station Were Washed with Blood&quot; &mdash; The Taiwan Gazette",
+    "notfound_text": false,
+    "size": 337652,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Other Online Archives and Collections (line 107): translated here"
+  ]
+ },
+ {
+  "url": "https://taiwaninsight.org/",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://taiwaninsight.org/",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Taiwan Insight &#8211; The online magazine of the Taiwan Research Hub",
+    "notfound_text": false,
+    "size": 148942,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Other Online Archives and Collections (line 108): Taiwan Insight"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/gazetteer-to-maps-and-charts-of-formosa/page/i/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/gazetteer-to-maps-and-charts-of-formosa/page/i/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Gazetteer To Maps And Charts Of Formosa : US Army Map Service : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 222570,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 112): Gazetteer To Maps And Charts Of Formosa"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/gazetteer-to-maps-of-formosa-taiwan/page/n6/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/gazetteer-to-maps-of-formosa-taiwan/page/n6/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Gazetteer To Maps Of Formosa ( Taiwan) : US Army : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 225567,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 113): Gazetteer To Maps Of Formosa (Taiwan)"
+  ]
+ },
+ {
+  "url": "http://legacy.lib.utexas.edu/maps/taiwan.html",
+  "verdict": "moved-ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://maps.lib.utexas.edu/maps/taiwan.html",
+    "redirects": 2,
+    "type": "text/html; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Making sure you&#39;re not a bot!",
+    "notfound_text": false,
+    "size": 7529,
+    "verdict": "moved-ok"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 114): The Perry-Castañeda Library Map Collection"
+  ]
+ },
+ {
+  "url": "https://collections.lib.uwm.edu/digital/collection/agdm/id/25449",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://collections.lib.uwm.edu/digital/collection/agdm/id/25449",
+    "redirects": 0,
+    "type": "text/html;charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "CONTENTdm",
+    "notfound_text": false,
+    "size": 37019,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 115): Taiwan 1950"
+  ]
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-8s45qc32k",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 410,
+    "final": "https://geodata.mit.edu/catalog/princeton-8s45qc32k",
+    "redirects": 0,
+    "type": "text/plain; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 71,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 116): Formosa, southern part, to illustrate the paper by M. Beazeley, M. Ins"
+  ]
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-k0698893d",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 410,
+    "final": "https://geodata.mit.edu/catalog/princeton-k0698893d",
+    "redirects": 0,
+    "type": "text/plain; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 71,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 117): Giran, Formosa (Taiwan), Taihoku Shu. A.M.S. L991 1945"
+  ]
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-nz806114c",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 410,
+    "final": "https://geodata.mit.edu/catalog/princeton-nz806114c",
+    "redirects": 0,
+    "type": "text/plain; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 71,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 118): Heito, Formosa (Taiwan), Takao-Shu. A.M.S. L991 1944"
+  ]
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-2801pj08m",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 410,
+    "final": "https://geodata.mit.edu/catalog/princeton-2801pj08m",
+    "redirects": 0,
+    "type": "text/plain; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 71,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 119): Hokko, Formosa (Taiwan), Tainan-Shu. A.M.S. L991 1945"
+  ]
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-gb19f742n",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 410,
+    "final": "https://geodata.mit.edu/catalog/princeton-gb19f742n",
+    "redirects": 0,
+    "type": "text/plain; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 71,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 120): Hozan, Formosa (Taiwan), Hozan-shu. A.M.S. L991 1945"
+  ]
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-h989r4907",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 410,
+    "final": "https://geodata.mit.edu/catalog/princeton-h989r4907",
+    "redirects": 0,
+    "type": "text/plain; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 71,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 121): Kagi, Formosa (Taiwan), Kagi-shu. A.M.S. L991 1945"
+  ]
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-ws859h33r",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 410,
+    "final": "https://geodata.mit.edu/catalog/princeton-ws859h33r",
+    "redirects": 0,
+    "type": "text/plain; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 71,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 122): Karenko, Formosa (Taiwan), Karenko-Cho. A.M.S. L991 1945"
+  ]
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-zk51vj296",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 410,
+    "final": "https://geodata.mit.edu/catalog/princeton-zk51vj296",
+    "redirects": 0,
+    "type": "text/plain; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 71,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 123): Kato, Formosa (Taiwan), Takao-shu. A.M.S. L991 1944"
+  ]
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-q811km34m",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 410,
+    "final": "https://geodata.mit.edu/catalog/princeton-q811km34m",
+    "redirects": 0,
+    "type": "text/plain; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 71,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 124): Kiirun, Formosa (Taiwan), Taihoku-shu. A.M.S. L991 1945"
+  ]
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-5999n5049",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 410,
+    "final": "https://geodata.mit.edu/catalog/princeton-5999n5049",
+    "redirects": 0,
+    "type": "text/plain; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 71,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 125): Mako, Formosa (Taiwan), Boko-cho, Mako-Shicho. A.M.S. L991 1945"
+  ]
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-vd66w162q",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 410,
+    "final": "https://geodata.mit.edu/catalog/princeton-vd66w162q",
+    "redirects": 0,
+    "type": "text/plain; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 71,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 126): Rato, Formosa (Taiwan), Taihoku-shu. A.M.S. L991. 1944"
+  ]
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-3b591b081",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 410,
+    "final": "https://geodata.mit.edu/catalog/princeton-3b591b081",
+    "redirects": 0,
+    "type": "text/plain; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 71,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 127): Rokko, Formosa (Taiwan), Taichu-shu. A.M.S. L991. 1944"
+  ]
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-1g05fd153",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 410,
+    "final": "https://geodata.mit.edu/catalog/princeton-1g05fd153",
+    "redirects": 0,
+    "type": "text/plain; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 71,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 128): Okayama, Formosa (Taiwan), Takao-shu. A.M.S. L991 1945"
+  ]
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-r207tq881",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 410,
+    "final": "https://geodata.mit.edu/catalog/princeton-r207tq881",
+    "redirects": 0,
+    "type": "text/plain; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 71,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 129): Seira, Formosa (Taiwan). A.M.S. L991 1945"
+  ]
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-zk51vj366",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 410,
+    "final": "https://geodata.mit.edu/catalog/princeton-zk51vj366",
+    "redirects": 0,
+    "type": "text/plain; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 71,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 130): Shinchiku, Formosa (Taiwan), Shinchiku-Shu. A.M.S. L991 1945"
+  ]
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-1n79h577j",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 410,
+    "final": "https://geodata.mit.edu/catalog/princeton-1n79h577j",
+    "redirects": 0,
+    "type": "text/plain; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 71,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 131): Shoka, Formosa (Taiwan), Taichu-Shu. A.M.S. L991 1945"
+  ]
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-2227mr10z",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 410,
+    "final": "https://geodata.mit.edu/catalog/princeton-2227mr10z",
+    "redirects": 0,
+    "type": "text/plain; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 71,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 132): Suo, Formosa (Taiwan), Taihoku-Shu. A.M.S. L991"
+  ]
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-kw52j970z",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 410,
+    "final": "https://geodata.mit.edu/catalog/princeton-kw52j970z",
+    "redirects": 0,
+    "type": "text/plain; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 71,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 133): Taichu, Formosa (Taiwan), Taichu Shu. A.M.S. L991 1945"
+  ]
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-bk128c47c",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 410,
+    "final": "https://geodata.mit.edu/catalog/princeton-bk128c47c",
+    "redirects": 0,
+    "type": "text/plain; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 71,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 134): Taito, Formosa, Taito-cho, Taito-gun. A.M.S. L991 1945"
+  ]
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-08612q284",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 410,
+    "final": "https://geodata.mit.edu/catalog/princeton-08612q284",
+    "redirects": 0,
+    "type": "text/plain; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 71,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 135): Takao.Takao-Shu, Formosa (Taiwan). A.M.S. L991 1945"
+  ]
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-m613n015x",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 410,
+    "final": "https://geodata.mit.edu/catalog/princeton-m613n015x",
+    "redirects": 0,
+    "type": "text/plain; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 71,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 136): Tansui, Formosa (Taiwan), Taihoku-shu. A.M.S. L991 1945"
+  ]
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-8336h361c",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 410,
+    "final": "https://geodata.mit.edu/catalog/princeton-8336h361c",
+    "redirects": 0,
+    "type": "text/plain; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 71,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 137): Toen, Formosa (Taiwan), Shinchiku-shu. A.M.S. L991 1944"
+  ]
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-dv13zv971",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 410,
+    "final": "https://geodata.mit.edu/catalog/princeton-dv13zv971",
+    "redirects": 0,
+    "type": "text/plain; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 71,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 138): Toko, Formosa (Taiwan), Takao-shu. A.M.S. L991 1944"
+  ]
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-2r36v011g",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 410,
+    "final": "https://geodata.mit.edu/catalog/princeton-2r36v011g",
+    "redirects": 0,
+    "type": "text/plain; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 71,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 139): Toshien, Formosa (Taiwan), Takao-Shu. A.M.S. L991 1945"
+  ]
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-rb68xd49j",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 410,
+    "final": "https://geodata.mit.edu/catalog/princeton-rb68xd49j",
+    "redirects": 0,
+    "type": "text/plain; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 71,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 140): Chikunan, Shinchiku-shu, Formosa (Taiwan). A.M.S. L991 1944"
+  ]
+ },
+ {
+  "url": "https://catalog.princeton.edu/catalog/7768571",
+  "verdict": "tls",
+  "attempts": [
+   {
+    "code": 0,
+    "final": "https://catalog.princeton.edu/catalog/7768571",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 60,
+    "error": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, plea",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "tls"
+   },
+   {
+    "code": 0,
+    "final": "https://catalog.princeton.edu/catalog/7768571",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 60,
+    "error": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, plea",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "tls"
+   },
+   {
+    "code": 0,
+    "final": "https://catalog.princeton.edu/catalog/7768571",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 60,
+    "error": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, plea",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "tls"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 141): Taiwan - Karte von Ost-China (map) / Kartographische Abteilung der Kön"
+  ]
+ },
+ {
+  "url": "https://catalog.princeton.edu/catalog/7702659",
+  "verdict": "tls",
+  "attempts": [
+   {
+    "code": 0,
+    "final": "https://catalog.princeton.edu/catalog/7702659",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 60,
+    "error": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, plea",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "tls"
+   },
+   {
+    "code": 0,
+    "final": "https://catalog.princeton.edu/catalog/7702659",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 60,
+    "error": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, plea",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "tls"
+   },
+   {
+    "code": 0,
+    "final": "https://catalog.princeton.edu/catalog/7702659",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 60,
+    "error": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, plea",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "tls"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 142): Originalkarte der Insel Taiwan (Formosa) (1905)"
+  ]
+ },
+ {
+  "url": "https://cartotecadigital.icgc.cat/digital/collection/fonscec/id/382",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://cartotecadigital.icgc.cat/digital/collection/fonscec/id/382",
+    "redirects": 0,
+    "type": "text/html;charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "CONTENTdm",
+    "notfound_text": false,
+    "size": 64485,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 143): Taiwan Railway Map (1931)"
+  ]
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-pk02cd236",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 410,
+    "final": "https://geodata.mit.edu/catalog/princeton-pk02cd236",
+    "redirects": 0,
+    "type": "text/plain; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 71,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 144): Sketch map of southern Formosa to accompany the paper by J. Thomson Es"
+  ]
+ },
+ {
+  "url": "https://geodata.mit.edu/catalog/princeton-f7623g10h",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 410,
+    "final": "https://geodata.mit.edu/catalog/princeton-f7623g10h",
+    "redirects": 0,
+    "type": "text/plain; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 71,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 145): Originalkarte der Insel Taiwan (Formosa) 1905"
+  ]
+ },
+ {
+  "url": "https://collections.lib.uwm.edu/digital/collection/agdm/id/9133",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://collections.lib.uwm.edu/digital/collection/agdm/id/9133",
+    "redirects": 0,
+    "type": "text/html;charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "CONTENTdm",
+    "notfound_text": false,
+    "size": 36948,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 146): Taiwan Scenic Map 1953"
+  ]
+ },
+ {
+  "url": "http://ecaidata.org/zh_TW/dataset/formosa?fbclid=IwAR3_7D0l4eC-tibqXAUvvrn1lXa6qLb4nnWq_CEZMU_719XYGMXkM1_ot2M",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "http://ecaidata.org/zh_TW/dataset/formosa?fbclid=IwAR3_7D0l4eC-tibqXAUvvrn1lXa6qLb4nnWq_CEZMU_719XYGMXkM1_ot2M",
+    "redirects": 0,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 183,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 147): Formosa (Taiwan) Map Series, U.S. Army Map Service, 1944"
+  ]
+ },
+ {
+  "url": "http://ecaidata.org/zh_TW/dataset/carte-de-l-isle-formose-et-aux-costes-de-la-chine",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "http://ecaidata.org/zh_TW/dataset/carte-de-l-isle-formose-et-aux-costes-de-la-chine",
+    "redirects": 0,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 114,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 148): Carte de L'Isle Formose et aux costes de la Chine"
+  ]
+ },
+ {
+  "url": "https://digitalarchives.tw/Apps/TaipeiHistoricalMaps/index_en.html",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://digitalarchives.tw/Apps/TaipeiHistoricalMaps/index_en.html",
+    "redirects": 0,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Taipei Historical Maps - Taiwan Digitalarchives",
+    "notfound_text": false,
+    "size": 20130,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 149): Taipei Historical Maps App"
+  ]
+ },
+ {
+  "url": "http://japanmaps.davidrumsey.com/luna/servlet/view/all/where/Taiwan?fbclid=IwAR3gvhtXTHu-fOe_6ifpXzjXA6BlVI-usupXVj7fPOG_GjH3lJLfqyuMCzA",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://japanmaps.davidrumsey.com/luna/servlet/view/all/where/Taiwan?fbclid=IwAR3gvhtXTHu-fOe_6ifpXzjXA6BlVI-usupXVj7fPOG_GjH3lJLfqyuMCzA",
+    "redirects": 1,
+    "type": "text/html;charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Verify Access",
+    "notfound_text": false,
+    "size": 4140,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 150): David Rumsey Japan Maps Collection: Taiwan"
+  ]
+ },
+ {
+  "url": "https://jcb.lunaimaging.com/luna/servlet/detail/JCBMAPS~1~1~5969~115902035:%C3%96en-Forsmos-og-et-stykke-af-Landkan;JSESSIONID=c6753d93-4d30-4c40-a790-9bb9f801877b?qvq=q%3Ataiwan%3Bsort%3Anormalized_date%2Cfile_name%2Csource_author%2Csource_title%3Blc%3AJCBMAPS%7E1%7E1&sort=normalized_date%2Cfile_name%2Csource_author%2Csource_title&mi=5&trs=8&cic=JCBMAPS%7E1%7E1",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://jcb.lunaimaging.com/luna/servlet/detail/JCBMAPS~1~1~5969~115902035:%C3%96en-Forsmos-og-et-stykke-af-Landkan;JSESSIONID=c6753d93-4d30-4c40-a790-9bb9f801877b?qvq=q%3Ataiwan%3Bsort%3Anormalized_date%2Cfile_name%2Csource_author%2Csource_title%3Blc%3AJCBMAPS%7E1%7E1&sort=normalized_date%2Cfile_name%2Csource_author%2Csource_title&mi=5&trs=8&cic=JCBMAPS%7E1%7E1",
+    "redirects": 0,
+    "type": "text/html;charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Verify Access",
+    "notfound_text": false,
+    "size": 4383,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Maps of Taiwan (line 151): Öen Forsmos og et stykke af Landkanten af China efter de nyeste Korter"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/stanford-university.-bibliography-of-taiwan-formosa/page/n1/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/stanford-university.-bibliography-of-taiwan-formosa/page/n1/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Bibliography Of Taiwan ( Formosa) : Stanford University. : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 224539,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Taiwan Related Books Online (line 155): Bibliography Of Taiwan ( Formosa)"
+  ]
+ },
+ {
+  "url": "http://archives.ith.sinica.edu.tw/resources_list.php?fbclid=IwAR1z1A4i6fQlKlSlO5OYYfrxB9NwcB7EQd8lC4buiZv7NLU5JRnxCSetjr8",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 503,
+    "final": "http://archives.ith.sinica.edu.tw/resources_list.php?fbclid=IwAR1z1A4i6fQlKlSlO5OYYfrxB9NwcB7EQd8lC4buiZv7NLU5JRnxCSetjr8",
+    "redirects": 0,
+    "type": "text/plain",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 121,
+    "verdict": "http-error"
+   },
+   {
+    "code": 503,
+    "final": "http://archives.ith.sinica.edu.tw/resources_list.php?fbclid=IwAR1z1A4i6fQlKlSlO5OYYfrxB9NwcB7EQd8lC4buiZv7NLU5JRnxCSetjr8",
+    "redirects": 0,
+    "type": "text/plain",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 121,
+    "verdict": "http-error"
+   },
+   {
+    "code": 503,
+    "final": "http://archives.ith.sinica.edu.tw/resources_list.php?fbclid=IwAR1z1A4i6fQlKlSlO5OYYfrxB9NwcB7EQd8lC4buiZv7NLU5JRnxCSetjr8",
+    "redirects": 0,
+    "type": "text/plain",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 121,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 160): Archives of the Institute of Taiwan History, Academia Sinica 中央研究院臺灣史研"
+  ]
+ },
+ {
+  "url": "http://tais.ith.sinica.edu.tw/sinicafrsFront/index.jsp",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 503,
+    "final": "http://tais.ith.sinica.edu.tw/sinicafrsFront/index.jsp",
+    "redirects": 0,
+    "type": "text/plain",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 121,
+    "verdict": "http-error"
+   },
+   {
+    "code": 503,
+    "final": "http://tais.ith.sinica.edu.tw/sinicafrsFront/index.jsp",
+    "redirects": 0,
+    "type": "text/plain",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 121,
+    "verdict": "http-error"
+   },
+   {
+    "code": 503,
+    "final": "http://tais.ith.sinica.edu.tw/sinicafrsFront/index.jsp",
+    "redirects": 0,
+    "type": "text/plain",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 121,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 160): 臺灣史檔案資源系統"
+  ]
+ },
+ {
+  "url": "http://rarebooks.ith.sinica.edu.tw/sinicafrsFront99/index.htm",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 503,
+    "final": "http://rarebooks.ith.sinica.edu.tw/sinicafrsFront99/index.htm",
+    "redirects": 0,
+    "type": "text/plain",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 121,
+    "verdict": "http-error"
+   },
+   {
+    "code": 503,
+    "final": "http://rarebooks.ith.sinica.edu.tw/sinicafrsFront99/index.htm",
+    "redirects": 0,
+    "type": "text/plain",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 121,
+    "verdict": "http-error"
+   },
+   {
+    "code": 503,
+    "final": "http://rarebooks.ith.sinica.edu.tw/sinicafrsFront99/index.htm",
+    "redirects": 0,
+    "type": "text/plain",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 121,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 160): 臺灣研究古籍資料庫"
+  ]
+ },
+ {
+  "url": "http://sotokufu.sinica.edu.tw/",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 503,
+    "final": "https://sotokufu.sinica.edu.tw/",
+    "redirects": 1,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "數位文化中心",
+    "notfound_text": false,
+    "size": 4265,
+    "verdict": "http-error"
+   },
+   {
+    "code": 503,
+    "final": "https://sotokufu.sinica.edu.tw/",
+    "redirects": 1,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "數位文化中心",
+    "notfound_text": false,
+    "size": 4265,
+    "verdict": "http-error"
+   },
+   {
+    "code": 503,
+    "final": "https://sotokufu.sinica.edu.tw/",
+    "redirects": 1,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "數位文化中心",
+    "notfound_text": false,
+    "size": 4265,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 160): 臺灣總督府公文類纂查詢系統"
+  ]
+ },
+ {
+  "url": "http://taco.ith.sinica.edu.tw/tdk/",
+  "verdict": "soft-404",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://taco.ith.sinica.edu.tw/tdk/%E9%A6%96%E9%A0%81",
+    "redirects": 2,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "臺灣日記知識庫",
+    "notfound_text": true,
+    "size": 59159,
+    "verdict": "soft-404"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 160): 臺灣日記知識庫"
+  ]
+ },
+ {
+  "url": "http://archives.ith.sinica.edu.tw/news_con.php?no=230",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 503,
+    "final": "http://archives.ith.sinica.edu.tw/news_con.php?no=230",
+    "redirects": 0,
+    "type": "text/plain",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 121,
+    "verdict": "http-error"
+   },
+   {
+    "code": 503,
+    "final": "http://archives.ith.sinica.edu.tw/news_con.php?no=230",
+    "redirects": 0,
+    "type": "text/plain",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 121,
+    "verdict": "http-error"
+   },
+   {
+    "code": 503,
+    "final": "http://archives.ith.sinica.edu.tw/news_con.php?no=230",
+    "redirects": 0,
+    "type": "text/plain",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 121,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 160): 臺灣文獻叢刊資料庫"
+  ]
+ },
+ {
+  "url": "http://who.ith.sinica.edu.tw/",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 503,
+    "final": "http://who.ith.sinica.edu.tw/",
+    "redirects": 0,
+    "type": "text/plain",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 121,
+    "verdict": "http-error"
+   },
+   {
+    "code": 503,
+    "final": "http://who.ith.sinica.edu.tw/",
+    "redirects": 0,
+    "type": "text/plain",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 121,
+    "verdict": "http-error"
+   },
+   {
+    "code": 503,
+    "final": "http://who.ith.sinica.edu.tw/",
+    "redirects": 0,
+    "type": "text/plain",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 121,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 160): 臺灣總督府職員錄系統"
+  ]
+ },
+ {
+  "url": "https://ahonline.drnh.gov.tw/index.php?act=Archive",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 0,
+    "final": "https://ahonline.drnh.gov.tw/index.php?act=Archive",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 35,
+    "error": "curl: (35) Recv failure: Connection reset by peer",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "tls"
+   },
+   {
+    "code": 302,
+    "final": "https://ahonline.drnh.gov.tw/index.php?act=Archive",
+    "redirects": 10,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 47,
+    "error": "curl: (47) Maximum (10) redirects followed",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 161): 國史館檔案史料文物查詢系統"
+  ]
+ },
+ {
+  "url": "https://www.th.gov.tw/new_site/index.php",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 404,
+    "final": "https://www.th.gov.tw/new_site/index.php",
+    "redirects": 0,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "錯誤頁面",
+    "notfound_text": true,
+    "size": 27860,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 162): 國史館臺灣文獻館 Taiwan Historica"
+  ]
+ },
+ {
+  "url": "https://www.th.gov.tw/new_site/01archives/04introduction/",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 404,
+    "final": "https://www.th.gov.tw/new_site/01archives/04introduction/",
+    "redirects": 0,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "錯誤頁面",
+    "notfound_text": true,
+    "size": 27860,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 162): introduction"
+  ]
+ },
+ {
+  "url": "https://www.th.gov.tw/new_site/01archives/01file_archives/",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 404,
+    "final": "https://www.th.gov.tw/new_site/01archives/01file_archives/",
+    "redirects": 0,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "錯誤頁面",
+    "notfound_text": true,
+    "size": 27860,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 162): 檔案查詢系統"
+  ]
+ },
+ {
+  "url": "http://ds3.th.gov.tw/ds3/app000/",
+  "verdict": "dns",
+  "attempts": [
+   {
+    "code": 0,
+    "final": "http://ds3.th.gov.tw/ds3/app000/",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: ds3.th.gov.tw",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   },
+   {
+    "code": 0,
+    "final": "http://ds3.th.gov.tw/ds3/app000/",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: ds3.th.gov.tw",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   },
+   {
+    "code": 0,
+    "final": "http://ds3.th.gov.tw/ds3/app000/",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: ds3.th.gov.tw",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   }
+  ],
+  "dns_check": {
+   "exists": false,
+   "status": 3,
+   "answers": []
+  },
+  "where": [
+   "Chinese and Japanese Language Sources (line 162): 查詢餘額申請表"
+  ]
+ },
+ {
+  "url": "https://across.archives.gov.tw/naahyint/sendurl.jsp?dbid=DB3174",
+  "verdict": "soft-404",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://across.archives.gov.tw/",
+    "redirects": 1,
+    "type": "text/html; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 7475,
+    "verdict": "soft-404"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 162): 國史館—蔣中正總統文物"
+  ]
+ },
+ {
+  "url": "https://enwww.ncl.edu.tw/",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 503,
+    "final": "https://enwww.ncl.edu.tw/",
+    "redirects": 0,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "503 Service Temporarily Unavailable",
+    "notfound_text": false,
+    "size": 615,
+    "verdict": "http-error"
+   },
+   {
+    "code": 503,
+    "final": "https://enwww.ncl.edu.tw/",
+    "redirects": 0,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "503 Service Temporarily Unavailable",
+    "notfound_text": false,
+    "size": 615,
+    "verdict": "http-error"
+   },
+   {
+    "code": 503,
+    "final": "https://enwww.ncl.edu.tw/",
+    "redirects": 0,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "503 Service Temporarily Unavailable",
+    "notfound_text": false,
+    "size": 615,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 163): National Central Library 國家圖書館"
+  ]
+ },
+ {
+  "url": "https://www.ntl.edu.tw/",
+  "verdict": "moved-ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://www.ntl.edu.tw/wSite/mp?mp=1",
+    "redirects": 1,
+    "type": "text/html;charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "國立臺灣圖書館",
+    "notfound_text": false,
+    "size": 56374,
+    "verdict": "moved-ok"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 164): National Taiwan Library"
+  ]
+ },
+ {
+  "url": "https://tm.ncl.edu.tw/index?lang=chn",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://tm.ncl.edu.tw/index?lang=chn",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "臺灣記憶 Taiwan Memory",
+    "notfound_text": false,
+    "size": 44958,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 165): Taiwan Memory 台灣記憶"
+  ]
+ },
+ {
+  "url": "http://dtrap.lib.ntu.edu.tw/DTRAP/intro.htm",
+  "verdict": "dns",
+  "attempts": [
+   {
+    "code": 0,
+    "final": "http://dtrap.lib.ntu.edu.tw/DTRAP/intro.htm",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: dtrap.lib.ntu.edu.tw",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   },
+   {
+    "code": 0,
+    "final": "http://dtrap.lib.ntu.edu.tw/DTRAP/intro.htm",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: dtrap.lib.ntu.edu.tw",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   },
+   {
+    "code": 0,
+    "final": "http://dtrap.lib.ntu.edu.tw/DTRAP/intro.htm",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: dtrap.lib.ntu.edu.tw",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   }
+  ],
+  "dns_check": {
+   "exists": false,
+   "status": 3,
+   "answers": []
+  },
+  "where": [
+   "Chinese and Japanese Language Sources (line 166): 內容簡介"
+  ]
+ },
+ {
+  "url": "http://dtrap.lib.ntu.edu.tw/DTRAP/en/project.htm",
+  "verdict": "dns",
+  "attempts": [
+   {
+    "code": 0,
+    "final": "http://dtrap.lib.ntu.edu.tw/DTRAP/en/project.htm",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: dtrap.lib.ntu.edu.tw",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   },
+   {
+    "code": 0,
+    "final": "http://dtrap.lib.ntu.edu.tw/DTRAP/en/project.htm",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: dtrap.lib.ntu.edu.tw",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   },
+   {
+    "code": 0,
+    "final": "http://dtrap.lib.ntu.edu.tw/DTRAP/en/project.htm",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: dtrap.lib.ntu.edu.tw",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   }
+  ],
+  "dns_check": {
+   "exists": false,
+   "status": 3,
+   "answers": []
+  },
+  "where": [
+   "Chinese and Japanese Language Sources (line 166): here"
+  ]
+ },
+ {
+  "url": "https://www.lib.ntu.edu.tw/doc/CG/resources/project/drapexbi01/e_map_index.html",
+  "verdict": "soft-404",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://www.lib.ntu.edu.tw/doc/CG/resources/project/drapexbi01/e_map_index.html",
+    "redirects": 0,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "error page",
+    "notfound_text": true,
+    "size": 1271,
+    "verdict": "soft-404"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 166): web exhibition"
+  ]
+ },
+ {
+  "url": "https://www.lib.ntu.edu.tw/doc/CG/resources/project/drapexbi01/index.html",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://www.lib.ntu.edu.tw/doc/CG/resources/project/drapexbi01/index.html",
+    "redirects": 0,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "NTULIB::深化臺灣核心文獻典藏數位化計畫．網路特展",
+    "notfound_text": false,
+    "size": 18394,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 166): Chinese"
+  ]
+ },
+ {
+  "url": "http://nhd.drnh.gov.tw/AHDPortal/index.jsp",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 503,
+    "final": "http://nhd.drnh.gov.tw/AHDPortal/index.jsp",
+    "redirects": 0,
+    "type": "text/plain",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 114,
+    "verdict": "http-error"
+   },
+   {
+    "code": 503,
+    "final": "http://nhd.drnh.gov.tw/AHDPortal/index.jsp",
+    "redirects": 0,
+    "type": "text/plain",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 114,
+    "verdict": "http-error"
+   },
+   {
+    "code": 503,
+    "final": "http://nhd.drnh.gov.tw/AHDPortal/index.jsp",
+    "redirects": 0,
+    "type": "text/plain",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 114,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 167): Taiwan Postwar National Historical Archive"
+  ]
+ },
+ {
+  "url": "https://twtjcdb.tjc.gov.tw/",
+  "verdict": "proxy",
+  "attempts": [
+   {
+    "code": 0,
+    "final": "https://twtjcdb.tjc.gov.tw/",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 56,
+    "error": "curl: (56) CONNECT tunnel failed, response 502",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "proxy"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 168): 臺灣轉型正義資料庫 Taiwan Transitional Justice Commission Archive"
+  ]
+ },
+ {
+  "url": "https://twtjcdb.tjc.gov.tw/Manual/Detail/1025",
+  "verdict": "proxy",
+  "attempts": [
+   {
+    "code": 0,
+    "final": "https://twtjcdb.tjc.gov.tw/Manual/Detail/1025",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 56,
+    "error": "curl: (56) CONNECT tunnel failed, response 502",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "proxy"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 168): 使用說明 資料庫內容設定、資料來源、建置過程與編碼工作"
+  ]
+ },
+ {
+  "url": "https://228.drnh.gov.tw/",
+  "verdict": "tls",
+  "attempts": [
+   {
+    "code": 0,
+    "final": "https://228.drnh.gov.tw/",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 60,
+    "error": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, plea",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "tls"
+   },
+   {
+    "code": 0,
+    "final": "https://228.drnh.gov.tw/",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 60,
+    "error": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, plea",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "tls"
+   },
+   {
+    "code": 0,
+    "final": "https://228.drnh.gov.tw/",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 60,
+    "error": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, plea",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "tls"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 169): 二二八事件檔案資料庫"
+  ]
+ },
+ {
+  "url": "http://buddhistinformatics.dila.edu.tw/taiwanbuddhism/tb/",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "http://buddhistinformatics.dila.edu.tw/taiwanbuddhism/tb/",
+    "redirects": 0,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "台灣佛教史料庫 Taiwanese Buddhism",
+    "notfound_text": false,
+    "size": 667,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 170): 台灣佛教史料庫 Taiwanese Buddhism Archive"
+  ]
+ },
+ {
+  "url": "http://buddhistinformatics.dila.edu.tw/taiwanbuddhism/tb/mq/mq_gaz.html",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "http://buddhistinformatics.dila.edu.tw/taiwanbuddhism/tb/mq/mq_gaz.html",
+    "redirects": 0,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "方志類",
+    "notfound_text": false,
+    "size": 3693,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 170): gazetteers"
+  ]
+ },
+ {
+  "url": "http://buddhistinformatics.dila.edu.tw/taiwanbuddhism/tb/ny_new.html",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "http://buddhistinformatics.dila.edu.tw/taiwanbuddhism/tb/ny_new.html",
+    "redirects": 0,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "日據時期台灣佛教史料",
+    "notfound_text": false,
+    "size": 13860,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 170): 南瀛佛教會報 South Seas Buddhist Magazine"
+  ]
+ },
+ {
+  "url": "http://www.digital.ntu.edu.tw/en/achievements.jsp",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 503,
+    "final": "http://www.digital.ntu.edu.tw/en/achievements.jsp",
+    "redirects": 0,
+    "type": "text/plain",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 114,
+    "verdict": "http-error"
+   },
+   {
+    "code": 503,
+    "final": "http://www.digital.ntu.edu.tw/en/achievements.jsp",
+    "redirects": 0,
+    "type": "text/plain",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 114,
+    "verdict": "http-error"
+   },
+   {
+    "code": 200,
+    "final": "http://www.digital.ntu.edu.tw/en/achievements.jsp",
+    "redirects": 0,
+    "type": "text/html; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "拒絕存取（Request Rejected）",
+    "notfound_text": false,
+    "size": 313,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 171): National Taiwan University Digital Projects Home"
+  ]
+ },
+ {
+  "url": "http://thdl.ntu.edu.tw/",
+  "verdict": "moved-ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "http://thdl.ntu.edu.tw/index.html",
+    "redirects": 1,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "台灣歷史數位圖書館 (THDL)",
+    "notfound_text": false,
+    "size": 22185,
+    "verdict": "moved-ok"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 172): Taiwan History Digital Library 台灣歷史數位圖書館"
+  ]
+ },
+ {
+  "url": "http://thdl.ntu.edu.tw/thdl_pdf/%E5%8F%B0%E7%81%A3%E5%8F%A4%E5%A5%91%E7%B4%84%E6%96%87%E6%9B%B8%E5%85%A8%E6%96%87%E8%B3%87%E6%96%99%E5%BA%AB%E7%9A%84%E5%BB%BA%E7%BD%AE%EF%BC%88%E9%A0%85%E6%BD%94%EF%BC%89.pdf",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "http://thdl.ntu.edu.tw/thdl_pdf/%E5%8F%B0%E7%81%A3%E5%8F%A4%E5%A5%91%E7%B4%84%E6%96%87%E6%9B%B8%E5%85%A8%E6%96%87%E8%B3%87%E6%96%99%E5%BA%AB%E7%9A%84%E5%BB%BA%E7%BD%AE%EF%BC%88%E9%A0%85%E6%BD%94%EF%BC%89.pdf",
+    "redirects": 0,
+    "type": "application/pdf",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 379480,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 172): 台灣古契約文書全文資料庫的建置"
+  ]
+ },
+ {
+  "url": "http://thdl.ntu.edu.tw/tools/",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "http://thdl.ntu.edu.tw/tools/",
+    "redirects": 0,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "臺灣歷史數位圖書館研究工具集-Research Tools for Taiwan History Digital Library",
+    "notfound_text": false,
+    "size": 11645,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 173): Research Tools for Taiwan History Digital Library 臺灣歷史數位圖書館研究工具集"
+  ]
+ },
+ {
+  "url": "http://thdlgis.digital.ntu.edu.tw/",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "http://thdlgis.digital.ntu.edu.tw/",
+    "redirects": 0,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "THDL古契書歷史地理資訊系統",
+    "notfound_text": false,
+    "size": 117010,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 173): 臺灣總督府抄錄契約文書歷史地理資訊系統"
+  ]
+ },
+ {
+  "url": "http://thdltm.digital.ntu.edu.tw/treemap-infovis.php",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "http://thdltm.digital.ntu.edu.tw/treemap-infovis.php",
+    "redirects": 0,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "《臺灣總督府檔案抄錄契約文書》堡庄階層分析 (TreeMap)",
+    "notfound_text": false,
+    "size": 87872,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 173): THDL臺灣總督府抄錄契書地區分析"
+  ]
+ },
+ {
+  "url": "http://dore.tacp.gov.tw/tacp/pingpu/index.html",
+  "verdict": "dns",
+  "attempts": [
+   {
+    "code": 0,
+    "final": "http://dore.tacp.gov.tw/tacp/pingpu/index.html",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: dore.tacp.gov.tw",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   },
+   {
+    "code": 0,
+    "final": "http://dore.tacp.gov.tw/tacp/pingpu/index.html",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: dore.tacp.gov.tw",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   },
+   {
+    "code": 0,
+    "final": "http://dore.tacp.gov.tw/tacp/pingpu/index.html",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: dore.tacp.gov.tw",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   }
+  ],
+  "dns_check": {
+   "exists": false,
+   "status": 3,
+   "answers": []
+  },
+  "where": [
+   "Chinese and Japanese Language Sources (line 174): 台灣原住民族數位典藏資料庫"
+  ]
+ },
+ {
+  "url": "http://ebooks.lib.ntu.edu.tw/Home/ListBooks",
+  "verdict": "dns",
+  "attempts": [
+   {
+    "code": 0,
+    "final": "http://ebooks.lib.ntu.edu.tw/Home/ListBooks",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: ebooks.lib.ntu.edu.tw",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   },
+   {
+    "code": 0,
+    "final": "http://ebooks.lib.ntu.edu.tw/Home/ListBooks",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: ebooks.lib.ntu.edu.tw",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   },
+   {
+    "code": 0,
+    "final": "http://ebooks.lib.ntu.edu.tw/Home/ListBooks",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: ebooks.lib.ntu.edu.tw",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   }
+  ],
+  "dns_check": {
+   "exists": false,
+   "status": 3,
+   "answers": []
+  },
+  "where": [
+   "Chinese and Japanese Language Sources (line 175): National Taiwan University Library Open Access Books 臺灣大學圖書館 公開取用電子書"
+  ]
+ },
+ {
+  "url": "http://tccra.lib.ntu.edu.tw/tccra_develop/",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "http://tccra.lib.ntu.edu.tw/tccra_develop/",
+    "redirects": 0,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "『日治法院檔案』資料庫",
+    "notfound_text": false,
+    "size": 474,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 176): Taiwan Colonial Court Records"
+  ]
+ },
+ {
+  "url": "http://tcsd.lib.ntu.edu.tw/",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "http://tcsd.lib.ntu.edu.tw/",
+    "redirects": 0,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "臺灣法實證日治時期資料庫",
+    "notfound_text": false,
+    "size": 5633,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 177): Taiwan Database for Empirical Legal Studies"
+  ]
+ },
+ {
+  "url": "http://journal.th.gov.tw/",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 503,
+    "final": "http://journal.th.gov.tw/",
+    "redirects": 0,
+    "type": "text/plain",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 114,
+    "verdict": "http-error"
+   },
+   {
+    "code": 503,
+    "final": "http://journal.th.gov.tw/",
+    "redirects": 0,
+    "type": "text/plain",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 114,
+    "verdict": "http-error"
+   },
+   {
+    "code": 503,
+    "final": "http://journal.th.gov.tw/",
+    "redirects": 0,
+    "type": "text/plain",
+    "curl_exit": 0,
+    "error": "",
+    "title": "",
+    "notfound_text": false,
+    "size": 114,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 178): Digital Library of Local Councils Journals 中華民國地方議會議事錄總庫"
+  ]
+ },
+ {
+  "url": "https://drtpa.th.gov.tw/",
+  "verdict": "soft-404",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://drtpa.th.gov.tw/",
+    "redirects": 0,
+    "type": "text/html; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "臺灣省議會史料總庫",
+    "notfound_text": true,
+    "size": 19058,
+    "verdict": "soft-404"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 179): Digital Repository of Taiwan Provincial Assembly 臺灣省議會史料總庫"
+  ]
+ },
+ {
+  "url": "http://nrch.culture.tw/Default.aspx",
+  "verdict": "http-error",
+  "attempts": [
+   {
+    "code": 520,
+    "final": "http://nrch.culture.tw/Default.aspx",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "culture.tw | 520: Web server is returning an unknown error",
+    "notfound_text": false,
+    "size": 7341,
+    "verdict": "http-error"
+   },
+   {
+    "code": 520,
+    "final": "http://nrch.culture.tw/Default.aspx",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "culture.tw | 520: Web server is returning an unknown error",
+    "notfound_text": false,
+    "size": 7342,
+    "verdict": "http-error"
+   },
+   {
+    "code": 520,
+    "final": "http://nrch.culture.tw/Default.aspx",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "culture.tw | 520: Web server is returning an unknown error",
+    "notfound_text": false,
+    "size": 7342,
+    "verdict": "http-error"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 180): 文化資料庫"
+  ]
+ },
+ {
+  "url": "http://ntur.lib.ntu.edu.tw/",
+  "verdict": "blocked",
+  "attempts": [
+   {
+    "code": 403,
+    "final": "http://ntur.lib.ntu.edu.tw/",
+    "redirects": 0,
+    "type": "text/html;charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "HTTP Status 403 – Forbidden",
+    "notfound_text": false,
+    "size": 979,
+    "verdict": "blocked"
+   },
+   {
+    "code": 403,
+    "final": "http://ntur.lib.ntu.edu.tw/",
+    "redirects": 0,
+    "type": "text/html;charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "HTTP Status 403 – Forbidden",
+    "notfound_text": false,
+    "size": 979,
+    "verdict": "blocked"
+   },
+   {
+    "code": 403,
+    "final": "http://ntur.lib.ntu.edu.tw/",
+    "redirects": 0,
+    "type": "text/html;charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "HTTP Status 403 – Forbidden",
+    "notfound_text": false,
+    "size": 979,
+    "verdict": "blocked"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 181): National Taiwan University Institutional Repository"
+  ]
+ },
+ {
+  "url": "https://dl.ndl.go.jp/",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://dl.ndl.go.jp/",
+    "redirects": 0,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "国立国会図書館デジタルコレクション",
+    "notfound_text": false,
+    "size": 4148,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 182): *National Diet Library of Japan Digital Collections*"
+  ]
+ },
+ {
+  "url": "https://www.jacar.go.jp/",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://www.jacar.go.jp/",
+    "redirects": 0,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "アジア歴史資料センター",
+    "notfound_text": false,
+    "size": 11356,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 183): JACAR"
+  ]
+ },
+ {
+  "url": "https://www.jacar.go.jp/english/jacarbl-fsjwar-e/index.html",
+  "verdict": "moved-ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://www.jacar.go.jp/english/exhibition/jacarbl-fsjwar-e/index.html",
+    "redirects": 1,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Home | The Sino-Japanese War of 1894-1895 ： as seen in prints and archives",
+    "notfound_text": false,
+    "size": 16138,
+    "verdict": "moved-ok"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 183): The Sino-Japanese War of 1894-1895"
+  ]
+ },
+ {
+  "url": "https://babel.hathitrust.org/",
+  "verdict": "blocked",
+  "attempts": [
+   {
+    "code": 403,
+    "final": "https://babel.hathitrust.org/",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Just a moment...",
+    "notfound_text": false,
+    "size": 5677,
+    "verdict": "blocked"
+   },
+   {
+    "code": 403,
+    "final": "https://babel.hathitrust.org/",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Just a moment...",
+    "notfound_text": false,
+    "size": 5677,
+    "verdict": "blocked"
+   },
+   {
+    "code": 403,
+    "final": "https://babel.hathitrust.org/",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Just a moment...",
+    "notfound_text": false,
+    "size": 5677,
+    "verdict": "blocked"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 184): HathiTrust"
+  ]
+ },
+ {
+  "url": "http://froginawell.net/guides/japanese-colonialism.html",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://froginawell.net/guides/japanese-colonialism.html",
+    "redirects": 1,
+    "type": "text/html",
+    "curl_exit": 0,
+    "error": "",
+    "title": "A Basic Guide to Resources on Japanese Colonialism",
+    "notfound_text": false,
+    "size": 51373,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "Chinese and Japanese Language Sources (line 185): Basic Guide to Resources on Japanese Colonialism"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/educationinformo00arno/page/n8/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/educationinformo00arno/page/n8/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Education in Formosa : Arnold, Julean Herbert, 1875-1946 : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 244062,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 2: Education in Formosa"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/people-of-formosa/page/n1/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/people-of-formosa/page/n1/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "The Peoples Of Formosa : Arnold, Julean H. : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 227869,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 3: The Peoples Of Formosa"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/wanderingswonde01aubegoog/page/n10/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/wanderingswonde01aubegoog/page/n10/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Wanderings &amp; wonderings. India, Burma, Kashmir, Ceylon, Singapore, Java, Siam, Japan, Manila, Formosa, Korea, China, Cambodia, Australia, New Zealand, Alaska, the States : Aubertin, J. J. (John Ja",
+    "notfound_text": false,
+    "size": 283493,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 4: Wanderings & wonderings. India, Burma, Kashmir, Ceylon, Singapore, Jav"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/ballantine-formosa/page/iii/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/ballantine-formosa/page/iii/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Formosa: A Problem for United States Foreign Policy : Joseph Ballantine : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 219977,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 5: Formosa: A Problem for United States Foreign Policy"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/easternseasvoya00baxgoog/page/n7/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/easternseasvoya00baxgoog/page/n7/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "The Eastern seas: the voyage of H.M.S. 'Dwarf' in China, Japan, and Formosa : Bonham Ward Bax : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 220001,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 6: The Eastern Seas: The Voyage Of H.M.S. 'Dwarf' In China, Japan, And Fo"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/bigelow-japan-and-her-colonies-being-extracts-from/page/iii/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/bigelow-japan-and-her-colonies-being-extracts-from/page/iii/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Japan And Her Colonies, Being Extracts From a Diary Made Whilst Visiting Formosa, Manchuria, Shantung, Korea and Saghalin in the Year 1921 : Poultney Bigelow : Free Download, Borrow, and Streaming : I",
+    "notfound_text": false,
+    "size": 226044,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 7: Japan And Her Colonies, Being Extracts From a Diary Made Whilst Visiti"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/presentdayimpres00came/page/n14/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/presentdayimpres00came/page/n14/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Present day impressions of Japan; the history, people, commerce, industries and resources of Japan and Japan's colonial empire, Kwantung, Chosen, Taiwan, Karafuto; : Cameron, W. H. Morton : Free Downl",
+    "notfound_text": false,
+    "size": 317681,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 8: Present Day Impressions Of Japan; The History, People, Commerce, Indus"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/sketches-from-formosa/page/n6/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/sketches-from-formosa/page/n6/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Sketches From Formosa : William Campbell : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 227746,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 9: Sketches from Formosa"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/cu31924023514403/page/n6/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/cu31924023514403/page/n6/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Formosa under the Dutch : described from contemporary records, with explanatory notes and a bibliography of the island : Campbell, Wm. (William), 1841-1921 : Free Download, Borrow, and Streaming : Int",
+    "notfound_text": false,
+    "size": 282420,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 10: Formosa Under The Dutch : Described From Contemporary Records, With Ex"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/accountofmission02camp/page/n4/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/accountofmission02camp/page/n4/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "An account of missionary success in the island of Formosa: published in London in 1650 and now reprinted with copious appendices : Campbell, William, 1841-1921 : Free Download, Borrow, and Streaming :",
+    "notfound_text": false,
+    "size": 269694,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 11: An Account of Missionary Success in the Island of Formosa"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/dictionaryofamoy00camp/page/n14/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/dictionaryofamoy00camp/page/n14/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "A dictionary of the Amoy vernacular spoken throughout the prefectures of Chin-Chiu, Chiang-Chiu and Formosa : Campbell, William, 1841-1921 : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 330998,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 12: A Dictionary Of The Amoy Vernacular Spoken Throughout The Prefectures "
+  ]
+ },
+ {
+  "url": "https://archive.org/details/past-and-future-of-formosa/page/n1/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/past-and-future-of-formosa/page/n1/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Past And Future Of Formosa : William Campbell : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 221424,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 13: Past And Future Of Formosa"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/georgelesliemack00carr/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/georgelesliemack00carr/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "George Leslie Mackay: pioneer missionary in Northern Formosa : Carr, Floyd L : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 240054,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 14: George Leslie Mackay: Pioneer Missionary In Northern Formosa"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/formosa00unkngoog",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/formosa00unkngoog",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Formosa : Clark, J. D. (John D.), 1842- compiler : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 253395,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 15: Formosa"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/cu31924024005807/page/n6/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/cu31924024005807/page/n6/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Rambles of a naturalist on the shores and waters of the China Sea : being observations in natural history during a voyage to China, Formosa, Borneo, Singapore, etc., made in Her Majesty's vessels in 1",
+    "notfound_text": false,
+    "size": 269604,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 16: Rambles Of A Naturalist On The Shores And Waters Of The China Sea : Be"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/tverwaerloosdef00coyegoog/page/n10/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/tverwaerloosdef00coyegoog/page/n10/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "'t verwaerloosde Formosa, of Waerachtig verhael, hoedanigh door verwaerloosinge der der ... : C. E. S., Frederik Coyett : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 222711,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 17: 't verwaerloosde Formosa, of Waerachtig verhael, hoedanigh door verwae"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/islandofformosap00davi/page/n10/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/islandofformosap00davi/page/n10/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "The island of Formosa, past and present. History, people, resources, and commercial prospects. Tea, camphor, sugar, gold, coal, sulphur, economical plants, and other productions : Davidson, James Whee",
+    "notfound_text": false,
+    "size": 303828,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 18: The Island of Formosa : Historical View from 1430 to 1900: History, Pe"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/dickson-these-my-people/page/1/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/dickson-these-my-people/page/1/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "These My People: Serving Christ Among the Mountain People of Formosa : Lillian Dickson : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 221522,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 19: These My People: Serving Christ Among the Mountain People of Formosa"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/cu31924023514452/page/n4/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/cu31924023514452/page/n4/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Journal of a blockaded resident in North Formosa during the Franco-Chinese War, 1884-5 : Dodd, John : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 218695,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 20: Journal Of A Blockaded Resident In North Formosa During The Franco-Chi"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/cruiseofmarchesa02guil/page/n10/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/cruiseofmarchesa02guil/page/n10/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "The cruise of the Marchesa to Kamschatka &amp; New Guinea : with notices of Formosa, Liu-Kiu, and various islands of the Malay archipelago : Guillemard, F. H. H. (Francis Henry Hill), 1852-1933 : Free",
+    "notfound_text": false,
+    "size": 278239,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 22: The Cruise Of The Marchesa To Kamschatka & New Guinea : With Notices O"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/fischer-streifzuge-durch-formosa.-full-view/page/n8/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/fischer-streifzuge-durch-formosa.-full-view/page/n8/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Streifzuge Durch Formosa. Full View : Adolph Fischer : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 223649,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 23: Streifzuge Durch Formosa"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/fitch-formosa-beachhead./page/n6/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/fitch-formosa-beachhead./page/n6/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Formosa Beachhead : Geraldine Fitch : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 220883,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 24: Formosa Beachhead"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/in.ernet.dli.2015.173812/page/n3/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/in.ernet.dli.2015.173812/page/n3/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Glimpses Of Japan And Formosa : Harry A. Franck : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 222171,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 25: Glimpses of Japan and Formosa"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/callofeastromanc0000fras/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/callofeastromanc0000fras/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "The call of the East : a romance of far Formosa : Fraser, Thurlow, 1869-1926 : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 268359,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 26: The Call Of The East; A Romance Of Far Formosa"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/unfathomed-japan/page/1/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/unfathomed-japan/page/1/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Unfathomed Japan: A Travel Tale in the Highways and Byways of Japan and Formosa : Harold and Alice Focht : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 228903,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 27: Unfathomed Japan: A Travel Tale in the Highways and Byways of Japan an"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/ginsburg-the-economic-resources-and-development-of-formosa/page/n6/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/ginsburg-the-economic-resources-and-development-of-formosa/page/n6/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "The Economic Resources And Development Of Formosa : Norton S. Ginsburg : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 225727,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 28: The Economic Resources And Development Of Formosa"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/hannah-korea-japan-taiwan-formosa-and-the-philippines/page/n3/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/hannah-korea-japan-taiwan-formosa-and-the-philippines/page/n3/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Korea, Japan, Taiwan ( Formosa) And The Philippines : John A Hannah : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 225249,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 29: Korea, Japan, Taiwan ( Formosa) And The Philippines"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/ausdenwaldungen00hofmgoog/page/n9/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/ausdenwaldungen00hofmgoog/page/n9/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Aus den waldungen des Fernen Ostens; forstliche reisen und studien in Japan, Formosa, Korea und den angrenzenden gebieten Ostasiens : Hofmann, Amerigo : Free Download, Borrow, and Streaming : Internet",
+    "notfound_text": false,
+    "size": 223081,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 30: Aus Den Waldungen Des Fernen Ostens; Forstliche Reisen Und Studien In "
+  ]
+ },
+ {
+  "url": "https://archive.org/details/japan-korea-and-formosa/page/n4/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/japan-korea-and-formosa/page/n4/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Japan Korea And Formosa : Burton Holmes : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 220304,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 31: Japan Korea And Formosa"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/japaneseexpedit03housgoog/page/n7/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/japaneseexpedit03housgoog/page/n7/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "The Japanese expedition to Formosa : House, Edward Howard, 1836-1901 : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 236427,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 32: The Japanese Expedition to Formosa"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/cu31924023225463/page/n6/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/cu31924023225463/page/n6/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Among the sons of Han : notes of six years' residence in various parts of China and Formosa : Hughes, Thomas Francis, Mrs : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 217977,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 33: Among The Sons Of Han : Notes Of Six Years' Residence In Various Parts"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/cu31924022972396/page/n10/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/cu31924022972396/page/n10/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "China and Formosa : the story of the mission of the Presbyterian church of England : Johnston, James, F.S.S : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 225131,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 34: China And Formosa : The Story Of The Mission Of The Presbyterian Churc"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/blackbeardedbar00keit/page/n5/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/blackbeardedbar00keit/page/n5/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "The black-bearded barbarian : Mackay of Formosa : Keith, Marian : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 261038,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 35: The Black-Bearded Barbarian : The Life of George Leslie Mackay of Form"
+  ]
+ },
+ {
+  "url": "http://homepage.usask.ca/~llr130/taiwanlibrary/kerr/",
+  "verdict": "dns",
+  "attempts": [
+   {
+    "code": 0,
+    "final": "http://homepage.usask.ca/~llr130/taiwanlibrary/kerr/",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: homepage.usask.ca",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   },
+   {
+    "code": 0,
+    "final": "http://homepage.usask.ca/~llr130/taiwanlibrary/kerr/",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: homepage.usask.ca",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   },
+   {
+    "code": 0,
+    "final": "http://homepage.usask.ca/~llr130/taiwanlibrary/kerr/",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: homepage.usask.ca",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   }
+  ],
+  "dns_check": {
+   "exists": false,
+   "status": 3,
+   "answers": []
+  },
+  "where": [
+   "books.csv row 36: Formosa Betrayed"
+  ]
+ },
+ {
+  "url": "http://homepage.usask.ca/~llr130/taiwanlibrary/kerr/kerr.pdf",
+  "verdict": "dns",
+  "attempts": [
+   {
+    "code": 0,
+    "final": "http://homepage.usask.ca/~llr130/taiwanlibrary/kerr/kerr.pdf",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: homepage.usask.ca",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   },
+   {
+    "code": 0,
+    "final": "http://homepage.usask.ca/~llr130/taiwanlibrary/kerr/kerr.pdf",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: homepage.usask.ca",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   },
+   {
+    "code": 0,
+    "final": "http://homepage.usask.ca/~llr130/taiwanlibrary/kerr/kerr.pdf",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: homepage.usask.ca",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   }
+  ],
+  "dns_check": {
+   "exists": false,
+   "status": 3,
+   "answers": []
+  },
+  "where": [
+   "books.csv row 36: Formosa Betrayed"
+  ]
+ },
+ {
+  "url": "https://web.archive.org/web/20200508090937/http://homepage.usask.ca/~llr130/taiwanlibrary/kerr/",
+  "verdict": "tls",
+  "attempts": [
+   {
+    "code": 0,
+    "final": "https://web.archive.org/web/20200508090937/http://homepage.usask.ca/~llr130/taiwanlibrary/kerr/",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 35,
+    "error": "curl: (35) Recv failure: Connection reset by peer",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "tls"
+   },
+   {
+    "code": 0,
+    "final": "https://web.archive.org/web/20200508090937/http://homepage.usask.ca/~llr130/taiwanlibrary/kerr/",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 35,
+    "error": "curl: (35) Recv failure: Connection reset by peer",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "tls"
+   },
+   {
+    "code": 0,
+    "final": "https://web.archive.org/web/20200508090937/http://homepage.usask.ca/~llr130/taiwanlibrary/kerr/",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 35,
+    "error": "curl: (35) Recv failure: Connection reset by peer",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "tls"
+   }
+  ],
+  "where": [
+   "books.csv row 36: Formosa Betrayed"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/cu31924023021458/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/cu31924023021458/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "In beautiful Formosa : being a personally conducted tour of boys and girls to view the people, the scenery, and the work of the missionaries in strange and lovely places : Landsborough, Marjorie : Fre",
+    "notfound_text": false,
+    "size": 226458,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 37: In Beautiful Formosa : Being A Personally Conducted Tour Of Boys And G"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/economic-study-of-land-use-in-the-taipei-area-taiwan-1961",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/economic-study-of-land-use-in-the-taipei-area-taiwan-1961",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Economic Study Of Land Use In The Taipei Area, Taiwan 1961 : Tsoung Chao Lee : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 232417,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 38: Economic Study Of Land Use In The Taipei Area, Taiwan 1961"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/is-aboriginal-formosa-a-part-of-the-chinese-empire/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/is-aboriginal-formosa-a-part-of-the-chinese-empire/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Is Aboriginal Formosa A Part Of The Chinese Empire? : Charles LeGendre : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 224798,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 39: Is Aboriginal Formosa A Part Of The Chinese Empire?"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/fromfarformosai00macdgoog",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/fromfarformosai00macdgoog",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "From far Formosa. The island, its people and missions : Mackay, George Leslie, 1844-1901 : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 223283,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 40: From Far Formosa The Island: The Island, Its People And Missions"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/mailla-the-early-history-of-formosa/page/1/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/mailla-the-early-history-of-formosa/page/1/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "The Early History Of Formosa : Faither de Mailla, S. J. : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 229935,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 41: The Early History Of Formosa"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/armyofficeronlea00mausiala/page/n12/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/armyofficeronlea00mausiala/page/n12/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "An army officer on leave in Japan; including a sketch of Manila and environment, Philippine insurrection of 1896-7, Dewey's battle of Manila Bay and a description of Formosa : Maus, L. Mervin (Louis M",
+    "notfound_text": false,
+    "size": 268979,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 42: An Army Officer On Leave In Japan; Including A Sketch Of Manila And En"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/islandbeautifuls00macl/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/islandbeautifuls00macl/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "The island beautiful : the story of fifty years in North Formosa : Macleod, Duncan : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 258937,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 43: The Island Beautiful : The Story Of Fifty Years In North Formosa"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/amongheadhunters00mcgouoft",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/amongheadhunters00mcgouoft",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Among the head-hunters of Formosa : McGovern, Janet B. Montgomery : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 261772,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 44: Among the Head-hunters of Formosa"
+  ]
+ },
+ {
+  "url": "http://www.gutenberg.org/ebooks/53746",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://www.gutenberg.org/ebooks/53746",
+    "redirects": 1,
+    "type": "text/html;charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Among the Head-Hunters of Formosa by Janet B. Montgomery McGovern | Project Gutenberg",
+    "notfound_text": false,
+    "size": 24721,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 44 notes: Among the Head-hunters of Formosa"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/mc-govern-the-butterflies-of-taiwan-full-view/page/n6/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/mc-govern-the-butterflies-of-taiwan-full-view/page/n6/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "The Butterflies Of Taiwan : Full View : McGovern, Janet B. Montgomery : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 223275,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 45: The Butterflies Of Taiwan and other Fantasies"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/mitchell-camphor-in-japan-and-in-formosa/page/n10/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/mitchell-camphor-in-japan-and-in-formosa/page/n10/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Camphor In Japan And In Formosa : Charles Archibald Mitchell : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 223310,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 46: Camphor In Japan And In Formosa"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/moody-the-heathen-heart-full-view",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/moody-the-heathen-heart-full-view",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "The Heathen Heart or: The Gospel Among the Chinese of Formosa : Campbell N. Moody : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 217230,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 47: The Heathen Heart : An Account Of The Reception Of The Gospel Among Th"
+  ]
+ },
+ {
+  "url": "http://homepage.usask.ca/~llr130/taiwanlibrary/peng/freeframes.htm",
+  "verdict": "dns",
+  "attempts": [
+   {
+    "code": 0,
+    "final": "http://homepage.usask.ca/~llr130/taiwanlibrary/peng/freeframes.htm",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: homepage.usask.ca",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   },
+   {
+    "code": 0,
+    "final": "http://homepage.usask.ca/~llr130/taiwanlibrary/peng/freeframes.htm",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: homepage.usask.ca",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   },
+   {
+    "code": 0,
+    "final": "http://homepage.usask.ca/~llr130/taiwanlibrary/peng/freeframes.htm",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: homepage.usask.ca",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   }
+  ],
+  "dns_check": {
+   "exists": false,
+   "status": 3,
+   "answers": []
+  },
+  "where": [
+   "books.csv row 48: A Taste of Freedom: Memoirs of a Taiwanese Independence Leader"
+  ]
+ },
+ {
+  "url": "https://web.archive.org/save/http://homepage.usask.ca/~llr130/taiwanlibrary/peng/freeframes.htm",
+  "verdict": "tls",
+  "attempts": [
+   {
+    "code": 0,
+    "final": "https://web.archive.org/save/http://homepage.usask.ca/~llr130/taiwanlibrary/peng/freeframes.htm",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 35,
+    "error": "curl: (35) Recv failure: Connection reset by peer",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "tls"
+   },
+   {
+    "code": 0,
+    "final": "https://web.archive.org/save/http://homepage.usask.ca/~llr130/taiwanlibrary/peng/freeframes.htm",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 35,
+    "error": "curl: (35) Recv failure: Connection reset by peer",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "tls"
+   },
+   {
+    "code": 0,
+    "final": "https://web.archive.org/save/http://homepage.usask.ca/~llr130/taiwanlibrary/peng/freeframes.htm",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 35,
+    "error": "curl: (35) Recv failure: Connection reset by peer",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "tls"
+   }
+  ],
+  "where": [
+   "books.csv row 48: A Taste of Freedom: Memoirs of a Taiwanese Independence Leader"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/perkins-report-on-formosa/page/1/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/perkins-report-on-formosa/page/1/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Report On Formosa : N. Perkins : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 221107,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 49: Report On Formosa"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/in.ernet.dli.2015.31822/page/n9/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/in.ernet.dli.2015.31822/page/n9/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Pioneering In Formosa : Pickering, W. A. : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 221892,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 50: Pioneering in Formosa"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/historicalgeogra00psal",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/historicalgeogra00psal",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "An historical and geographical description of Formosa. : Giving an account of the religion, customs, manners, &amp;c., of the inhabitants. Together with a relation of what happened to the author in hi",
+    "notfound_text": false,
+    "size": 264253,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 51: An Historical And Geographical Description Of Formosa. : Giving An Acc"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/memoirsof00psaluoft/page/n8/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/memoirsof00psaluoft/page/n8/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Memoirs of **** : Psalmanazar, George, 1679?-1763 : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 267110,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 52: Memoirs of . Commonly Known as George Psalmanazar; A Reputed Native of"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/riess-geschichte-der-insel-formosa.-full-view/page/n2/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/riess-geschichte-der-insel-formosa.-full-view/page/n2/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Geschichte Der Insel Formosa : Ludwig Riess : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 223631,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 53: Geschichte Der Insel Formosa"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/formosa-under-chinese-nationalist-rule/page/n6/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/formosa-under-chinese-nationalist-rule/page/n6/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Formosa Under Chinese Nationalist Rule : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 216609,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 54: Formosa Under Chinese Nationalist Rule"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/throughformosaac00ruttuoft/page/n9/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/throughformosaac00ruttuoft/page/n9/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Through Formosa : an account of Japan's island colony : Rutter, Owen, 1889-1944 : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 265452,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 55: Through Formosa : An Account Of Japan'S Island Colony"
+  ]
+ },
+ {
+  "url": "http://homepage.usask.ca/~llr130/taiwanlibrary/formosacalling/formosaframes.htm",
+  "verdict": "dns",
+  "attempts": [
+   {
+    "code": 0,
+    "final": "http://homepage.usask.ca/~llr130/taiwanlibrary/formosacalling/formosaframes.htm",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: homepage.usask.ca",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   },
+   {
+    "code": 0,
+    "final": "http://homepage.usask.ca/~llr130/taiwanlibrary/formosacalling/formosaframes.htm",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: homepage.usask.ca",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   },
+   {
+    "code": 0,
+    "final": "http://homepage.usask.ca/~llr130/taiwanlibrary/formosacalling/formosaframes.htm",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 6,
+    "error": "curl: (6) Could not resolve host: homepage.usask.ca",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "dns"
+   }
+  ],
+  "dns_check": {
+   "exists": false,
+   "status": 3,
+   "answers": []
+  },
+  "where": [
+   "books.csv row 56: Formosa Calling: An Eyewitness Account of the February 28th, 1947 Inci"
+  ]
+ },
+ {
+  "url": "https://web.archive.org/web/20191010063006fw_/http://homepage.usask.ca/~llr130/taiwanlibrary/formosacalling/formosa-calling.pdf",
+  "verdict": "tls",
+  "attempts": [
+   {
+    "code": 0,
+    "final": "https://web.archive.org/web/20191010063006fw_/http://homepage.usask.ca/~llr130/taiwanlibrary/formosacalling/formosa-calling.pdf",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 35,
+    "error": "curl: (35) Recv failure: Connection reset by peer",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "tls"
+   },
+   {
+    "code": 0,
+    "final": "https://web.archive.org/web/20191010063006fw_/http://homepage.usask.ca/~llr130/taiwanlibrary/formosacalling/formosa-calling.pdf",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 35,
+    "error": "curl: (35) Recv failure: Connection reset by peer",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "tls"
+   },
+   {
+    "code": 0,
+    "final": "https://web.archive.org/web/20191010063006fw_/http://homepage.usask.ca/~llr130/taiwanlibrary/formosacalling/formosa-calling.pdf",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 35,
+    "error": "curl: (35) Recv failure: Connection reset by peer",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "tls"
+   }
+  ],
+  "where": [
+   "books.csv row 56: Formosa Calling: An Eyewitness Account of the February 28th, 1947 Inci"
+  ]
+ },
+ {
+  "url": "https://web.archive.org/web/20191008224559/http://homepage.usask.ca/~llr130/taiwanlibrary/formosacalling/formosaframes.htm",
+  "verdict": "tls",
+  "attempts": [
+   {
+    "code": 0,
+    "final": "https://web.archive.org/web/20191008224559/http://homepage.usask.ca/~llr130/taiwanlibrary/formosacalling/formosaframes.htm",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 35,
+    "error": "curl: (35) Recv failure: Connection reset by peer",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "tls"
+   },
+   {
+    "code": 0,
+    "final": "https://web.archive.org/web/20191008224559/http://homepage.usask.ca/~llr130/taiwanlibrary/formosacalling/formosaframes.htm",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 35,
+    "error": "curl: (35) Recv failure: Connection reset by peer",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "tls"
+   },
+   {
+    "code": 0,
+    "final": "https://web.archive.org/web/20191008224559/http://homepage.usask.ca/~llr130/taiwanlibrary/formosacalling/formosaframes.htm",
+    "redirects": 0,
+    "type": "",
+    "curl_exit": 35,
+    "error": "curl: (35) Recv failure: Connection reset by peer",
+    "title": "",
+    "notfound_text": false,
+    "size": 0,
+    "verdict": "tls"
+   }
+  ],
+  "where": [
+   "books.csv row 56: Formosa Calling: An Eyewitness Account of the February 28th, 1947 Inci"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/luzon-vs-formosa/page/n4/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/luzon-vs-formosa/page/n4/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Luzon Vs Formosa : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 218841,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 57: Luzon Vs Formosa"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/bub_gb_pB87AQAAIAAJ/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/bub_gb_pB87AQAAIAAJ/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Eine Reise in das Innere der Insel Formosa und die erste Besteigung des Niitakayama (Mount Morrison), Weihnachten 1898 : Stöpel, Karl Theodor, 1862. [from old catalog]- : Free Download, Borrow, and S",
+    "notfound_text": false,
+    "size": 243222,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 58: Eine Reise In Das Innere Der Insel Formosa Und Die Erste Besteigung De"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/diehygienischenv00form/page/n10/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/diehygienischenv00form/page/n10/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Die hygienischen verhaltnisse der insel Formosa, im auftrage des generalgouvernements Formosa : Formosa (Government-general of Taiwan, 1895-1945) : Free Download, Borrow, and Streaming : Internet Arch",
+    "notfound_text": false,
+    "size": 261890,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 59: Die Hygienischen Verhaltnisse Der Insel Formosa, Im Auftrage Des Gener"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/japaneseruleinf00takegoog",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/japaneseruleinf00takegoog",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Japanese rule in Formosa : Takekoshi, Yosaburō, 1865-1950 : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 217384,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 60: Japanese Rule in Formosa"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/wiedfeldt-wirtschaftliche-rechtliche-und-soziale-grundtatsachen/page/n8/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/wiedfeldt-wirtschaftliche-rechtliche-und-soziale-grundtatsachen/page/n8/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Wirtschaftliche, Rechtliche Und Soziale Grundtatsachen und Grundformen der Atayalen auf Formosa : O. Wiedfeldt : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 225673,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 61: Wirtschaftliche, Rechtliche Und Soziale Grundtatsachen und Grundformen"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/united-states-tariff-commission.-annotated-tabular-taiwan/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/united-states-tariff-commission.-annotated-tabular-taiwan/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Japanese Trade Studies Annotated Tabular Japan Korea Taiwan : United States Tariff Commission : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 225841,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 62: Japanese Trade Studies Annotated Tabular Survey of the Trade of Japan "
+  ]
+ },
+ {
+  "url": "https://archive.org/details/u.-s.-economic-assistance-to-formosa/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/u.-s.-economic-assistance-to-formosa/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "U. S. Economic Assistance To Formosa, : Economic Cooperation Administration : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 223301,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 63: U. S. Economic Assistance To Formosa"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/annual-report-on-the-trade-of-north-formosa-1886-1909/page/n6/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/annual-report-on-the-trade-of-north-formosa-1886-1909/page/n6/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Annual Report On The Trade Of North Formosa 1886 1909 : British Foreign Office : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 224064,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 64: Annual Report On The Trade Of North Formosa 1886-1909"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/annual-report-on-the-trade-of-south-formosa.-1887-1909/page/n5/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/annual-report-on-the-trade-of-south-formosa.-1887-1909/page/n5/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Annual Report On The Trade Of South Formosa. 1887-1909 : British Foreign Office : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 224983,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 65: Annual Report On The Trade Of South Formosa. 1887-1909"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/japan-1913-14-trade-on-the-island-of-formosa_202005/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/japan-1913-14-trade-on-the-island-of-formosa_202005/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Japan 1913-14 Trade On The Island Of Formosa : British Foreign Office : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 224409,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 66: Report for the Year 1913 on the Trade of the Island of Formosa"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/united-states.-taiwan-formosa-karenko-and-taito-provinces.-full-view/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/united-states.-taiwan-formosa-karenko-and-taito-provinces.-full-view/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Taiwan ( Formosa) Karenko And Taito Provinces : US Navy : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 226413,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 67: Civil Affairs Handbooks on Taiwan"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/taiwan-formosa-shinchiku-province-1944/page/n4/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/taiwan-formosa-shinchiku-province-1944/page/n4/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Taiwan ( Formosa) Shinchiku Province : US Navy : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 223463,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 67: Civil Affairs Handbooks on Taiwan"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/taiwan-formosa-taichu-province-1944/page/i/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/taiwan-formosa-taichu-province-1944/page/i/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Taiwan ( Formosa) Taichu Province : US Navy : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 221856,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 67: Civil Affairs Handbooks on Taiwan"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/taiwan-formosa-tainan-province-1944/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/taiwan-formosa-tainan-province-1944/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Taiwan ( Formosa) Tainan Province : US Navy : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 222787,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 67: Civil Affairs Handbooks on Taiwan"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/united-states.-taiwan-formosa-the-pescadores-islands.-full-view/page/1944/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/united-states.-taiwan-formosa-the-pescadores-islands.-full-view/page/1944/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "United States. Taiwan ( Formosa) The Pescadores Islands : US Navy : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 226078,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 67: Civil Affairs Handbooks on Taiwan"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/taiwan-formosa-economic-supplement/page/n4/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/taiwan-formosa-economic-supplement/page/n4/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Taiwan ( Formosa) Economic Supplement : US Navy : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 222732,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 67: Civil Affairs Handbooks on Taiwan"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/the-fishing-industry-in-taiwan-formosa/page/1944/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/the-fishing-industry-in-taiwan-formosa/page/1944/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "The Fishing Industry In Taiwan ( Formosa) : US Navy : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 223193,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 67: Civil Affairs Handbooks on Taiwan"
+  ]
+ },
+ {
+  "url": "https://archive.org/details/united-states.-japanese-administrative-organization/page/n2/mode/2up",
+  "verdict": "ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "https://archive.org/details/united-states.-japanese-administrative-organization/page/n2/mode/2up",
+    "redirects": 0,
+    "type": "text/html; charset=UTF-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Japanese Administrative Organization in Taiwan (Formosa) : US Navy : Free Download, Borrow, and Streaming : Internet Archive",
+    "notfound_text": false,
+    "size": 224669,
+    "verdict": "ok"
+   }
+  ],
+  "where": [
+   "books.csv row 67: Civil Affairs Handbooks on Taiwan"
+  ]
+ },
+ {
+  "url": "https://doi.org/10.1525/luminos.41",
+  "verdict": "moved-ok",
+  "attempts": [
+   {
+    "code": 200,
+    "final": "http://www.luminosoa.org/books/m/10.1525/luminos.41",
+    "redirects": 7,
+    "type": "text/html; charset=utf-8",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Loading metrics",
+    "notfound_text": false,
+    "size": 296417,
+    "verdict": "moved-ok"
+   }
+  ],
+  "where": [
+   "books.csv row 68: Outcasts of Empire Japan's Rule on Taiwan's \"Savage Border,\" 1874-1945"
+  ]
+ },
+ {
+  "url": "https://www.facebook.com/groups/811812725675036/?ref=group_header",
+  "verdict": "moved-ok",
+  "attempts": [
+   {
+    "code": 400,
+    "final": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F811812725675036%2F%3Fref%3Dgroup_header",
+    "redirects": 1,
+    "type": "text/html; charset=\"utf-8\"",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Error",
+    "notfound_text": false,
+    "size": 1542,
+    "verdict": "http-error"
+   },
+   {
+    "code": 200,
+    "final": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F811812725675036%2F%3Fref%3Dgroup_header",
+    "redirects": 1,
+    "type": "text/html; charset=\"utf-8\"",
+    "curl_exit": 0,
+    "error": "",
+    "title": "Facebook",
+    "notfound_text": false,
+    "size": 65665,
+    "verdict": "moved-ok"
+   }
+  ],
+  "where": [
+   "config credits: Taiwan History"
+  ]
+ }
+]

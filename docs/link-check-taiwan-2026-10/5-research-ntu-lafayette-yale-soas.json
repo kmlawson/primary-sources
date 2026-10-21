@@ -1,0 +1,114 @@
+[
+ {
+  "url": "http://digital.lafayette.edu/islandora/search/*:*?f[0]=cdm.Relation.IsPartOf:%22East%20Asia%20Image%20Collection%22&f[1]=eastasia.Coverage.Location.Country:%22Taiwan%22",
+  "broken": true,
+  "reason": "Old Islandora search; digital.lafayette.edu now 301-redirects this URL to the Digital Scholarship Services front page (dss.lafayette.edu), so readers see no images",
+  "replacement": "https://ldr.lafayette.edu/collections/dz010q56p",
+  "confidence": "medium",
+  "evidence": "Web search shows the East Asia Image Collection is now at ldr.lafayette.edu/collections/dz010q56p (titled 'East Asia Image Collection // Lafayette Digital Repository', 22 subcollections, 7053 works, Taiwan material included). ldr.lafayette.edu shows an AWS WAF captcha to our sandbox, so it could not be fetched. Also it is the whole collection, not a Taiwan-only filter."
+ },
+ {
+  "url": "http://digital.lafayette.edu/collections/eastasia/tjwar-postcards/browse?fbclid=IwAR1mZ3WW5NwoZLzNRtDRUgqxAXo0ZJQnibXaxV4hEl_l8Fb2w_ov_tz4aQ0",
+  "broken": true,
+  "reason": "digital.lafayette.edu collection pages are retired; the URL goes to ldr.lafayette.edu/redirect, and the fbclid parameter is mangled into the path (the check got a 404)",
+  "replacement": "https://ldr.lafayette.edu/collections/6d56zx101",
+  "confidence": "medium",
+  "evidence": "Web search result titled 'The Truku-Japanese War Commemorative Postcard Collection // Lafayette Digital Repository' at ldr.lafayette.edu/collections/6d56zx101, with items tj0001-tj0086 (1914 Taroko expedition postcards). Same collection, official successor platform. It could not be fetched (WAF captcha), so it is not high."
+ },
+ {
+  "url": "http://photo.lib.ntu.edu.tw/pic/db/oldphoto.jsp",
+  "broken": true,
+  "reason": "Host photo.lib.ntu.edu.tw no longer resolves; the database moved to NTU Library's Omeka S digital collections",
+  "replacement": "https://dl.lib.ntu.edu.tw/s/photo/page/Home",
+  "confidence": "high",
+  "evidence": "NTU special-collections page speccoll.lib.ntu.edu.tw/node/110 ('臺灣舊照片資料庫') links to dl.lib.ntu.edu.tw/s/photo. Fetched it: title '臺灣舊照片資料庫 · 首頁 · 國立臺灣大學圖書館數位典藏館'. The text describes the same 2001 國家文化資料庫 old-photo project, now over 43,000 records. Search is in Chinese, as the page text says."
+ },
+ {
+  "url": "http://newnrch.digital.ntu.edu.tw/prototype/index.php",
+  "broken": "unknown",
+  "reason": "Our egress proxy cannot connect: it returns 503 'upstream connect error ... connection timeout' (an Envoy message, not the site's own), and WebFetch also got 503. There is no evidence it is up or down for normal readers.",
+  "replacement": null,
+  "confidence": null,
+  "evidence": "No successor found for the NTU-hosted NRCH prototype. The Ministry of Culture's 國家文化記憶庫 (tcmb.culture.tw) is the related national cultural-heritage portal, but nothing found ties it to this specific NRCH site. Owner may want to check it from a normal browser."
+ },
+ {
+  "url": "http://findit.library.yale.edu/?utf8=%E2%9C%93&id=digcoll%3A2819769&search_field=creator&q=Department+of+Education%2C+Taiwan",
+  "broken": true,
+  "reason": "findit.library.yale.edu is retired; the URL redirects to the collections.library.yale.edu front page, so the search for 'Department of Education, Taiwan' is lost",
+  "replacement": "https://collections.library.yale.edu/catalog?q=%22Department+of+Education%2C+Taiwan%22",
+  "confidence": "medium",
+  "evidence": "This is an equivalent search on Yale Digital Collections (findit's successor). The site returns an AWS WAF JavaScript challenge (HTTP 202, empty body) to curl and WebFetch, so the result count could not be checked. Web search did not surface the posters individually."
+ },
+ {
+  "url": "http://findit.library.yale.edu/?id=digcoll%3A2819769&per_page=100&q=Taiwan&search_field=topic&utf8=%E2%9C%93",
+  "broken": true,
+  "reason": "findit.library.yale.edu is retired; the URL redirects to the collections.library.yale.edu front page, so the search for Taiwan is lost",
+  "replacement": "https://collections.library.yale.edu/catalog?q=Taiwan",
+  "confidence": "medium",
+  "evidence": "This is an equivalent keyword search on Yale Digital Collections. The original was a topic-field search; the new site's field parameters are unverified, so this is a plain keyword search. The WAF challenge blocked fetching, so the result count is unknown."
+ },
+ {
+  "url": "http://digital.soas.ac.uk/LOAA003941/00001",
+  "broken": "unknown",
+  "reason": "SOAS Digital Collections moved to a Quartex (AM Digital) platform. The whole host returns 403 'Page not available' to our sandbox; WebFetch got only the JS page shell with no item data.",
+  "replacement": null,
+  "confidence": null,
+  "evidence": "The item (CWP 11, 勝大縣化彰中台姐小劉同會人夫孫, Wu Wenyi 1895) still appears in search results at this LOAA003941 URL, and SOAS's 2023 International Women's Day blog features it, but the new platform's ID (Documents/Detail/<n>) for it could not be found. Owner should check in a browser whether the old URL still resolves."
+ },
+ {
+  "url": "https://www.soas.ac.uk/library/archives/news/file55128.pdf",
+  "broken": true,
+  "reason": "SOAS moved site files under /sites/default/files/; the old path returns 404",
+  "replacement": "https://www.soas.ac.uk/sites/default/files/library/archives/news/file55128.pdf",
+  "confidence": "high",
+  "evidence": "SOAS's Missionary collections page links 'Guide to the Presbyterian Church of England Archive' to /sites/default/files/library/archives/news/file55128.pdf. Fetched it: a 10-page PDF titled 'Guide to the Archive of the overseas mission of the Presbyterian Church of England (the English Presbyterian Mission)'. Same filename."
+ },
+ {
+  "url": "http://dtrap.lib.ntu.edu.tw/DTRAP/index.htm",
+  "broken": true,
+  "reason": "Host dtrap.lib.ntu.edu.tw no longer resolves; the project's databases moved to dl.lib.ntu.edu.tw (Omeka S), and NTU Special Collections has a page describing the project",
+  "replacement": "https://speccoll.lib.ntu.edu.tw/node/58",
+  "confidence": "high",
+  "evidence": "Fetched speccoll.lib.ntu.edu.tw/node/58, titled '深化臺灣研究核心 | 特色館藏'. It has a 內容簡介 of the 數位典藏國家型科技計畫 phases I-II (淡新檔案, 伊能嘉矩手稿, 古碑拓本, 田代文庫, 歌仔冊, 狄寶賽文庫) and links to each one's new dl.lib.ntu.edu.tw site. Note: the server sends HTTP 500 although the page renders fully. For the line-99 'V. S. Beausset Collection' link, https://dl.lib.ntu.edu.tw/s/deBeausset/page/Home (fetched: '狄寶賽文庫. · 首頁', 1,711 items) is the more exact target."
+ },
+ {
+  "url": "http://dtrap.lib.ntu.edu.tw/DTRAP/intro.htm",
+  "broken": true,
+  "reason": "Host dtrap.lib.ntu.edu.tw no longer resolves",
+  "replacement": "https://speccoll.lib.ntu.edu.tw/node/58",
+  "confidence": "high",
+  "evidence": "speccoll.lib.ntu.edu.tw/node/58 carries NTU Library's own '內容簡介' of the 深化臺灣研究核心 project (fetched; the content matches the old intro's scope). It returns HTTP 500 status but renders. The old intro may have been longer."
+ },
+ {
+  "url": "http://dtrap.lib.ntu.edu.tw/DTRAP/en/project.htm",
+  "broken": true,
+  "reason": "Host dtrap.lib.ntu.edu.tw no longer resolves; no English project page exists on the new platforms",
+  "replacement": "http://web.archive.org/web/20201205080837/http://dtrap.lib.ntu.edu.tw/DTRAP/en/project.htm",
+  "confidence": "low",
+  "evidence": "The Wayback availability API reports a 200 snapshot from 2020-12-05. It was not fetched (web.archive.org is blocked here). No live English equivalent was found on speccoll or dl.lib.ntu.edu.tw. Alternatively drop the link."
+ },
+ {
+  "url": "https://www.lib.ntu.edu.tw/doc/CG/resources/project/drapexbi01/e_map_index.html",
+  "broken": true,
+  "reason": "NTU's server now returns an 'error page' (with HTTP 200) for the English exhibition; the Chinese version in the same folder still works",
+  "replacement": null,
+  "confidence": null,
+  "evidence": "Fetched e_map_index.html (title 'error page') and a guessed e_index.html (also an error page). The Chinese index.html (title 'NTULIB::深化臺灣核心文獻典藏數位化計畫．網路特展') loads and has no English link. Wayback has a 2024-05-27 snapshot (web.archive.org/web/20240527035934/...e_map_index.html), not fetched. Suggest dropping the English link or pointing it to that snapshot."
+ },
+ {
+  "url": "http://ebooks.lib.ntu.edu.tw/Home/ListBooks",
+  "broken": true,
+  "reason": "Host ebooks.lib.ntu.edu.tw no longer resolves; NTU Library's homepage now sends 電子書 to its Primo database list and has no open-access ebook system",
+  "replacement": null,
+  "confidence": null,
+  "evidence": "NTU Library homepage and dl.lib.ntu.edu.tw site list checked: no OA ebook portal. Searches find only old references (ref.ncl.edu.tw entry). The last Wayback snapshot is 2021-07-27 (web.archive.org/web/20210727110545/http://ebooks.lib.ntu.edu.tw/Home/ListBooks). Suggest removing or using that archive link."
+ },
+ {
+  "url": "http://ntur.lib.ntu.edu.tw/",
+  "broken": "unknown",
+  "reason": "Unreachable from our sandbox (proxy 503 connection timeout / reset), but NTU Library's homepage still links to it. NTU Library says NTUR was merged into NTU Scholars.",
+  "replacement": "https://scholars.lib.ntu.edu.tw/",
+  "confidence": "high",
+  "evidence": "Fetched lib.ntu.edu.tw/node/2631: '圖書館整合機構典藏（NTUR）與學術庫（AH）不同功能平台，成為臺大學術典藏NTU Scholars'. Fetched scholars.lib.ntu.edu.tw: HTTP 200, title 'NTU SCHOLARS 臺大學術典藏'. The original link is to a front page, so a front-page successor is fair."
+ }
+]
