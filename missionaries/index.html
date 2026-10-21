@@ -1,0 +1,783 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Primary Sources: Missionary Perspectives on China</title>
+<meta name="description" content="This page will collect some links to online sources related to missionaries and their perspectives on China.">
+<style>
+:root{--accent:#7b4a26;--accent-ink:#fff;--hit:#f1e2d3;--link:#6e4120}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--accent:#d9a774;--accent-ink:#1c1208;--hit:#4a3220;--link:#e8c39c}}
+:root[data-theme="dark"]{--accent:#d9a774;--accent-ink:#1c1208;--hit:#4a3220;--link:#e8c39c}
+/* The Primary Sources pages: serif, quiet, and readable at any width. The layout is the one the
+   Modern Japanese History page uses (japan-bib). The neutral colours are here; each page's accent colours
+   (--accent, --accent-ink, --hit, --link) come from its page/config.json and are written in ahead of this. */
+:root{
+  --bg:#f3f5f8;--panel:#fff;--ink:#16273d;--muted:#5d6f84;--line:#d9e0e8;--chip:#e9eef5;--row:#fafbfd;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f1621;--panel:#16202c;--ink:#e6edf5;--muted:#9ab0c6;--line:#2a3746;--chip:#1e2a38;--row:#131c27;}}
+:root[data-theme="dark"]{
+  --bg:#0f1621;--panel:#16202c;--ink:#e6edf5;--muted:#9ab0c6;--line:#2a3746;--chip:#1e2a38;--row:#131c27;}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+a{color:var(--link)}
+code{font-size:.9em;background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:1px 5px;overflow-wrap:anywhere}
+
+:root { --serif: Georgia, "Iowan Old Style", "Times New Roman", serif; }
+
+body.page { font-family: var(--serif); }
+.wrap { max-width: 980px; margin: 0 auto; padding: 0 16px; }
+
+header.site { padding: 26px 0 6px; }
+header.site h1 { font: 700 30px/1.15 var(--serif); margin: 0 0 6px; cursor: default; display: block; }
+header.site h1:hover { color: inherit; }
+header.site p.lede { margin: 0 0 8px; color: var(--muted); font-size: 15px; }
+header.site p.also { margin: 2px 0 14px; font-size: 14px; text-align: center; }
+header.site p.also a { color: var(--link); }
+header.site p.also .sep { color: var(--line); padding: 0 2px; }
+
+/* the row of buttons: one per section of the page, wrapping together */
+nav.jumps { padding: 6px 0 18px; border-bottom: 1px solid var(--line); }
+nav.jumps .sections { display: flex; flex-wrap: wrap; gap: 8px; }
+nav.jumps button {
+  font: 600 14px/1.2 var(--serif); padding: 9px 14px; border: 1px solid var(--line); border-radius: 999px;
+  background: var(--panel); color: var(--ink); cursor: pointer;
+}
+nav.jumps button:hover { border-color: var(--link); color: var(--link); }
+/* an open section: a light blue fill, so it reads as pressed */
+nav.jumps button[aria-expanded="true"] { background: var(--hit); border-color: var(--link); color: var(--link); }
+/* open or close every section at once: a light wash of the accent blue, and it follows the theme
+   because it is mixed from the accent colour rather than written out */
+nav.jumps button.openall {
+  background: color-mix(in srgb, var(--accent) 16%, var(--panel));
+  border-color: color-mix(in srgb, var(--accent) 38%, var(--panel));
+  color: var(--link); font-weight: 700;
+}
+nav.jumps button.openall:hover {
+  background: color-mix(in srgb, var(--accent) 26%, var(--panel));
+  border-color: var(--link); color: var(--accent);
+}
+
+
+/* the way into the books: the one solid, bolder button on the page, last in the row */
+nav.jumps button.search {
+  background: var(--accent); border-color: var(--accent); color: var(--accent-ink);
+  font-weight: 700; letter-spacing: .01em; box-shadow: 0 1px 2px color-mix(in srgb, var(--accent) 25%, transparent);
+}
+nav.jumps button.search:hover { filter: brightness(1.08); color: var(--accent-ink); border-color: var(--accent); }
+
+/* a section of the list: hidden until its button is pressed */
+section.md { padding: 6px 0 4px; border-bottom: 1px solid var(--line); }
+section.md > h2 {
+  font: 700 22px/1.25 var(--serif); margin: 18px 0 10px; cursor: pointer; display: flex; align-items: baseline; gap: 10px;
+}
+section.md > h2:hover { color: var(--link); }
+section.md > h2::after { content: "▲"; font-size: 11px; color: var(--muted); }
+section.md .body { font-size: 16px; line-height: 1.55; padding-bottom: 14px; }
+section.md .body ul { margin: 8px 0; padding-left: 22px; }
+section.md .body li { margin: 4px 0; }
+section.md .body li ul { margin: 2px 0; }
+section.md .body a { color: var(--link); }
+/* a bullet marked <!--pills--> and ending in a colon turns its indented list into a row of small bubbles */
+section.md .body ul.pills { display: flex; flex-wrap: wrap; gap: 6px 10px; list-style: none; padding-left: 0; margin: 6px 0 12px; }
+section.md .body ul.pills li { margin: 0; display: inline-flex; align-items: baseline; gap: 6px; max-width: 100%; }
+section.md .body a.pill-link {
+  display: inline-block; padding: 3px 11px; border-radius: 999px; text-decoration: none;
+  font: 600 13.5px/1.4 var(--serif); color: var(--link);
+  background: color-mix(in srgb, var(--accent) 12%, var(--panel));
+  border: 1px solid color-mix(in srgb, var(--accent) 32%, var(--panel));
+}
+section.md .body a.pill-link:hover { background: color-mix(in srgb, var(--accent) 24%, var(--panel)); border-color: var(--accent); }
+section.md .body .pill-note { font-size: 12.5px; color: var(--muted); }
+/* a bubble inside an ordinary list: no bullet, and whatever is indented under it sits just below */
+section.md .body li.pill-own { list-style: none; }
+section.md .body li.pill-own > ul.pills { margin: 4px 0 2px; }
+section.md .body p { margin: 10px 0; }
+section.md .body em { font-style: italic; }
+
+
+/* the books, always on the page after the other sections; its heading does not close it */
+section.books-section { padding-top: 10px; }
+section.books-section > h2 { font: 700 22px/1.25 var(--serif); margin: 18px 0 4px; }
+section.books-section .body { font-size: 16px; line-height: 1.55; }
+section.books-section .body > ul { margin: 8px 0; padding-left: 22px; }
+section.books-section .body a { color: var(--link); }
+
+/* back to the top: out of the way until the page has been scrolled */
+button.totop {
+  position: fixed; right: 18px; bottom: 18px; z-index: 6;
+  width: 42px; height: 42px; border-radius: 50%; cursor: pointer;
+  border: 1px solid var(--accent); background: var(--accent); color: var(--accent-ink);
+  font: 600 18px/1 var(--serif); box-shadow: 0 2px 8px color-mix(in srgb, var(--accent) 30%, transparent);
+}
+button.totop:hover { filter: brightness(1.08); }
+button.totop[hidden] { display: none; }
+@media (max-width: 640px) { button.totop { right: 12px; bottom: 12px; } }
+
+/* no rule of its own: the buttons and every open section already end in one */
+footer.credit { padding: 14px 0 38px; font-size: 13px; color: var(--muted); margin-top: 18px; }
+footer.credit p { margin: 10px 0 0; }
+footer.credit p.version { font-size: 12.5px; }
+footer.credit a { color: var(--link); }
+footer.site { padding: 18px 0 40px; font-size: 14px; color: var(--muted); }
+footer.site a { color: var(--link); }
+footer.site ul { padding-left: 20px; }
+
+@media (max-width: 640px) {
+  header.site h1 { font-size: 24px; }
+}
+/* The table of books online: the search table of the Modern Japanese History page (japan-bib
+   site/app.css), kept to the parts this list uses and scoped to .books so it leaves the page alone. */
+.books { font: 15px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 14px 0 6px; }
+.books .controls { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 10px 0 8px; border-bottom: 1px solid var(--line); }
+.books .row1 { display: flex; gap: 8px; flex-wrap: wrap; }
+.books #bq { flex: 1 1 320px; min-width: 0; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); color: var(--ink); font-size: 16px; }
+.books select, .books input[type=number], .books button { padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); color: var(--ink); font-size: 14px; font-family: inherit; }
+.books button { cursor: pointer; }
+.books .row2 { display: flex; gap: 10px 14px; flex-wrap: wrap; align-items: center; margin-top: 8px; font-size: 13px; }
+.books .row2 select, .books .row2 input { font-size: 13px; padding: 6px 8px; }
+.books .row2 input[type=number] { width: 5.2em; -moz-appearance: textfield; appearance: textfield; }
+.books .row2 input[type=number]::-webkit-outer-spin-button, .books .row2 input[type=number]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+.books .row2 label { display: flex; align-items: center; gap: 6px; white-space: nowrap; flex: 0 0 auto; max-width: 100%; }
+.books .row2 select { min-width: 0; max-width: 100%; }
+/* tags: a row of periods and a row of topics; the number is how many entries the tag would leave */
+.books .tagbar { padding: 10px 0 2px; border-bottom: 1px solid var(--line); }
+.books .tagrow { display: flex; flex-wrap: wrap; gap: 6px; align-items: baseline; margin: 0 0 8px; }
+.books .taglabel { font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin-right: 4px; min-width: 4.5em; }
+.books button.tag { padding: 4px 11px; border-radius: 999px; font: 600 13px/1.35 Georgia, "Times New Roman", serif; background: var(--panel); color: var(--ink); }
+.books button.tag .n { font: 500 11.5px/1 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; color: var(--muted); margin-left: 4px; }
+.books button.tag:hover { border-color: var(--link); color: var(--link); }
+.books button.tag[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.books button.tag[aria-pressed="true"] .n { color: inherit; opacity: .85; }
+.books button.tag:disabled { opacity: .4; cursor: default; }
+.books button.tag:disabled:hover { border-color: var(--line); color: var(--ink); }
+.books .dbody button.chip { border: 0; cursor: pointer; font: inherit; font-size: 12px; padding: 1px 8px; }
+.books .dbody button.chip:hover { color: var(--link); }
+.books .status { display: flex; justify-content: space-between; gap: 8px; flex-wrap: wrap; align-items: center; margin: 10px 0 6px; color: var(--muted); font-size: 13px; }
+.books .status .right { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.books .tablewrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; background: var(--panel); }
+.books table { border-collapse: collapse; width: 100%; min-width: 600px; table-layout: fixed; }
+.books th, .books td { padding: 8px 10px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); overflow-wrap: anywhere; }
+.books th:last-child, .books td:last-child { padding-right: 18px; }   /* room to the right of the pills */
+.books th { background: var(--panel); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); cursor: pointer; user-select: none; white-space: nowrap; }
+.books th .arrow { opacity: .9; margin-left: 4px; }
+.books tbody tr { cursor: pointer; }
+.books tbody tr:nth-child(even) { background: var(--row); }
+.books tbody tr:hover { outline: 2px solid var(--accent); outline-offset: -2px; }
+.books td.au, .books td.title, .books td.year { font-family: Georgia, "Times New Roman", serif; }
+.books th:nth-child(1) { width: 21%; } .books th:nth-child(2) { width: 51%; } .books th:nth-child(3) { width: 9%; } .books th:nth-child(4) { width: 19%; }
+.books td.year, .books td.ia { white-space: nowrap; }
+.books .note { display: block; font-size: 12.5px; color: var(--muted); margin-top: 2px; }
+.books a.pill { display: inline-block; border-radius: 999px; padding: 2px 10px; font-size: 12.5px; font-weight: 600; text-decoration: none; white-space: nowrap; background: var(--hit); color: var(--link); }
+.books a.pill:hover { filter: brightness(.95); text-decoration: underline; }
+.books .chip { display: inline-block; background: var(--chip); border-radius: 999px; padding: 1px 8px; font-size: 12px; color: var(--muted); margin-right: 4px; }
+.books mark { background: var(--hit); color: inherit; border-radius: 2px; padding: 0 1px; }
+.books .empty { padding: 40px; text-align: center; color: var(--muted); }
+.books .help { font-size: 13px; color: var(--muted); margin: 8px 0 0; }
+.books code { background: var(--chip); border: 0; padding: 0 4px; border-radius: 4px; }
+.books dialog { border: 1px solid var(--line); border-radius: 12px; background: var(--panel); color: var(--ink); max-width: 760px; width: calc(100% - 32px); padding: 0; }
+.books dialog::backdrop { background: rgba(0, 0, 0, .45); }
+/* Header and footer stay put and only the entry scrolls, so the close button is always in reach */
+.books dialog[open] { display: flex; flex-direction: column; max-height: calc(100vh - 32px); max-height: calc(100dvh - 32px); }
+.books .dhead { display: flex; justify-content: space-between; gap: 12px; padding: 16px 18px 8px; flex: none; border-bottom: 1px solid var(--line); }
+.books .dhead button { align-self: flex-start; }
+.books #bdclose { flex: none; min-width: 44px; min-height: 44px; font-size: 20px; line-height: 1; padding: 0; }
+.books .dhead h2 { font: 600 19px/1.3 Georgia, serif; margin: 0; }
+.books .dbody { padding: 0 18px 18px; overflow-y: auto; flex: 1 1 auto; min-height: 0; overscroll-behavior: contain; }
+.books .dbody dl { display: grid; grid-template-columns: 110px 1fr; gap: 6px 12px; margin: 8px 0 0; }
+.books .dbody dt { color: var(--muted); font-size: 13px; }
+.books .dbody dd { margin: 0; overflow-wrap: anywhere; }
+.books .dfoot { display: flex; gap: 8px; flex-wrap: wrap; padding: 12px 18px; border-top: 1px solid var(--line); flex: none; }
+@media (max-width: 640px) {
+  .books .dbody dl { grid-template-columns: 1fr; } .books .dbody dt { margin-top: 6px; }
+  .books dialog { width: calc(100% - 16px); } .books dialog[open] { max-height: calc(100vh - 16px); max-height: calc(100dvh - 16px); }
+  .books .dhead { padding: 10px 10px 8px 14px; } .books .dhead h2 { font-size: 17px; } .books .dbody { padding: 0 14px 14px; }
+  .books .dfoot { gap: 6px; padding: 8px 10px; } .books .dfoot button { font-size: 13px; padding: 6px 8px; }
+  .books table { min-width: 0; }
+  .books th:nth-child(1) { width: 26%; } .books th:nth-child(2) { width: auto; } .books th:nth-child(3) { width: 14%; } .books th:nth-child(4) { width: 24%; }
+  .books a.pill .host { display: none; }   /* a narrow column: the pill keeps to its label; the entry names the host */
+  .books td.ia { white-space: normal; }   /* and a +1 drops below it */
+  .books .taglabel { min-width: 0; flex-basis: 100%; }
+  .books #bq { flex-basis: 100%; } .books .row1 select { flex: 1 1 auto; min-width: 0; } .books .row2 label { flex-wrap: wrap; } .books .controls { position: static; }
+}
+</style>
+</head>
+<body class="page">
+<div class="wrap">
+  <header class="site">
+    <h1>Primary Sources: Missionary Perspectives on China</h1>
+    <p class="lede">This page will collect some links to online sources related to missionaries and their perspectives on China. These sources may be especially useful to students studying modern Chinese history wanting to make use of primary sources in their essays but who are a) limited to the English language, b) may have limited access to databases available at universities with strong East Asia collections, and c) are in lockdown due to a global pandemic. If used with a careful critical approach to the sources, there is a wealth of material here to explore.</p>
+    <p class="lede">Let me start by saying there are already many great library guides to primary sources out there. Some of these I have linked to at the bottom of a growing list of primary sources I provide my own students each semester that you can <a href="https://huginn.net/primary-sources/" target="_blank" rel="noopener">find here</a>. I also suggest you pay a visit to the <a href="https://www.univie.ac.at/Geschichte/China-Bibliographie/blog/" target="_blank" rel="noopener">Biblioteca Sinica 2.0</a> which in March, 2020, just posted its last entry after 5,000 entries linking sources on Sino-Western encounters over a period of 10 years. See, for example, just their entries tagged <a href="https://www.univie.ac.at/Geschichte/China-Bibliographie/blog/tag/missionaries/" target="_blank" rel="noopener">missionaries</a> or its <a href="https://www.univie.ac.at/Geschichte/China-Bibliographie/blog/libraries-digital-collections/" target="_blank" rel="noopener">list of digital collections</a>.</p>
+    <p class="lede">First, let us list some of the missionary periodicals available online. These often went well beyond reporting on the success or challenges of individual missions to offer writings on a whole host of aspects of Chinese society.</p>
+    <p class="also"><a href="https://froginawell.net/reference/modern-japan/" target="_blank" rel="noopener">Primary Sources: Modern Japanese History</a> <span class="sep">·</span> <a href="https://kmlawson.github.io/primary-sources/korea/" target="_blank" rel="noopener">Primary Sources: Modern Korean History</a> <span class="sep">·</span> <a href="https://kmlawson.github.io/primary-sources/taiwan/" target="_blank" rel="noopener">Primary Sources: History of Taiwan</a> <span class="sep">·</span> <a href="https://kmlawson.github.io/primary-sources/shanghai/" target="_blank" rel="noopener">Primary Sources: History of Modern Shanghai</a> <span class="sep">·</span> <a href="https://froginawell.net/frog/sources/" target="_blank" rel="noopener">Other Frog in a Well Resources</a></p>
+  </header>
+  <nav class="jumps">
+    <div class="sections">
+      <button type="button" class="jump openall" data-target="all" aria-expanded="false">Open All</button>
+      <button type="button" class="jump" data-target="s-missionary-periodicals" aria-expanded="false">Missionary Periodicals</button>
+      <button type="button" class="jump" data-target="s-medical-missionary-reports-and-publications" aria-expanded="false">Medical Missionary Reports and Publications</button>
+      <button type="button" class="jump" data-target="s-a-few-reference-works" aria-expanded="false">A Few Reference Works</button>
+      <button type="button" class="jump" data-target="s-photographs-and-other-images" aria-expanded="false">Photographs and other Images</button>
+      <button type="button" class="jump" data-target="s-archival-papers-bibliographies-and-other-collections-online" aria-expanded="false">Archival Papers, Bibliographies, and Other Collections Online</button>
+      <button type="button" class="jump" data-target="s-yale-university-digital-collections" aria-expanded="false">Yale University Digital Collections</button>
+      <button type="button" class="jump search" data-target="s-memoirs-biographies-and-other-missionary-books-online">Memoirs, Biographies, and Other Missionary Books Online</button>
+    </div>
+  </nav>
+  <section class="md" id="s-missionary-periodicals" hidden>
+    <h2 tabindex="0" role="button" title="Hide this section">Missionary Periodicals</h2>
+    <div class="body">
+<h3>The Chinese Recorder and Missionary Journal (1867-1941)</h3>
+<p><a href="https://en.wikipedia.org/wiki/Chinese_Recorder_and_Missionary_Journal" target="_blank" rel="noopener">Wikipedia</a> | <a href="https://www.worldcat.org/title/chinese-recorder-index-a-guide-to-christian-missions-in-asia-1867-1941-monograph/oclc/907244593&amp;referer=brief_results" target="_blank" rel="noopener">Print Index</a> | <a href="https://www.univie.ac.at/Geschichte/China-Bibliographie/blog/2011/12/28/the-chinese-recorder/" target="_blank" rel="noopener">More Links at Biblioteca Sinica</a></p>
+<p>This is a rich source of missionary perspectives on China, with over seventy volumes, with later volumes often over 800 pages in length. Kathleen Lodwick has created a valuable two-volume printed index of the collection, <em>The Chinese Recorder Index: a Guide to Christian Missions in Asia, 1867-1941</em> and there are proprietary databases, at least one of which seems to build off this print index. All the volumes 1-54 (up to 1922) of this important missionary journal are unambiguously out of copyright in the US and available on Internet Archive, with OCR text recognition here:</p>
+<ul>
+<li>1860s: <a href="https://archive.org/details/thechineserecorderandmissionaryjournalvolume11867" target="_blank" rel="noopener">v1</a>, <a href="https://archive.org/details/thechineserecorderandmissionaryjournalvolume218691870" target="_blank" rel="noopener">v2</a></li>
+<li>1870s: <a href="https://archive.org/details/chineserecorder07unkngoog/page/n2/mode/2up" target="_blank" rel="noopener">v3</a>, <a href="https://archive.org/details/chineserecorder01unkngoog/page/n4/mode/2up" target="_blank" rel="noopener">v4</a>, <a href="https://archive.org/details/chineserecorder10unkngoog/page/n2/mode/2up" target="_blank" rel="noopener">v5</a>, <a href="https://archive.org/details/thechineserecorderv61875" target="_blank" rel="noopener">v6</a>, <a href="https://archive.org/details/thechineserecorderv71876" target="_blank" rel="noopener">v7</a>, <a href="https://archive.org/details/chineserecorder08lodwuoft/page/n6/mode/2up" target="_blank" rel="noopener">v8</a>, <a href="https://archive.org/details/chineserecorder09lodwuoft/page/iii/mode/2up" target="_blank" rel="noopener">v9</a> , <a href="https://archive.org/details/chineserecorder10lodwuoft/page/n4/mode/2up" target="_blank" rel="noopener">v10</a></li>
+<li>1880s: <a href="https://archive.org/details/chineserecorder11lodwuoft/page/n4/mode/2up" target="_blank" rel="noopener">v11</a>, <a href="https://archive.org/details/chineserecorder12lodwuoft/page/n4/mode/2up" target="_blank" rel="noopener">v12</a>, <a href="https://archive.org/details/chineserecorder13lodwuoft/page/n5/mode/2up" target="_blank" rel="noopener">v13</a>, <a href="https://archive.org/details/thechineserecorderv141883" target="_blank" rel="noopener">v14</a>, <a href="https://archive.org/details/chineserecorder15lodwuoft/page/n4/mode/2up" target="_blank" rel="noopener">v15</a>, <a href="https://archive.org/details/chineserecorder16lodwuoft/page/n4/mode/2up" target="_blank" rel="noopener">v16</a>, <a href="https://archive.org/details/chineserecorder17lodwuoft/page/n6/mode/2up" target="_blank" rel="noopener">v17</a>, <a href="https://archive.org/details/chineserecorder18lodwuoft/page/n4/mode/2up" target="_blank" rel="noopener">v18</a>, <a href="https://archive.org/details/chineserecorder19lodwuoft/page/n6/mode/2up" target="_blank" rel="noopener">v19</a>, <a href="https://archive.org/details/chineserecorder20lodwuoft/page/n6/mode/2up" target="_blank" rel="noopener">v20</a></li>
+<li>1890s: <a href="https://archive.org/details/chineserecorder21lodwuoft/page/n6/mode/2up" target="_blank" rel="noopener">v21</a>, <a href="https://archive.org/details/chineserecorder22lodwuoft/page/n4/mode/2up" target="_blank" rel="noopener">v22</a>, <a href="https://archive.org/details/chineserecorder23lodwuoft/page/n4/mode/2up" target="_blank" rel="noopener">v23</a>, <a href="https://archive.org/details/thechineserecorderv241893" target="_blank" rel="noopener">v24</a>, <a href="https://archive.org/details/chineserecorder25lodwuoft/page/n10/mode/2up" target="_blank" rel="noopener">v25</a>, <a href="https://archive.org/details/chineserecorder26lodwuoft/page/n4/mode/2up" target="_blank" rel="noopener">v26</a>, <a href="https://archive.org/details/chineserecorder27lodwuoft/page/n6/mode/2up" target="_blank" rel="noopener">v27</a>, <a href="https://archive.org/details/thechineserecorderv281897" target="_blank" rel="noopener">v28</a>, <a href="https://archive.org/details/thechineserecorderv291898" target="_blank" rel="noopener">v29</a>, <a href="https://archive.org/details/TheChineseRecorder/mode/2up" target="_blank" rel="noopener">v30</a></li>
+<li>1900s: <a href="https://archive.org/details/chineserecorder31lodwuoft/page/n4/mode/2up" target="_blank" rel="noopener">v31</a>, <a href="https://archive.org/details/chineserecorder32lodwuoft/page/n4/mode/2up" target="_blank" rel="noopener">v32</a>, <a href="https://archive.org/details/thechineserecorderv331902" target="_blank" rel="noopener">v33</a>, <a href="https://archive.org/details/thechineserecorderv341903" target="_blank" rel="noopener">v34</a>, <a href="https://archive.org/details/thechineserecorderv351904" target="_blank" rel="noopener">v35</a>, <a href="https://archive.org/details/chineserecorder36lodwuoft/page/n4/mode/2up" target="_blank" rel="noopener">v36</a>, <a href="https://archive.org/details/chineserecorder37lodwuoft/page/n4/mode/2up" target="_blank" rel="noopener">v37</a>, <a href="https://archive.org/details/chineserecorder08unkngoog/page/n11/mode/2up" target="_blank" rel="noopener">v38</a>, <a href="https://archive.org/details/chineserecorder39lodwuoft/page/i/mode/2up" target="_blank" rel="noopener">v39</a>, <a href="https://archive.org/details/chineserecorder40lodwuoft/page/n3/mode/2up" target="_blank" rel="noopener">v40</a></li>
+<li>1910s: <a href="https://archive.org/details/thechineserecorderv411910" target="_blank" rel="noopener">v41</a>, <a href="https://archive.org/details/thechineserecorderv421911" target="_blank" rel="noopener">v42</a>, <a href="https://archive.org/details/chineserecorder43lodwuoft/page/n4/mode/2up" target="_blank" rel="noopener">v43</a>, <a href="https://archive.org/details/chineserecorder44lodwuoft/page/n4/mode/2up" target="_blank" rel="noopener">v44</a>, <a href="https://archive.org/details/chineserecorder45lodwuoft/page/n4/mode/2up" target="_blank" rel="noopener">v45</a>, <a href="https://archive.org/details/thechineserecorderv461915" target="_blank" rel="noopener">v46</a>, <a href="https://archive.org/details/thechineserecorderv471916" target="_blank" rel="noopener">v47</a>, <a href="https://archive.org/details/thechineserecorderv481917" target="_blank" rel="noopener">v48</a>, <a href="https://archive.org/details/thechineserecorderv491918" target="_blank" rel="noopener">v49</a>, <a href="https://archive.org/details/thechineserecorderv501919" target="_blank" rel="noopener">v50</a></li>
+<li>1920s: <a href="https://archive.org/details/thechineserecorderv511920" target="_blank" rel="noopener">v51</a>, <a href="https://archive.org/details/thechineserecorderv521921" target="_blank" rel="noopener">v52</a>, <a href="https://archive.org/details/thechineserecorderv531922" target="_blank" rel="noopener">v53</a></li>
+</ul>
+<h3>The Chinese Repository (1832-1851)</h3>
+<p><a href="https://en.wikipedia.org/wiki/The_Chinese_Repository" target="_blank" rel="noopener">Wikipedia</a> | <a href="https://web.archive.org/web/20080820101716/http://www.ttc.edu.sg/csca/epub/guides/cr.html" target="_blank" rel="noopener">Archived Note by Michael Poon</a> | <a href="https://www.univie.ac.at/Geschichte/China-Bibliographie/blog/2010/06/19/chinese-repository-1832-1851/" target="_blank" rel="noopener">More Links at Biblioteca Sinica</a></p>
+<p>This early missionary periodical in twenty volumes has issues about 60 pages in length. Compared to the Chinese Recorder there is a far higher percentage of articles that are academic articles, reflections on Chinese culture, agriculture and nature, as well as many travel narratives. There are also many articles on educational, medical, and commercial initiatives in China. There is also a <a href="https://archive.org/details/chineserepositorunse" target="_blank" rel="noopener">convenient index volume by term but also by subject</a>.</p>
+<p><em>Full Year Volumes:</em></p>
+<ul>
+<li><a href="https://archive.org/details/thechineserepository18321833v1.112" target="_blank" rel="noopener">v1</a> (1832-1833), <a href="https://archive.org/details/in.ernet.dli.2015.1473/page/n3/mode/2up" target="_blank" rel="noopener">v2</a> (1833-1834), <a href="https://archive.org/details/chinesereposito05unkngoog" target="_blank" rel="noopener">v3</a> (1834-1835), <a href="https://archive.org/details/thechineserepository18351836v4.112" target="_blank" rel="noopener">v4</a> (1835-1836), <a href="https://archive.org/details/in.ernet.dli.2015.1471" target="_blank" rel="noopener">v5</a> (1836-1837), <a href="https://archive.org/details/chinesereposito08willgoog/page/n7/mode/2up" target="_blank" rel="noopener">v6</a> (1837-1838), <a href="https://archive.org/details/thechineserepository18381839v7.112" target="_blank" rel="noopener">v7</a> (1838-1839), <a href="https://archive.org/details/chinesereposito09willgoog/page/n7/mode/2up" target="_blank" rel="noopener">v8</a> (1839-1840), <a href="https://archive.org/details/chinesereposito04willgoog/page/n7/mode/2up" target="_blank" rel="noopener">v9</a> (1840), <a href="https://archive.org/details/chinesereposito07willgoog/page/n7/mode/2up" target="_blank" rel="noopener">v10</a> (1841), <a href="https://archive.org/details/chinesereposito03unkngoog/page/n11/mode/2up" target="_blank" rel="noopener">v11</a> (1842), <a href="http://www.archive.org/stream/chinesereposito05willgoog#page/n7/mode/2up" target="_blank" rel="noopener">v12</a> (1843), <a href="https://archive.org/details/thechineserepository1844v13" target="_blank" rel="noopener">v13</a> (1844), <a href="https://archive.org/details/thechineserepository1845v14.112" target="_blank" rel="noopener">v14</a> (1845), <a href="https://archive.org/details/chinesereposito13unkngoog/page/n11/mode/2up" target="_blank" rel="noopener">v15</a> (1846), <a href="https://archive.org/details/thechineserepository1847v16.112" target="_blank" rel="noopener">v16</a> (1847), <a href="https://archive.org/details/thechineserepository1848v17.112" target="_blank" rel="noopener">v17</a> (1848), <a href="https://archive.org/details/chinesereposito04unkngoog/page/n5/mode/2up" target="_blank" rel="noopener">v18</a> (1849), <a href="https://archive.org/details/thechineserepository1850v19" target="_blank" rel="noopener">v19</a> (1850), <a href="https://archive.org/details/thechineserepository1851v20" target="_blank" rel="noopener">v20</a> (1851), <a href="https://archive.org/details/chineserepositorunse" target="_blank" rel="noopener">General Index of the 20 Volumes</a></li>
+</ul>
+<p>Almost all (over 200) of the individual issues of the twenty volumes are also available on Internet Archive by individual issue download, and the few missing issues are fortunately to be found in the full year volumes for the journal available above. You can browse through them here: <a href="https://archive.org/search.php?query=title%3A%28chinese%20repository%29" target="_blank" rel="noopener">Chinese Repository Issues on Internet Archive</a>. There are also more more download options <a href="https://www.univie.ac.at/Geschichte/China-Bibliographie/blog/2010/06/19/chinese-repository-1832-1851/" target="_blank" rel="noopener">nicely compiled</a> by Biblioteca Sinica.</p>
+<h3>China&#x27;s Millions (1875-1964)</h3>
+<p>This is one of the missionary periodicals published by the important organization, the China Inland Mission founded by Hudson Taylor. A large number of volumes from the journal can be found online, with many of the earlier volumes available on the Internet Archive, as well as many later volumes available open access through Yale University&#x27;s digital library collections with convenient PDF download.</p>
+<ul>
+<li>1870s: <a href="https://archive.org/details/chinasmillions7576chin/page/n6/mode/2up" target="_blank" rel="noopener">1875-6</a>, <a href="https://archive.org/details/chinasmillions1877chin/page/n6/mode/2up" target="_blank" rel="noopener">1877</a>, <a href="https://archive.org/details/chinasmillions1878chin/page/n6/mode/2up" target="_blank" rel="noopener">1878</a>, <a href="https://archive.org/details/chinasmillions1879chin/page/n6/mode/2up" target="_blank" rel="noopener">1879</a></li>
+<li>1880s: <a href="https://archive.org/details/chinasmillions1880chin/page/n8/mode/2up" target="_blank" rel="noopener">1880</a>, <a href="https://archive.org/details/chinasmillions1881chin/page/n6/mode/2up" target="_blank" rel="noopener">1881</a>, <a href="https://archive.org/details/chinasmillions1882chin/page/n6/mode/2up" target="_blank" rel="noopener">1882</a>, <a href="https://archive.org/details/chinasmillions1883chin/page/n6/mode/2up" target="_blank" rel="noopener">1883</a>, <a href="https://archive.org/details/chinasmillions00missgoog/page/n8/mode/2up" target="_blank" rel="noopener">1884</a>, <a href="https://archive.org/details/chinasmillions01missgoog/page/n5/mode/2up" target="_blank" rel="noopener">1885</a>, <a href="https://archive.org/details/chinasmillions02missgoog/page/n4/mode/2up" target="_blank" rel="noopener">1886</a>, <a href="http://findit.library.yale.edu/catalog/digcoll:215241" target="_blank" rel="noopener">1887</a>, <a href="http://findit.library.yale.edu/catalog/digcoll:215409" target="_blank" rel="noopener">1888</a>, <a href="http://findit.library.yale.edu/catalog/digcoll:215600" target="_blank" rel="noopener">1889</a></li>
+<li>1890s: <a href="https://archive.org/details/chinasmillions00tayl/page/n6/mode/2up" target="_blank" rel="noopener">1890</a>, <a href="http://findit.library.yale.edu/catalog/digcoll:215974" target="_blank" rel="noopener">1891</a>, <a href="http://findit.library.yale.edu/catalog/digcoll:216199" target="_blank" rel="noopener">1892</a>, <a href="http://findit.library.yale.edu/catalog/digcoll:216539" target="_blank" rel="noopener">1893</a>, <a href="https://archive.org/details/chinasmillions00chin/page/n8/mode/2up" target="_blank" rel="noopener">1894</a>, <a href="http://findit.library.yale.edu/catalog/digcoll:216902" target="_blank" rel="noopener">1895</a>, <a href="http://findit.library.yale.edu/catalog/digcoll:217090" target="_blank" rel="noopener">1896</a>, <a href="http://findit.library.yale.edu/catalog/digcoll:217289" target="_blank" rel="noopener">1897</a>, <a href="http://findit.library.yale.edu/catalog/digcoll:217498" target="_blank" rel="noopener">1898</a>, <a href="http://findit.library.yale.edu/catalog/digcoll:217687" target="_blank" rel="noopener">1899</a></li>
+<li>1900s: <a href="http://findit.library.yale.edu/catalog/digcoll:217888" target="_blank" rel="noopener">1900</a>, <a href="http://findit.library.yale.edu/catalog/digcoll:218118" target="_blank" rel="noopener">1901</a>, <a href="http://findit.library.yale.edu/catalog/digcoll:218313" target="_blank" rel="noopener">1902</a>, <a href="http://findit.library.yale.edu/catalog/digcoll:218496" target="_blank" rel="noopener">1903</a>, <a href="http://findit.library.yale.edu/catalog/digcoll:218703" target="_blank" rel="noopener">1904</a>, <a href="http://findit.library.yale.edu/catalog/digcoll:218886" target="_blank" rel="noopener">1905</a>, <a href="http://findit.library.yale.edu/catalog/digcoll:219091" target="_blank" rel="noopener">1906</a>, <a href="http://findit.library.yale.edu/catalog/digcoll:219298" target="_blank" rel="noopener">1907</a>, <a href="http://findit.library.yale.edu/catalog/digcoll:219505" target="_blank" rel="noopener">1908</a>, <a href="https://archive.org/details/millions1909chin" target="_blank" rel="noopener">1909</a></li>
+<li>1910s: <a href="http://findit.library.yale.edu/catalog/digcoll:219712" target="_blank" rel="noopener">1910</a>, <a href="http://findit.library.yale.edu/catalog/digcoll:219921" target="_blank" rel="noopener">1911</a>, <a href="http://findit.library.yale.edu/catalog/digcoll:220114" target="_blank" rel="noopener">1912</a>, <a href="https://archive.org/details/millions1913chin" target="_blank" rel="noopener">1913</a>, <a href="https://archive.org/details/millions1914chin" target="_blank" rel="noopener">1914</a> <a href="http://findit.library.yale.edu/catalog/digcoll:220325" target="_blank" rel="noopener">1915</a>, <a href="http://findit.library.yale.edu/catalog/digcoll:220522" target="_blank" rel="noopener">1916-7</a>, 1918-9?</li>
+<li>1920s: <a href="http://findit.library.yale.edu/catalog/digcoll:220838" target="_blank" rel="noopener">1920</a>, <a href="http://findit.library.yale.edu/catalog/digcoll:220983" target="_blank" rel="noopener">1921</a>, <a href="https://archive.org/details/millions1922chin" target="_blank" rel="noopener">1922</a>, 1923-1925?, <a href="http://findit.library.yale.edu/catalog/digcoll:221138" target="_blank" rel="noopener">1926</a>, <a href="http://findit.library.yale.edu/catalog/digcoll:221343" target="_blank" rel="noopener">1927-8</a>, <a href="http://findit.library.yale.edu/catalog/digcoll:221750" target="_blank" rel="noopener">1929</a></li>
+<li>1930s: <a href="http://findit.library.yale.edu/catalog/digcoll:221953" target="_blank" rel="noopener">1930</a>, <a href="http://findit.library.yale.edu/catalog/digcoll:222171" target="_blank" rel="noopener">1931</a>, <a href="http://findit.library.yale.edu/catalog/digcoll:222424" target="_blank" rel="noopener">1932</a>, <a href="http://findit.library.yale.edu/catalog/digcoll:222682" target="_blank" rel="noopener">1933</a>, <a href="http://findit.library.yale.edu/catalog/digcoll:222939" target="_blank" rel="noopener">1934</a>, <a href="http://findit.library.yale.edu/catalog/digcoll:223179" target="_blank" rel="noopener">1935</a></li>
+</ul>
+<p>One relatively recent and particularly useful secondary work related to the China Inland Mission is: Alvyn Austin, <em>China&#x27;s Millions: The China Inland Mission and Late Qing Society, 1832-1905 (2006)</em>.</p>
+<h3>The China Review (1872-1901)</h3>
+<p><a href="https://digitalrepository.lib.hku.hk/catalog/hm510x000" target="_blank" rel="noopener">Online Collection at HKU</a> | <a href="https://en.wikipedia.org/wiki/The_China_Review" target="_blank" rel="noopener">Wikipedia</a> | <a href="https://hkjo.lib.hku.hk/archive/files/a38a719fcabf0f934d670cda323ac431.pdf" target="_blank" rel="noopener">Introductory Essay in Volume I</a> | <a href="https://www.academia.edu/1167003" target="_blank" rel="noopener">List of Contributors and ToC</a></p>
+<p><em>The China Review, or Notes and Queries on the Far East</em>, 1872-1901 was not a missionary publication, but featured many writings by missionaries based in China. HKU has created a very nice <a href="https://hkjo.lib.hku.hk/exhibits/show/hkjo/browseIssue?book=b35317450" target="_blank" rel="noopener">online archive of the journal</a> where you can download individual articles on separate pages dedicated to specific volumes but no full issue or full volumes, so it is less convenient for browsing. Helen Wang has created a <a href="https://www.academia.edu/1167003" target="_blank" rel="noopener">convenient list</a> of contributors to the journal and combined the contents list of all the article titles together.</p>
+<p><em>Full Year Volumes</em>: <a href="https://archive.org/details/thechinareviewv218731874" target="_blank" rel="noopener">v2</a> (1873-1874), <a href="https://archive.org/details/china-review-v-4-1875-1876" target="_blank" rel="noopener">v4</a> (1875-1876), <a href="https://archive.org/details/thechinareviewv618771878" target="_blank" rel="noopener">v6</a> (1877-1878), <a href="https://archive.org/details/thechinareviewv718781879" target="_blank" rel="noopener">v7</a> (1878-1879), <a href="https://archive.org/details/china-review-v-10-1881-1882" target="_blank" rel="noopener">v10</a> (1881-1882), <a href="https://archive.org/details/china-review-v-13-1884-1885" target="_blank" rel="noopener">v13</a> (1884-1885), <a href="https://archive.org/details/china-review-v-21-1894-1895" target="_blank" rel="noopener">v21</a> (1894-1895)</p>
+<p><em>Individual Issues</em>: <a href="https://archive.org/details/chinareviewornot2418unse/page/n4/mode/2up" target="_blank" rel="noopener">1874 v2.4</a>, <a href="https://archive.org/details/chinareviewornot4318unse/page/n2/mode/2up" target="_blank" rel="noopener">1875 v4.3</a>, <a href="https://archive.org/details/chinareviewornot4418unse/page/n2/mode/2up" target="_blank" rel="noopener">1876 v4.4</a>, <a href="https://archive.org/details/chinareviewornot4618unse/page/n2/mode/2up" target="_blank" rel="noopener">1876 v4.6</a>, <a href="https://archive.org/details/chinareviewornot5218unse/page/n2/mode/2up" target="_blank" rel="noopener">1876 v5.2</a>, <a href="https://archive.org/details/chinareviewornot5418unse/page/n2/mode/2up" target="_blank" rel="noopener">1877 v5.4</a></p>
+<h3>The China Mission Year Book</h3>
+<p>(Shanghai: Christian Literature Society for China, 1910-1925, after 1925 as China Christian Year Book).</p>
+<p>Articles, reports, reviews, statistics and charts. Internet Archive has links to a number of volumes, <a href="https://archive.org/search.php?query=China%20Mission%20Year%20Book%20AND%20mediatype%3Atexts" target="_blank" rel="noopener">here</a> , and SOAS has some issues in its digital collection, <a href="https://digital.soas.ac.uk/AA00000452/00005/allvolumes" target="_blank" rel="noopener">here</a>.</p>
+<ul>
+<li><a href="https://archive.org/details/chinamission191000unknuoft/page/n4/mode/2up" target="_blank" rel="noopener">1910</a>, <a href="https://archive.org/details/chinamissionyear02unknuoft/page/n4/mode/2up" target="_blank" rel="noopener">1911</a>, <a href="https://archive.org/details/chinamissionyear03unknuoft/page/n4/mode/2up" target="_blank" rel="noopener">1912</a>, <a href="https://digital.soas.ac.uk/AA00000452/00002" target="_blank" rel="noopener">1914</a>, <a href="https://archive.org/details/chinamissionyear07unknuoft/page/n4/mode/2up" target="_blank" rel="noopener">1916</a>, <a href="https://archive.org/details/chinamissionyear08chin/page/n4/mode/2up" target="_blank" rel="noopener">1917</a>, <a href="https://archive.org/details/chinamissionyear09chin/page/n4/mode/2up" target="_blank" rel="noopener">1918</a>, <a href="https://archive.org/details/chinamissionyear10chin/page/n4/mode/2up" target="_blank" rel="noopener">1919</a></li>
+<li>1920?, 1921?, 1922?, <a href="https://archive.org/details/thechinamissionyearbook1923" target="_blank" rel="noopener">1923</a>, <a href="https://archive.org/details/chinamission12unknuoft/page/n4/mode/2up" target="_blank" rel="noopener">1924</a>, <a href="https://archive.org/details/chinamission192500unknuoft/page/n4/mode/2up" target="_blank" rel="noopener">1925</a>, <a href="https://digital.soas.ac.uk/AA00000452/00007?search=china+%3dmission+%3dyear+%3dbook" target="_blank" rel="noopener">1926</a>, 1927?, <a href="https://digital.soas.ac.uk/AA00000452/00006?search=china+%3dmission+%3dyear+%3dbook" target="_blank" rel="noopener">1928</a>, <a href="https://digital.soas.ac.uk/AA00000452/00005" target="_blank" rel="noopener">1929</a>,</li>
+<li>1930?, <a href="https://digital.soas.ac.uk/AA00000452/00004?search=china+%3dmission+%3dyear+%3dbook" target="_blank" rel="noopener">1931</a>, 1932-1933?, <a href="https://digital.soas.ac.uk/AA00000452/00003?search=china+%3dmission+%3dyear+%3dbook" target="_blank" rel="noopener">1934-5</a></li>
+</ul>
+<h3>Report of the Foreign Missions China, Formosa, the Straits Settlements, and India - Presbyterian Church of England</h3>
+<p>These reports, usually 100-200 pages in length are reports of the English Presbyterians Mission (EPM), founded at Xiamen (Amoy) in 1850, and later at Shantou (Swatow), Guangdond, and in Taiwan in 1865. You can read an overview of their archival records and <a href="https://www.soas.ac.uk/library/archives/news/file55128.pdf" target="_blank" rel="noopener">missions here</a>. See also L. Cheng <em>A Short History of the Presbyterian Church among the Mountain Tribes in Taiwan</em> (1965) and J. Johnstoun <em>China and Formosa: The Story of the Presbyterian Church of England</em> (1897). Here is a <a href="https://archive.org/search.php?query=title%3A%28report%20of%20the%20Foreign%20Missions%20China%2C%20Formosa%29" target="_blank" rel="noopener">list of issues</a> on the Internet Archive.</p>
+<p><a href="https://archive.org/details/presbyterianchur00pres_43/page/n1/mode/2up" target="_blank" rel="noopener">1894</a>, <a href="https://archive.org/details/presbyterianchur00pres_44/mode/2up" target="_blank" rel="noopener">1903</a>, <a href="https://archive.org/details/presbyterianchur00pres_45/mode/2up" target="_blank" rel="noopener">1904</a>, <a href="https://archive.org/details/presbyterianchur00pres_46/mode/2up" target="_blank" rel="noopener">1905</a>, <a href="https://archive.org/details/presbyterianchur00pres_47/mode/2up" target="_blank" rel="noopener">1906</a>, <a href="https://archive.org/details/presbyterianchur00pres_48/mode/2up" target="_blank" rel="noopener">1907</a>, <a href="https://archive.org/details/presbyterianchur00pres_49/mode/2up" target="_blank" rel="noopener">1908</a>, <a href="https://archive.org/details/presbyterianchur00pres_50/mode/2up" target="_blank" rel="noopener">1909</a>, <a href="https://archive.org/details/presbyterianchur00pres_51/mode/2up" target="_blank" rel="noopener">1910</a>, <a href="https://archive.org/details/presbyterianchur00pres_52/mode/2up" target="_blank" rel="noopener">1911</a>, <a href="https://archive.org/details/presbyterianchur00pres_53/mode/2up" target="_blank" rel="noopener">1912</a>, <a href="https://archive.org/details/presbyterianchur00pres_54/mode/2up" target="_blank" rel="noopener">1913</a>, <a href="https://archive.org/details/presbyterianchur00pres_55/mode/2up" target="_blank" rel="noopener">1914</a>, <a href="https://archive.org/details/presbyterianchur00pres_56/mode/2up" target="_blank" rel="noopener">1915</a>, <a href="https://archive.org/details/presbyterianchur00pres_57/mode/2up" target="_blank" rel="noopener">1916</a>, <a href="https://archive.org/details/presbyterianchur00pres_58/mode/2up" target="_blank" rel="noopener">1917</a>, <a href="https://archive.org/details/presbyterianchur00pres_59/mode/2up" target="_blank" rel="noopener">1918</a>, <a href="https://archive.org/details/presbyterianchur00pres_60/mode/2up" target="_blank" rel="noopener">1919</a>, <a href="https://archive.org/details/presbyterianchur00pres_61/mode/2up" target="_blank" rel="noopener">1920</a>, <a href="https://archive.org/details/presbyterianchur00pres_62/mode/2up" target="_blank" rel="noopener">1921</a></p>
+<h3>Reports of the American Presbyterian Missions</h3>
+<p>A number of issues of the <em>Report of the American Presbyterian Mission in Canton, China</em> are available on the Internet Archive: <a href="https://archive.org/details/reportofamerican1886amer" target="_blank" rel="noopener">1886</a>, <a href="https://archive.org/details/reportofamerican1887amer" target="_blank" rel="noopener">1887</a>, <a href="https://archive.org/details/reportofamerican1888amer" target="_blank" rel="noopener">1888</a>, <a href="https://archive.org/details/reportofamerican1889amer" target="_blank" rel="noopener">1889</a>, <a href="https://archive.org/details/reportofamerican1890amer" target="_blank" rel="noopener">1890</a>, <a href="https://archive.org/details/reportofamerica1891amer_0" target="_blank" rel="noopener">1891</a>, <a href="https://archive.org/details/reportofamerican1894amer" target="_blank" rel="noopener">1894</a>, <a href="https://archive.org/details/reportofamerican1896amer" target="_blank" rel="noopener">1896</a>, <a href="https://findit.library.yale.edu/catalog/digcoll:237555" target="_blank" rel="noopener">1897</a>, <a href="https://archive.org/details/reportofamerican1900amer" target="_blank" rel="noopener">1900</a>, <a href="https://archive.org/details/reportofamerica1901amer_0" target="_blank" rel="noopener">1901</a>, <a href="https://archive.org/details/annualreportofca1902amer" target="_blank" rel="noopener">1902</a>, <a href="https://archive.org/details/annualreportofca1903amer" target="_blank" rel="noopener">1903</a>, <a href="https://archive.org/details/annualreportofca1904amer" target="_blank" rel="noopener">1904</a>, <a href="https://archive.org/details/annualreportofca1905amer" target="_blank" rel="noopener">1905</a></p>
+<p>A few issues of the <em>Annual Report of the Tsinan Station</em> from Jinan, Shandong are also available: <a href="https://archive.org/details/fortyfifthannual00amer?view=theater" target="_blank" rel="noopener">1919</a> and <a href="https://archive.org/details/fortyseventhannu00amer?view=theater" target="_blank" rel="noopener">1922</a>. And the <a href="https://archive.org/details/annualreportofte00amer/page/n1/mode/2up?view=theater" target="_blank" rel="noopener">1918</a> <em>Annual report of Tenghsien Station</em>, also in Shandong. Finally a <a href="https://findit.library.yale.edu/catalog/digcoll:294828" target="_blank" rel="noopener">1906</a> <em>Annual report of the American Presbyterian mission in the island of Hainan, China</em> hosted by Yale.</p>
+<h3>Directory of Protestant Missionaries (1902-1917)</h3>
+<p>Eleven volumes of this directory are scanned by Cornell University and linked from the Yale University Missionary Periodicals Online collection: <a href="https://guides.library.yale.edu/c.php?g=296315&amp;p=1976886" target="_blank" rel="noopener">Directory of Protestant Missionaries in China</a>. The HathiTrust links will only allow full download of issues to partner institutions, and if you are outside the United States you won&#x27;t even be able to view the issues (VPN to the US seems to work fine).</p>
+<p>Some of the directories are on the Internet Archive as well:</p>
+<ul>
+<li>Protestant Missionaries in China, Japan and Siam: <a href="https://archive.org/details/1881-directory" target="_blank" rel="noopener">1881</a>, <a href="https://archive.org/details/1884-directory" target="_blank" rel="noopener">1884</a></li>
+<li>Protestant Missionaries in China and Japan: <a href="https://archive.org/details/1902-directory" target="_blank" rel="noopener">1902</a></li>
+<li>Protestant Missionaries in China, Japan, &amp; Corea: <a href="https://archive.org/details/1903-directory" target="_blank" rel="noopener">1903</a>, <a href="https://archive.org/details/1904-directory" target="_blank" rel="noopener">1904</a>, <a href="https://archive.org/details/1905-directory" target="_blank" rel="noopener">1905</a>, <a href="https://archive.org/details/1906-directory" target="_blank" rel="noopener">1906</a>, <a href="https://archive.org/details/1908-directory" target="_blank" rel="noopener">1908</a>, <a href="https://archive.org/details/1909-directory" target="_blank" rel="noopener">1909</a>, <a href="https://archive.org/details/1910-directory" target="_blank" rel="noopener">1910</a>, <a href="https://archive.org/details/1911-directory" target="_blank" rel="noopener">1911</a>, <a href="https://archive.org/details/1916-directory" target="_blank" rel="noopener">1916</a></li>
+<li>Protestant Missions in China: <a href="https://archive.org/details/1917-directory" target="_blank" rel="noopener">1917</a>, <a href="https://archive.org/details/1918-directory" target="_blank" rel="noopener">1918</a>, <a href="https://archive.org/details/1919-directory" target="_blank" rel="noopener">1919</a>, <a href="https://archive.org/details/directoryofprote1920unse/page/n8/mode/2up" target="_blank" rel="noopener">1920</a>, <a href="https://archive.org/details/directoryofprote00shan/page/n2/mode/2up" target="_blank" rel="noopener">1921</a>, <a href="https://archive.org/details/1936-directory" target="_blank" rel="noopener">1936</a>, <a href="https://archive.org/details/1940-directory" target="_blank" rel="noopener">1940</a></li>
+</ul>
+<h3>Annual Reports of the Society for the Diffusion of Christian and General Knowledge among the Chinese</h3>
+<p><a href="https://en.wikipedia.org/wiki/Society_for_the_Diffusion_of_Christian_and_General_Knowledge_Among_the_Chinese" target="_blank" rel="noopener">Wikipedia</a></p>
+<p>A collection of these reports is available on Internet Archive from 1888-1904: <a href="https://archive.org/details/ldpd_13891474_001" target="_blank" rel="noopener">1888</a>, <a href="https://archive.org/details/ldpd_13891474_002" target="_blank" rel="noopener">1889</a>, <a href="https://archive.org/details/ldpd_13891474_003" target="_blank" rel="noopener">1890</a>, <a href="https://archive.org/details/ldpd_13891474_004" target="_blank" rel="noopener">1891</a>, <a href="https://archive.org/details/ldpd_13891474_005" target="_blank" rel="noopener">1892</a>, <a href="https://archive.org/details/ldpd_13891474_006" target="_blank" rel="noopener">1893</a>, <a href="https://archive.org/details/ldpd_13891474_007" target="_blank" rel="noopener">1894</a>, <a href="https://archive.org/details/ldpd_13891474_008" target="_blank" rel="noopener">1895</a>, <a href="https://archive.org/details/ldpd_13891474_009" target="_blank" rel="noopener">1896</a>, <a href="https://archive.org/details/ldpd_13891474_010" target="_blank" rel="noopener">1897</a>, <a href="https://archive.org/details/ldpd_13891474_011" target="_blank" rel="noopener">1898</a>, <a href="https://archive.org/details/ldpd_13891474_012" target="_blank" rel="noopener">1899</a>, <a href="https://archive.org/details/ldpd_13891474_013" target="_blank" rel="noopener">1900</a>, <a href="https://archive.org/details/ldpd_13891474_014/page/n1/mode/2up" target="_blank" rel="noopener">1901</a>, <a href="https://archive.org/details/ldpd_13891474_015" target="_blank" rel="noopener">1902</a>, <a href="https://archive.org/details/ldpd_13891474_016" target="_blank" rel="noopener">1903</a>, <a href="https://archive.org/details/ldpd_13891474_017" target="_blank" rel="noopener">1904</a></p>
+<h3>The Missionary Echo of the United Methodist Free Churches</h3>
+<p>A <a href="https://digital.soas.ac.uk/AA00001725/00034/allvolumes?search=china+%3dmission" target="_blank" rel="noopener">collection</a> of the issues of this journal, not limited to coverage of China but with significant China related content, is available at SOAS, University of London: <a href="https://digital.soas.ac.uk/AA00001725/00009?search=china+%3dmission" target="_blank" rel="noopener">1894</a>, 1895, <a href="https://digital.soas.ac.uk/AA00001725/00007?search=china+%3dmission" target="_blank" rel="noopener">1896</a>, <a href="https://digital.soas.ac.uk/AA00001725/00008?search=china+%3dmission" target="_blank" rel="noopener">1897</a>, <a href="https://digital.soas.ac.uk/AA00001725/00011/2x?search=china+%3dmission" target="_blank" rel="noopener">1898</a>, <a href="https://digital.soas.ac.uk/AA00001725/00012?search=china+%3dmission" target="_blank" rel="noopener">1899</a>, <a href="https://digital.soas.ac.uk/AA00001725/00013?search=china+%3dmission" target="_blank" rel="noopener">1900</a>, <a href="https://digital.soas.ac.uk/AA00001725/00014?search=china+%3dmission" target="_blank" rel="noopener">1901</a>, <a href="https://digital.soas.ac.uk/AA00001725/00015?search=china+%3dmission" target="_blank" rel="noopener">1902</a>, 1903, <a href="https://digital.soas.ac.uk/AA00001725/00017?search=china+%3dmission" target="_blank" rel="noopener">1904</a>, <a href="https://digital.soas.ac.uk/AA00001725/00018?search=china+%3dmission" target="_blank" rel="noopener">1905</a>, <a href="https://digital.soas.ac.uk/AA00001725/00019?search=china+%3dmission" target="_blank" rel="noopener">1906</a>, <a href="https://digital.soas.ac.uk/AA00001725/00020/2x?search=china+%3dmission" target="_blank" rel="noopener">1907</a>, <a href="https://digital.soas.ac.uk/AA00001725/00021?search=china+%3dmission" target="_blank" rel="noopener">1908</a>, <a href="https://digital.soas.ac.uk/AA00001725/00022/3x?search=china+%3dmission" target="_blank" rel="noopener">1909</a>, <a href="https://digital.soas.ac.uk/AA00001725/00023/2x?search=china+%3dmission" target="_blank" rel="noopener">1910</a>, <a href="https://digital.soas.ac.uk/AA00001725/00035?search=china+%3dmission" target="_blank" rel="noopener">1911</a>, <a href="https://digital.soas.ac.uk/AA00001725/00036?search=china+%3dmission" target="_blank" rel="noopener">1912</a>, <a href="https://digital.soas.ac.uk/AA00001725/00037?search=china+%3dmission" target="_blank" rel="noopener">1913</a>, <a href="https://digital.soas.ac.uk/AA00001725/00038?search=china+%3dmission" target="_blank" rel="noopener">1914</a>, <a href="https://digital.soas.ac.uk/AA00001725/00039?search=china+%3dmission" target="_blank" rel="noopener">1915</a>, <a href="https://digital.soas.ac.uk/AA00001725/00024?search=china+%3dmission" target="_blank" rel="noopener">1916</a>, <a href="https://digital.soas.ac.uk/AA00001725/00025?search=china+%3dmission" target="_blank" rel="noopener">1917</a>, <a href="https://digital.soas.ac.uk/AA00001725/00026?search=china+%3dmission" target="_blank" rel="noopener">1918</a>, <a href="https://digital.soas.ac.uk/AA00001725/00027?search=china+%3dmission" target="_blank" rel="noopener">1919</a>, <a href="https://digital.soas.ac.uk/AA00001725/00028?search=china+%3dmission" target="_blank" rel="noopener">1920</a>, <a href="https://digital.soas.ac.uk/AA00001725/00029?search=china+%3dmission" target="_blank" rel="noopener">1921</a>, <a href="https://digital.soas.ac.uk/AA00001725/00001?search=china+%3dmission" target="_blank" rel="noopener">1922</a>, <a href="https://digital.soas.ac.uk/AA00001725/00002?search=china+%3dmission" target="_blank" rel="noopener">1923</a>, <a href="https://digital.soas.ac.uk/AA00001725/00003?search=china+%3dmission" target="_blank" rel="noopener">1924</a>, <a href="https://digital.soas.ac.uk/AA00001725/00004?search=china+%3dmission" target="_blank" rel="noopener">1925</a>, <a href="https://digital.soas.ac.uk/AA00001725/00005?search=china+%3dmission" target="_blank" rel="noopener">1926</a>, <a href="https://digital.soas.ac.uk/AA00001725/00006?search=china+%3dmission" target="_blank" rel="noopener">1927</a>, <a href="https://digital.soas.ac.uk/AA00001725/00030?search=china+%3dmission" target="_blank" rel="noopener">1928</a>, <a href="https://digital.soas.ac.uk/AA00001725/00031?search=china+%3dmission" target="_blank" rel="noopener">1929</a>, <a href="https://digital.soas.ac.uk/AA00001725/00032?search=china+%3dmission" target="_blank" rel="noopener">1930</a>, <a href="https://digital.soas.ac.uk/AA00001725/00033?search=china+%3dmission" target="_blank" rel="noopener">1931</a>, <a href="https://digital.soas.ac.uk/AA00001725/00034?search=china+%3dmission" target="_blank" rel="noopener">1932</a></p>
+<h3>West China Missionary News (1908-1940)</h3>
+<p>The Yale University Mission Periodicals Online contains issues from several decades of this Chengdu publication. Each issue is relatively short in length but conveniently downloadable as PDFs directly: <a href="https://guides.library.yale.edu/c.php?g=296315&amp;p=1976922" target="_blank" rel="noopener">West China Missionary News</a>.</p>
+<p>Note: I got an error message trying to reach the digitized issues via the above page. <a href="http://findit.library.yale.edu/?f%5Bdigital_collection_sim%5D%5B%5D=Day+Missions+Periodicals&amp;per_page=50&amp;q=%22West+China+Missionary+News%22&amp;search_field=title&amp;sort=date_dtsi+asc%2C+sort_ssi+asc" target="_blank" rel="noopener">This deep link directly into their catalog</a> worked for me. If that changes for some reason, try googling the title and bypassing the publications info page to enter the catalog directly. I have reported the problem to the library.</p>
+<h3>China Medical Missionary Journal (1887-1908)</h3>
+<p>Another one of the large collection of missionary publications in Yale&#x27;s digital collections: <a href="https://guides.library.yale.edu/c.php?g=296315&amp;p=1976864" target="_blank" rel="noopener">China Medical Missionary Journal</a>. In this case the catalog link from there worked for me.</p>
+<p>There are also a number of full volumes on Internet Archive:</p>
+<ul>
+<li><a href="https://archive.org/details/3522418_1887_1888/page/n8/mode/2up" target="_blank" rel="noopener">v1-2</a> (1887-1888), <a href="https://archive.org/details/3522418_1889_1890/page/n4/mode/2up" target="_blank" rel="noopener">v3-4</a> (1889-1890), <a href="https://archive.org/details/3522418_1893/page/n10/mode/2up" target="_blank" rel="noopener">v7</a> (1893), <a href="https://archive.org/details/3522418_1895/page/n2/mode/2up" target="_blank" rel="noopener">v9</a> (1895), <a href="https://archive.org/details/3522418_1896/page/n6/mode/2up" target="_blank" rel="noopener">v10</a> (1896), <a href="https://archive.org/details/3522418_1897/page/n12/mode/2up" target="_blank" rel="noopener">v11</a> (1897), <a href="https://archive.org/details/3522418_1903_1904/page/n437/mode/2up" target="_blank" rel="noopener">v17-18</a> (1903-1904), <a href="https://archive.org/details/3522418_1905_1906/page/n9/mode/2up" target="_blank" rel="noopener">v19-20</a> (1905-1906), <a href="https://archive.org/details/3522418_1907_1908/page/n3/mode/2up" target="_blank" rel="noopener">v21-22</a> (1907-1908)</li>
+</ul>
+<p>See a run of this journal at <strong>MedNexus</strong> here:</p>
+<p><a href="https://mednexus.org/loi/cmj/group/d1880.y1889" target="_blank" rel="noopener"><em>The China Medical Missionary Journal</em> / <em>Chinese Medical Journal</em></a></p>
+<p>See also an overview of the long <a href="https://mednexus.org/doi/10.1097/CM9.0000000000002134" target="_blank" rel="noopener">history of the journal and its evolution</a> there.</p>
+<h3>China Medical Journal 1908-1928</h3>
+<p>Another missionary medical journal in Yale&#x27;s digital collections: <a href="https://guides.library.yale.edu/c.php?g=296315&amp;p=1976863" target="_blank" rel="noopener">China Medical Journal</a>. Again, I got an error to the catalog from this info page. <a href="http://findit.library.yale.edu/?f%5Bcreator_sim%5D%5B%5D=Medical+Missionary+Association+of+China&amp;per_page=100&amp;q=%22China+Medical+Journal%22&amp;search_field=title&amp;utf8=%E2%9C%93" target="_blank" rel="noopener">This deep link into the catalog</a> worked for me. I have reported the problem to the library.</p>
+<h3>Annales de la Propagation de la Foi</h3>
+<p><a href="https://gallica.bnf.fr/ark:/12148/cb34348166d/date" target="_blank" rel="noopener">Online Archive at BnF Gallica</a></p>
+<p>Bonus for those who read French. The BnF Gallica has over 200 issues of this important French language missionary periodical (Annales de la propagation de la foi : recueil périodique des lettres des évêques et des missionnaires des missions des deux mondes, et de tous les documents relatifs aux missions et à l&#x27;Association de la propagation de la foi) ranging from 1834 to 1933. The periodical covers the world but issues often cover China. Issues can be easily downloaded as full issue PDFs. It is also <a href="https://catalog.hathitrust.org/Record/007853629" target="_blank" rel="noopener">located on HathiTrust</a>.</p>
+<p>There are a host of other missionary periodicals, including those not specific to China, but often with sizeable China sections in their issues worth browsing if you know which missionary organization was active in the part of China you are interested in exploring. See the alphabetical list on the <a href="https://guides.library.yale.edu/missionperiodicals" target="_blank" rel="noopener">Mission Periodicals Online</a> home page.</p>
+    </div>
+  </section>
+  <section class="md" id="s-medical-missionary-reports-and-publications" hidden>
+    <h2 tabindex="0" role="button" title="Hide this section">Medical Missionary Reports and Publications</h2>
+    <div class="body">
+<ul>
+<li><a href="https://archive.org/details/medicalmissionar00medi/page/n1/mode/2up" target="_blank" rel="noopener">The Medical Missionary Society in China</a> (12pp, 1838)</li>
+<li><a href="https://archive.org/details/39002086452118.med.yale.edu/page/n2/mode/2up" target="_blank" rel="noopener">The first report of the Medical Missionary Society&#x27;s hospital at Macao</a> (1838) - Peter Parker</li>
+<li><a href="https://archive.org/details/39002086452209.med.yale.edu/page/n1/mode/2up" target="_blank" rel="noopener">The first and second reports of the Medical missionary society in China</a> (1841) - Peter Parker</li>
+<li><a href="https://archive.org/details/39002086452258.med.yale.edu/page/n2/mode/2up" target="_blank" rel="noopener">Report of the Medical missionary society in China. For the year 1845</a> (1846)</li>
+<li><a href="https://archive.org/details/39002086452241.med.yale.edu/page/n2/mode/2up" target="_blank" rel="noopener">Report of the Medical missionary society in China; including the thirteenth report of the Ophthalmic hospital in Canton</a> (1845)</li>
+<li><a href="https://archive.org/details/39002086452266.med.yale.edu/page/n1/mode/2up" target="_blank" rel="noopener">Report of the Medical missionary society in China; the fourteenth report of the Ophthalmic hospital, Canton. Embracing the period from 1st July 1845, to 31st December, 1847</a> (1848)</li>
+<li><a href="https://archive.org/details/39002011125706.med.yale.edu/mode/2up" target="_blank" rel="noopener">Minutes of the annual meeting of the Medical missionary society in China; and fifteenth report of its Ophthalmic hospital at Canton, for the years 1848 and 1849</a> (1850)</li>
+<li><a href="https://archive.org/details/b21472634/page/n2/mode/2up" target="_blank" rel="noopener">The second report of the London Missionary Society&#x27;s Chinese Hospital, at Peking, under the care of W. Lockhart, F.R.C.S., for the year 1863</a> (1864)</li>
+<li><a href="https://archive.org/details/39002086452290.med.yale.edu/page/n2/mode/2up" target="_blank" rel="noopener">Minutes of two annual meetings of the Medical missionary society in China; including the sixteenth report of its Ophthalmic hospital at Canton, for the years 1850 and 1851</a></li>
+</ul>
+<p>See below for more on Yale University archive of missionary reports.</p>
+    </div>
+  </section>
+  <section class="md" id="s-a-few-reference-works" hidden>
+    <h2 tabindex="0" role="button" title="Hide this section">A Few Reference Works</h2>
+    <div class="body">
+<p>Bonus for post-lockdown life. If your library has them, the following are a few volumes that include especially useful pointers to sources in this area, and give an indication of the massive amount of sources available in many languages:</p>
+<ul>
+<li>Xiaoxin Wu ed., <em>Christianity in China: A Scholars&#x27; Guide to Resources in the Libraries and Archives of the United States</em> (2nd edition, 2008)</li>
+<li>R. G. Tiedemann ed., <em>Handbook of Christianity in China Volume Two: 1800-present</em> (2010)</li>
+<li>R. G. Tiedemann <em>Reference Guide to Missionary Societies in China: From the 16th to the 20th Centuries</em> (2009)</li>
+<li>Daniel H. Bays <em>A New History of Christianity in China</em> (2011)</li>
+<li>Kenneth Scott Latourette, <a href="http://catalog.hathitrust.org/Record/001414111" target="_blank" rel="noopener"><em>A History of Christian Missions in China</em></a> (New York: Macmillan, 1929). Comprehensive reference, using English language sources. Available free online at Hathi Trust.</li>
+</ul>
+    </div>
+  </section>
+  <section class="md" id="s-photographs-and-other-images" hidden>
+    <h2 tabindex="0" role="button" title="Hide this section">Photographs and other Images</h2>
+    <div class="body">
+<p>There are a wealth of historical photographs related to China, scattered in collections around the world and many of these come from former missionaries based in China. One of the best and growing collections there is now:</p>
+<ul>
+<li><a href="https://www.hpcbristol.net/" target="_blank" rel="noopener">Historical Photographs of China</a></li>
+</ul>
+<p>See also the Yale University collections of thousands of missionary postcards in the <a href="https://universityofsoutherncalifornia9561prod.orangelogic.com/Archive/International-Mission-Photography-Archive--ca-1860-ca-1960-2A3BF1OL0UB?Flat=1" target="_blank" rel="noopener">International Mission Photography Archive</a> and <a href="https://dl.atla.com/collections/missionary-postcards?locale=en" target="_blank" rel="noopener">ATLA Cooperative Digital Resource Initiative</a></p>
+<p>Here are a few more (not all missionary related):</p>
+<ul>
+<li><a href="http://digitallibrary.usc.edu/cdm/landingpage/collection/p15799coll123?fbclid=IwAR2174zWiLKwmf3bz6xskeWQFZmmR9KpFx8S_1FX3IH1BAEfeBDwkzAb8mY" target="_blank" rel="noopener">International Mission Photography Archive</a></li>
+<li><a href="https://repository.duke.edu/dc/gamble?fbclid=IwAR2B5P1ug6N4bFmYKyHAiNwkHQilIEMabw4I9iD3p97ohwCzWm1owq1aTvc" target="_blank" rel="noopener">Sidney D. Gamble Photographs Collection</a></li>
+<li><a href="https://ccposters.com/pg/home/" target="_blank" rel="noopener">Chinese Christian Posters</a></li>
+<li><a href="https://cicarchiveprototype.wordpress.com/" target="_blank" rel="noopener">China Mission History: Digital Archive</a> - &quot;The historical photograph and print collection represented here consists of images held in the Sino-Missionary image archive, presently housed at Whitworth University&#x27;s Department of History.&quot;</li>
+<li><a href="http://www.columbia.edu/cu/lweb/digital/collections/eastasian/paper_gods/index.html" target="_blank" rel="noopener">Chinese Paper Gods</a> - assembled by the missionary Anne S. Goodrich (1895-2005)</li>
+<li><a href="https://projects.iq.harvard.edu/yenchinglib/galleries/rev-claude-l-pickens-jr-collection-muslims-china" target="_blank" rel="noopener">The Rev. Claude L. Pickens, Jr. Collection on Muslims in China</a></li>
+<li><a href="https://utkasianreligions.org/harry-caldwell/" target="_blank" rel="noopener">Harry Caldwell Film Collection</a></li>
+<li><a href="https://projects.iq.harvard.edu/yenchinglib/galleries/hedda-morrison-photographs-china" target="_blank" rel="noopener">The Hedda Morrison Photographs of China</a></li>
+<li><a href="https://quod.lib.umich.edu/b/bhl4ic" target="_blank" rel="noopener">Muriel Webb Treman Photograph Album</a></li>
+<li><a href="https://www.flickr.com/photos/thomasfisherlibrary/sets/72157627747163965/" target="_blank" rel="noopener">William Charles White China Photos - Fuzhou</a></li>
+</ul>
+    </div>
+  </section>
+  <section class="md" id="s-archival-papers-bibliographies-and-other-collections-online" hidden>
+    <h2 tabindex="0" role="button" title="Hide this section">Archival Papers, Bibliographies, and Other Collections Online</h2>
+    <div class="body">
+<p><a href="https://quod.lib.umich.edu/b/blydenburgh/" target="_blank" rel="noopener">Digitized Selections from the George and Marion Blydenburgh Papers, 1920-1934, 1998</a> - &quot;Missionaries to China, 1920-1931; George T. Blydenburgh was the superintendent of a new hospital in Nanchang, Jiangxi Province. Correspondence to family members describing daily life, family matters, and news of the hospital&#x27;s progress; photographs, newspaper clippings, and glass lantern slides documenting the Blydenburgh family&#x27;s experiences (bulk 1920-1931). Statements and descriptions of incidents related to military campaigns in Nanjing, Shanghai, and Nanchang. Writings and outlines about life in China (1921-1934). Annual reports from the Nanchang General Hospital (1924-1932). Publications from the Nanking [Nanjing] Language School (1921-1922). Scrolls of woodblock prints, calligraphy, and painting (circa 1920-1930).&quot;</p>
+<p><a href="https://ecommons.cornell.edu/handle/1813/29701" target="_blank" rel="noopener">Wason Pamphlet Collection</a> - Charles W. Wason (<a href="https://en.wikipedia.org/wiki/Charles_W._Wason" target="_blank" rel="noopener">Wikipedia</a>) was not a missionary, but his pamphlet collection, available at Cornell University has many missionary pamphlets and other primary sources of interest.</p>
+<p><a href="https://deepblue.lib.umich.edu/handle/2027.42/136125" target="_blank" rel="noopener"><em>War and Occupation in China: The Letters of an American Missionary from Hangzhou, 1937-1938.</em> Companion Digital Repository</a> - &quot;This Deep Blue web repository is designed as a digital companion for a collection of letters produced by Rev. Robert McMullen, an American Southern Presbyterian missionary (provost of Hangchow Christian College) during the Second Sino-Japanese War, available in Charles Bright and Joseph W. Ho, eds., <a href="https://www.google.com/books/edition/War_and_Occupation_in_China/lGUyDwAAQBAJ?hl=en&amp;gbpv=0" target="_blank" rel="noopener"><em>War and Occupation in China: The Letters of an American Missionary from Hangzhou, 1937-1938</em> (New York: Rowman &amp; Littlefield, Lehigh University Press, 2017)</a>.&quot;</p>
+<p><a href="https://openresearch-repository.anu.edu.au/handle/1885/7273" target="_blank" rel="noopener">The Flower Mountain Murders: a &quot;Missionary Case&quot; Data-base</a> - this online collection of documents explores the murder of eleven British subjects tied to the Anglican Church Society in Fujian.</p>
+<p><a href="https://www.arts.kuleuven.be/sinologie/english/cct" target="_blank" rel="noopener">Chinese Christian Texts Database</a> - &quot;The database is set up as a research database, both in regard to its content and search possibilities. The description of primary sources, divided into Chinese and European primary sources, is intended as to be extensive and to allow for multiple links. In addition to the usual bibliographical references such as title, author, impressum or reprints, these references include: a content description, the mentioning of call numbers in major library collections, references to translations or secondary sources, and various notes on the author or text history. The database is multi-lingual in the sense that there are references to documents and publications in a wide variety of ancient and modern Asian and European languages.&quot;</p>
+<p><a href="http://anglicanhistory.org/" target="_blank" rel="noopener">Project Canterbury</a> hosts an online archive of out-of-print Anglican texts. See their section on texts related to Asia for some relevant to China.</p>
+<p>Anthony E. Clark <a href="https://cicarchiveprototype.wordpress.com/bibliography/" target="_blank" rel="noopener"><em>History of Christianity in China Archive Catalog - Western Language Books</em></a></p>
+<p><a href="https://www.missionaryetexts.org/" target="_blank" rel="noopener">Missionary Etexts Archive</a> is an electronic repository of historical texts by and about missionaries, including a number of missionaries who worked in China.</p>
+<p>Frog in a Well contributor Charles Hayford produced a bibliography on this topic including reference works, published biographies, and other secondary sources: <a href="http://divinity-adhoc.library.yale.edu/Resources/ChinaMissionsBibliog.pdf" target="_blank" rel="noopener">American China Missions: An Introductory Bibliography</a></p>
+<p>Boston University <a href="https://www.bu.edu/missiology/" target="_blank" rel="noopener">History of Missiology Online Collections</a> - These include missionary biographies, many scanned books that are accessible via their collection at the Internet Archive, and several special digitization projects.</p>
+<p>Princeton Theological Seminary <a href="https://commons.ptsem.edu/" target="_blank" rel="noopener">Theological Commons</a> - Includes a wide range of digital collections, including books, pamphlets and journals related to China. See for example some of their pamplets related to China <a href="https://commons.ptsem.edu/?keywords=china&amp;submit=true&amp;qtext=collection%3Amrl&amp;scope=all" target="_blank" rel="noopener">here</a>.</p>
+<p><a href="https://divinity-adhoc.library.yale.edu/Resources/Bear/" target="_blank" rel="noopener">The Mission Work of the Presbyterian Church in the United States in China, 1867-1952</a>. This over two thousand page five volume history of the Presbyterian Church in China by James Edwin Bear has been digitized and made freely available.</p>
+<p><a href="https://catalogue.nla.gov.au/Search/Home?lookfor=London%2BMissionary%2BSociety&amp;type=all&amp;limit[]=&amp;submit=Find&amp;limit[]=format%3AOnline" target="_blank" rel="noopener">London Missionary Society documents at the National Library of Australia</a>. The NLA has hundred of digitized materials related to the L.M.S., and around a third of these are related to its work in China.</p>
+<p><a href="https://en.wikipedia.org/wiki/Bibliography_of_Christianity_in_China" target="_blank" rel="noopener">Bibliography of Christianity in China</a></p>
+<p>The &quot;<a href="http://www.ulib.iupui.edu/wmicproject/" target="_blank" rel="noopener">The History of Western Medicine in China</a>&quot; project (IUPUI Indiana University- Purdue University Indianapolis) has digitized archive guides, primary sources, digitized sources, books, and visual materials. It also includes a rich database of hospitals and medical institutions.</p>
+<p>The <a href="https://library.hkbu.edu.hk/collections/special-collections-archives/archives-on-the-history-of-christianity-in-china/" target="_blank" rel="noopener">Archives on the History of Christianity in China</a> at Hong Kong Baptist University has digitized a range of documents and images. Many of these are in Chinese but their document database includes many English language reports, handbooks, and other sources, especially related to Christianity in Hong Kong.</p>
+<p>See also the links and resources available at the <a href="https://www.chinachristianitystudies.org/" target="_blank" rel="noopener">China Christianity Studies Group (中國基督宗教研究學會)</a></p>
+<p><a href="https://divinity-adhoc.library.yale.edu/ChinaCollegesProject/about.html" target="_blank" rel="noopener">The American Context of China&#x27;s Christian Colleges and Schools</a> project includes an online <a href="https://divinity-adhoc.library.yale.edu/ChinaCollegesProject/collections.html" target="_blank" rel="noopener">collection</a> of biographies, correspondence, and articles from student newspapers and journals. It focuses on the interaction between Christian colleges in China and American liberal arts colleges 1900-1950.</p>
+<p><a href="https://dl.atla.com/" target="_blank" rel="noopener">Atla Digital Library</a> - The Atla digital library gives easy access to digital archival collections related to religion and theology from over seventy contributing libraries and archives, with many of these offering material related to China.</p>
+    </div>
+  </section>
+  <section class="md" id="s-yale-university-digital-collections" hidden>
+    <h2 tabindex="0" role="button" title="Hide this section">Yale University Digital Collections</h2>
+    <div class="body">
+<p>Among the most comprehensive and well organized pages of links well worth exploring are Yale University Library <a href="https://guides.library.yale.edu/c.php?g=296016&amp;p=1976162" target="_blank" rel="noopener">Missions and World Christianity: Online content</a> As can be seen from the many resources above linked to their digital projects and publications, it is well worth exploring their online collections more thoroughly. A few additional resources to point out:</p>
+<ul>
+<li><a href="https://web.library.yale.edu/divinity/day-missions-collection-annual-reports-listing" target="_blank" rel="noopener">Day Missions Collection: Annual Reports</a> - Digitized reports from dozens of missionary organizations can be found here.</li>
+<li><a href="https://web.library.yale.edu/divinity/digital-collections" target="_blank" rel="noopener">Archival Collections / Personal Papers</a> - See some of their digitized journals and personal paper archives.</li>
+</ul>
+    </div>
+  </section>
+  <section class="books-section" id="s-memoirs-biographies-and-other-missionary-books-online">
+    <h2>Memoirs, Biographies, and Other Missionary Books Online</h2>
+    <div class="body">
+<p>There are hundreds, probably thousands, of books and pamphlets out of copyright and online written by or about missionaries who served in China. There are many bibliographies that contain dozens of pages of entries of interest. If the book was published before 1923, there is a good chance you will be able to find a copy of it on the Internet Archive, and sometimes fully readable books on Google Books or HathiTrust. I&#x27;ll just start a list here from some titles at hand, and expand the list over time as works cross my path.</p>
+<div class="books" id="books" data-export="missionaries-books">
+  <div class="controls">
+    <div class="row1">
+      <input id="bq" type="search" placeholder='Search author, title, notes… (e.g.  morrison   &quot;china inland mission&quot;   author:broomhall)' autocomplete="off">
+      <select id="bfield" title="Where to search">
+        <option value="all">All fields</option><option value="author">Author</option><option value="title">Title</option><option value="notes">Notes</option>
+      </select>
+      <button id="breset" type="button" title="Clear all filters">Reset</button>
+    </div>
+    <div class="row2">
+      <label>Year <input id="by1" type="number" min="1500" max="2100" placeholder="from"> – <input id="by2" type="number" min="1500" max="2100" placeholder="to"></label>
+      <label>Host <select id="bhost" title="Where the online copy is held"><option value="">All</option></select></label>
+      <label>Language <select id="blang" title="Language of the work"><option value="">All</option></select></label>
+      <label>Show <select id="bshow" title="Which entries to list">
+        <option value="all" selected>All</option><option value="ia">Online</option></select></label>
+    </div>
+  </div>
+  <div class="tagbar" id="btags" hidden></div>
+  <div class="status"><div id="bcount"></div>
+    <div class="right"><button id="bcsv" type="button" title="Download the current result list as CSV">Export CSV</button><button id="bbib" type="button" title="Download the current result list as BibTeX">Export BibTeX</button></div></div>
+  <div class="tablewrap">
+    <table>
+      <thead><tr>
+        <th data-k="author">Author<span class="arrow"></span></th>
+        <th data-k="title">Title<span class="arrow"></span></th>
+        <th data-k="year_num">Year<span class="arrow"></span></th>
+        <th data-k="nlinks">Online copy<span class="arrow"></span></th>
+      </tr></thead>
+      <tbody id="brows"></tbody>
+    </table>
+    <div class="empty" id="bempty" hidden>No entries match.</div>
+  </div>
+  <p class="help">Words are ANDed; diacritics and case are ignored. Use quotes for phrases, the prefixes <code>author:</code>, <code>title:</code> and <code>notes:</code>, and <code>-word</code> to exclude. With something typed in the search box the best matches come first. Click a column to sort by it instead, or a row for full details.<span id="btaghelp" hidden> Choose a tag to narrow the list (a period and a topic can be combined); choose it again to clear it.</span></p>
+  <dialog id="bdlg">
+    <div class="dhead"><h2 id="bdtitle"></h2><button id="bdclose" type="button" aria-label="Close">✕</button></div>
+    <div class="dbody"><dl id="bddl"></dl></div>
+    <div class="dfoot"><button id="bdprev" type="button">‹ Previous</button><button id="bdnext" type="button">Next ›</button><button id="bdcopy" type="button">Copy citation</button>
+      <a id="bdsearch" target="_blank" rel="noopener"><button type="button">Search archive.org</button></a></div>
+  </dialog>
+</div>
+<script type="application/json" id="books-data">[{"author": "Alcott, WM. A.", "title": "The Life of Robert Morrison, the First Protestant Missionary To China", "year": "1856", "year_num": 1856, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://archive.org/details/lifeofrobertmorr00alco/page/n8/mode/2up"}], "tags": [], "notes": ""}, {"author": "American Presbyterian Mission Press", "title": "Records of the General Conference of the Protestant Missionaries in China, Held at Shanghai, May 7-20, 1890", "year": "1890", "year_num": 1890, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://archive.org/details/recordsofthegene00unknuoft/page/n6/mode/2up"}], "tags": [], "notes": ""}, {"author": "American Presbyterian Mission Press", "title": "Records of the General Conference of the Protestant Missionaries in China, Held at Shanghai, May 10-24, 1877", "year": "1890", "year_num": 1890, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://archive.org/details/recordsofgeneral00gene/page/n8/mode/2up"}], "tags": [], "notes": ""}, {"author": "Balme, Harold", "title": "China and modern medicine: a study in medical missionary development", "year": "", "year_num": null, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://archive.org/details/cu31924024017992/page/n8/mode/2up"}], "tags": [], "notes": ""}, {"author": "Broomhall, Marshall", "title": "Martyred missionaries of the China Inland Mission, with a record of the perils & sufferings of some who escaped", "year": "1901", "year_num": 1901, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://archive.org/details/martyredmission00broogoog/page/n8/mode/2up"}], "tags": [], "notes": ""}, {"author": "Broomhall, Marshall", "title": "The jubilee story of the China Inland Mission", "year": "1915", "year_num": 1915, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://archive.org/details/jubileechinamis00broouoft/page/n9/mode/2up"}], "tags": [], "notes": ""}, {"author": "Ch'eng, Marcus (Chen Chonggui)", "title": "Echoes from China: The Story of My Life and Lectures", "year": "1921", "year_num": 1921, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://archive.org/details/cu31924022955508/page/n8/mode/2up"}], "tags": [], "notes": ""}, {"author": "China Inland Mission", "title": "China and The Gospel: An Illustrated Report of the China Inland Mission", "year": "1906", "year_num": 1906, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://archive.org/details/annualreportchi00missgoog/page/n13/mode/2up"}], "tags": [], "notes": ""}, {"author": "Conger, Sarah Pike", "title": "Letters from China", "year": "", "year_num": null, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://archive.org/details/lettersfromchin01conggoog/page/n6/mode/2up"}], "tags": [], "notes": "see also [Sarah Pike Conger: Seven Years in China](https://www.longyear.org/learn/research-archive/sarah-pike-conger/)"}, {"author": "Episcopal Church in the United Sates", "title": "An historical sketch of the China mission of the Protestant Episcopal Church in the U.S.A. from the first appointments in 1834 to include the year ending August 31st, 1884", "year": "1888", "year_num": 1888, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://archive.org/details/cu31924022972966/page/n7/mode/2up"}], "tags": [], "notes": ""}, {"author": "Glover", "title": "Richard Herbert Stanley Jenkins, M.D., F.R.C.S. : medical missionary, Shensi, China, with some notices of the work of the Baptist Missionary Society in that country", "year": "", "year_num": null, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://archive.org/details/b28995223/page/n9/mode/2up"}], "tags": [], "notes": ""}, {"author": "Gray, Arthur R. and Arthur M. Sherman", "title": "The Story of the Church in China", "year": "1913", "year_num": 1913, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://archive.org/details/thestoryofthechu00grayuoft/page/n10/mode/2up"}], "tags": [], "notes": ""}, {"author": "Guinness, M. Geraldine", "title": "The Story of the China Inland Mission", "year": "1894", "year_num": 1894, "imprint": "", "language": "English", "links": [{"label": "Vol 1", "url": "https://archive.org/details/storyofchinainla01tayl/page/n10/mode/2up"}, {"label": "Vol 2", "url": "https://archive.org/details/storyofchinainla02tayl/page/n8/mode/2up"}], "tags": [], "notes": "3rd ed."}, {"author": "Henderson, James", "title": "Memorials of James Henderson, M.D. - Medical Missionary to China", "year": "", "year_num": null, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://archive.org/details/memorialsjamesh00hendgoog/page/n7/mode/2up"}], "tags": [], "notes": ""}, {"author": "Lockhart, William", "title": "The medical missionary in China: a narrative of twenty years' experience", "year": "", "year_num": null, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://archive.org/details/cu31924024018594/page/n4/mode/2up"}], "tags": [], "notes": ""}, {"author": "Parker, Peter", "title": "Statements respecting hospitals in China", "year": "", "year_num": null, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://archive.org/details/39002086452191.med.yale.edu/page/4/mode/2up"}], "tags": [], "notes": ""}, {"author": "MacGillivray, D.", "title": "A Century of Protestant Missions in China", "year": "1807-1907", "year_num": 1807, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://archive.org/details/centuryofprotest00macg_0/page/n6/mode/2up"}], "tags": [], "notes": ""}, {"author": "MacGillivray, D.", "title": "China Centenary Missionary Conference Records: Report of the Great Conference", "year": "1907", "year_num": 1907, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://archive.org/details/chinacentenarym00yorkgoog/page/n13/mode/2up"}], "tags": [], "notes": ""}, {"author": "Taylor, F. Howard", "title": "These forty years, a short history of the China inland mission", "year": "1903", "year_num": 1903, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://archive.org/details/thesefortyyearss01tayl/page/n9/mode/2up"}], "tags": [], "notes": ""}, {"author": "Marshall, W. M.", "title": "Christian Missions Their Agents, And Their Results", "year": "1901", "year_num": 1901, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://archive.org/details/ChristianMissionsTheirAgentsV1/page/n9/mode/2up"}], "tags": [], "notes": "6th ed."}, {"author": "Morrison, Robert", "title": "A view of China, for philological purposes ; containing a sketch of Chinese chronology, geography, government, religion and customs. Designed for the use of persons who study the Chinese language", "year": "1817", "year_num": 1817, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://archive.org/details/b2201181x/page/n4/mode/2up"}], "tags": [], "notes": ""}, {"author": "Price, Frank Wilson", "title": "The Rural Church in China", "year": "1949", "year_num": 1949, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://archive.org/details/MN41761ucmf_3/mode/2up"}], "tags": [], "notes": ""}, {"author": "Robson, William", "title": "Griffith John of Hankow", "year": "1929", "year_num": 1929, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://archive.org/details/cu31924010758252/page/n5/mode/2up"}], "tags": [], "notes": ""}, {"author": "Richard, Timothy", "title": "Forty-five years in China: reminiscences by Timothy Richard, D.D.", "year": "1916", "year_num": 1916, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://babel.hathitrust.org/cgi/pt?id=coo1.ark:/13960/t3pv72k7x&view=1up&seq=1"}], "tags": [], "notes": ""}, {"author": "Schofield, Robert Harold", "title": "Memorials of R. Harold A. Schofield : first medical missionary to Shan-si, China", "year": "", "year_num": null, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://archive.org/details/cu31924023225034/mode/2up"}], "tags": [], "notes": ""}, {"author": "Stevens, George B.", "title": "The Life, Letters, and Journals of Rev. and Hon. Peter Parker, M. D.: Missionary, Physician and Diplomatist", "year": "1896", "year_num": 1896, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://archive.org/details/39002011128577.med.yale.edu/page/n4/mode/2up"}], "tags": [], "notes": ""}, {"author": "Taylor, J. Hudson", "title": "Three Decades of the China Inland Mission", "year": "1895", "year_num": 1895, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://archive.org/details/threedecades/page/n7/mode/2up"}], "tags": [], "notes": ""}, {"author": "Taylor, Dr. and Mrs.", "title": "Hudson Taylor and the China Inland Mission : the growth of a work of God", "year": "1918", "year_num": 1918, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://archive.org/details/hudsontaylorchin00tayl/page/n9/mode/2up"}], "tags": [], "notes": ""}, {"author": "Townsend, William John", "title": "Robert Morrison: The Pioneer of Chinese Missions", "year": "1890", "year_num": 1890, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://archive.org/details/robertmorrison00townuoft/page/n3/mode/2up"}], "tags": [], "notes": ""}, {"author": "Vinton, John A.", "title": "Vinton Book Vol 1 Africa Asia Papal Lands", "year": "1869", "year_num": 1869, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://archive.org/details/vintonbookafrica01vint"}], "tags": [], "notes": ""}, {"author": "Webster, Rev. James", "title": "Times of Blessing in Manchuria", "year": "1909", "year_num": 1909, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://ecommons.cornell.edu/handle/1813/29906"}], "tags": [], "notes": ""}, {"author": "Williams, S. Wells", "title": "Easy Lessons in Chinese", "year": "1842", "year_num": 1842, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://archive.org/details/easylessonsinch01willgoog/page/n9/mode/2up"}], "tags": [], "notes": ""}, {"author": "Williams, S. Wells", "title": "The Middle Kingdom", "year": "1848", "year_num": 1848, "imprint": "", "language": "English", "links": [{"label": "Vol 1", "url": "https://archive.org/details/middlekingdomas03willgoog/page/n11/mode/2up"}, {"label": "Vol 2", "url": "https://archive.org/details/middlekingdomas04willgoog/page/n9/mode/2up"}], "tags": [], "notes": "([Wikipedia](https://en.wikipedia.org/wiki/Samuel_Wells_Williams))"}, {"author": "Missionary Council", "title": "The Call from the Far East", "year": "1926", "year_num": 1926, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://archive.org/details/MN41713ucmf_3/page/n9/mode/2up"}], "tags": [], "notes": ""}]</script>
+<p>Collection of book and book selections here: <a href="http://anglicanhistory.org/asia/china/index.html" target="_blank" rel="noopener">Anglicanism in China</a></p>
+    </div>
+  </section>
+  <footer class="credit" id="credits">
+    <p>This page was put together thanks to the contributions of: Konrad M. Lawson, Joseph W. Ho, Charles Hayford, Felix Boecking, and Yang Rui.</p>
+    <p>We most welcome your corrections or suggestions for additions to the page. You can reach Konrad at kmlawson@froginawell.net or @konrad@social.coop on Mastodon.</p>
+    <p>Last Updated: 6 October, 2024</p>
+    <p class="version">Version 1.0001 · Last Updated: 21 October 2026 ·
+      <a href="https://github.com/kmlawson/primary-sources/tree/master/missionaries" target="_blank" rel="noopener">Source on GitHub</a></p>
+  </footer>
+</div>
+<button id="totop" type="button" class="totop" title="Back to the top" aria-label="Back to the top" hidden>↑</button>
+<script>
+// Each button opens or closes its section; a section's own heading closes it. The books section is
+// always on the page, so its button only scrolls to it.
+const openAll = document.querySelector("nav.jumps button.openall");
+function setOpen(sec, open) {
+  sec.hidden = !open;
+  const b = document.querySelector(`nav.jumps button[data-target="${sec.id}"]`);
+  if (b) b.setAttribute("aria-expanded", open ? "true" : "false");
+}
+function syncOpenAll() {
+  const secs = [...document.querySelectorAll("section.md")];
+  const all = secs.length && secs.every(s => !s.hidden);
+  openAll.textContent = all ? "Close All" : "Open All";
+  openAll.setAttribute("aria-expanded", all ? "true" : "false");
+}
+openAll.addEventListener("click", () => {
+  const secs = [...document.querySelectorAll("section.md")];
+  const open = secs.some(s => s.hidden);
+  for (const s of secs) setOpen(s, open);
+  syncOpenAll();
+  if (open && secs.length) secs[0].scrollIntoView({ behavior: "smooth", block: "start" });
+});
+for (const b of document.querySelectorAll("nav.jumps button:not(.openall)")) {
+  b.addEventListener("click", () => {
+    const sec = document.getElementById(b.dataset.target);
+    if (!sec) return;
+    if (b.classList.contains("search")) { sec.scrollIntoView({ behavior: "smooth", block: "start" }); return; }
+    const open = sec.hidden;
+    setOpen(sec, open);
+    syncOpenAll();
+    if (open) sec.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+}
+// a way back up from the middle of a long list
+const toTop = document.getElementById("totop");
+addEventListener("scroll", () => { toTop.hidden = scrollY < 400; }, { passive: true });
+toTop.addEventListener("click", () => scrollTo({ top: 0, behavior: "smooth" }));
+
+for (const h of document.querySelectorAll("section.md > h2")) {
+  const close = () => {
+    const sec = h.parentElement;
+    setOpen(sec, false);
+    syncOpenAll();
+    const b = document.querySelector(`nav.jumps button[data-target="${sec.id}"]`);
+    if (b) b.scrollIntoView({ behavior: "smooth", block: "center" });
+  };
+  h.addEventListener("click", close);
+  h.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); close(); } });
+}
+</script>
+<script>
+// The table of books online: search, filter, sort, and an entry opened in full. Adapted from the search on
+// the Modern Japanese History page (japan-bib site/app.js); the entries come from page/books.csv, written
+// into the page as JSON when it is built, so there is nothing to download.
+(() => {
+"use strict";
+const $ = id => document.getElementById(id);
+const fold = s => (s || "").normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase();
+const esc = s => (s || "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const EXPORT = $("books").dataset.export || "books";
+let ALL = [], VIEW = [], sortKey = null, sortDir = 1, cur = -1, byMatch = false;
+// tags: a date range ("1886-1942", "Pre-1823", "1945-Present", "1950-") is a period, anything else a topic.
+// One of each can be chosen at a time; they narrow the list together with everything else.
+const PERIOD = /^(pre-?|post-?)?-?\d{4}(\s*[-–]\s*(\d{4}|present))?-?$/i;
+const sel = { period: null, topic: null };
+const TAGS = { period: [], topic: [] };
+
+// who holds a copy, by the host of its URL: the short code shown in the link column and used by the Host filter
+const HOLDER = [[/web\.archive\.org\//, "WB", "Wayback Machine"], [/archive\.org\//, "IA", "Internet Archive"],
+                [/gutenberg\.org\//, "PG", "Project Gutenberg"], [/hathitrust\.org\//, "H", "HathiTrust"],
+                [/dl\.ndl\.go\.jp\//, "NDL", "National Diet Library"], [/usask\.ca\//, "USask", "Taiwan Library (USask)"],
+                [/doi\.org\//, "DOI", "Publisher (DOI)"]];
+const holder = u => (HOLDER.find(([rx]) => rx.test(u || "")) || [null, "Web"])[1];
+const holderName = code => (HOLDER.find(h => h[1] === code) || [, , "Elsewhere online"])[2];
+
+// notes are written in markdown: links and *italics*
+const md = s => esc(s).replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>')
+  .replace(/\*([^*]+)\*/g, "<em>$1</em>");
+const plain = s => (s || "").replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, "$1").replace(/\*/g, "");
+
+function load() {
+  const data = JSON.parse($("books-data").textContent);
+  ALL = data.map((r, i) => {
+    r.id = i + 1;
+    r.nlinks = r.links.length;
+    r.fa = fold(r.author); r.ft = fold(r.title); r.fn = fold(plain(r.notes));
+    r.tags = r.tags || [];
+    r.fall = r.fa + " \u0001 " + r.ft + " \u0001 " + r.fn + " " + fold(r.year + " " + r.language + " " + (r.imprint || "") + " " + r.tags.join(" "));
+    return r;
+  });
+  const langCount = {};
+  for (const r of ALL) if (r.language) langCount[r.language] = (langCount[r.language] || 0) + 1;
+  for (const l of Object.keys(langCount).sort((a, b) => langCount[b] - langCount[a])) {
+    const o = document.createElement("option"); o.value = l; o.textContent = `${l} (${langCount[l]})`; $("blang").appendChild(o);
+  }
+  const hosts = {};
+  for (const r of ALL) for (const u of new Set(r.links.map(l => holder(l.url)))) hosts[u] = (hosts[u] || 0) + 1;
+  for (const h of Object.keys(hosts).sort((a, b) => hosts[b] - hosts[a])) {
+    const o = document.createElement("option"); o.value = h; o.textContent = holderName(h); $("bhost").appendChild(o);
+  }
+  // periods in date order ("Pre-1823" and "-1823" first), topics alphabetically
+  const tagCount = {};
+  for (const r of ALL) for (const t of r.tags) tagCount[t] = (tagCount[t] || 0) + 1;
+  const start = t => /^(pre|-)/i.test(t) ? -1 : parseInt((t.match(/\d{4}/) || [9999])[0]) + (/^post/i.test(t) ? 0.5 : 0);
+  TAGS.period = Object.keys(tagCount).filter(t => PERIOD.test(t)).sort((a, b) => start(a) - start(b));
+  TAGS.topic = Object.keys(tagCount).filter(t => !PERIOD.test(t)).sort((a, b) => fold(a) < fold(b) ? -1 : 1);
+  if (TAGS.period.length || TAGS.topic.length) {
+    $("btags").hidden = false; $("btaghelp").hidden = false;
+    $("btags").innerHTML = ["period", "topic"].filter(g => TAGS[g].length).map(g =>
+      `<div class="tagrow" data-g="${g}"><span class="taglabel">${g === "period" ? "Period" : "Topic"}</span>` +
+      TAGS[g].map((t, i) => `<button type="button" class="tag" data-g="${g}" data-i="${i}" aria-pressed="false">${esc(t)}<span class="n"></span></button>`).join("") +
+      "</div>").join("");
+  }
+  apply();
+}
+function pickTag(g, t) { sel[g] = sel[g] === t ? null : t; apply(); }
+
+function parseQuery(q) {
+  const terms = []; const re = /(-?)(?:(author|title|notes):)?(?:"([^"]+)"|(\S+))/gi; let m;
+  while ((m = re.exec(q))) { const t = fold(m[3] || m[4]); if (t) terms.push({ neg: !!m[1], field: (m[2] || "").toLowerCase(), t }); }
+  return terms;
+}
+
+// How well an entry answers what was typed. The whole phrase in the title counts for most, then how
+// many of the words are in the title, how close together they sit, and whether they fall on word
+// boundaries; the author counts for less and the notes for little. This ordering is used only while
+// the search box has something in it and no column has been clicked.
+const WORDCH = /[a-z0-9]/;
+const wholeWord = (s, i, w) =>
+  (i === 0 || !WORDCH.test(s[i - 1])) && (i + w.length === s.length || !WORDCH.test(s[i + w.length]));
+function relevance(r, words, phrase) {
+  const t = r.ft, a = r.fa, o = r.fn;
+  let s = 0;
+  if (phrase) {
+    if (t === phrase) s += 400;
+    else if (t.startsWith(phrase)) s += 230;
+    else if (phrase.includes(" ") && t.includes(phrase)) s += 170;
+    if (phrase.includes(" ")) { if (a.includes(phrase)) s += 90; else if (o.includes(phrase)) s += 30; }
+  }
+  const spans = []; let inTitle = 0, elsewhere = 0;
+  for (const w of words) {
+    const i = t.indexOf(w);
+    if (i >= 0) { inTitle++; spans.push([i, i + w.length]); s += wholeWord(t, i, w) ? 20 : 11; if (i === 0) s += 8; }
+    else {
+      const j = a.indexOf(w);
+      if (j >= 0) { elsewhere++; s += wholeWord(a, j, w) ? 14 : 8; }
+      else if (o.includes(w)) { elsewhere++; s += 4; }
+    }
+  }
+  if (words.length) {
+    if (inTitle === words.length) s += 70;
+    else if (inTitle + elsewhere === words.length) s += 25;
+    if (spans.length > 1) {
+      const lo = Math.min(...spans.map(x => x[0])), hi = Math.max(...spans.map(x => x[1]));
+      const ideal = words.reduce((n, w) => n + w.length, 0) + words.length - 1;
+      s += Math.max(0, 45 - Math.round((hi - lo - ideal) / 3));
+    }
+  }
+  s -= Math.min(25, t.length / 30);
+  if (r.nlinks) s += 2;
+  return s;
+}
+const searchPhrase = q => fold(q).replace(/(^|\s)-\S+/g, " ").replace(/\b(author|title|notes):/g, " ")
+  .replace(/["']/g, " ").replace(/\s+/g, " ").trim();
+
+function apply() {
+  const terms = parseQuery($("bq").value), fld = $("bfield").value;
+  const y1 = parseInt($("by1").value) || null, y2 = parseInt($("by2").value) || null;
+  const shw = $("bshow").value, hst = $("bhost").value, lng = $("blang").value;
+  const key = f => f === "author" ? "fa" : f === "title" ? "ft" : f === "notes" ? "fn" : "fall";
+  const tagOk = (r, skip) => ["period", "topic"].every(g => g === skip || !sel[g] || r.tags.includes(sel[g]));
+  const base = ALL.filter(r => {
+    if (y1 || y2) { if (r.year_num == null) return false; if (y1 && r.year_num < y1) return false; if (y2 && r.year_num > y2) return false; }
+    if (hst && !r.links.some(l => holder(l.url) === hst)) return false;
+    if (lng && r.language !== lng) return false;
+    if (shw === "ia" && !r.nlinks) return false;
+    for (const t of terms) { const hit = r[key(t.field || fld)].includes(t.t); if (hit === t.neg) return false; }
+    return true;
+  });
+  VIEW = base.filter(r => tagOk(r));
+  // each tag button says how many entries it would leave, given everything else that is chosen
+  for (const b of document.querySelectorAll("#btags button.tag")) {
+    const g = b.dataset.g, t = TAGS[g][b.dataset.i];
+    const n = base.filter(r => tagOk(r, g) && r.tags.includes(t)).length;
+    b.querySelector(".n").textContent = n;
+    b.setAttribute("aria-pressed", sel[g] === t ? "true" : "false");
+    b.disabled = !n && sel[g] !== t;
+  }
+  const words = terms.filter(t => !t.neg && t.field !== "notes").map(t => t.t);
+  byMatch = !sortKey && words.length > 0;
+  if (byMatch) {
+    const phrase = searchPhrase($("bq").value);
+    for (const r of VIEW) r.rel = relevance(r, words, phrase);
+    VIEW.sort((x, y) => y.rel - x.rel || (x.year_num || 9999) - (y.year_num || 9999) || x.id - y.id);
+  }
+  if (sortKey) {
+    const k = sortKey, d = sortDir;
+    VIEW.sort((a, b) => {
+      let x = a[k], y = b[k];
+      if (k === "author") { x = a.fa || "￿"; y = b.fa || "￿"; } else if (k === "title") { x = a.ft; y = b.ft; }
+      if (x == null) return 1; if (y == null) return -1;
+      return (x < y ? -1 : x > y ? 1 : a.id - b.id) * d;
+    });
+  }
+  render(terms);
+}
+function hl(text, terms) {
+  let out = text; if (!terms.length) return esc(out);
+  for (const t of terms) { if (t.neg || t.t.length < 2) continue;
+    const parts = text.split(/(\s+)/); out = parts.map(w => fold(w).includes(t.t) ? "\u0002" + w + "\u0003" : w).join(""); text = out; }
+  return esc(out).replace(/\u0002+/g, "<mark>").replace(/\u0003+/g, "</mark>");
+}
+function render(terms) {
+  terms = terms || parseQuery($("bq").value);
+  $("brows").innerHTML = VIEW.map((r, i) => `<tr data-i="${i}">
+    <td class="au">${hl(r.author, terms) || '<span class="chip">no author</span>'}</td>
+    <td class="title">${hl(r.title, terms)}${r.notes ? `<span class="note">${md(r.notes)}</span>` : ""}${coins(r)}</td>
+    <td class="year">${esc(r.year)}</td>
+    <td class="ia">${r.nlinks ? `<a class="pill" href="${esc(r.links[0].url)}" target="_blank" rel="noopener" title="${esc(holderName(holder(r.links[0].url)))}"><span class="host">${holder(r.links[0].url)}: </span>${esc(r.links[0].label || "read")} ↗</a>${r.nlinks > 1 ? ` <span class="chip" title="more copies or volumes - open the entry">+${r.nlinks - 1}</span>` : ""}` : ""}</td></tr>`).join("");
+  $("bempty").hidden = VIEW.length > 0;
+  if ($("bdlg").open) for (const el of document.querySelectorAll("#brows span.Z3988")) el.className = "Z3988off";
+  zoteroLook();
+  $("bcount").textContent = `${VIEW.length.toLocaleString()} of ${ALL.length.toLocaleString()} entries` + (byMatch ? " · best match first (click a column to sort instead)" : "");
+  document.querySelectorAll(".books th").forEach(th => th.querySelector(".arrow").textContent = th.dataset.k === sortKey ? (sortDir > 0 ? "▲" : "▼") : "");
+}
+function citation(r) { return [r.author ? r.author + (/[.]$/.test(r.author) ? "" : ".") : "", r.title + (/[.?!]$/.test(r.title) ? "" : "."), [r.imprint, r.year].filter(Boolean).join(", ")].filter(Boolean).join(" ").replace(/\s+/g, " ") + (r.imprint || r.year ? "." : ""); }
+function show(i) {
+  if (i < 0 || i >= VIEW.length) return; cur = i; const r = VIEW[i];
+  $("bdtitle").innerHTML = esc(r.title) + coins(r);
+  const tags = r.tags.map(t => `<button type="button" class="chip" data-tag="${esc(t)}" title="List the entries with this tag">${esc(t)}</button>`).join(" ");
+  const links = r.nlinks ? r.links.map(l => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label || r.title)}</a> <span class="chip">${esc(holderName(holder(l.url)))}</span>`).join("<br>") : "no copy found online";
+  $("bddl").innerHTML = [["Author", esc(r.author) || "—"], ["Year", esc(r.year)], ["Imprint", esc(r.imprint)], ["Language", esc(r.language)], ["Tags", tags], ["Notes", md(r.notes)], ["Online copy", links]]
+    .filter(([, v]) => v).map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("");
+  $("bdsearch").href = "https://archive.org/search?query=" + encodeURIComponent(`title:(${r.title.split(/[.;:]/)[0]})` + (r.author ? ` AND creator:(${r.author.split(",")[0]})` : ""));
+  $("bdprev").disabled = i === 0; $("bdnext").disabled = i === VIEW.length - 1;
+  if (!$("bdlg").open) $("bdlg").showModal();
+  coinsMode(true);
+}
+
+// half a second after the last keystroke, so that typing a phrase does not re-filter on every letter; Enter searches at once
+let tmr; const debounced = () => { clearTimeout(tmr); tmr = setTimeout(apply, 500); };
+$("bq").addEventListener("input", debounced);
+$("bq").addEventListener("keydown", e => { if (e.key === "Enter") { clearTimeout(tmr); apply(); } });
+for (const id of ["bfield", "by1", "by2", "bhost", "blang", "bshow"]) $(id).addEventListener("input", apply);
+$("btags").addEventListener("click", e => { const b = e.target.closest("button.tag"); if (b) pickTag(b.dataset.g, TAGS[b.dataset.g][b.dataset.i]); });
+// a tag in an open entry lists everything else with that tag
+$("bddl").addEventListener("click", e => {
+  const b = e.target.closest("button[data-tag]"); if (!b) return;
+  const t = b.dataset.tag, g = PERIOD.test(t) ? "period" : "topic";
+  sel[g] = t; $("bdlg").close(); apply(); $("books").scrollIntoView({ behavior: "smooth", block: "start" });
+});
+$("breset").onclick = () => {
+  $("bq").value = ""; $("bfield").value = "all"; $("by1").value = $("by2").value = ""; $("bhost").value = "";
+  $("blang").value = ""; $("bshow").value = "all"; sel.period = sel.topic = null; sortKey = null; sortDir = 1; apply(); $("bq").focus();
+};
+document.querySelectorAll(".books th").forEach(th => th.onclick = () => { const k = th.dataset.k; if (sortKey === k) { if (sortDir === 1) sortDir = -1; else { sortKey = null; sortDir = 1; } } else { sortKey = k; sortDir = 1; } apply(); });
+$("brows").addEventListener("click", e => { if (e.target.closest("a")) return; const tr = e.target.closest("tr"); if (tr) show(parseInt(tr.dataset.i)); });
+$("bdclose").onclick = () => $("bdlg").close();
+$("bdlg").addEventListener("close", () => coinsMode(false));
+$("bdlg").addEventListener("click", e => { if (e.target === $("bdlg")) $("bdlg").close(); });
+$("bdprev").onclick = () => show(cur - 1); $("bdnext").onclick = () => show(cur + 1);
+document.addEventListener("keydown", e => { if ($("bdlg").open) { if (e.key === "ArrowLeft") show(cur - 1); if (e.key === "ArrowRight") show(cur + 1); } });
+const copy = (t, b) => navigator.clipboard.writeText(t).then(() => { const o = b.textContent; b.textContent = "Copied ✓"; setTimeout(() => b.textContent = o, 1200); });
+$("bdcopy").onclick = e => copy(citation(VIEW[cur]), e.target);
+const save = (text, type, name) => {
+  const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([text], { type })); a.download = name; a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+};
+// the same columns as page/books.csv, so an export can be pasted back into it
+$("bcsv").onclick = () => {
+  const cols = ["author", "title", "year", "imprint", "language", "links", "tags", "notes"];
+  const val = (r, c) => c === "links" ? r.links.map(l => (l.label ? l.label + " " : "") + l.url).join(" ; ") : c === "tags" ? r.tags.join(" ; ") : r[c];
+  const q = v => '"' + String(v == null ? "" : v).replace(/"/g, '""').replace(/\n/g, " ") + '"';
+  save("﻿" + cols.join(",") + "\n" + VIEW.map(r => cols.map(c => q(val(r, c))).join(",")).join("\n"), "text/csv", EXPORT + "-results.csv");
+};
+
+// COinS (the Z3988 span) so that Zotero's connector can take an entry straight off the page: one in
+// every row of the table and one in the open entry. While an entry is open the spans in the rows are
+// set aside (their class changed), so that Zotero offers that one record rather than the whole list.
+function coinsMode(single) {
+  const off = single ? "Z3988" : "Z3988off", on = single ? "Z3988off" : "Z3988";
+  for (const el of document.querySelectorAll("#brows span." + off)) el.className = on;
+  zoteroLook();
+}
+function coins(r) {
+  const f = [["ctx_ver", "Z39.88-2004"], ["rft_val_fmt", "info:ofi/fmt:kev:mtx:book"], ["rft.genre", "book"],
+             ["rft.btitle", r.title], ["rft.title", r.title], ["rft.au", r.author], ["rft.date", r.year],
+             ["rft.language", r.language], ["rft_id", r.nlinks ? r.links[0].url : ""]];
+  const q = f.filter(([, v]) => v).map(([k, v]) => k + "=" + encodeURIComponent(v)).join("&");
+  return `<span class="Z3988" title="${esc(q)}"></span>`;
+}
+let zoteroAt = 0, zoteroTmr;
+function zoteroLook() {
+  clearTimeout(zoteroTmr);
+  const wait = Math.max(0, 3000 - (Date.now() - zoteroAt));
+  zoteroTmr = setTimeout(() => { zoteroAt = Date.now(); document.dispatchEvent(new Event("ZoteroItemUpdated", { bubbles: true, cancelable: true })); }, wait);
+}
+
+// BibTeX for whatever the filters have left, so a result list can go straight into a reference manager
+const bibEsc = s => String(s == null ? "" : s).replace(/[{}]/g, "").replace(/\\/g, "").replace(/\s+/g, " ").trim();
+function bibKey(r, used) {
+  const sur = (r.author || "").split(",")[0].split(/\s+/).filter(Boolean).pop() || "anon";
+  const word = (r.title || "").split(/\s+/).find(w => w.length > 3 && /^[A-Za-z]/.test(w)) || "";
+  let k = (fold(sur) + (r.year_num || "nd") + fold(word)).replace(/[^a-z0-9]/g, "");
+  if (used.has(k)) { let n = 2; while (used.has(k + n)) n++; k += n; }
+  used.add(k);
+  return k;
+}
+function bibEntry(r, used) {
+  const f = [["author", r.author], ["title", r.title], ["year", r.year], ["publisher", r.imprint], ["language", r.language], ["keywords", r.tags.join(", ")],
+             ["url", r.nlinks ? r.links[0].url : ""], ["note", plain(r.notes)]];
+  const lines = f.filter(([, v]) => bibEsc(v)).map(([k, v]) => `  ${k} = {${bibEsc(v)}}`);
+  return `@book{${bibKey(r, used)},\n${lines.join(",\n")}\n}`;
+}
+$("bbib").onclick = () => {
+  const used = new Set();
+  save("% " + VIEW.length + " entries from " + location.origin + location.pathname + " (" + new Date().toISOString().slice(0, 10) + ")\n\n" +
+    VIEW.map(r => bibEntry(r, used)).join("\n\n") + "\n", "application/x-bibtex", EXPORT + "-results.bib");
+};
+
+load();
+})();
+</script>
+</body>
+</html>

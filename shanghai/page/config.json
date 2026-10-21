@@ -1,0 +1,28 @@
+{
+  "title": "Primary Sources: History of Modern Shanghai",
+  "description": "This page is a list of online open access resources and primary sources related to the history of modern Shanghai.",
+  "lede": [
+    "This page is a list of online open access resources and primary sources related to the history of modern Shanghai. This is part of a collection of primary source guides here at Frog in a Well that were created first and foremost with students in mind, especially those who are mostly dependent on English language materials and who may have limited access to commercial databases. It should be seen as a work in progress, and corrections or suggestions for additions are most welcome."
+  ],
+  "credits": [
+    "See also this Frog in a Well resource page: [Primary Sources: Missionary Perspectives on China](https://froginawell.net/frog/sources/primary-sources-missionary-perspectives-on-china/)",
+    "We very much welcome further contributions to this list of resources. If you have suggestions or corrections, please get in touch with Konrad at kmlawson@froginawell.net or @konrad@social.coop on Mastodon.",
+    "Last Update: 19 Feb, 2024"
+  ],
+  "books_placeholder": "Search author, title, notes… (e.g.  yangtze   \"shanghai dialect\"   author:edkins)",
+  "export": "shanghai-books",
+  "colors": {
+    "light": {
+      "accent": "#6b3fa0",
+      "accent-ink": "#fff",
+      "hit": "#e8dcf5",
+      "link": "#5e3391"
+    },
+    "dark": {
+      "accent": "#b99af0",
+      "accent-ink": "#160f20",
+      "hit": "#3d2a5c",
+      "link": "#cdb6f7"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "A list of open access primary sources for the study of modern Korean history, aimed primarily at students working with sources in English.",
+  "lede": [
+    "This page is part of a collection assembling links to historical primary sources that are open on the web. It should be seen as a work in progress, and corrections or suggestions for additions are most welcome. These resources may be especially useful to students of modern Korean history who are looking for inspiration and primary sources for use in their essays who a) are limited to the English language (though some Korean language sources will be listed below too) b) lack access to subscription databases that universities with strong East Asia collections may offer, and c) are in lockdown due to a global pandemic."
+  ],
+  "credits": [
+    "Contributors: Links, suggestions and corrections with help of Konrad M. Lawson, Holly Stephens, Owen Miller, Vladimir Tikhonov, and Matt Van Volkenburg. Many links already found assembled thanks to the [Royal Asiatic Society-Korea Branch](http://www.raskb.com/) and some of the library guides above.",
+    "We most welcome your corrections or suggestions for additions to the page. You can reach Konrad at kmlawson@froginawell.net or @kmlawson on Twitter.",
+    "The code and design of this page were created with the use of Anthropic Claude with Konrad M. Lawson at the prompt, following the design of the [Modern Japanese History](https://froginawell.net/reference/modern-japan/) page. The links themselves were gathered over several years by Konrad and the contributors named above. Feel free to use this page as a starting point for building your own collection of resources: the list is kept as markdown on GitHub, and pull requests and forks are welcome."
+  ],
+  "books_placeholder": "Search author, title, notes… (e.g.  gale   \"korean folk\"   author:underwood   -german)",
+  "export": "korea-books",
+  "colors": {
+    "light": {
+      "accent": "#b3261e",
+      "accent-ink": "#fff",
+      "hit": "#fadcd9",
+      "link": "#a8231c"
+    },
+    "dark": {
+      "accent": "#ff7a70",
+      "accent-ink": "#1a0f0f",
+      "hit": "#5a2020",
+      "link": "#ff9d95"
+    }
+  }
+}

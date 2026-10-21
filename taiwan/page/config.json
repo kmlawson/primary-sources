@@ -1,0 +1,27 @@
+{
+  "description": "A list of open access primary sources for the study of the history of Taiwan, aimed primarily at students working with sources in English.",
+  "lede": [
+    "This page is part of a collection assembling links to historical primary sources that are open on the web. It should be seen as a work in progress, and corrections or suggestions for additions are most welcome. These resources may be especially useful to students studying Taiwanese history who are looking for inspiration and primary sources for use in their essays who a) are limited to the English language (though some Chinese language sources will also be listed below too) b) lack access to subscription databases that universities with strong East Asia collections may offer, and c) are in lockdown due to a global pandemic."
+  ],
+  "credits": [
+    "Contributors: Links, suggestions and corrections with help of Konrad M. Lawson, Evan Dawley, Paul Barclay, Yang Chanrong, Brent Ho, Katy Hui-Wen Hung, Kerim Friedman, and Tobie Openshaw. Lots of ideas for links here also came from the [Taiwan History](https://www.facebook.com/groups/811812725675036/?ref=group_header) facebook group.",
+    "We most welcome your corrections or suggestions for additions to the page. You can reach Konrad at kmlawson@froginawell.net or @kmlawson on Twitter.",
+    "The code and design of this page were created with the use of Anthropic Claude with Konrad M. Lawson at the prompt, following the design of the [Modern Japanese History](https://froginawell.net/reference/modern-japan/) page. The links themselves were gathered over several years by Konrad and the contributors named above. Feel free to use this page as a starting point for building your own collection of resources: the list is kept as markdown on GitHub, and pull requests and forks are welcome."
+  ],
+  "books_placeholder": "Search author, title, notes… (e.g.  campbell   \"formosa betrayed\"   author:mackay   -german)",
+  "export": "taiwan-books",
+  "colors": {
+    "light": {
+      "accent": "#5cb874",
+      "accent-ink": "#0f2a17",
+      "hit": "#d6f0dc",
+      "link": "#1f7a3d"
+    },
+    "dark": {
+      "accent": "#7fd394",
+      "accent-ink": "#0f1a12",
+      "hit": "#1f4a2c",
+      "link": "#9be0ae"
+    }
+  }
+}

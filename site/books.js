@@ -8,6 +8,11 @@ const fold = s => (s || "").normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCas
 const esc = s => (s || "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const EXPORT = $("books").dataset.export || "books";
 let ALL = [], VIEW = [], sortKey = null, sortDir = 1, cur = -1, byMatch = false;
+// tags: a date range ("1886-1942", "Pre-1823", "1945-Present", "1950-") is a period, anything else a topic.
+// One of each can be chosen at a time; they narrow the list together with everything else.
+const PERIOD = /^(pre-?|post-?)?-?\d{4}(\s*[-–]\s*(\d{4}|present))?-?$/i;
+const sel = { period: null, topic: null };
+const TAGS = { period: [], topic: [] };
 
 // who holds a copy, by the host of its URL: the short code shown in the link column and used by the Host filter
 const HOLDER = [[/web\.archive\.org\//, "WB", "Wayback Machine"], [/archive\.org\//, "IA", "Internet Archive"],
@@ -28,7 +33,8 @@ function load() {
     r.id = i + 1;
     r.nlinks = r.links.length;
     r.fa = fold(r.author); r.ft = fold(r.title); r.fn = fold(plain(r.notes));
-    r.fall = r.fa + " \u0001 " + r.ft + " \u0001 " + r.fn + " " + fold(r.year + " " + r.language);
+    r.tags = r.tags || [];
+    r.fall = r.fa + " \u0001 " + r.ft + " \u0001 " + r.fn + " " + fold(r.year + " " + r.language + " " + (r.imprint || "") + " " + r.tags.join(" "));
     return r;
   });
   const langCount = {};
@@ -41,8 +47,22 @@ function load() {
   for (const h of Object.keys(hosts).sort((a, b) => hosts[b] - hosts[a])) {
     const o = document.createElement("option"); o.value = h; o.textContent = holderName(h); $("bhost").appendChild(o);
   }
+  // periods in date order ("Pre-1823" and "-1823" first), topics alphabetically
+  const tagCount = {};
+  for (const r of ALL) for (const t of r.tags) tagCount[t] = (tagCount[t] || 0) + 1;
+  const start = t => /^(pre|-)/i.test(t) ? -1 : parseInt((t.match(/\d{4}/) || [9999])[0]) + (/^post/i.test(t) ? 0.5 : 0);
+  TAGS.period = Object.keys(tagCount).filter(t => PERIOD.test(t)).sort((a, b) => start(a) - start(b));
+  TAGS.topic = Object.keys(tagCount).filter(t => !PERIOD.test(t)).sort((a, b) => fold(a) < fold(b) ? -1 : 1);
+  if (TAGS.period.length || TAGS.topic.length) {
+    $("btags").hidden = false; $("btaghelp").hidden = false;
+    $("btags").innerHTML = ["period", "topic"].filter(g => TAGS[g].length).map(g =>
+      `<div class="tagrow" data-g="${g}"><span class="taglabel">${g === "period" ? "Period" : "Topic"}</span>` +
+      TAGS[g].map((t, i) => `<button type="button" class="tag" data-g="${g}" data-i="${i}" aria-pressed="false">${esc(t)}<span class="n"></span></button>`).join("") +
+      "</div>").join("");
+  }
   apply();
 }
+function pickTag(g, t) { sel[g] = sel[g] === t ? null : t; apply(); }
 
 function parseQuery(q) {
   const terms = []; const re = /(-?)(?:(author|title|notes):)?(?:"([^"]+)"|(\S+))/gi; let m;
@@ -97,7 +117,8 @@ function apply() {
   const y1 = parseInt($("by1").value) || null, y2 = parseInt($("by2").value) || null;
   const shw = $("bshow").value, hst = $("bhost").value, lng = $("blang").value;
   const key = f => f === "author" ? "fa" : f === "title" ? "ft" : f === "notes" ? "fn" : "fall";
-  VIEW = ALL.filter(r => {
+  const tagOk = (r, skip) => ["period", "topic"].every(g => g === skip || !sel[g] || r.tags.includes(sel[g]));
+  const base = ALL.filter(r => {
     if (y1 || y2) { if (r.year_num == null) return false; if (y1 && r.year_num < y1) return false; if (y2 && r.year_num > y2) return false; }
     if (hst && !r.links.some(l => holder(l.url) === hst)) return false;
     if (lng && r.language !== lng) return false;
@@ -105,6 +126,15 @@ function apply() {
     for (const t of terms) { const hit = r[key(t.field || fld)].includes(t.t); if (hit === t.neg) return false; }
     return true;
   });
+  VIEW = base.filter(r => tagOk(r));
+  // each tag button says how many entries it would leave, given everything else that is chosen
+  for (const b of document.querySelectorAll("#btags button.tag")) {
+    const g = b.dataset.g, t = TAGS[g][b.dataset.i];
+    const n = base.filter(r => tagOk(r, g) && r.tags.includes(t)).length;
+    b.querySelector(".n").textContent = n;
+    b.setAttribute("aria-pressed", sel[g] === t ? "true" : "false");
+    b.disabled = !n && sel[g] !== t;
+  }
   const words = terms.filter(t => !t.neg && t.field !== "notes").map(t => t.t);
   byMatch = !sortKey && words.length > 0;
   if (byMatch) {
@@ -142,12 +172,13 @@ function render(terms) {
   $("bcount").textContent = `${VIEW.length.toLocaleString()} of ${ALL.length.toLocaleString()} entries` + (byMatch ? " · best match first (click a column to sort instead)" : "");
   document.querySelectorAll(".books th").forEach(th => th.querySelector(".arrow").textContent = th.dataset.k === sortKey ? (sortDir > 0 ? "▲" : "▼") : "");
 }
-function citation(r) { return [r.author ? r.author + (/[.]$/.test(r.author) ? "" : ".") : "", r.title + (/[.?!]$/.test(r.title) ? "" : "."), r.year].filter(Boolean).join(" ").replace(/\s+/g, " ") + (r.year ? "." : ""); }
+function citation(r) { return [r.author ? r.author + (/[.]$/.test(r.author) ? "" : ".") : "", r.title + (/[.?!]$/.test(r.title) ? "" : "."), [r.imprint, r.year].filter(Boolean).join(", ")].filter(Boolean).join(" ").replace(/\s+/g, " ") + (r.imprint || r.year ? "." : ""); }
 function show(i) {
   if (i < 0 || i >= VIEW.length) return; cur = i; const r = VIEW[i];
   $("bdtitle").innerHTML = esc(r.title) + coins(r);
+  const tags = r.tags.map(t => `<button type="button" class="chip" data-tag="${esc(t)}" title="List the entries with this tag">${esc(t)}</button>`).join(" ");
   const links = r.nlinks ? r.links.map(l => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label || r.title)}</a> <span class="chip">${esc(holderName(holder(l.url)))}</span>`).join("<br>") : "no copy found online";
-  $("bddl").innerHTML = [["Author", esc(r.author) || "—"], ["Year", esc(r.year)], ["Language", esc(r.language)], ["Notes", md(r.notes)], ["Online copy", links]]
+  $("bddl").innerHTML = [["Author", esc(r.author) || "—"], ["Year", esc(r.year)], ["Imprint", esc(r.imprint)], ["Language", esc(r.language)], ["Tags", tags], ["Notes", md(r.notes)], ["Online copy", links]]
     .filter(([, v]) => v).map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("");
   $("bdsearch").href = "https://archive.org/search?query=" + encodeURIComponent(`title:(${r.title.split(/[.;:]/)[0]})` + (r.author ? ` AND creator:(${r.author.split(",")[0]})` : ""));
   $("bdprev").disabled = i === 0; $("bdnext").disabled = i === VIEW.length - 1;
@@ -160,9 +191,16 @@ let tmr; const debounced = () => { clearTimeout(tmr); tmr = setTimeout(apply, 50
 $("bq").addEventListener("input", debounced);
 $("bq").addEventListener("keydown", e => { if (e.key === "Enter") { clearTimeout(tmr); apply(); } });
 for (const id of ["bfield", "by1", "by2", "bhost", "blang", "bshow"]) $(id).addEventListener("input", apply);
+$("btags").addEventListener("click", e => { const b = e.target.closest("button.tag"); if (b) pickTag(b.dataset.g, TAGS[b.dataset.g][b.dataset.i]); });
+// a tag in an open entry lists everything else with that tag
+$("bddl").addEventListener("click", e => {
+  const b = e.target.closest("button[data-tag]"); if (!b) return;
+  const t = b.dataset.tag, g = PERIOD.test(t) ? "period" : "topic";
+  sel[g] = t; $("bdlg").close(); apply(); $("books").scrollIntoView({ behavior: "smooth", block: "start" });
+});
 $("breset").onclick = () => {
   $("bq").value = ""; $("bfield").value = "all"; $("by1").value = $("by2").value = ""; $("bhost").value = "";
-  $("blang").value = ""; $("bshow").value = "all"; sortKey = null; sortDir = 1; apply(); $("bq").focus();
+  $("blang").value = ""; $("bshow").value = "all"; sel.period = sel.topic = null; sortKey = null; sortDir = 1; apply(); $("bq").focus();
 };
 document.querySelectorAll(".books th").forEach(th => th.onclick = () => { const k = th.dataset.k; if (sortKey === k) { if (sortDir === 1) sortDir = -1; else { sortKey = null; sortDir = 1; } } else { sortKey = k; sortDir = 1; } apply(); });
 $("brows").addEventListener("click", e => { if (e.target.closest("a")) return; const tr = e.target.closest("tr"); if (tr) show(parseInt(tr.dataset.i)); });
@@ -179,8 +217,8 @@ const save = (text, type, name) => {
 };
 // the same columns as page/books.csv, so an export can be pasted back into it
 $("bcsv").onclick = () => {
-  const cols = ["author", "title", "year", "language", "links", "notes"];
-  const val = (r, c) => c === "links" ? r.links.map(l => (l.label ? l.label + " " : "") + l.url).join(" ; ") : r[c];
+  const cols = ["author", "title", "year", "imprint", "language", "links", "tags", "notes"];
+  const val = (r, c) => c === "links" ? r.links.map(l => (l.label ? l.label + " " : "") + l.url).join(" ; ") : c === "tags" ? r.tags.join(" ; ") : r[c];
   const q = v => '"' + String(v == null ? "" : v).replace(/"/g, '""').replace(/\n/g, " ") + '"';
   save("﻿" + cols.join(",") + "\n" + VIEW.map(r => cols.map(c => q(val(r, c))).join(",")).join("\n"), "text/csv", EXPORT + "-results.csv");
 };
@@ -218,7 +256,7 @@ function bibKey(r, used) {
   return k;
 }
 function bibEntry(r, used) {
-  const f = [["author", r.author], ["title", r.title], ["year", r.year], ["language", r.language],
+  const f = [["author", r.author], ["title", r.title], ["year", r.year], ["publisher", r.imprint], ["language", r.language], ["keywords", r.tags.join(", ")],
              ["url", r.nlinks ? r.links[0].url : ""], ["note", plain(r.notes)]];
   const lines = f.filter(([, v]) => bibEsc(v)).map(([k, v]) => `  ${k} = {${bibEsc(v)}}`);
   return `@book{${bibKey(r, used)},\n${lines.join(",\n")}\n}`;

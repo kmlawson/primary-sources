@@ -1,0 +1,1031 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Primary Sources: History of Modern Shanghai</title>
+<meta name="description" content="This page is a list of online open access resources and primary sources related to the history of modern Shanghai.">
+<style>
+:root{--accent:#6b3fa0;--accent-ink:#fff;--hit:#e8dcf5;--link:#5e3391}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--accent:#b99af0;--accent-ink:#160f20;--hit:#3d2a5c;--link:#cdb6f7}}
+:root[data-theme="dark"]{--accent:#b99af0;--accent-ink:#160f20;--hit:#3d2a5c;--link:#cdb6f7}
+/* The Primary Sources pages: serif, quiet, and readable at any width. The layout is the one the
+   Modern Japanese History page uses (japan-bib). The neutral colours are here; each page's accent colours
+   (--accent, --accent-ink, --hit, --link) come from its page/config.json and are written in ahead of this. */
+:root{
+  --bg:#f3f5f8;--panel:#fff;--ink:#16273d;--muted:#5d6f84;--line:#d9e0e8;--chip:#e9eef5;--row:#fafbfd;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f1621;--panel:#16202c;--ink:#e6edf5;--muted:#9ab0c6;--line:#2a3746;--chip:#1e2a38;--row:#131c27;}}
+:root[data-theme="dark"]{
+  --bg:#0f1621;--panel:#16202c;--ink:#e6edf5;--muted:#9ab0c6;--line:#2a3746;--chip:#1e2a38;--row:#131c27;}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+a{color:var(--link)}
+code{font-size:.9em;background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:1px 5px;overflow-wrap:anywhere}
+
+:root { --serif: Georgia, "Iowan Old Style", "Times New Roman", serif; }
+
+body.page { font-family: var(--serif); }
+.wrap { max-width: 980px; margin: 0 auto; padding: 0 16px; }
+
+header.site { padding: 26px 0 6px; }
+header.site h1 { font: 700 30px/1.15 var(--serif); margin: 0 0 6px; cursor: default; display: block; }
+header.site h1:hover { color: inherit; }
+header.site p.lede { margin: 0 0 8px; color: var(--muted); font-size: 15px; }
+header.site p.also { margin: 2px 0 14px; font-size: 14px; text-align: center; }
+header.site p.also a { color: var(--link); }
+header.site p.also .sep { color: var(--line); padding: 0 2px; }
+
+/* the row of buttons: one per section of the page, wrapping together */
+nav.jumps { padding: 6px 0 18px; border-bottom: 1px solid var(--line); }
+nav.jumps .sections { display: flex; flex-wrap: wrap; gap: 8px; }
+nav.jumps button {
+  font: 600 14px/1.2 var(--serif); padding: 9px 14px; border: 1px solid var(--line); border-radius: 999px;
+  background: var(--panel); color: var(--ink); cursor: pointer;
+}
+nav.jumps button:hover { border-color: var(--link); color: var(--link); }
+/* an open section: a light blue fill, so it reads as pressed */
+nav.jumps button[aria-expanded="true"] { background: var(--hit); border-color: var(--link); color: var(--link); }
+/* open or close every section at once: a light wash of the accent blue, and it follows the theme
+   because it is mixed from the accent colour rather than written out */
+nav.jumps button.openall {
+  background: color-mix(in srgb, var(--accent) 16%, var(--panel));
+  border-color: color-mix(in srgb, var(--accent) 38%, var(--panel));
+  color: var(--link); font-weight: 700;
+}
+nav.jumps button.openall:hover {
+  background: color-mix(in srgb, var(--accent) 26%, var(--panel));
+  border-color: var(--link); color: var(--accent);
+}
+
+
+/* the way into the books: the one solid, bolder button on the page, last in the row */
+nav.jumps button.search {
+  background: var(--accent); border-color: var(--accent); color: var(--accent-ink);
+  font-weight: 700; letter-spacing: .01em; box-shadow: 0 1px 2px color-mix(in srgb, var(--accent) 25%, transparent);
+}
+nav.jumps button.search:hover { filter: brightness(1.08); color: var(--accent-ink); border-color: var(--accent); }
+
+/* a section of the list: hidden until its button is pressed */
+section.md { padding: 6px 0 4px; border-bottom: 1px solid var(--line); }
+section.md > h2 {
+  font: 700 22px/1.25 var(--serif); margin: 18px 0 10px; cursor: pointer; display: flex; align-items: baseline; gap: 10px;
+}
+section.md > h2:hover { color: var(--link); }
+section.md > h2::after { content: "▲"; font-size: 11px; color: var(--muted); }
+section.md .body { font-size: 16px; line-height: 1.55; padding-bottom: 14px; }
+section.md .body ul { margin: 8px 0; padding-left: 22px; }
+section.md .body li { margin: 4px 0; }
+section.md .body li ul { margin: 2px 0; }
+section.md .body a { color: var(--link); }
+/* a bullet marked <!--pills--> and ending in a colon turns its indented list into a row of small bubbles */
+section.md .body ul.pills { display: flex; flex-wrap: wrap; gap: 6px 10px; list-style: none; padding-left: 0; margin: 6px 0 12px; }
+section.md .body ul.pills li { margin: 0; display: inline-flex; align-items: baseline; gap: 6px; max-width: 100%; }
+section.md .body a.pill-link {
+  display: inline-block; padding: 3px 11px; border-radius: 999px; text-decoration: none;
+  font: 600 13.5px/1.4 var(--serif); color: var(--link);
+  background: color-mix(in srgb, var(--accent) 12%, var(--panel));
+  border: 1px solid color-mix(in srgb, var(--accent) 32%, var(--panel));
+}
+section.md .body a.pill-link:hover { background: color-mix(in srgb, var(--accent) 24%, var(--panel)); border-color: var(--accent); }
+section.md .body .pill-note { font-size: 12.5px; color: var(--muted); }
+/* a bubble inside an ordinary list: no bullet, and whatever is indented under it sits just below */
+section.md .body li.pill-own { list-style: none; }
+section.md .body li.pill-own > ul.pills { margin: 4px 0 2px; }
+section.md .body p { margin: 10px 0; }
+section.md .body em { font-style: italic; }
+
+
+/* the books, always on the page after the other sections; its heading does not close it */
+section.books-section { padding-top: 10px; }
+section.books-section > h2 { font: 700 22px/1.25 var(--serif); margin: 18px 0 4px; }
+section.books-section .body { font-size: 16px; line-height: 1.55; }
+section.books-section .body > ul { margin: 8px 0; padding-left: 22px; }
+section.books-section .body a { color: var(--link); }
+
+/* back to the top: out of the way until the page has been scrolled */
+button.totop {
+  position: fixed; right: 18px; bottom: 18px; z-index: 6;
+  width: 42px; height: 42px; border-radius: 50%; cursor: pointer;
+  border: 1px solid var(--accent); background: var(--accent); color: var(--accent-ink);
+  font: 600 18px/1 var(--serif); box-shadow: 0 2px 8px color-mix(in srgb, var(--accent) 30%, transparent);
+}
+button.totop:hover { filter: brightness(1.08); }
+button.totop[hidden] { display: none; }
+@media (max-width: 640px) { button.totop { right: 12px; bottom: 12px; } }
+
+/* no rule of its own: the buttons and every open section already end in one */
+footer.credit { padding: 14px 0 38px; font-size: 13px; color: var(--muted); margin-top: 18px; }
+footer.credit p { margin: 10px 0 0; }
+footer.credit p.version { font-size: 12.5px; }
+footer.credit a { color: var(--link); }
+footer.site { padding: 18px 0 40px; font-size: 14px; color: var(--muted); }
+footer.site a { color: var(--link); }
+footer.site ul { padding-left: 20px; }
+
+@media (max-width: 640px) {
+  header.site h1 { font-size: 24px; }
+}
+/* The table of books online: the search table of the Modern Japanese History page (japan-bib
+   site/app.css), kept to the parts this list uses and scoped to .books so it leaves the page alone. */
+.books { font: 15px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 14px 0 6px; }
+.books .controls { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 10px 0 8px; border-bottom: 1px solid var(--line); }
+.books .row1 { display: flex; gap: 8px; flex-wrap: wrap; }
+.books #bq { flex: 1 1 320px; min-width: 0; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); color: var(--ink); font-size: 16px; }
+.books select, .books input[type=number], .books button { padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); color: var(--ink); font-size: 14px; font-family: inherit; }
+.books button { cursor: pointer; }
+.books .row2 { display: flex; gap: 10px 14px; flex-wrap: wrap; align-items: center; margin-top: 8px; font-size: 13px; }
+.books .row2 select, .books .row2 input { font-size: 13px; padding: 6px 8px; }
+.books .row2 input[type=number] { width: 5.2em; -moz-appearance: textfield; appearance: textfield; }
+.books .row2 input[type=number]::-webkit-outer-spin-button, .books .row2 input[type=number]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+.books .row2 label { display: flex; align-items: center; gap: 6px; white-space: nowrap; flex: 0 0 auto; max-width: 100%; }
+.books .row2 select { min-width: 0; max-width: 100%; }
+/* tags: a row of periods and a row of topics; the number is how many entries the tag would leave */
+.books .tagbar { padding: 10px 0 2px; border-bottom: 1px solid var(--line); }
+.books .tagrow { display: flex; flex-wrap: wrap; gap: 6px; align-items: baseline; margin: 0 0 8px; }
+.books .taglabel { font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin-right: 4px; min-width: 4.5em; }
+.books button.tag { padding: 4px 11px; border-radius: 999px; font: 600 13px/1.35 Georgia, "Times New Roman", serif; background: var(--panel); color: var(--ink); }
+.books button.tag .n { font: 500 11.5px/1 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; color: var(--muted); margin-left: 4px; }
+.books button.tag:hover { border-color: var(--link); color: var(--link); }
+.books button.tag[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.books button.tag[aria-pressed="true"] .n { color: inherit; opacity: .85; }
+.books button.tag:disabled { opacity: .4; cursor: default; }
+.books button.tag:disabled:hover { border-color: var(--line); color: var(--ink); }
+.books .dbody button.chip { border: 0; cursor: pointer; font: inherit; font-size: 12px; padding: 1px 8px; }
+.books .dbody button.chip:hover { color: var(--link); }
+.books .status { display: flex; justify-content: space-between; gap: 8px; flex-wrap: wrap; align-items: center; margin: 10px 0 6px; color: var(--muted); font-size: 13px; }
+.books .status .right { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.books .tablewrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; background: var(--panel); }
+.books table { border-collapse: collapse; width: 100%; min-width: 600px; table-layout: fixed; }
+.books th, .books td { padding: 8px 10px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); overflow-wrap: anywhere; }
+.books th:last-child, .books td:last-child { padding-right: 18px; }   /* room to the right of the pills */
+.books th { background: var(--panel); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); cursor: pointer; user-select: none; white-space: nowrap; }
+.books th .arrow { opacity: .9; margin-left: 4px; }
+.books tbody tr { cursor: pointer; }
+.books tbody tr:nth-child(even) { background: var(--row); }
+.books tbody tr:hover { outline: 2px solid var(--accent); outline-offset: -2px; }
+.books td.au, .books td.title, .books td.year { font-family: Georgia, "Times New Roman", serif; }
+.books th:nth-child(1) { width: 21%; } .books th:nth-child(2) { width: 51%; } .books th:nth-child(3) { width: 9%; } .books th:nth-child(4) { width: 19%; }
+.books td.year, .books td.ia { white-space: nowrap; }
+.books .note { display: block; font-size: 12.5px; color: var(--muted); margin-top: 2px; }
+.books a.pill { display: inline-block; border-radius: 999px; padding: 2px 10px; font-size: 12.5px; font-weight: 600; text-decoration: none; white-space: nowrap; background: var(--hit); color: var(--link); }
+.books a.pill:hover { filter: brightness(.95); text-decoration: underline; }
+.books .chip { display: inline-block; background: var(--chip); border-radius: 999px; padding: 1px 8px; font-size: 12px; color: var(--muted); margin-right: 4px; }
+.books mark { background: var(--hit); color: inherit; border-radius: 2px; padding: 0 1px; }
+.books .empty { padding: 40px; text-align: center; color: var(--muted); }
+.books .help { font-size: 13px; color: var(--muted); margin: 8px 0 0; }
+.books code { background: var(--chip); border: 0; padding: 0 4px; border-radius: 4px; }
+.books dialog { border: 1px solid var(--line); border-radius: 12px; background: var(--panel); color: var(--ink); max-width: 760px; width: calc(100% - 32px); padding: 0; }
+.books dialog::backdrop { background: rgba(0, 0, 0, .45); }
+/* Header and footer stay put and only the entry scrolls, so the close button is always in reach */
+.books dialog[open] { display: flex; flex-direction: column; max-height: calc(100vh - 32px); max-height: calc(100dvh - 32px); }
+.books .dhead { display: flex; justify-content: space-between; gap: 12px; padding: 16px 18px 8px; flex: none; border-bottom: 1px solid var(--line); }
+.books .dhead button { align-self: flex-start; }
+.books #bdclose { flex: none; min-width: 44px; min-height: 44px; font-size: 20px; line-height: 1; padding: 0; }
+.books .dhead h2 { font: 600 19px/1.3 Georgia, serif; margin: 0; }
+.books .dbody { padding: 0 18px 18px; overflow-y: auto; flex: 1 1 auto; min-height: 0; overscroll-behavior: contain; }
+.books .dbody dl { display: grid; grid-template-columns: 110px 1fr; gap: 6px 12px; margin: 8px 0 0; }
+.books .dbody dt { color: var(--muted); font-size: 13px; }
+.books .dbody dd { margin: 0; overflow-wrap: anywhere; }
+.books .dfoot { display: flex; gap: 8px; flex-wrap: wrap; padding: 12px 18px; border-top: 1px solid var(--line); flex: none; }
+@media (max-width: 640px) {
+  .books .dbody dl { grid-template-columns: 1fr; } .books .dbody dt { margin-top: 6px; }
+  .books dialog { width: calc(100% - 16px); } .books dialog[open] { max-height: calc(100vh - 16px); max-height: calc(100dvh - 16px); }
+  .books .dhead { padding: 10px 10px 8px 14px; } .books .dhead h2 { font-size: 17px; } .books .dbody { padding: 0 14px 14px; }
+  .books .dfoot { gap: 6px; padding: 8px 10px; } .books .dfoot button { font-size: 13px; padding: 6px 8px; }
+  .books table { min-width: 0; }
+  .books th:nth-child(1) { width: 26%; } .books th:nth-child(2) { width: auto; } .books th:nth-child(3) { width: 14%; } .books th:nth-child(4) { width: 24%; }
+  .books a.pill .host { display: none; }   /* a narrow column: the pill keeps to its label; the entry names the host */
+  .books td.ia { white-space: normal; }   /* and a +1 drops below it */
+  .books .taglabel { min-width: 0; flex-basis: 100%; }
+  .books #bq { flex-basis: 100%; } .books .row1 select { flex: 1 1 auto; min-width: 0; } .books .row2 label { flex-wrap: wrap; } .books .controls { position: static; }
+}
+</style>
+</head>
+<body class="page">
+<div class="wrap">
+  <header class="site">
+    <h1>Primary Sources: History of Modern Shanghai</h1>
+    <p class="lede">This page is a list of online open access resources and primary sources related to the history of modern Shanghai. This is part of a collection of primary source guides here at Frog in a Well that were created first and foremost with students in mind, especially those who are mostly dependent on English language materials and who may have limited access to commercial databases. It should be seen as a work in progress, and corrections or suggestions for additions are most welcome.</p>
+    <p class="also"><a href="https://froginawell.net/reference/modern-japan/" target="_blank" rel="noopener">Primary Sources: Modern Japanese History</a> <span class="sep">·</span> <a href="https://kmlawson.github.io/primary-sources/korea/" target="_blank" rel="noopener">Primary Sources: Modern Korean History</a> <span class="sep">·</span> <a href="https://kmlawson.github.io/primary-sources/taiwan/" target="_blank" rel="noopener">Primary Sources: History of Taiwan</a> <span class="sep">·</span> <a href="https://froginawell.net/frog/sources/" target="_blank" rel="noopener">Other Frog in a Well Resources</a></p>
+  </header>
+  <nav class="jumps">
+    <div class="sections">
+      <button type="button" class="jump openall" data-target="all" aria-expanded="false">Open All</button>
+      <button type="button" class="jump" data-target="s-virtual-shanghai" aria-expanded="false">Virtual Shanghai</button>
+      <button type="button" class="jump" data-target="s-periodicals" aria-expanded="false">Periodicals</button>
+      <button type="button" class="jump" data-target="s-shanghai-municipal-council-french-concession-and-other-reports" aria-expanded="false">Shanghai Municipal Council, French Concession, and other Reports</button>
+      <button type="button" class="jump" data-target="s-shanghai-muncipal-police" aria-expanded="false">Shanghai Muncipal Police</button>
+      <button type="button" class="jump" data-target="s-guides-to-shanghai" aria-expanded="false">Guides to Shanghai</button>
+      <button type="button" class="jump" data-target="s-directories-and-almanacs" aria-expanded="false">Directories and Almanacs</button>
+      <button type="button" class="jump" data-target="s-visual-sources" aria-expanded="false">Visual Sources</button>
+      <button type="button" class="jump" data-target="s-maps" aria-expanded="false">Maps</button>
+      <button type="button" class="jump" data-target="s-films" aria-expanded="false">Films</button>
+      <button type="button" class="jump" data-target="s-other-resources" aria-expanded="false">Other Resources</button>
+      <button type="button" class="jump search" data-target="s-memoirs-accounts-and-other-sources">Memoirs, Accounts, and Other Sources</button>
+    </div>
+  </nav>
+  <section class="md" id="s-virtual-shanghai" hidden>
+    <h2 tabindex="0" role="button" title="Hide this section">Virtual Shanghai</h2>
+    <div class="body">
+<p>The best open online resource for the study of modern Shanghai, deserving special mention up front, is the wonderful <a href="https://www.virtualshanghai.net" target="_blank" rel="noopener">Virtual Shanghai</a> project. Below are highlighted only some of the excellent primary source materials there.</p>
+<ul>
+<li><a href="https://www.virtualshanghai.net/Maps/Collection" target="_blank" rel="noopener"><strong>Maps</strong></a> - Hundreds of maps of Shanghai over time. See also their <a href="https://www.virtualshanghai.net/Maps/Base" target="_blank" rel="noopener">Base Maps</a> and <a href="https://www.virtualshanghai.net/Maps/eAtlas" target="_blank" rel="noopener">eAtlas</a> collections, as well as GIS data in their <a href="https://www.virtualshanghai.net/Maps/Live" target="_blank" rel="noopener">Live Maps</a> section.</li>
+<li><a href="https://www.virtualshanghai.net/Photos/Images" target="_blank" rel="noopener"><strong>Images</strong></a> - Thousands of images from Shanghai, often with very useful metadata.</li>
+<li><a href="https://www.virtualshanghai.net/Films/Collection" target="_blank" rel="noopener"><strong>Films</strong></a> - Some hundred films or film clips related to Shanghai.</li>
+<li><a href="https://www.virtualshanghai.net/Texts/E-Library" target="_blank" rel="noopener"><strong>Elibrary</strong></a> - This collection of hundreds of documents, contains many extremely important PDF downloads of historical publications and documents related to Shanghai, some of them linked again below.</li>
+<li><strong>Data</strong> - There is a wealth of data files hosted by the project that are rich references related to Shanghai history. See the hundreds of entries in the <a href="https://www.virtualshanghai.net/Data/Tables" target="_blank" rel="noopener">Numerical Data</a> section, the <a href="https://www.virtualshanghai.net/Texts/Appendices" target="_blank" rel="noopener">Appendices</a>, and the extensive database of Shanghai <a href="https://www.virtualshanghai.net/Data/Buildings" target="_blank" rel="noopener">Buildings</a>, which often includes addresses, photographs and GPS locations. There is also a list of <a href="https://www.virtualshanghai.net/References/Repository" target="_blank" rel="noopener">Repositories</a> and <a href="https://www.virtualshanghai.net/References/Publisher" target="_blank" rel="noopener">Publishers</a> which connects, in turn, to lists of materials produced by individual publishers related to Shanghai.</li>
+<li><strong>Secondary Sources</strong> - See the hundreds of entries in the <a href="https://www.virtualshanghai.net/References/Bibliography" target="_blank" rel="noopener">Bibliography</a> section and the publications in the <a href="https://www.virtualshanghai.net/Texts/Articles" target="_blank" rel="noopener">Papers</a> section.</li>
+</ul>
+    </div>
+  </section>
+  <section class="md" id="s-periodicals" hidden>
+    <h2 tabindex="0" role="button" title="Hide this section">Periodicals</h2>
+    <div class="body">
+<p>A few of the most important publications available online and open access in English useful for research on modern Shanghai can be found listed <a href="https://www.chinafamilies.net/links-for-further-research/newspapers/historic-newspapers-published-in-china-available-open-access-online/" target="_blank" rel="noopener">here</a> and include some of those below:</p>
+<ul>
+<li><a href="https://archive.org/details/northchinaherald" target="_blank" rel="noopener">North China Herald</a> - Over 3,800 issues can be downloaded and browsed. There is a non-open access commercial database that supports full text search.</li>
+<li><a href="https://archive.org/details/thechinaweeklyreview" target="_blank" rel="noopener">China Weekly Review</a> - Over 1,000 issues in first half of the 20th century.</li>
+<li><a href="https://archive.org/details/hbhyb-archive" target="_blank" rel="noopener">Chinese English Intelligence</a> - 1947-48, over 200 issues.</li>
+<li><a href="https://archive.org/details/thefareasternreview" target="_blank" rel="noopener">Far Eastern Review</a> - Several hundred issues from 1904-1941. Published for a time in Shanghai.</li>
+<li><a href="http://www.jewsofchina.org/israel-s-messenger-1904-1934-en" target="_blank" rel="noopener">Israel&#x27;s Messenger 1904-1934</a> - partial run of the Official Organ of the Shanghai Zionist Federation, 1904-1934</li>
+<li><a href="https://archive.org/search?query=title%3A%28London%20and%20China%20Telegraph%29" target="_blank" rel="noopener">London and China Telegraph</a> - Over 600 issues from 1860-77.</li>
+<li><a href="https://archive.org/search?query=title%3A%28Shanghai%20Evening%20Post%20and%20Mercury%29" target="_blank" rel="noopener">Shanghai Evening Post and Mercury</a> - A few issues of this online.</li>
+<li><a href="https://archive.org/details/lbiperiodicals" target="_blank" rel="noopener">Leo Baeck Institute Library Periodical Collection</a> (mostly German)</li>
+<li><a href="https://archive.org/details/shanghaijewishch01unse" target="_blank" rel="noopener">Shanghai Jewish Chronicle</a> (1939-1945)</li>
+<li><a href="https://archive.org/details/shanghaiechoshan01unse" target="_blank" rel="noopener">Shanghai Echo</a> (1946-1948)</li>
+<li><a href="https://archive.org/details/shanghaiwochesha00ead" target="_blank" rel="noopener">Shanghai Woche</a> (1939, 1942)</li>
+<li><a href="https://archive.org/details/sportshanghaichi7121ead" target="_blank" rel="noopener">Sport</a> (1942-1943)</li>
+<li><a href="https://archive.org/details/shanghaiermorgen00ead" target="_blank" rel="noopener">Shanghaier Morgenpost</a> (1941)</li>
+<li><a href="https://archive.org/details/szammittagdersha00ead" target="_blank" rel="noopener">S. Z. am Mittag der Shanghai Post</a> (1939-1940)</li>
+<li><a href="https://archive.org/details/judischesnachric00ead" target="_blank" rel="noopener">Jüdisches Nachrichtenblatt</a></li>
+<li><a href="https://archive.org/details/achtuhrabendblat00ead" target="_blank" rel="noopener">Acht Uhr Abendblatt</a> (1939-1941)</li>
+<li><a href="https://archive.org/details/judischesnachric00ead" target="_blank" rel="noopener">Jüdisches Nachrichtenblatt</a> (1940-1946?)</li>
+<li><a href="https://archive.org/details/mitteilungenderv1119vere_ead" target="_blank" rel="noopener">Mitteilungen der Vereinigung der Emigranten-Ärzte in Shanghai</a> (1940-1),</li>
+<li><a href="https://archive.org/details/gelbepost" target="_blank" rel="noopener">Gelbe Post: Ostasiatisch Halbmonatsschrift</a> (1939-40)</li>
+<li><a href="https://archive.org/details/MedizinischeMonatshefteShanghai" target="_blank" rel="noopener">Medizinische Monatshefte Shanghai</a> (1940-1941)</li>
+<li><a href="https://manoa.hawaii.edu/library/research/collections/russia/russian-northeast-asia-collection/the-xxth-century-shanghai-1941-1945-a-guide/" target="_blank" rel="noopener">XXth Century 1941-1945</a> - Pro-Axis journal published in Japanese occupied Shanghai</li>
+<li><a href="https://archive.org/search?query=title%3A%28social%20shanghai%29%20AND%20subject%3A%28magazines%29%20AND%20subject%3A%28shanghai%29" target="_blank" rel="noopener">Social Shanghai</a> - Interesting early 20th century magazine (issues from 1907-1912).</li>
+</ul>
+<p>There are over 80 historical Chinese newspapers from Shanghai available online, most of which, of course, are in Chinese:</p>
+<ul>
+<li><a href="https://archive.org/details/eastasia-periodicals" target="_blank" rel="noopener">East Asian Newspapers and Periodicals 1850-1950</a> - A large Archive.org collection of downloadable newspapers. While slower to browse, the advantage of this platform is that full issues of these can be downloaded easily in PDF.</li>
+<li><a href="https://www.chinafamilies.net/links-for-further-research/newspapers/historic-newspapers-published-in-china-available-open-access-online/" target="_blank" rel="noopener">Historic newspapers published in China available Open Access online</a> - Broader link list of open access newspapers from China, including many available on Archive.org but also others.</li>
+<li><a href="https://public.tableau.com/app/profile/yanhe/viz/PeriodicalsinLateQingandRepublicanEraOpenAccess/sheet2" target="_blank" rel="noopener">Tableau: Index to the Periodicals Published during the Late Qing and Republican Eras</a> - An interactive map with links to open access collections of Chinese historical newspapers.</li>
+</ul>
+<p>Examples of Shanghai newspapers linked in the pages above:</p>
+<ul>
+<li><a href="https://archive.org/details/shenbao-archive" target="_blank" rel="noopener">申報</a> (1872-1949)</li>
+<li><a href="https://archive.org/details/xsb-archive" target="_blank" rel="noopener">新申報</a> (1937-45)</li>
+<li><a href="https://archive.org/details/theshibao" target="_blank" rel="noopener">時報</a> (1904-1939)</li>
+<li><a href="https://archive.org/details/xinwenbao-shanghai" target="_blank" rel="noopener">新聞報</a> (1893-1949)</li>
+<li><a href="https://archive.org/details/zilin-hubao-archive" target="_blank" rel="noopener">字林滬報</a> (1882-89)</li>
+<li><a href="https://archive.org/details/shanghaiwomen" target="_blank" rel="noopener">上海婦女</a> (1938-40)</li>
+<li><a href="https://archive.org/details/shanghaisketch" target="_blank" rel="noopener">上海漫畫</a> (Shanghai Sketch 1928-37)</li>
+<li><a href="https://archive.org/details/pictoralshanghai" target="_blank" rel="noopener">上海畫報</a> (Pictorial Shanghai 1925-32)</li>
+<li><a href="https://archive.org/details/shanghai-shutan-archive" target="_blank" rel="noopener">上海書壇</a> (1948-51)</li>
+<li><a href="https://archive.org/details/shanghai-xiaobao-archive" target="_blank" rel="noopener">上海小報</a> (1940-1)</li>
+<li><a href="https://archive.org/details/shanghaiyingtan" target="_blank" rel="noopener">上海影壇</a> (1943-5)</li>
+<li><a href="https://archive.org/details/shanghai-ribao-archive" target="_blank" rel="noopener">上海日報</a> (1938-43)</li>
+<li><a href="https://archive.org/details/twrb-archive" target="_blank" rel="noopener">跳舞日報</a> (1940-42)</li>
+<li><a href="https://archive.org/details/dyrb-archive" target="_blank" rel="noopener">電影日報</a> (1940-42)</li>
+<li><a href="https://archive.org/details/dianying-shibao-archive" target="_blank" rel="noopener">電影時報</a> (1932-33)</li>
+<li><a href="https://archive.org/details/diansheng-ribao-archive" target="_blank" rel="noopener">電聲日報</a> (1932-33)</li>
+<li><a href="https://archive.org/details/zhongmei-ribao-archive" target="_blank" rel="noopener">中美日報</a> (1938-46)</li>
+<li><a href="https://archive.org/details/zhonghua-ribao-archive" target="_blank" rel="noopener">中華日報</a> (1928-45)</li>
+<li><a href="https://archive.org/details/mgrb-archive" target="_blank" rel="noopener">民國日報</a> (1916-47)</li>
+<li><a href="https://archive.org/details/shenghuo-ribao-archive" target="_blank" rel="noopener">生活日報</a> (1913-40)</li>
+<li><a href="https://archive.org/details/lianyi-zhi-you-archive" target="_blank" rel="noopener">聯益之友</a> (1925-31)</li>
+<li><a href="https://archive.org/details/hulihutu-archive" target="_blank" rel="noopener">糊裡糊塗</a> (1927-8)</li>
+<li><a href="https://archive.org/details/yuandong-fandian-rikan-archive" target="_blank" rel="noopener">遠東飯店日刊</a> (1926)</li>
+<li><a href="https://archive.org/details/zuixiaobao-archive" target="_blank" rel="noopener">最小報</a> (1922-25)</li>
+<li><a href="https://archive.org/details/libailiu-archive" target="_blank" rel="noopener">禮拜六</a> (1928-32)</li>
+<li><a href="https://archive.org/details/jingangzuan-archive" target="_blank" rel="noopener">金剛鑽</a> (1923-37)</li>
+<li><a href="https://archive.org/details/wenhuibao-archive" target="_blank" rel="noopener">文匯報</a> (1938-45)</li>
+<li><a href="https://archive.org/details/kuaile-shijie-archive" target="_blank" rel="noopener">快樂世界</a> (1927)</li>
+<li><a href="https://archive.org/details/jile-shijie-archive" target="_blank" rel="noopener">極樂世界</a> (1927-8)</li>
+<li><a href="https://archive.org/details/yingju-shenghuo-archive" target="_blank" rel="noopener">影戲生活</a> (1932-3)</li>
+<li><a href="https://archive.org/details/xingfubao-archive" target="_blank" rel="noopener">幸福報</a> (1928-31)</li>
+<li><a href="https://archive.org/details/xinshijie-shanghai-archive" target="_blank" rel="noopener">新世界</a> (1917-27)</li>
+<li><a href="https://archive.org/details/xishijie-archive" target="_blank" rel="noopener">戲世界</a> (1935-45)</li>
+<li><a href="https://archive.org/details/weishengbao-archive" target="_blank" rel="noopener">衛生報</a> (1927-30)</li>
+<li><a href="https://archive.org/details/youxibao-archive" target="_blank" rel="noopener">遊戲報</a> (1897-04)</li>
+<li><a href="https://archive.org/details/libao-archive" target="_blank" rel="noopener">立報</a> (1935-38, 45-49)</li>
+<li><a href="https://archive.org/details/chengbao-archive" target="_blank" rel="noopener">誠報</a> (1916-20)</li>
+<li><a href="https://archive.org/details/jingbao-archive" target="_blank" rel="noopener">晶報</a> (1919-40)</li>
+<li><a href="https://archive.org/details/cullinglong" target="_blank" rel="noopener">玲瓏</a> (1931-37)</li>
+<li><a href="https://archive.org/details/longbao-archive" target="_blank" rel="noopener">龍報</a> (1928-32)</li>
+<li><a href="https://archive.org/details/changshou-archive" target="_blank" rel="noopener">長壽</a> (1932-5)</li>
+<li><a href="https://archive.org/details/liangyou_magazine" target="_blank" rel="noopener">良友</a> (1926-45)</li>
+<li><a href="https://archive.org/details/minbao-shanghai-archive" target="_blank" rel="noopener">民報</a> (1932-37)</li>
+<li><a href="https://archive.org/details/pingbao-shanghai-archive" target="_blank" rel="noopener">平報</a> (1940-5)</li>
+<li><a href="https://archive.org/details/changshi-shanghai-archive" target="_blank" rel="noopener">常識</a> (1927-31)</li>
+<li><a href="https://archive.org/details/xiaobao-archive" target="_blank" rel="noopener">笑報</a> (1926-31)</li>
+<li><a href="https://archive.org/details/wenxueliterature" target="_blank" rel="noopener">文學</a> (1933-37)</li>
+<li><a href="https://archive.org/details/wyxw-archive" target="_blank" rel="noopener">文藝新聞</a> (1931-32)</li>
+<li><a href="https://archive.org/details/dachangshi-archive" target="_blank" rel="noopener">大常識</a> (1928-30)</li>
+<li><a href="https://archive.org/details/fenbao-archive" target="_blank" rel="noopener">奮報</a> (1939-40)</li>
+<li><a href="https://archive.org/details/shangbao-shanghai-archive" target="_blank" rel="noopener">商報</a> (1921-50)</li>
+<li><a href="https://archive.org/details/shijie-xiaobao-archive" target="_blank" rel="noopener">世界小報</a> (1923-26)</li>
+<li><a href="https://archive.org/details/daying-yebao-archive" target="_blank" rel="noopener">大英夜報</a> (1938-46)</li>
+<li><a href="https://archive.org/details/damei-wanbao-archive" target="_blank" rel="noopener">大美晚報</a> (1933-41)</li>
+<li><a href="https://archive.org/details/chinaphotography" target="_blank" rel="noopener">中國攝影</a> (1946-9)</li>
+<li><a href="https://archive.org/details/dagongbao-shanghai-archive" target="_blank" rel="noopener">大公報</a> (Dagongbao Shanghai edition 1936-52)</li>
+<li><a href="https://cn.govopendata.com/renminribao/" target="_blank" rel="noopener">人民日报</a> | <a href="https://github.com/fangj/rmrb" target="_blank" rel="noopener">Downloadable 1946-2003 Archive</a> | <a href="https://archive.org/details/renminribao-archive" target="_blank" rel="noopener">1945-1949 PDFs</a></li>
+</ul>
+<p>Several other important collections:</p>
+<ul>
+<li><a href="https://www.modernhistory.org.cn/" target="_blank" rel="noopener">抗日战争与近代中日关系文献数据平台</a> - Extremely rich collection going well beyond the wartime period.</li>
+<li><a href="https://gpa.eastview.com/crl/lqrcn/" target="_blank" rel="noopener">Late Qing and Republican-Era Chinese Newspapers</a> - Contains large number of Shanghai publications. Sometimes only a few issues or fragments of issues.</li>
+<li><a href="https://ecpo.cats.uni-heidelberg.de/frauenzeitschriften/" target="_blank" rel="noopener">Chinese Women&#x27;s Magazines in the Late Qing and Early Republican Period</a> - includes a digital archive of 女子世界，婦女時報，玲瓏，and is working on 婦女雜誌. I&#x27;ve had some trouble reaching this site of late.</li>
+<li><a href="http://projects.zo.uni-heidelberg.de/xiaobao" target="_blank" rel="noopener">Xiao Bao: Chinese Entertainment Newspapers</a> - This wonderful collection no longer seems to be online. If anyone has an updated home for it, please get in touch.</li>
+<li>English language Hong Kong Newspapers - which often mention news related to Shanghai</li>
+<li><a href="https://archive.org/search?query=title%3A%28China%20Mail%29%20AND%20collection%3A%28china-mail%29" target="_blank" rel="noopener">China Mail</a> (1866-1961 issues)</li>
+<li><a href="https://archive.org/search?query=title%3A%28Hong%20Kong%20Daily%20Press%29%20AND%20collection%3A%28china-mail%29" target="_blank" rel="noopener">Hong Kong Daily Press</a> (1864-1941 issues)</li>
+<li><a href="https://archive.org/search?query=title%3A%28Hong+Kong+Sunday+Herald%29+AND+collection%3A%28china-mail%29" target="_blank" rel="noopener">Hong Kong Sunday Herald</a> (1929-1950 issues)</li>
+<li><a href="https://archive.org/search?query=title%3A%28Hong+Kong+Weekly+Press%29+AND+collection%3A%28china-mail%29" target="_blank" rel="noopener">Hong Kong Weekly Press</a> (1895-1909 issues)</li>
+<li><a href="https://archive.org/search?query=title%3A%28Hong+Kong+Telegraph%29+AND+collection%3A%28china-mail%29" target="_blank" rel="noopener">Hong Kong Telegraph</a> (1881-1951 issues)</li>
+</ul>
+<p>See also for reference:</p>
+<ul>
+<li>Britton, Roswell S. <a href="https://archive.org/details/the-chinese-periodical-press-1800-1912" target="_blank" rel="noopener"><em>The Chinese Periodical Press 1800-1912</em></a> (1933)</li>
+<li><a href="https://archive.org/details/china-publishers-directory" target="_blank" rel="noopener"><em>China Publishers&#x27; Directory: A Practical Guide to Newspapers and Periodicals For China Advertisers</em></a> (1934)</li>
+<li>Ma Yin-liang <a href="https://archive.org/details/brief-history-of-the-chinese-press" target="_blank" rel="noopener"><em>A Brief History of the Chinese Press</em></a> (1937)</li>
+</ul>
+    </div>
+  </section>
+  <section class="md" id="s-shanghai-municipal-council-french-concession-and-other-reports" hidden>
+    <h2 tabindex="0" role="button" title="Hide this section">Shanghai Municipal Council, French Concession, and other Reports</h2>
+    <div class="body">
+<p>There are a range of useful sources online related to the administration of the Shanghai International Settlement and the separate French Concession.</p>
+<ul>
+<li><strong>Minutes of the Shanghai Municipal Council</strong> <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1209" target="_blank" rel="noopener">1854-63</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1211" target="_blank" rel="noopener">1864-66</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1212" target="_blank" rel="noopener">1867-69</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1213" target="_blank" rel="noopener">1870-71</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1214" target="_blank" rel="noopener">1872-73</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1215" target="_blank" rel="noopener">1874-76</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1216" target="_blank" rel="noopener">1877-82</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1217" target="_blank" rel="noopener">1883-86</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1218" target="_blank" rel="noopener">1887-89</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1219" target="_blank" rel="noopener">1890-92</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1220" target="_blank" rel="noopener">1893-95</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1221" target="_blank" rel="noopener">1895-96</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1222" target="_blank" rel="noopener">1897-98</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1223" target="_blank" rel="noopener">1899-1901</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1224" target="_blank" rel="noopener">1902-04</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1226" target="_blank" rel="noopener">1905-07</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1227" target="_blank" rel="noopener">1908-10</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1225" target="_blank" rel="noopener">1911-13</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1229" target="_blank" rel="noopener">1914-16</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1228" target="_blank" rel="noopener">1917-19</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1230" target="_blank" rel="noopener">1920-21</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1231" target="_blank" rel="noopener">1922-24</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1232" target="_blank" rel="noopener">1925-27</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1233" target="_blank" rel="noopener">1928-30</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1234" target="_blank" rel="noopener">1931-32</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1235" target="_blank" rel="noopener">1933-35</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1236" target="_blank" rel="noopener">1936-39</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1237" target="_blank" rel="noopener">1940-43</a></li>
+<li><strong>工部局会议记录</strong> (Minutes of the Shanghai Municipal Council, Chinese language) <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=384" target="_blank" rel="noopener">1854-63</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=385" target="_blank" rel="noopener">1864-66</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=386" target="_blank" rel="noopener">1867-69</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=387" target="_blank" rel="noopener">1870-71</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=388" target="_blank" rel="noopener">1872-73</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=389" target="_blank" rel="noopener">1874-76</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=390" target="_blank" rel="noopener">1877-82</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=391" target="_blank" rel="noopener">1883-86</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=392" target="_blank" rel="noopener">1887-89</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=393" target="_blank" rel="noopener">1890-92</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=394" target="_blank" rel="noopener">1893-94</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=395" target="_blank" rel="noopener">1895-96</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=396" target="_blank" rel="noopener">1897-98</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=397" target="_blank" rel="noopener">1899-01</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=398" target="_blank" rel="noopener">1902-04</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=399" target="_blank" rel="noopener">1905-07</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=400" target="_blank" rel="noopener">1908-1910</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=401" target="_blank" rel="noopener">1911-13</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=731" target="_blank" rel="noopener">1914-1916</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=731" target="_blank" rel="noopener">1917-1919</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=732" target="_blank" rel="noopener">1920-21</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=733" target="_blank" rel="noopener">1922-24</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=734" target="_blank" rel="noopener">1925-27</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=735" target="_blank" rel="noopener">1928-30</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=736" target="_blank" rel="noopener">1931-32</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=737" target="_blank" rel="noopener">1933-35</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=738" target="_blank" rel="noopener">1936-39</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=739" target="_blank" rel="noopener">1940-43</a></li>
+<li><strong>Shanghai Municipal Council Reports (and Budgets for the Next)</strong> <a href="https://www.bnasie.eu/BN/Periodicals?ID=68" target="_blank" rel="noopener">1859</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=69" target="_blank" rel="noopener">1860</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=70" target="_blank" rel="noopener">1861</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=71" target="_blank" rel="noopener">1862</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=67" target="_blank" rel="noopener">1863</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=72" target="_blank" rel="noopener">1864</a> | <a href="https://archive.org/details/Shanghai-Municipal-Council-1876-Budget-And-Remarks" target="_blank" rel="noopener">1876</a> | <a href="https://archive.org/details/Shanghai-Municipal-Council-1877-SMC-Budget-And-Remarks" target="_blank" rel="noopener">1877</a> | <a href="https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1878-and-Budget-for-the-Year-1879" target="_blank" rel="noopener">1878</a> | <a href="https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1879-and-Budget-for-the-Year-1880" target="_blank" rel="noopener">1879</a> | <a href="https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1880-and-Budget-for-the-Year-1881" target="_blank" rel="noopener">1880</a> | <a href="https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882" target="_blank" rel="noopener">1881</a> | <a href="https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1882-and-Budget-for-the-Year-1883" target="_blank" rel="noopener">1882</a> | <a href="https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1883-and-Budget-for-the-Year-1884" target="_blank" rel="noopener">1883</a> | <a href="https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1885-and-Budget-for-the-Year-1886" target="_blank" rel="noopener">1895</a> | <a href="https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887" target="_blank" rel="noopener">1886</a> | <a href="https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1887-and-Budget-for-the-Year-1888" target="_blank" rel="noopener">1887</a> | <a href="https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1888-and-Budget-for-the-Year-1889" target="_blank" rel="noopener">1888</a> | <a href="https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890" target="_blank" rel="noopener">1889</a> | <a href="https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1890-and-Budget-for-the-Year-1891" target="_blank" rel="noopener">1890</a> | <a href="https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1891-and-Budget-for-the-Year-1892" target="_blank" rel="noopener">1891</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=55" target="_blank" rel="noopener">1892</a> | <a href="https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1893-and-Budget-for-the-Year-1894" target="_blank" rel="noopener">1893</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=58" target="_blank" rel="noopener">1896</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=59" target="_blank" rel="noopener">1897</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=60" target="_blank" rel="noopener">1898</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=61" target="_blank" rel="noopener">1899</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=62" target="_blank" rel="noopener">1900</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=63" target="_blank" rel="noopener">1901</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=64" target="_blank" rel="noopener">1902</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=65" target="_blank" rel="noopener">1903</a> | <a href="https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1904-and-Budget-for-the-Year-1905" target="_blank" rel="noopener">1904</a> | <a href="https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1905-and-Budget-for-the-Year-1906" target="_blank" rel="noopener">1905</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=66" target="_blank" rel="noopener">1906</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=41" target="_blank" rel="noopener">1907</a> | <a href="https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1908-and-Budget-for-the-Year-1909" target="_blank" rel="noopener">1908</a> | <a href="https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1909-and-Budget-for-the-Year-1910" target="_blank" rel="noopener">1909</a> | <a href="https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1911-and-Budget-for-the-Year-1912" target="_blank" rel="noopener">1911</a> | <a href="https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1912-and-Budget-for-the-Year-1913" target="_blank" rel="noopener">1912</a> | <a href="https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1913-and-Budget-for-the-Year-1914" target="_blank" rel="noopener">1913</a> | <a href="https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1914-and-Budget-for-the-Year-1915" target="_blank" rel="noopener">1914</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=2013" target="_blank" rel="noopener">1915</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=2015" target="_blank" rel="noopener">1916</a> | <a href="https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1917-and-Budget-for-the-Year-1918" target="_blank" rel="noopener">1917</a> | <a href="https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1918-and-Budget-for-the-Year-1919" target="_blank" rel="noopener">1918</a> | <a href="https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1919-and-Budget-for-the-Year-1920" target="_blank" rel="noopener">1919</a> | <a href="https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1920-and-Budget-for-the-Year-1921" target="_blank" rel="noopener">1920</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=2016" target="_blank" rel="noopener">1921</a> | <a href="https://archive.org/details/shanghai-municipal-council-report-for-the-year-1922-and-budget-for-the-year-1923" target="_blank" rel="noopener">1922</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=42" target="_blank" rel="noopener">1923</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=43" target="_blank" rel="noopener">1924</a> | <a href="https://archive.org/details/1925-smc-annual-report-and-budget" target="_blank" rel="noopener">1925</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=44" target="_blank" rel="noopener">1926</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=45" target="_blank" rel="noopener">1927</a> | <a href="https://archive.org/details/1928-smc-annual-report-and-budget" target="_blank" rel="noopener">1928</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=46" target="_blank" rel="noopener">1929</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=47" target="_blank" rel="noopener">1930</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=48" target="_blank" rel="noopener">1931</a> | <a href="https://archive.org/details/1932-smc-annual-report-and-budget" target="_blank" rel="noopener">1932</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=49" target="_blank" rel="noopener">1933</a> | <a href="https://archive.org/details/1934-shanghai-municipal-council-report-for-the-year-1934-and-budget-for-the-year-1935" target="_blank" rel="noopener">1934</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=50" target="_blank" rel="noopener">1935</a> | <a href="https://archive.org/details/1936-smc-annual-report-and-budget-part-1" target="_blank" rel="noopener">1936</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=51" target="_blank" rel="noopener">1937</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=52" target="_blank" rel="noopener">1938</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=53" target="_blank" rel="noopener">1939</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=56" target="_blank" rel="noopener">1940</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=54" target="_blank" rel="noopener">1942</a></li>
+<li><strong>The Municipal Gazette: Being the Official Organ of the Shanghai Municipal Council</strong> <a href="https://archive.org/details/the-municipal-gazette-v-1-1908" target="_blank" rel="noopener">1908</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-2-1909" target="_blank" rel="noopener">1909</a> | | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-3-1910" target="_blank" rel="noopener">1910</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-4-1911" target="_blank" rel="noopener">1911</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-5-1912" target="_blank" rel="noopener">1912</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-6-1913" target="_blank" rel="noopener">1913</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-7-1914" target="_blank" rel="noopener">1914</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-8-1915" target="_blank" rel="noopener">1915</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-9-1916" target="_blank" rel="noopener">1916</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-10-1917" target="_blank" rel="noopener">1917</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-11-1918" target="_blank" rel="noopener">1918</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-12-1919" target="_blank" rel="noopener">1919</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-13-1920" target="_blank" rel="noopener">1920</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-14-1921" target="_blank" rel="noopener">1921</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-15-1922" target="_blank" rel="noopener">1922</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-16-1923" target="_blank" rel="noopener">1923</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-17-1924" target="_blank" rel="noopener">1924</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-18-1925" target="_blank" rel="noopener">1925</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-19-1926" target="_blank" rel="noopener">1926</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-20-1927" target="_blank" rel="noopener">1927</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-21-1928" target="_blank" rel="noopener">1928</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-22-1929" target="_blank" rel="noopener">1929</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-23-1930" target="_blank" rel="noopener">1930</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-24-1931" target="_blank" rel="noopener">1931</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-25-1932" target="_blank" rel="noopener">1932</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-26-1933" target="_blank" rel="noopener">1933</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-27-1934" target="_blank" rel="noopener">1934</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-28-1935" target="_blank" rel="noopener">1935</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-29-1936" target="_blank" rel="noopener">1936</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-30-1937" target="_blank" rel="noopener">1937</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-31-1938" target="_blank" rel="noopener">1938</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-32-1939" target="_blank" rel="noopener">1939</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-33-1940" target="_blank" rel="noopener">1940</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-34-1941" target="_blank" rel="noopener">1941</a> | <a href="https://archive.org/details/municipal-gazette-shanghai-municipal-council-vol-34-1942" target="_blank" rel="noopener">1942</a></li>
+<li><a href="https://archive.org/details/shszfgb-archive" target="_blank" rel="noopener"><strong>上海市政府公報</strong></a> - Shanghai official gazette for the Chinese city of Shanghai 1929-48</li>
+<li><strong>上海市年鑑</strong> <a href="https://commons.wikimedia.org/wiki/File:NLC416-07jh009038-3899_%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%B9%B4%E9%91%91.pdf" target="_blank" rel="noopener">1935</a> | <a href="https://commons.wikimedia.org/wiki/File:SSID-11330892_%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%B9%B4%E9%91%91_1935.pdf" target="_blank" rel="noopener">1935 alt.</a> | <a href="https://commons.wikimedia.org/wiki/File:NLC416-07jh009032-3877_%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%B9%B4%E9%91%91.pdf" target="_blank" rel="noopener">1935 alt. 2</a> | <a href="https://commons.wikimedia.org/wiki/File:SSID-13847535_%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%B9%B4%E9%91%91_1936.pdf" target="_blank" rel="noopener">1936</a> | <a href="https://commons.wikimedia.org/wiki/File:SSID-11256962_%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%B9%B4%E9%91%91_1936_%E4%B8%8B.pdf" target="_blank" rel="noopener">1936 下</a> | <a href="https://commons.m.wikimedia.org/wiki/File:SSID-11256961_%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%B9%B4%E9%91%91_1937.pdf" target="_blank" rel="noopener">1937</a> | <a href="https://commons.wikimedia.org/wiki/File:NLC511-023031404010026-32400_%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%B9%B4%E9%91%91.pdf" target="_blank" rel="noopener">1946</a> | <a href="https://commons.wikimedia.org/wiki/File:SSID-11330890_%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%B9%B4%E9%91%91_1946.pdf" target="_blank" rel="noopener">1946 alt.</a> | <a href="https://commons.wikimedia.org/wiki/File:NLC416-11jh002176-56936_%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%B9%B4%E9%91%91.pdf" target="_blank" rel="noopener">1947</a></li>
+<li><a href="https://commons.wikimedia.org/wiki/File:NLC416-07jh007427-6611_%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%8B%9E%E5%B7%A5%E5%B9%B4%E9%91%91.pdf" target="_blank" rel="noopener">上海市勞工年鑑</a> (1947)</li>
+<li><strong>Compte rendu de la gestion</strong> <a href="https://www.bnasie.eu/BN/Periodicals?ID=74" target="_blank" rel="noopener">1894</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=89" target="_blank" rel="noopener">1900</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=90" target="_blank" rel="noopener">1901</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=91" target="_blank" rel="noopener">1902</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=92" target="_blank" rel="noopener">1904</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=93" target="_blank" rel="noopener">1905</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=94" target="_blank" rel="noopener">1906</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=95" target="_blank" rel="noopener">1907</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=96" target="_blank" rel="noopener">1908</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=97" target="_blank" rel="noopener">1909</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=15" target="_blank" rel="noopener">1910</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=16" target="_blank" rel="noopener">1911</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=17" target="_blank" rel="noopener">1912</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=18" target="_blank" rel="noopener">1913</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=19" target="_blank" rel="noopener">1914</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=20" target="_blank" rel="noopener">1915</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=21" target="_blank" rel="noopener">1916</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=22" target="_blank" rel="noopener">1917</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=23" target="_blank" rel="noopener">1918</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=40" target="_blank" rel="noopener">1919</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=29" target="_blank" rel="noopener">1920</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=30" target="_blank" rel="noopener">1921</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=31" target="_blank" rel="noopener">1922</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=32" target="_blank" rel="noopener">1923</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=33" target="_blank" rel="noopener">1924</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=34" target="_blank" rel="noopener">1925</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=39" target="_blank" rel="noopener">1926</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=38" target="_blank" rel="noopener">1929</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=37" target="_blank" rel="noopener">1932</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=36" target="_blank" rel="noopener">1933</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=35" target="_blank" rel="noopener">1934</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=28" target="_blank" rel="noopener">1935</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=27" target="_blank" rel="noopener">1936</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=26" target="_blank" rel="noopener">1939</a> | <a href="https://www.bnasie.eu/BN/Periodicals?ID=25" target="_blank" rel="noopener">1940</a> - this is the annual report by the municipal administration of the French Concession plus the budget for the next year.</li>
+<li>Returns of Trade at the Treaty Ports <a href="https://babel.hathitrust.org/cgi/pt?id=coo.31924069747842&amp;view=2up&amp;seq=6" target="_blank" rel="noopener">1859/1864</a> | <a href="https://archive.org/details/reportsontradea02shugoog" target="_blank" rel="noopener">1865</a> | <a href="https://babel.hathitrust.org/cgi/pt?id=hvd.hy14tn&amp;view=2up&amp;seq=1" target="_blank" rel="noopener">1864</a> | <a href="https://babel.hathitrust.org/cgi/pt?id=coo.31924069747883&amp;seq=7" target="_blank" rel="noopener">1867</a> | <a href="https://archive.org/details/reportsontradea03shugoog" target="_blank" rel="noopener">1868</a> | <a href="https://archive.org/details/reportsontradea04shugoog" target="_blank" rel="noopener">1869</a> | <a href="https://babel.hathitrust.org/cgi/pt?id=coo.31924069747891&amp;view=2up&amp;seq=6" target="_blank" rel="noopener">1870-1872</a> | <a href="https://archive.org/details/reportsontradea01shugoog" target="_blank" rel="noopener">1870</a> | <a href="https://babel.hathitrust.org/cgi/pt?id=coo.31924069747909&amp;seq=7" target="_blank" rel="noopener">1873</a> | <a href="https://babel.hathitrust.org/cgi/pt?id=coo.31924069747917&amp;view=2up&amp;seq=6" target="_blank" rel="noopener">1875</a> | <a href="https://babel.hathitrust.org/cgi/pt?id=coo.31924069747925&amp;seq=7" target="_blank" rel="noopener">1876</a> | <a href="https://archive.org/details/reportsontradea00shugoog" target="_blank" rel="noopener">1879</a> |</li>
+<li>Customs&#x27; Gazette <a href="https://archive.org/details/CustomsGazettes1869/page/n3/mode/2up" target="_blank" rel="noopener">1869</a></li>
+<li><a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1354" target="_blank" rel="noopener">Shanghai Municipal Council Censuses, 1865-1942</a></li>
+<li>Correspondance relating to International Settlement extension <a href="https://www.bnasie.eu/BN/Archives?ID=55" target="_blank" rel="noopener">1912</a> | <a href="https://www.bnasie.eu/BN/Archives?ID=57" target="_blank" rel="noopener">1914a</a> | <a href="https://www.bnasie.eu/BN/Archives?ID=58" target="_blank" rel="noopener">1914b</a> | <a href="https://www.bnasie.eu/BN/Archives?ID=56" target="_blank" rel="noopener">1915</a> | <a href="https://www.bnasie.eu/BN/Archives?ID=59" target="_blank" rel="noopener">1922</a></li>
+<li><a href="https://archive.org/details/instructions-to-inspectors-shanghai" target="_blank" rel="noopener"><em>Instructions to Inspectors</em></a></li>
+<li><em>Henry Lester Institute of Medical Researech Annual Report</em> <a href="https://archive.org/details/lester-report-1930" target="_blank" rel="noopener">1930</a> | <a href="https://archive.org/details/lester-report-1934" target="_blank" rel="noopener">1934</a> | <a href="https://archive.org/details/lester-report-1935" target="_blank" rel="noopener">1935</a> | <a href="https://archive.org/details/lester-report-1936" target="_blank" rel="noopener">1936</a></li>
+<li><em>Annual Reports of the Chinese Hospital at Shanghai</em> <a href="https://archive.org/details/b22344639" target="_blank" rel="noopener">1848</a> | <a href="https://archive.org/details/b22344640" target="_blank" rel="noopener">1849</a> | <a href="https://archive.org/details/b22344597" target="_blank" rel="noopener">1850</a> | <a href="https://archive.org/details/b22344603" target="_blank" rel="noopener">1852</a> | <a href="https://archive.org/details/b22344615" target="_blank" rel="noopener">1855</a> | <a href="https://archive.org/details/b22344627" target="_blank" rel="noopener">1856</a></li>
+<li><a href="https://archive.org/details/refugees-final-report" target="_blank" rel="noopener">Refugee Relief Work Final Report - International Relief Committee, Shanghai</a> (1940)</li>
+<li><a href="https://archive.org/details/mixed-court-rules-shanghai" target="_blank" rel="noopener"><em>The Mixed Court at Shanghai: Rules of Procedure</em></a> (1917)</li>
+<li><a href="https://archive.org/details/handbook-of-licence-conditions-1921" target="_blank" rel="noopener"><em>Handbook of Licence Conditions</em></a> (1921)</li>
+<li><a href="https://archive.org/details/the-code-of-criminal-procedure-of-the-republic-of-china" target="_blank" rel="noopener"><em>The Code Of Criminal Procedure Of The Republic Of China and the Court Agreement Relating to the Chinese Courts in the International Settlement of Shanghai, China</em></a></li>
+</ul>
+    </div>
+  </section>
+  <section class="md" id="s-shanghai-muncipal-police" hidden>
+    <h2 tabindex="0" role="button" title="Hide this section">Shanghai Muncipal Police</h2>
+    <div class="body">
+<p>The US National Archives index and guide to this massive collection of documents related to the International Settlement&#x27;s Shanghai Municipal Police can be browsed diretly on the Internet Archive:</p>
+<p><a href="https://archive.org/details/records-of-the-shanghai-municipal-police-1894-1949-microfilm-pamphlet" target="_blank" rel="noopener"><strong>Microfilm Pamphlet: Records Of The Shanghai Municipal Police 1894-1949</strong></a> - Records of the Central Intelligence Agency Record Group 263. Another copy of this is here: <a href="https://www.bnasie.eu/BN/Books?ID=2712" target="_blank" rel="noopener">BNA copy</a></p>
+<p>There is a wiki set up that is digitizing this index to make it easily searchable, and providing links to individual files or pages within the rolls on the Internet Archive. View the SMPA Wiki here:</p>
+<p><a href="https://prosopa.org/smpa" target="_blank" rel="noopener"><strong>Shanghai Municipal Police Archive Wiki</strong></a></p>
+<p>There are copies of most, but not all, of the SMP microfilm rolls on the Bibliotèque Numérique Asiatique website which are mirrored to the Internet Archive and linked within the wiki above. Read more about this digitization program <a href="https://enepchina.hypotheses.org/3450" target="_blank" rel="noopener">here</a>. For the BNA files see these links:</p>
+<ul>
+<li><strong>Records of the Shanghai Municipal Police</strong> - Rolls <a href="https://www.bnasie.eu/BN/Archives?ID=66" target="_blank" rel="noopener">1-3</a> | <a href="https://www.bnasie.eu/BN/Archives?ID=67" target="_blank" rel="noopener">4-6</a> | <a href="https://www.bnasie.eu/BN/Archives?ID=68" target="_blank" rel="noopener">7-9</a> | <a href="https://www.bnasie.eu/BN/Archives?ID=69" target="_blank" rel="noopener">10-12</a> | <a href="https://www.bnasie.eu/BN/Archives?ID=70" target="_blank" rel="noopener">13-15</a> | <a href="https://www.bnasie.eu/BN/Archives?ID=71" target="_blank" rel="noopener">16-18</a> | <a href="https://www.bnasie.eu/BN/Archives?ID=72" target="_blank" rel="noopener">19-21</a> | <a href="https://www.bnasie.eu/BN/Archives?ID=73" target="_blank" rel="noopener">22-23</a> | <a href="https://www.bnasie.eu/BN/Archives?ID=74" target="_blank" rel="noopener">24-26</a> | <a href="https://www.bnasie.eu/BN/Archives?ID=75" target="_blank" rel="noopener">27-29</a> | <a href="https://www.bnasie.eu/BN/Archives?ID=76" target="_blank" rel="noopener">30-32</a> | <a href="https://www.bnasie.eu/BN/Archives?ID=77" target="_blank" rel="noopener">33-35</a> | <a href="https://www.bnasie.eu/BN/Archives?ID=78" target="_blank" rel="noopener">36-38</a> | <a href="https://www.bnasie.eu/BN/Archives?ID=79" target="_blank" rel="noopener">39 &amp; 41</a> | <a href="https://www.bnasie.eu/BN/Archives?ID=80" target="_blank" rel="noopener">42-44</a> | <a href="https://www.bnasie.eu/BN/Archives?ID=81" target="_blank" rel="noopener">45-47</a> | <a href="https://www.bnasie.eu/BN/Archives?ID=82" target="_blank" rel="noopener">48-50</a> | <a href="https://www.bnasie.eu/BN/Archives?ID=83" target="_blank" rel="noopener">51-53</a> | <a href="https://www.bnasie.eu/BN/Archives?ID=84" target="_blank" rel="noopener">53-56</a> | <a href="https://www.bnasie.eu/BN/Archives?ID=85" target="_blank" rel="noopener">57-59</a> | <a href="https://www.bnasie.eu/BN/Archives?ID=86" target="_blank" rel="noopener">60-62</a> | <a href="https://www.bnasie.eu/BN/Archives?ID=87" target="_blank" rel="noopener">63</a></li>
+<li><a href="https://archive.org/search?query=Subject%3A%28Police+Files%29+AND+Subject%3A%28SMPA%29+AND+Subject%3A%28Shanghai+Municipal+Police%29" target="_blank" rel="noopener">Shanghai Municipal Police Individual Files</a> - In addition to the microfilm rolls, extracted individual files can also be browsed on the Internet Archive, though it is not a full collection.</li>
+</ul>
+<p>There is a searchable database of many officers in the Shanghai Municipal Police at China Familes and a collection of photographs found in the SMP collections:</p>
+<ul>
+<li><a href="https://www.chinafamilies.net/records/shanghai-municipal-policemen/" target="_blank" rel="noopener">Shanghai Municipal Policemen</a></li>
+<li><a href="https://hpcbristol.net/exhibitions/shanghai-municipal-police-collections" target="_blank" rel="noopener">Historical Photographs of China - Shanghai Municipal Police Collections</a></li>
+</ul>
+<p>Also of interest:</p>
+<ul>
+<li><a href="https://archive.org/details/widdowson-police-guide-smp-1938" target="_blank" rel="noopener"><em>Shanghai Municipal Police Guide and Regulations</em></a> (1938)</li>
+<li><a href="https://archive.org/details/shanghai-municipal-police-manual-of-self-defence/mode/2up" target="_blank" rel="noopener"><em>Shanghai Municipal Police Manual Of Self Defence</em></a></li>
+</ul>
+    </div>
+  </section>
+  <section class="md" id="s-guides-to-shanghai" hidden>
+    <h2 tabindex="0" role="button" title="Hide this section">Guides to Shanghai</h2>
+    <div class="body">
+<ul>
+<li><a href="https://archive.org/details/cu31924023217825" target="_blank" rel="noopener">Shanghai: A Handbook for Travellers and Residents</a> (1904?)</li>
+<li><a href="https://archive.org/details/the-hotel-metropole-company-guide-to-shanghai" target="_blank" rel="noopener">Guide Book to Shanghai and Environs</a> (1906)</li>
+<li><a href="https://archive.org/details/hand-book-of-japan-with-notes-on-hongkon" target="_blank" rel="noopener">Hand Book Of Japan With Notes On Hongkong, Canton, Macao, Shanghai</a> (1910)</li>
+<li><a href="https://archive.org/details/information-for-travellers-landing-at-shanghai" target="_blank" rel="noopener">Information For Travellers Landing At Shanghai</a> (1912)</li>
+<li><a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1260" target="_blank" rel="noopener">Shanghai: A Handbook for Travellers and Residents</a> (1920)</li>
+<li><a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1312" target="_blank" rel="noopener">上海指南</a> (Guide to Shanghai, 1920)</li>
+<li><a href="https://archive.org/details/gows-guide-to-shanghai-1924" target="_blank" rel="noopener">Gow&#x27;s Guide to Shanghai</a> (1924)</li>
+<li><a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1308" target="_blank" rel="noopener">Where to go and What to See in Shanghai and North China</a> (1930)</li>
+<li><a href="https://archive.org/details/all-about-shanghai" target="_blank" rel="noopener">All About Shanghai</a> (1935)</li>
+<li><a href="https://www.virtualshanghai.net/Texts/E-Library?ID=337" target="_blank" rel="noopener">A Guide to Catholic Shanghai</a> (1937)</li>
+<li><a href="https://archive.org/details/automobile-club-1938" target="_blank" rel="noopener">The Automobile Club of China Handbook</a> (1938)</li>
+<li><a href="https://archive.org/details/the-shanghai-guide" target="_blank" rel="noopener">The Shanghai Guide</a> (1939)</li>
+<li><a href="https://archive.org/details/guide-to-shanghai-1940" target="_blank" rel="noopener">Guide to Shanghai</a> (1940)</li>
+<li><a href="https://archive.org/details/guide-to-shanghai-1941" target="_blank" rel="noopener">Guide to Shanghai</a> (1941)</li>
+<li><a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1" target="_blank" rel="noopener">Streets of Shanghai: A History in Itself</a> (1941)</li>
+<li><a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1304" target="_blank" rel="noopener">最新上海指南</a> (Latest Guide to Shanghai, 1946)</li>
+<li><a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1591" target="_blank" rel="noopener">大上海指南</a> (Guide to Greater Shanghai, 1947)</li>
+<li><a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1309" target="_blank" rel="noopener">上海指南</a> (Guide to Shanghai, 1957)</li>
+<li><a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1310" target="_blank" rel="noopener">上海指南</a> (Guide to Shanghai, 1980)</li>
+<li><a href="https://archive.org/details/shanghai-street-guide" target="_blank" rel="noopener">Shanghai Street Guide</a> (1985)</li>
+</ul>
+    </div>
+  </section>
+  <section class="md" id="s-directories-and-almanacs" hidden>
+    <h2 tabindex="0" role="button" title="Hide this section">Directories and Almanacs</h2>
+    <div class="body">
+<p>See this helpful list of <a href="https://www.chinafamilies.net/directories/" target="_blank" rel="noopener">Directories</a> on the <a href="https://www.chinafamilies.net" target="_blank" rel="noopener">China Families</a> website for an extensive list of links to directories online.</p>
+<h3>Chronicle &amp; Directory Series</h3>
+<p><a href="https://www.asia-directories.org/focal/" target="_blank" rel="noopener"><strong>The Asia Directories Database</strong></a> is an extensive resource for browsing and searching this directory series.</p>
+<p>See a list of many of these <a href="https://digital.nls.uk/asian-directories-and-chronicles/archive/142307361" target="_blank" rel="noopener">online directories</a> in this series on the National Library of Scotland here. Other copies on Archive.org: <a href="https://archive.org/details/shanghai-almanac-for-the-year-1857" target="_blank" rel="noopener">1857</a> | <a href="https://archive.org/details/1864-chronicle-and-directory-for-china-etc" target="_blank" rel="noopener">1864</a> | <a href="https://archive.org/details/1865-chronicle-and-directory-for-china-etc" target="_blank" rel="noopener">1865</a> | <a href="https://archive.org/details/Directorychronicle1879" target="_blank" rel="noopener">1879</a> | <a href="https://archive.org/details/1884-chronicle-and-directory-for-china/mode/2up" target="_blank" rel="noopener">1884</a> | <a href="https://archive.org/details/b29351479" target="_blank" rel="noopener">1885</a> | <a href="https://archive.org/details/Directorychronicle1889" target="_blank" rel="noopener">1889</a> | <a href="https://archive.org/details/Directorychronicle1892" target="_blank" rel="noopener">1892</a> | <a href="https://archive.org/details/Directorychronicle1894" target="_blank" rel="noopener">1894</a> | <a href="https://archive.org/details/Directorychronicle1899" target="_blank" rel="noopener">1899</a> | <a href="https://archive.org/details/Directorychronicle1905" target="_blank" rel="noopener">1905</a> | <a href="https://archive.org/details/1906-chronicle-and-directory-for-china-etc" target="_blank" rel="noopener">1906</a> | <a href="https://archive.org/details/Directorychronicle1908" target="_blank" rel="noopener">1908</a> | <a href="https://archive.org/details/directorychroniclechina1915" target="_blank" rel="noopener">1915</a> | <a href="https://archive.org/details/Directorychronicle1917" target="_blank" rel="noopener">1917</a> | <a href="https://archive.org/details/Directorychronicle1920" target="_blank" rel="noopener">1920</a> | <a href="https://archive.org/details/the-directory-and-chronicle-for-china-etc-1938" target="_blank" rel="noopener">1938</a></p>
+<h3>Other Directories and Almanacs</h3>
+<ul>
+<li><em>The Desk Hong List</em> <a href="https://archive.org/details/1882deskhonglist" target="_blank" rel="noopener">1882</a> | <a href="https://archive.org/details/1884deskhonglist" target="_blank" rel="noopener">1884</a> | <a href="https://archive.org/details/1904-desk-hong-list" target="_blank" rel="noopener">1904</a></li>
+<li><em>North-China Desk Hong List</em> <a href="http://archive.org/details/north-china-desk-hong-list-1926-01-shanghai" target="_blank" rel="noopener">1926</a> | <a href="http://archive.org/details/north-china-desk-hong-list-1927-01-shanghai" target="_blank" rel="noopener">1927</a> | <a href="https://archive.org/details/north-china-desk-hong-list-1928-07-shanghai" target="_blank" rel="noopener">1928</a> | <a href="http://archive.org/details/north-china-desk-hong-list-1929-07-shanghai" target="_blank" rel="noopener">1929</a> | <a href="http://archive.org/details/north-china-desk-hong-list-1930-07-shanghai" target="_blank" rel="noopener">1930</a> | <a href="https://archive.org/details/north-china-desk-hong-list-1931-07-shanghai" target="_blank" rel="noopener">1931</a> | <a href="http://archive.org/details/north-china-desk-hong-list-1941-07-shanghai" target="_blank" rel="noopener">1941</a></li>
+<li><em>China Hong List</em> <a href="https://archive.org/details/china-hong-list-1939" target="_blank" rel="noopener">1939</a></li>
+<li><em>Japanese Trade Directory of Shanghai</em> <a href="https://www.bnasie.eu/BN/Books?ID=1976" target="_blank" rel="noopener">1940</a></li>
+<li><em>The China Directory</em> <a href="https://archive.org/details/Directorychronicle1874" target="_blank" rel="noopener">1874</a></li>
+<li><em>Rosenstock&#x27;s Business Directory of China</em> <a href="https://archive.org/details/rosenstocks-directory-china-1920v26" target="_blank" rel="noopener">1920</a> | <a href="https://archive.org/details/rosenstocks-directory-china-1933" target="_blank" rel="noopener">1933</a></li>
+<li>上海商業名錄 Commercial Directory of Shanghai <a href="http://archive.org/details/commercial-directory-of-shanghai-1928" target="_blank" rel="noopener">1928</a></li>
+<li><em>Ladies Directory or Red Book for Shanghai</em> <a href="https://archive.org/details/ladies-directory-or-red-book-for-shanghai-1917" target="_blank" rel="noopener">1916</a> | <a href="https://archive.org/details/ladies-directory-or-red-book-for-shanghai-1918" target="_blank" rel="noopener">1917</a> | <a href="https://archive.org/details/ladies-directory-or-red-book-for-shanghai-1919" target="_blank" rel="noopener">1918</a></li>
+<li><em>Shanghai Street Directory</em> 上海市行號路圖錄 <a href="https://archive.org/details/1924-shanghai-street-directory" target="_blank" rel="noopener">1924</a> | <a href="http://archive.org/details/1947-shanghai-street-directory" target="_blank" rel="noopener">1947</a></li>
+<li><em>Shanghai Telephone Directory</em> <a href="https://archive.org/details/shanghai-telephone-directory-1947" target="_blank" rel="noopener">1947</a></li>
+<li><em>Educational Directory for China</em> <a href="https://archive.org/details/educationaldire02chingoog" target="_blank" rel="noopener">1895</a> | <a href="https://archive.org/details/educationaldirec00geenrich" target="_blank" rel="noopener">1905</a></li>
+<li><em>Chinese Maritime Customs Service List</em> <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=2755" target="_blank" rel="noopener">1876</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=2756" target="_blank" rel="noopener">1907</a> | <a href="https://archive.org/details/CustomsServiceList1939" target="_blank" rel="noopener">1939</a> | <a href="https://archive.org/details/CustomsServiceList1947" target="_blank" rel="noopener">1947</a> | <a href="https://archive.org/details/CustomsServiceList1948" target="_blank" rel="noopener">1948</a></li>
+<li><em>The Comacrib Directory of China</em> <a href="https://archive.org/details/the-comacrib-directory-of-china-1925" target="_blank" rel="noopener">1925</a></li>
+<li><em>Shanghae Almanac</em> <a href="https://archive.org/details/shanghai-almanac-1854" target="_blank" rel="noopener">1854</a> | <a href="https://archive.org/details/Shanghaialmanac1856" target="_blank" rel="noopener">1856</a> | <a href="https://archive.org/details/shanghai-almanac-for-the-year-1857" target="_blank" rel="noopener">1857</a> | <a href="https://archive.org/details/shanghai-almanac-1860" target="_blank" rel="noopener">1860</a> | <a href="https://archive.org/details/shanghai-almanac-1861" target="_blank" rel="noopener">1861</a> | <a href="https://archive.org/details/shanghai-almanac-1865" target="_blank" rel="noopener">1865</a></li>
+<li><em>Seaports of the Far East</em> <a href="https://archive.org/details/seaports-of-the-far-east" target="_blank" rel="noopener">1907</a></li>
+<li>Shanghai Land Assessment Schedule <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=2707" target="_blank" rel="noopener">1869</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=2708" target="_blank" rel="noopener">1876</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=2709" target="_blank" rel="noopener">1882</a></li>
+<li><em>Who&#x27;s Who in the Far East</em> <a href="https://archive.org/details/whoswhoinfareast00hongrich" target="_blank" rel="noopener">1906-1907</a> | <a href="https://www.bnasie.eu/BN/Books?ID=2735" target="_blank" rel="noopener">1907-1908</a></li>
+<li><em>Who&#x27;s Who in China</em> <a href="https://archive.org/details/whos-who-in-china.-millards-review" target="_blank" rel="noopener">1919</a> | <a href="https://archive.org/details/whoswhoinchinaco00poweuoft" target="_blank" rel="noopener">1925</a> | <a href="https://archive.org/details/whoswhoinchinabi00shan" target="_blank" rel="noopener">1933</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=2696" target="_blank" rel="noopener">1926</a> | <a href="https://archive.org/details/5edwhoswhoinchina00shanuoft" target="_blank" rel="noopener">1936</a></li>
+<li><em>The China Who&#x27;s Who (Foreign)</em> <a href="https://archive.org/details/china-whos-who-1922" target="_blank" rel="noopener">1922</a> | <a href="https://archive.org/details/the-china-whos-who-1924-foreign" target="_blank" rel="noopener">1924</a> | <a href="https://archive.org/details/the-china-whos-who-1925-foreign" target="_blank" rel="noopener">1925</a> | <a href="https://archive.org/details/china-whos-who-1926-foreign" target="_blank" rel="noopener">1926</a></li>
+<li>上海市年鑒 <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1528" target="_blank" rel="noopener">1935</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1530" target="_blank" rel="noopener">1936</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1529" target="_blank" rel="noopener">1937</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1531" target="_blank" rel="noopener">1946</a> | <a href="https://www.virtualshanghai.net/Texts/E-Library?ID=1532" target="_blank" rel="noopener">1947</a></li>
+<li><em>China Handbook</em> <a href="https://archive.org/details/china-handbook-1937-1943" target="_blank" rel="noopener">1937-43</a> | <a href="https://archive.org/details/chinahandbook0000unse" target="_blank" rel="noopener">1944</a> (Borrow) | <a href="https://archive.org/details/china-handbook-1950" target="_blank" rel="noopener">1950</a> | <a href="https://archive.org/details/chinahandbook1950000chin" target="_blank" rel="noopener">1951</a> (Borrow) | <a href="https://archive.org/details/chinahandbook1950000nots" target="_blank" rel="noopener">1954-5</a> (Borrow)</li>
+<li><em>China Yearbook</em> <a href="https://archive.org/details/chinayearbook1914shan" target="_blank" rel="noopener">1914</a> | <a href="https://archive.org/details/chinayearbook1919shan" target="_blank" rel="noopener">1919</a> | <a href="https://archive.org/details/chinayearbook1922shan" target="_blank" rel="noopener">1921-22</a> | <a href="https://archive.org/details/in.ernet.dli.2015.226178" target="_blank" rel="noopener">1958-9</a> | <a href="https://archive.org/details/chinayearbook1960000unse" target="_blank" rel="noopener">1964-5</a> | <a href="https://archive.org/details/chinayearbook0000unse_i6t3" target="_blank" rel="noopener">1972-73</a> (Borrow) | <a href="https://archive.org/details/chinayearbook0000unse_o3r3/page/n3/mode/2up" target="_blank" rel="noopener">1975</a> (Borrow) |</li>
+</ul>
+    </div>
+  </section>
+  <section class="md" id="s-visual-sources" hidden>
+    <h2 tabindex="0" role="button" title="Hide this section">Visual Sources</h2>
+    <div class="body">
+<ul>
+<li><a href="https://hpcbristol.net/" target="_blank" rel="noopener">Historical Photographs of China</a> - The largest and most important online collection of open access photographs of historical China.</li>
+<li><a href="https://www.virtualshanghai.net/Photos/Images" target="_blank" rel="noopener">Images</a> - See, again, the Virtual Shanghai list of images.</li>
+<li><a href="https://chineseposters.net/search/search?keys=shanghai" target="_blank" rel="noopener">Chinese Posters</a> - This massive poster collection has many posters from Shanghai.</li>
+<li><a href="https://www.mofba.org/" target="_blank" rel="noopener">MOFBA Little Museum Of Foreign Brand Advertising</a> - The online blog for this Shanghai museum posts many wonderful high resolution photos of advertisements and products.</li>
+</ul>
+    </div>
+  </section>
+  <section class="md" id="s-maps" hidden>
+    <h2 tabindex="0" role="button" title="Hide this section">Maps</h2>
+    <div class="body">
+<ul>
+<li><a href="https://www.virtualshanghai.net/Maps/Collection" target="_blank" rel="noopener">Maps</a> - See, again, the Virtual Shanghai list of maps.</li>
+<li><a href="https://archive.org/details/shanghai-1940" target="_blank" rel="noopener">Collection of Shanghai Maps</a> - Collection of over 30 downloadable maps of Shanghai from 1850s to 1970s from various libraries and archives.</li>
+</ul>
+    </div>
+  </section>
+  <section class="md" id="s-films" hidden>
+    <h2 tabindex="0" role="button" title="Hide this section">Films</h2>
+    <div class="body">
+<ul>
+<li><a href="https://www.virtualshanghai.net/Films/Collection" target="_blank" rel="noopener">Films</a> - See, again, the Virtual Shanghai list of films.</li>
+<li><a href="https://chinesefilmclassics.org" target="_blank" rel="noopener"><strong>Chinese Film Classics Project</strong></a> - A website dedicated to Chinese film classics.</li>
+<li><a href="https://www.youtube.com/playlist?list=PLhA05Qf-09xBaz_t_ynYbyZ-Porcj7bui" target="_blank" rel="noopener"><strong>Chinese Film Classics YouTube Channel</strong></a> - a range of old films from 1920s-1940s, with English subtitles.</li>
+</ul>
+<p>Here are a selection of Shanghai related films that are available on Archive.org, though many of these repeat the China Film Classics films, which are generally of better quality and consistently have subtitles:</p>
+<ul>
+<li><a href="http://archive.org/details/BritishTroopsInShanghai1927" target="_blank" rel="noopener">First British Troops Arrive In China Shanghai</a> (1927)</li>
+<li><a href="http://archive.org/details/1929DontChangeYourHusband" target="_blank" rel="noopener">Don&#x27;t Change Your Husband 情海重吻</a> (1929)</li>
+<li><a href="http://archive.org/details/shanghai-express" target="_blank" rel="noopener">Shanghai Express</a> (1932)</li>
+<li><a href="http://archive.org/details/1932pinkdream" target="_blank" rel="noopener">Pink Dream 粉紅色的夢</a> (1932)</li>
+<li><a href="http://archive.org/details/HenryLesterinstituteofmedicalresearch1-wellcome" target="_blank" rel="noopener">Henry Lester Institute of Medical Research, Shanghai Reel One</a> (1933)</li>
+<li><a href="http://archive.org/details/HenryLesterinstituteofmedicalresearch2-wellcome" target="_blank" rel="noopener">Henry Lester Institute of Medical Research, Shanghai Reel Two</a> (1933)</li>
+<li><a href="http://archive.org/details/HenryLesterinstituteofmedicalresearch3-wellcome" target="_blank" rel="noopener">Henry Lester Institute of Medical Research, Shanghai Reel Three</a> (1933)</li>
+<li><a href="http://archive.org/details/daybreak_201810" target="_blank" rel="noopener">Daybreak 天明</a> (1933)</li>
+<li><a href="http://archive.org/details/1933TheLightOfMaternalInstinct" target="_blank" rel="noopener">The Light Of Maternal Instinct 母性之光</a> (1933)</li>
+<li><a href="http://archive.org/details/greedyneighbors_201808" target="_blank" rel="noopener">Greedy Neighbors 惡鄰</a> (1933)</li>
+<li><a href="http://archive.org/details/Cosmeticsofmarket" target="_blank" rel="noopener">Cosmetics of Market 脂粉市场</a> (1933)</li>
+<li><a href="http://archive.org/details/NewWomen" target="_blank" rel="noopener">New Women 新女性</a> (1935)</li>
+<li><a href="http://archive.org/details/queenofsports" target="_blank" rel="noopener">Queen of Sports 体育皇后</a> (1934)</li>
+<li><a href="http://archive.org/details/thegoddess" target="_blank" rel="noopener">The Goddess 神女</a> (1934)</li>
+<li><a href="http://archive.org/details/plunderofpeachandplum" target="_blank" rel="noopener">Plunder of Peach and Plum 桃李劫</a> (1934)</li>
+<li><a href="http://archive.org/details/twinsisters" target="_blank" rel="noopener">Twin Sisters 再生花</a> (1934)</li>
+<li><a href="http://archive.org/details/CruisngWithTheAsiaticFleet" target="_blank" rel="noopener">Cruising with the Asiatic Fleet</a> (1934)</li>
+<li><a href="http://archive.org/details/the_big_road" target="_blank" rel="noopener">The Big Road 大路</a> (1934)</li>
+<li><a href="http://archive.org/details/shanghai-1935" target="_blank" rel="noopener">Shanghai</a> (1935)</li>
+<li><a href="http://archive.org/details/ScenesOfCityLife-dushifengguang" target="_blank" rel="noopener">Scenes of City Life 都市风光</a> (1935)</li>
+<li><a href="http://archive.org/details/NationalCustoms" target="_blank" rel="noopener">National Customs 国风</a> (1935)</li>
+<li><a href="http://archive.org/details/theboatmansdaughter" target="_blank" rel="noopener">The Boatman&#x27;s Daughter 船家女</a> (1935)</li>
+<li><a href="http://archive.org/details/YangtzePatrolU.s.Navy" target="_blank" rel="noopener">Yangtze Patrol U.S. Navy</a> (1935)</li>
+<li><a href="http://archive.org/details/1936-zwischen-moskau-und-shanghai-pola-negri-gustav-diessl" target="_blank" rel="noopener">Zwischen Moskau Und Shanghai</a> (1936)</li>
+<li><a href="http://archive.org/details/ExiledThroughShanghai" target="_blank" rel="noopener">Exiled to Shanghai</a> (1937)</li>
+<li><a href="http://archive.org/details/street_angel" target="_blank" rel="noopener">Street Angel 馬路天使</a> (1937)</li>
+<li><a href="http://archive.org/details/think-fast-mr-moto-1937" target="_blank" rel="noopener">Think Fast, Mr Moto</a> (1937)</li>
+<li><a href="http://archive.org/details/youthonthemarch" target="_blank" rel="noopener">Youth on the March 青年進行曲</a> (1937)</li>
+<li><a href="http://archive.org/details/MaluTianshiVOSEYuanMuzhi1937" target="_blank" rel="noopener">El ángel de la calle</a> (1937)</li>
+<li><a href="http://archive.org/details/shadows_over_shanghai" target="_blank" rel="noopener">Shadows Over Shanghai</a> (1938)</li>
+<li><a href="http://archive.org/details/scenes-of-shanghai-1938" target="_blank" rel="noopener">Scenes of Shanghai 上海风光</a> (1938)</li>
+<li><a href="http://archive.org/details/siege-of-shanghai-1939" target="_blank" rel="noopener">Siege of Shanghai</a> (1939)</li>
+<li><a href="http://archive.org/details/gov.archives.arc.43827.2" target="_blank" rel="noopener">Asia in Tempesta (reel 2 of 2)</a> (1940)</li>
+<li><a href="http://archive.org/details/gov.archives.arc.43827.1" target="_blank" rel="noopener">Asia in Tempesta (reel 1 of 2)</a> (1940)</li>
+<li><a href="http://archive.org/details/1941-the-shanghai-gesture-el-embrujo-de-shanghai-josef-von-sternberg-vose" target="_blank" rel="noopener">The Shanghai Gesture</a> (1941)</li>
+<li><a href="http://archive.org/details/ImperialMarinesInShanghai" target="_blank" rel="noopener">Imperial Japanese Marines In Shanghai</a> (1943)</li>
+<li><a href="http://archive.org/details/gov.archives.arc.36072" target="_blank" rel="noopener">The Battle of China</a> (1944)</li>
+<li><a href="http://archive.org/details/gov.archives.arc.39104" target="_blank" rel="noopener">Shanghai Hails Chiang Kai-Shek</a> (1946)</li>
+<li><a href="http://archive.org/details/diaryhomecome" target="_blank" rel="noopener">Diary of the Homecoming 还乡日记</a> (1947)</li>
+<li><a href="http://archive.org/details/women_in_the_night_ipod" target="_blank" rel="noopener">Women in the Night</a> (1948)</li>
+<li><a href="http://archive.org/details/million-dollar-weekend-1948_202307" target="_blank" rel="noopener">Million Dollar Weekend (1948)</a> (1948)</li>
+<li><a href="http://archive.org/details/threegirls" target="_blank" rel="noopener">Three Girls 丽人行</a> (1949)</li>
+<li><a href="http://archive.org/details/youtube-dGmeFA55e98" target="_blank" rel="noopener">Battle of Shanghai 1937 4/4 Landing Operation of IJA</a> (1937)</li>
+<li><a href="http://archive.org/details/youtube-ucaZM0-5IN0" target="_blank" rel="noopener">Battle of Shanghai 1937 3/4 Air Operation of IJNAF</a> (1937)</li>
+<li><a href="http://archive.org/details/youtube-K4qfH8tf4cQ" target="_blank" rel="noopener">Battle of Shanghai 1937 1/4 Background of Battle</a> (1937)</li>
+<li><a href="http://archive.org/details/youtube-PObxULJSOVg" target="_blank" rel="noopener">Battle of Shanghai 1937 2/4 Beginning of Battle</a> (1937)</li>
+</ul>
+<p>There are also a number of Shanghai related films and film clips here:</p>
+<ul>
+<li><a href="https://www.youtube.com/@britishpathe/search?query=shanghai" target="_blank" rel="noopener">British Pathé on YouTube</a> | <a href="https://www.britishpathe.com/search/?searchQuery=shanghai&amp;page=1" target="_blank" rel="noopener">British Pathé Home</a></li>
+</ul>
+    </div>
+  </section>
+  <section class="md" id="s-other-resources" hidden>
+    <h2 tabindex="0" role="button" title="Hide this section">Other Resources</h2>
+    <div class="body">
+<ul>
+<li><strong>Visualizing Cultures Units on Shanghai</strong> - See <a href="https://visualizingcultures.mit.edu/dianshizhai/index.html" target="_blank" rel="noopener">Shanghai&#x27;s Lens on the News 1</a>, <a href="https://visualizingcultures.mit.edu/dianshizhai_02/index.html" target="_blank" rel="noopener">2</a>, and <a href="https://visualizingcultures.mit.edu/dianshizhai_03/index.html" target="_blank" rel="noopener">3</a>. Also based in Shanghai: <a href="https://visualizingcultures.mit.edu/modern_sketch/index.html" target="_blank" rel="noopener">China&#x27;s Modern Sketch 1</a>, <a href="https://visualizingcultures.mit.edu/modern_sketch_02/index.html" target="_blank" rel="noopener">2</a>, and <a href="https://visualizingcultures.mit.edu/modern_sketch_03/index.html" target="_blank" rel="noopener">3</a></li>
+<li><a href="https://www.maoistlegacy.de/db/users/login" target="_blank" rel="noopener"><strong>The Maoist Legacy</strong></a> - This large collection of primary source documents includes many materials from Shanghai, and interviews of refugees in Hong Kong reporting on their experiences in Shanghai. Create a free account for access to these rich collections, and search for Shanghai.</li>
+<li><a href="https://archives.jdc.org/topic-guides/refuge-in-shanghai-1938-1953/" target="_blank" rel="noopener"><strong>Refuge in Shanghai</strong></a> - A selection of sources on Jewish refugees in Shanghai.</li>
+<li><a href="https://www.chinafamilies.net/" target="_blank" rel="noopener"><strong>China Families</strong></a> - An extensive research website on the history of foreign residents in China, including a lot of information and links related to Shanghai.</li>
+<li><a href="http://www.bannedthought.net/China/MaoEra/index.htm" target="_blank" rel="noopener"><strong>Banned Thoughts Maoist Era Documents</strong></a> - This broader collection of Maoist period texts contains some accounts and documents relevant to Shanghai.</li>
+<li><a href="https://dh.archives.sh.cn/" target="_blank" rel="noopener">Shanghai Archive Digital Humanities Platform</a></li>
+<li><a href="https://wiki.fibis.org/w/Shanghai" target="_blank" rel="noopener">Fibis Wiki Shanghai</a> - list of links and resources related to Shanghai in this encyclopaedia about life in British India.</li>
+<li><a href="https://cdm15979.contentdm.oclc.org/digital/collection/p15979coll3/search" target="_blank" rel="noopener">Robert Hart Diaries</a></li>
+<li><a href="https://digitalcollections2.hoover.org/browse/collection/185962" target="_blank" rel="noopener">H. H. Kung 孔祥熙 papers</a> - A number of interesting Shanghai related documents here in the Hoover Institution archives.</li>
+<li><a href="https://zb.library.sh.cn/" target="_blank" rel="noopener">上海图书馆盛宣怀档案 Sheng Xuanhuai Archives of the Shanghai Library</a></li>
+<li><a href="https://exhibit.library.pitt.edu/eal-mcs/texts.html#primary" target="_blank" rel="noopener">University of Pittsburg Modern China Studies Digital Texts</a></li>
+<li><a href="https://digitalrepository.lib.hku.hk/collection/h989rw57h" target="_blank" rel="noopener">Hankow Collection</a> - This collection of scanned books at HKU are from the Hankow Club library collection (Hankou, Wuhan) that served foreign communities in the treaty port. It includes many old books and texts in English related to China.</li>
+<li><strong>日本侵略上海史料汇编</strong> <a href="https://archive.org/details/20240315_20240315_1138" target="_blank" rel="noopener">上</a> <a href="https://archive.org/details/shanghai-shiliao-zhong" target="_blank" rel="noopener">中</a> <a href="https://archive.org/details/shanghai-shiliao-xia" target="_blank" rel="noopener">下</a> - The Shanghai Municipal Archive has curated three volumes of documents related to the Japanese occupation of Shanghai. Also available directly from them <a href="https://kfda.archives.sh.cn:8088/szdagSystem/search/list.html?basic=0" target="_blank" rel="noopener">here</a>.</li>
+<li>The Shanghai Horticultural Society Year Books <a href="https://archive.org/details/the-shanghai-horticultural-society-year-book-1932" target="_blank" rel="noopener">1932</a> | <a href="https://archive.org/details/the-shanghai-horticultural-society-year-book-1933" target="_blank" rel="noopener">1933</a> | <a href="https://archive.org/details/the-shanghai-horticultural-society-year-book-1934" target="_blank" rel="noopener">1934</a> | <a href="https://archive.org/details/the-shanghai-horticultural-society-year-book-1935" target="_blank" rel="noopener">1935</a> | <a href="https://archive.org/details/the-shanghai-horticultural-society-year-book-1936" target="_blank" rel="noopener">1936</a> | <a href="https://archive.org/details/the-shanghai-horticultural-society-year-book-1937/mode/2up" target="_blank" rel="noopener">1937</a> | <a href="https://archive.org/details/the-shanghai-horticultural-society-year-book-1939" target="_blank" rel="noopener">1939</a> | <a href="https://archive.org/details/the-shanghai-horticultural-society-year-book-1940" target="_blank" rel="noopener">1940</a> | <a href="https://archive.org/details/the-shanghai-horticultural-society-year-book-1941" target="_blank" rel="noopener">1941</a></li>
+<li>Chang, Eileen 張愛玲 <a href="https://evols.library.manoa.hawaii.edu/items/8ad29c1f-f219-4c4c-8cce-a0c41c7ae515" target="_blank" rel="noopener">&quot;Chinese Life and Fashions&quot;</a> <em>XXth Century</em> Jan 1943. See also this translation<a href="https://muse.jhu.edu/article/45836/summary" target="_blank" rel="noopener">&quot;A Chronicle of Changing Clothes&quot;</a> (not OA).</li>
+</ul>
+    </div>
+  </section>
+  <section class="books-section" id="s-memoirs-accounts-and-other-sources">
+    <h2>Memoirs, Accounts, and Other Sources</h2>
+    <div class="body">
+<p><strong>Open Access Books Online:</strong> The buttons below will offer a list of various other primary sources related to Shanghai that are available open access online.</p>
+<div class="books" id="books" data-export="shanghai-books">
+  <div class="controls">
+    <div class="row1">
+      <input id="bq" type="search" placeholder='Search author, title, notes… (e.g.  yangtze   &quot;shanghai dialect&quot;   author:edkins)' autocomplete="off">
+      <select id="bfield" title="Where to search">
+        <option value="all">All fields</option><option value="author">Author</option><option value="title">Title</option><option value="notes">Notes</option>
+      </select>
+      <button id="breset" type="button" title="Clear all filters">Reset</button>
+    </div>
+    <div class="row2">
+      <label>Year <input id="by1" type="number" min="1500" max="2100" placeholder="from"> – <input id="by2" type="number" min="1500" max="2100" placeholder="to"></label>
+      <label>Host <select id="bhost" title="Where the online copy is held"><option value="">All</option></select></label>
+      <label>Language <select id="blang" title="Language of the work"><option value="">All</option></select></label>
+      <label>Show <select id="bshow" title="Which entries to list">
+        <option value="all" selected>All</option><option value="ia">Online</option></select></label>
+    </div>
+  </div>
+  <div class="tagbar" id="btags" hidden></div>
+  <div class="status"><div id="bcount"></div>
+    <div class="right"><button id="bcsv" type="button" title="Download the current result list as CSV">Export CSV</button><button id="bbib" type="button" title="Download the current result list as BibTeX">Export BibTeX</button></div></div>
+  <div class="tablewrap">
+    <table>
+      <thead><tr>
+        <th data-k="author">Author<span class="arrow"></span></th>
+        <th data-k="title">Title<span class="arrow"></span></th>
+        <th data-k="year_num">Year<span class="arrow"></span></th>
+        <th data-k="nlinks">Online copy<span class="arrow"></span></th>
+      </tr></thead>
+      <tbody id="brows"></tbody>
+    </table>
+    <div class="empty" id="bempty" hidden>No entries match.</div>
+  </div>
+  <p class="help">Words are ANDed; diacritics and case are ignored. Use quotes for phrases, the prefixes <code>author:</code>, <code>title:</code> and <code>notes:</code>, and <code>-word</code> to exclude. With something typed in the search box the best matches come first. Click a column to sort by it instead, or a row for full details.<span id="btaghelp" hidden> Choose a tag to narrow the list (a period and a topic can be combined); choose it again to clear it.</span></p>
+  <dialog id="bdlg">
+    <div class="dhead"><h2 id="bdtitle"></h2><button id="bdclose" type="button" aria-label="Close">✕</button></div>
+    <div class="dbody"><dl id="bddl"></dl></div>
+    <div class="dfoot"><button id="bdprev" type="button">‹ Previous</button><button id="bdnext" type="button">Next ›</button><button id="bdcopy" type="button">Copy citation</button>
+      <a id="bdsearch" target="_blank" rel="noopener"><button type="button">Search archive.org</button></a></div>
+  </dialog>
+</div>
+<script type="application/json" id="books-data">[{"author": "American University Club of Shanghai", "title": "American University Men In China", "year": "1936", "year_num": 1936, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/american-university-men-in-china"}], "tags": ["1927-1936", "Education"], "notes": ""}, {"author": "Archer, C. S.", "title": "China Servant", "year": "1946", "year_num": 1946, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/in.ernet.dli.2015.525178"}], "tags": ["1937-1949", "Fiction"], "notes": ""}, {"author": "Automobile Club of China", "title": "The Automobile Club of China Handbook 1938", "year": "1938", "year_num": 1938, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/automobile-club-1938"}], "tags": ["1937-1949", "Clubs and Societies"], "notes": ""}, {"author": "Barz, R.", "title": "Shanghai: Sketches Of Present Day Shanghai", "year": "", "year_num": null, "imprint": "", "language": "", "links": [{"label": "", "url": "http://archive.org/details/shanghai-sketches-of-present-day-shanghai"}], "tags": ["Photographs"], "notes": ""}, {"author": "Baum, Vicki", "title": "Hotel Shanghai : Roman", "year": "1949", "year_num": 1949, "imprint": "Köln : Verlages Kiepenheuer & Witsch", "language": "German", "links": [{"label": "", "url": "http://archive.org/details/hotelshanghai0000unse_e1m7"}], "tags": ["1937-1949", "Fiction", "German"], "notes": ""}, {"author": "Bird, Isabella L. (Isabella Lucy)", "title": "The Yangtze Valley and Beyond", "year": "1899", "year_num": 1899, "imprint": "London : Murray", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/yangtzevalleybey00bird"}], "tags": ["1840-1911", "Travel"], "notes": ""}, {"author": "Booker, Edna Lee", "title": "News Is My Job A Correspondent In War Torn China", "year": "1940", "year_num": 1940, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/in.ernet.dli.2015.87903"}], "tags": ["1937-1949", "Memoir"], "notes": ""}, {"author": "Bredon, Juliet", "title": "Sir Robert Hart, the Romance of a Great Career", "year": "1909", "year_num": 1909, "imprint": "London : Hutchinson", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/sirroberthartrom00bred"}], "tags": ["1840-1911", "Biography"], "notes": ""}, {"author": "Bruck, George C.", "title": "Shanghai's Undeclared War", "year": "1937", "year_num": 1937, "imprint": "Mercury Press", "language": "", "links": [{"label": "", "url": "http://archive.org/details/shanghais-undeclared-war"}], "tags": ["1937-1949", "S-J War 1937-1945"], "notes": ""}, {"author": "Bureau of Social Affairs The City Government of Greater Shanghai", "title": "Strikes And Lockouts In Shanghai Since 1918", "year": "1933", "year_num": 1933, "imprint": "", "language": "Multiple languages", "links": [{"label": "", "url": "http://archive.org/details/strikes-and-lockouts-in-shanghai-since-1918"}], "tags": ["1927-1936", "Labor"], "notes": ""}, {"author": "Carles, William Richard", "title": "Some Pages in the History of Shanghai, 1842-1856: A Paper Read Before the China Society on May 23, 1916", "year": "1916", "year_num": 1916, "imprint": "London : East & West, Ltd.", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/cu31924023217809"}], "tags": ["1912-1926"], "notes": ""}, {"author": "Champly, Henry", "title": "The Road To Shanghai White Slave Traffic In Asia", "year": "1937", "year_num": 1937, "imprint": "", "language": "", "links": [{"label": "", "url": "http://archive.org/details/the-road-to-shanghai-white-slave-traffic-in-asia"}], "tags": ["1937-1949", "Crime"], "notes": ""}, {"author": "Chang, Eileen", "title": "Chinese Life and Fashions", "year": "1943", "year_num": 1943, "imprint": "", "language": "", "links": [{"label": "", "url": "https://evols.library.manoa.hawaii.edu/items/8ad29c1f-f219-4c4c-8cce-a0c41c7ae515"}], "tags": ["1937-1949", "Culture", "Fashion"], "notes": ""}, {"author": "China Commercial Advertising Agency", "title": "China Publishers' Directory: A Practical Guide to Newspapers and Periodicals For China Advertisers", "year": "1934", "year_num": 1934, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/china-publishers-directory"}], "tags": ["1927-1936", "Publishing"], "notes": ""}, {"author": "China. Hai guan zong shui wu si shu; China. Laws, etc", "title": "Revised Import Tariff for the Trade of China. 31st October 1902", "year": "1911", "year_num": 1911, "imprint": "Shanghai : Statistical Department of the Inspectorate General of Customs", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/cu31924023457215"}], "tags": ["1840-1911", "Economy"], "notes": ""}, {"author": "Chinese Chamber of Commerce", "title": "Symposium on Japan's Undeclared War in Shanghai", "year": "1932", "year_num": 1932, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/symposium-on-japans-undeclared-war-in-shanghai-1932"}], "tags": ["1927-1936", "1932 War"], "notes": ""}, {"author": "Chinese Hospital (Shanghai); Royal College of Surgeons of England", "title": "Statement Regarding the Building of the Chinese Hospital at Shanghae", "year": "1848", "year_num": 1848, "imprint": "Shanghae : [s.n.]", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/b22344585"}], "tags": ["1840-1911", "Health"], "notes": ""}, {"author": "Clark, John D.", "title": "Sketches in and Around Shanghai Etc", "year": "1894", "year_num": 1894, "imprint": "Printed at the \"Shanghai Mercury\" and \"Celestial Empire\" offices", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/sketchesinandar00clargoog"}], "tags": ["1840-1911"], "notes": ""}, {"author": "Couling, S.", "title": "The History Of Shanghai Vol. II", "year": "1923", "year_num": 1923, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/the-history-of-shanghai-vol-2"}], "tags": ["1912-1926"], "notes": ""}, {"author": "Cumine, H. M.", "title": "Some Native Documents Pertaining To Land In Shanghai", "year": "1931", "year_num": 1931, "imprint": "Shanghai", "language": "", "links": [{"label": "", "url": "http://archive.org/details/some-native-documents-pertaining-to-land-in-shanghai."}], "tags": ["1927-1936", "Law"], "notes": ""}, {"author": "Darwent, C. E. (Charles Ewart)", "title": "Shanghai: A Handbook for Travellers and Residents to the Chief Objects of Interest in and Around the Foreign Settlement and Native City", "year": "1904", "year_num": 1904, "imprint": "Shanghai : Kelly and Walsh, Limited", "language": "English", "links": [{"label": "", "url": "https://archive.org/details/cu31924023217825"}], "tags": ["1840-1911", "Guidebooks"], "notes": ""}, {"author": "De Moidrey, J.", "title": "Notes on the Climate of Shanghai, 1873-1902", "year": "1904", "year_num": 1904, "imprint": "Shanghai, Oriental Press", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/cu31924021457415"}], "tags": ["1840-1911"], "notes": ""}, {"author": "Dekobra, Maurice", "title": "Honeymoon In Shanghai", "year": "1946", "year_num": 1946, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/in.ernet.dli.2015.209067"}], "tags": ["1937-1949", "Fiction"], "notes": ""}, {"author": "Dyce, Charles M.", "title": "Personal Reminiscences of Thirty Years' Residence in the Model Settlement Shanghai, 1870-1900", "year": "1906", "year_num": 1906, "imprint": "London, Chapman & Hall, ltd.", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/personalreminis00dycegoog"}], "tags": ["1840-1911", "Memoir"], "notes": ""}, {"author": "Edkins, Joseph; China. Hai guan zong shui wu si shu", "title": "The Revenue and Taxation of the Chinese Empire", "year": "1903", "year_num": 1903, "imprint": "Shanghai, Printed at the Presbyterian Mission Press; [etc., etc.]", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/cu31924023287547"}], "tags": ["1840-1911", "Economy"], "notes": ""}, {"author": "Eskelund, Paula; Schiff, Friedrich", "title": "Squeezing Through Shanghai Sketches 1941-1945", "year": "1945", "year_num": 1945, "imprint": "", "language": "", "links": [{"label": "", "url": "http://archive.org/details/squeezing-through-shanghai-sketches-1941-1945"}], "tags": ["1937-1949", "Cartoons", "Everyday Life", "S-J War 1937-1945"], "notes": ""}, {"author": "Forbes, F. E.", "title": "Five Years In China", "year": "1848", "year_num": 1848, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/in.ernet.dli.2015.32970"}], "tags": ["1840-1911"], "notes": ""}, {"author": "Foreign Affairs Association of Japan", "title": "Why Japan Had To Fight In Shanghai", "year": "1937", "year_num": 1937, "imprint": "", "language": "", "links": [{"label": "", "url": "http://archive.org/details/why-japan-had-to-fight-in-shanghai"}], "tags": ["1937-1949", "S-J War 1937-1945"], "notes": ""}, {"author": "Foreign Affairs Association of Japan", "title": "Why The Fighting In Shanghai", "year": "1937", "year_num": 1937, "imprint": "", "language": "", "links": [{"label": "", "url": "http://archive.org/details/why-the-fighting-in-shanghai"}], "tags": ["1937-1949", "S-J War 1937-1945"], "notes": ""}, {"author": "Free Trading Co. 福利营业公司", "title": "1947 Shanghai Street Directory", "year": "1947", "year_num": 1947, "imprint": "", "language": "Chinese", "links": [{"label": "", "url": "http://archive.org/details/1947-shanghai-street-directory"}], "tags": ["1937-1949", "Directories"], "notes": ""}, {"author": "Gamewell, Mary Ninde", "title": "The Gateway to China: Pictures of Shanghai", "year": "1916", "year_num": 1916, "imprint": "New York : Fleming H. Revell Company", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/gatewaytochinapi00game"}], "tags": ["1912-1926", "Photographs"], "notes": ""}, {"author": "Geil, William Edgar", "title": "A Yankee on the Yangtze: Being a Narrative of a Journey from Shanghai Through the Central Kingdom to Burma", "year": "1904", "year_num": 1904, "imprint": "New York : A.C. Armstrong", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/cu31924023237393"}], "tags": ["1840-1911", "Travel"], "notes": ""}, {"author": "Giles, Elise Williamina Edersheim", "title": "China Coast Tales", "year": "1898", "year_num": 1898, "imprint": "Shanghai : Kelly and Walsh", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/chinacoasttales00gileiala"}], "tags": ["1840-1911"], "notes": ""}, {"author": "Godfrey, Chas H.", "title": "Instructions To Inspectors Shanghai", "year": "1920", "year_num": 1920, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/instructions-to-inspectors-shanghai"}], "tags": ["1912-1926", "1927-1936", "Law"], "notes": ""}, {"author": "Gordon Cumming, C. F. (Constance Frederica)", "title": "Wanderings in China", "year": "1886", "year_num": 1886, "imprint": "Edinburgh : W. Blackwood", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/wanderingsinchin00gord"}], "tags": ["1840-1911", "Travel"], "notes": ""}, {"author": "Green, O. M. (ed.)", "title": "Shanghai of Today", "year": "1927", "year_num": 1927, "imprint": "A. S. Watson & Company", "language": "", "links": [{"label": "", "url": "http://archive.org/details/shanghai-of-today"}], "tags": ["1927-1936", "Photographs"], "notes": ""}, {"author": "Halcombe, Charles J. H.", "title": "Children of Far Cathay: A Social and Political Novel", "year": "1906", "year_num": 1906, "imprint": "Hongkong ; London : Hongkong Daily Press Office", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/childrenfarcath00halcgoog"}], "tags": ["1840-1911", "Fiction"], "notes": ""}, {"author": "Hauser, Ernest O.", "title": "Shanghai City For Sale", "year": "1940", "year_num": 1940, "imprint": "Harcourt, Brace And Company", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/shanghaicityfors009753mbp"}], "tags": ["1937-1949"], "notes": ""}, {"author": "Henderson, Edward; Royal College of Surgeons of England", "title": "A Report on Prostitution in Shanghai: Drawn up for the Council for the Foreign Community of Shanghai", "year": "1871", "year_num": 1871, "imprint": "Shanghai : Printed at the North-China Herald Office", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/b22295987"}], "tags": ["1840-1911", "Crime", "Health"], "notes": ""}, {"author": "Henderson, James", "title": "Shanghai Hygiene, or, Hints for the Preservation of Health in China", "year": "1863", "year_num": 1863, "imprint": "Shanghai : Presbyterian Mission Press", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/cu31924023608460"}], "tags": ["1840-1911", "Health"], "notes": ""}, {"author": "Henry Lester Institute", "title": "Henry Lester Institute of Medical Research Annual Report 1934", "year": "1934", "year_num": 1934, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/lester-report-1934"}], "tags": ["1927-1936", "Health"], "notes": ""}, {"author": "Henry Lester Institute", "title": "Henry Lester Institute of Medical Research Annual Report 1935", "year": "1935", "year_num": 1935, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/lester-report-1935"}], "tags": ["1927-1936", "Health"], "notes": ""}, {"author": "Henry Lester Institute", "title": "Henry Lester Institute of Medical Researech Annual Report 1936", "year": "1936", "year_num": 1936, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/lester-report-1936"}], "tags": ["1927-1936", "Health"], "notes": ""}, {"author": "Hentry Lester Institute", "title": "Henry Lester Institute of Medical Researech Annual Report 1930", "year": "1930", "year_num": 1930, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/lester-report-1930"}], "tags": ["1927-1936", "Health"], "notes": ""}, {"author": "Hippesley, Alfred", "title": "The Working of the Shanghai Office", "year": "1881", "year_num": 1881, "imprint": "Shanghai : Statistical Dept. of the Inspectorate General", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/cu31924023457660"}], "tags": ["1840-1911"], "notes": ""}, {"author": "Hoh, Chih-hsiang (ed.)", "title": "Who's Who In China", "year": "1933", "year_num": 1933, "imprint": "", "language": "", "links": [{"label": "", "url": "http://archive.org/details/whos-who-in-china-4th-edition"}], "tags": ["1927-1936", "Directories"], "notes": ""}, {"author": "Inspector General of Chinese Maritime Customs", "title": "Trade Statistics of the Treaty Ports, for the Period 1863-1872", "year": "1873", "year_num": 1873, "imprint": "Shanghai : printed at the Imperial Maritime Customs Press", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/cu31924023447026"}], "tags": ["1840-1911", "Economy"], "notes": ""}, {"author": "Inspector General of Customs, China", "title": "Typhoon Anchorages", "year": "1893", "year_num": 1893, "imprint": "Shanghai : Statistical Department of the Inspectorate General of Customs", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/cu31924023947041"}], "tags": ["1840-1911"], "notes": ""}, {"author": "International Relief Committee, Shanghai", "title": "Refugee Relief Work Final Report", "year": "1940", "year_num": 1940, "imprint": "", "language": "Multiple languages", "links": [{"label": "", "url": "http://archive.org/details/refugees-final-report"}], "tags": ["1937-1949", "Refugees", "S-J War 1937-1945"], "notes": ""}, {"author": "Jamieson, George", "title": "Chinese Family and Commercial Law", "year": "1921", "year_num": 1921, "imprint": "Shanghai, China : Kelly and Walsh, limited", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/chinesefamilycom00jamiiala"}], "tags": ["1840-1911", "1912-1926", "Law"], "notes": ""}, {"author": "Jernigan, Thomas R.", "title": "Shooting in China", "year": "1908", "year_num": 1908, "imprint": "Shanghai, China : Methodist Publishing House", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/shootinginchina00jerniala"}], "tags": ["1840-1911", "Leisure"], "notes": ""}, {"author": "Jesus, C. A. Montalto de (Carlos Augusto Montalto)", "title": "Historic Shanghai", "year": "1909", "year_num": 1909, "imprint": "Shanghai : The Shanghai Mercury, limited", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/historicshanghai00jesu"}], "tags": ["1840-1911", "Opium Wars", "Taiping"], "notes": ""}, {"author": "Johnstone, William Crane", "title": "The Shanghai Problem", "year": "1937", "year_num": 1937, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/johnstone-the-shanghai-problem"}], "tags": ["1937-1949"], "notes": ""}, {"author": "Joseph Edkins", "title": "A Vocabulary of the Shanghai Dialect", "year": "1869", "year_num": 1869, "imprint": "Presbyterian mission press", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/bub_gb_8II-AQAAIAAJ"}], "tags": ["1840-1911", "Language"], "notes": ""}, {"author": "Kahler, William R.", "title": "My Holidays in China: An Account of Three Houseboat Tours, from Shanghai to Hangchow and Back ...", "year": "1895", "year_num": 1895, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/myholidaysinchi00kahlgoog"}], "tags": ["1840-1911", "Memoir", "Travel"], "notes": ""}, {"author": "Kahler, William R.", "title": "Rambles Round Shanghai", "year": "1905", "year_num": 1905, "imprint": "Shanghai [Printed by the Shanghai mercury, ltd.]", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/ramblesroundshan00kahlrich"}], "tags": ["1840-1911"], "notes": ""}, {"author": "Kaiser-Wilhelm-Schule", "title": "40 Jahre Deutsche Schule In Schanghai, 1895–1935", "year": "1935", "year_num": 1935, "imprint": "", "language": "German", "links": [{"label": "", "url": "http://archive.org/details/40-jahre-deutsche-schule-in-schanghai-1895-1935-1935"}], "tags": ["1927-1936", "Education", "German"], "notes": ""}, {"author": "Karns, Maurine; Patterson, Patt", "title": "Shanghai High Lights Low Lights Tael Lights", "year": "1936", "year_num": 1936, "imprint": "Shanghai: The Tridon Press", "language": "", "links": [{"label": "", "url": "http://archive.org/details/shanghai-high-lights-low-lights-tael-lights"}], "tags": ["1927-1936"], "notes": ""}, {"author": "King, Paul", "title": "In the Chinese Customs Service: a Personal Record of Forty-seven Years", "year": "1924", "year_num": 1924, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://babel.hathitrust.org/cgi/pt?id=inu.32000006732996&view=1up&seq=9&skin=2021"}], "tags": ["1912-1926", "Memoir"], "notes": ""}, {"author": "Kotenev, Anatol M.", "title": "Shanghai: Its Municipality and the Chinese; Being the History of the Shanghai Municipal Council, and Its Relations with the Chinese, the Practice of the International Mixed Court, and the Inauguration and Constitution of the Shanghai Provisional Court", "year": "1927", "year_num": 1927, "imprint": "", "language": "", "links": [{"label": "", "url": "https://www.virtualshanghai.net/Texts/E-Library?ID=1743"}], "tags": ["1927-1936"], "notes": ""}, {"author": "Kounin, I. I. (ed.)", "title": "Guide To Shanghai 1941", "year": "1941", "year_num": 1941, "imprint": "", "language": "", "links": [{"label": "", "url": "http://archive.org/details/guide-to-shanghai-1941"}], "tags": ["1937-1949", "Guidebooks"], "notes": ""}, {"author": "Lane-Poole, Stanley", "title": "Sir Harry Parkes in China", "year": "1901", "year_num": 1901, "imprint": "London: Methuen", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/sirharryparkesi00lanegoog"}], "tags": ["1840-1911", "Biography"], "notes": ""}, {"author": "Lang, H.", "title": "Shanghai Considered Socially", "year": "1875", "year_num": 1875, "imprint": "Shanghai : American Presbyterian Mission Press", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/cu31924023489580"}], "tags": ["1840-1911"], "notes": ""}, {"author": "Lanning, G.; Couling, S.", "title": "The History Of Shanghai Vol. I", "year": "1921", "year_num": 1921, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/the-history-of-shanghai"}], "tags": ["1912-1926"], "notes": ""}, {"author": "Lethbridge", "title": "All About Shanghai: A Standard Guidebook", "year": "1934", "year_num": 1934, "imprint": "Hongkong; Oxford: Oxford University Press", "language": "English", "links": [], "tags": ["1927-1936", "Guidebooks"], "notes": ""}, {"author": "Lobenstine, Edwin Carlyle", "title": "Shanghai Central China Famine Relief Committee Report and Accounts from October 1, 1911, to June 30, 1912", "year": "1912", "year_num": 1912, "imprint": "Shanghai, Printed by the North-China daily news & herald, ltd.", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/reportaccountsfr00cent"}], "tags": ["1912-1926"], "notes": ""}, {"author": "Ma, Yin-Liang", "title": "Brief History Of The Chinese Press", "year": "1937", "year_num": 1937, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/brief-history-of-the-chinese-press"}], "tags": ["1937-1949", "Publishing"], "notes": ""}, {"author": "MacFarlane, W.", "title": "Sketches in the Foreign Settlements and Native City of Shanghai", "year": "1881", "year_num": 1881, "imprint": "Shanghai : [s.n.]", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/cu31924006072114"}], "tags": ["1840-1911"], "notes": ""}, {"author": "Maclellan, J. W.", "title": "The Story of Shanghai, from the Opening of the Port to Foreign Trade", "year": "1889", "year_num": 1889, "imprint": "North-China Herald Office", "language": "English", "links": [], "tags": ["1840-1911", "Crime", "Opium Wars", "Taiping"], "notes": ""}, {"author": "Maybon, Charles B; Fredet, Jean", "title": "Histoire de la concession française de Changhai", "year": "1929", "year_num": 1929, "imprint": "Paris", "language": "", "links": [{"label": "", "url": "https://www.virtualshanghai.net/Texts/E-Library?ID=383"}], "tags": ["1927-1936"], "notes": ""}, {"author": "McIntosh, Gilbert", "title": "Useful Phrases In The Shanghai Dialect With Index Vocabulary And Other Helps", "year": "1916", "year_num": 1916, "imprint": "", "language": "", "links": [{"label": "", "url": "http://archive.org/details/gilbert.-useful-phrases-in-the-shanghai-dialect-with-index-vocabulary-and-other-helps"}], "tags": ["1912-1926", "Language"], "notes": ""}, {"author": "Michie, Alexander", "title": "The Englishman in China During the Victorian Era: As Illustrated in the Career of Sir Rutherford Alcock", "year": "1900", "year_num": 1900, "imprint": "Edinburgh : W. Blackwood", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/englishmaninchin01michuoft"}], "tags": ["1840-1911", "Biography"], "notes": ""}, {"author": "Millington, Limited", "title": "Rosenstock's Business Directory of China 1933", "year": "1933", "year_num": 1933, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/rosenstocks-directory-china-1933"}], "tags": ["1927-1936", "Directories"], "notes": ""}, {"author": "Mrs Thomas Francis Hughes", "title": "Among the Sons of Han: Notes of a Six Years' Residence in Various Parts of China and Formosa", "year": "1881", "year_num": 1881, "imprint": "Tinsley Brothers", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/amongsonshannot00hughgoog"}], "tags": ["1840-1911"], "notes": ""}, {"author": "Nellist, George Ferguson Mitchell", "title": "Men of Shanghai and North China: A Standard Biographical Reference Work", "year": "1935", "year_num": 1935, "imprint": "The University Press", "language": "English", "links": [{"label": "", "url": "https://www.virtualshanghai.net/References/Bibliography?ID=3138"}], "tags": ["1927-1936"], "notes": ""}, {"author": "North-China Daily News", "title": "Jubilee Of Shanghai 1893", "year": "1893", "year_num": 1893, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/JubileeOfShanghai1893"}], "tags": ["1840-1911"], "notes": ""}, {"author": "North-China Daily News & Herald", "title": "The Sino-Japanese War In Shanghai", "year": "1932", "year_num": 1932, "imprint": "Shanghai", "language": "", "links": [{"label": "", "url": "http://archive.org/details/the-sino-japanese-war-in-shanghai"}], "tags": ["1927-1936", "1932 War"], "notes": ""}, {"author": "Pal, John", "title": "Shanghai Saga: The Story of a City", "year": "1963", "year_num": 1963, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/shanghai-saga"}], "tags": ["1950-"], "notes": ""}, {"author": "Peters, E. W.", "title": "Shanghai Policeman", "year": "1937", "year_num": 1937, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/shanghai-policeman"}], "tags": ["1937-1949", "Crime"], "notes": ""}, {"author": "Pott, F. L. Hawks", "title": "A Short History Of Shanghai: Being an Account of the Growth and Development of the International Settlement", "year": "1928", "year_num": 1928, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/a-short-history-of-shanghai"}], "tags": ["1927-1936", "History"], "notes": ""}, {"author": "Public Work's Committee, Shanghai Municipal Council", "title": "Drainage Of The Settlements", "year": "1970", "year_num": 1970, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/drainage-of-the-settlements"}], "tags": ["1950-"], "notes": ""}, {"author": "Remer, C. F.", "title": "A Study Of Chinese Boycotts With Special Reference To Their Economic Effectiveness", "year": "1933", "year_num": 1933, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/remer-a-study-of-chinese-boycotts-with-special-reference-to-their-economic-effectiveness"}], "tags": ["1927-1936"], "notes": ""}, {"author": "Republic of China", "title": "The Code Of Criminal Procedure Of The Republic Of China and the Court Agreement Relating to the Chinese Courts in the International Settlement of Shanghai, China", "year": "1936", "year_num": 1936, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/the-code-of-criminal-procedure-of-the-republic-of-china"}], "tags": ["1927-1936"], "notes": ""}, {"author": "Rivers, William; King, Paul", "title": "Anglo-Chinese Sketches", "year": "1902", "year_num": 1902, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://digitalrepository.lib.hku.hk/catalog/8336hj243#?c=&m=&s=&cv=&xywh=-2405%2C-114%2C6309%2C2275"}], "tags": ["1840-1911"], "notes": ""}, {"author": "Rivers, William; King, Paul", "title": "Eurasia: A Tale of Shanghai Life", "year": "1907", "year_num": 1907, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://digitalrepository.lib.hku.hk/catalog/5x21tq20b#?c=&m=&s=&cv=7&xywh=-138%2C24%2C2563%2C4030"}], "tags": ["1840-1911"], "notes": ""}, {"author": "Royal Asiatic Society of Great Britain and Ireland. North-China Branch. Library", "title": "Catalogue of the Library of the North China Branch Royal Asiatic Society", "year": "1921", "year_num": 1921, "imprint": "Shanghai : The Shanghai Times", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/catalogueofnorth00roya"}], "tags": ["1912-1926"], "notes": ""}, {"author": "Rudinger de Rodyenko, Stephen Piero Sergius", "title": "Small Me: A Story of Shanghai Life", "year": "1922", "year_num": 1922, "imprint": "New York : James A. McCann Co.", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/cu31924023227808"}], "tags": ["1912-1926"], "notes": ""}, {"author": "Rudinger de Rodyenko, Stephen Piero Sergius; Cox, Stafford M.", "title": "The Second Revolution in China, 1913: My Adventures of the Fighting Around Shanghai, the Arsenal, Woosung Forts", "year": "1914", "year_num": 1914, "imprint": "[Shanghai : Shanghai Mercury, Ltd. Print.", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/cu31924023229291"}], "tags": ["1912-1926", "Memoir"], "notes": ""}, {"author": "Sapajou", "title": "Celestial Conceits", "year": "1932", "year_num": 1932, "imprint": "", "language": "", "links": [{"label": "", "url": "http://archive.org/details/celestial-conceits-by-sapajou-1"}], "tags": ["1927-1936", "Cartoons"], "notes": ""}, {"author": "Shanghai (China) Ordinances, local laws", "title": "Land Regulations and Bye-Laws for the Foreign Settlement of Shanghai, North of the Yang-King-Pang", "year": "1907", "year_num": 1907, "imprint": "Shanghai : Printed at the \"North-China Herald\" Office", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/cu31924023448289"}], "tags": ["1840-1911", "Law"], "notes": ""}, {"author": "Shanghai Academy Annual Board", "title": "Shanghai Academy 1939 Annual Vol. III", "year": "1939", "year_num": 1939, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/shanghai-academy-1939"}], "tags": ["1937-1949", "Education"], "notes": ""}, {"author": "Shanghai American School", "title": "Shanghai American School 1914", "year": "1914", "year_num": 1914, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/shanghai-american-school-1914"}], "tags": ["1840-1911", "1912-1926", "Education"], "notes": ""}, {"author": "Shanghai American School", "title": "Student Handbook of the Shanghai American School 1939-1940", "year": "1940", "year_num": 1940, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/shanghai-american-school-student-handbook"}], "tags": ["1937-1949", "Education"], "notes": ""}, {"author": "Shanghai Cultural Publishing House", "title": "Anecdotes of Old Shanghai", "year": "1985", "year_num": 1985, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/anecdotes-of-old-shanghai-1985"}], "tags": ["1950-"], "notes": ""}, {"author": "Shanghai evening post and mercury", "title": "Shanghai Under Fire", "year": "1938", "year_num": 1938, "imprint": "Shanghai, China : Post-Mercury Co.", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/cu31924023227824"}], "tags": ["1937-1949", "S-J War 1937-1945"], "notes": ""}, {"author": "Shanghai Municiipal Police", "title": "Shanghai Municipal Police Guide and Regulations. 1938", "year": "1938", "year_num": 1938, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/widdowson-police-guide-smp-1938"}], "tags": ["1937-1949", "Crime"], "notes": ""}, {"author": "Shanghai Municipal Council", "title": "Handbook Of Licence Conditions 1921", "year": "1921", "year_num": 1921, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/handbook-of-licence-conditions-1921"}], "tags": ["1912-1926"], "notes": ""}, {"author": "Shanghai Vernacular Society", "title": "An English-Chinese Vocabulary of the Shanghai Dialect", "year": "1901", "year_num": 1901, "imprint": "Shanghai : American Presbyterian Mission Press", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/englishchinesevo00shan"}], "tags": ["1840-1911", "Language"], "notes": ""}, {"author": "Shaw, Jane", "title": "Shanghai Sketches", "year": "1917", "year_num": 1917, "imprint": "New York, The Womans press", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/shanghaisketches00ward"}], "tags": ["1912-1926", "Everyday Life", "Gender"], "notes": ""}, {"author": "Smith, Guy H. B.", "title": "Hand Book Of Japan With Notes On Hongkong, Canton, Macao, Shanghai", "year": "1910", "year_num": 1910, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/hand-book-of-japan-with-notes-on-hongkon"}], "tags": ["1840-1911"], "notes": ""}, {"author": "St. John's University", "title": "St. John's University Entrance Examination Papers", "year": "1914", "year_num": 1914, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/entrance-examination-papers"}], "tags": ["1912-1926"], "notes": ""}, {"author": "Statistical Dept. of the Inspectorate General of Customs Shanghai", "title": "Record of Services Given and Honours Attained by Members of the Chinese Customs Service, War 1914-1918", "year": "1922", "year_num": 1922, "imprint": "Shanghai : Statistical Dept. of the Inspectorate General of Customs", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/cu31924023172640"}], "tags": ["1912-1926"], "notes": ""}, {"author": "The China Journal", "title": "Shanghai At Play", "year": "1935", "year_num": 1935, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/shanghai-at-play"}], "tags": ["1927-1936"], "notes": ""}, {"author": "The China Press", "title": "The China Press Christmas Supplement", "year": "1920", "year_num": 1920, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/the-china-press-christmas-supplement-12-dec-1920-ocr"}], "tags": ["1912-1926"], "notes": ""}, {"author": "The University of Shanghai Annual Board", "title": "The Shanghai Evergreen 1948", "year": "1948", "year_num": 1948, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/shanghai-evergreen-1948"}], "tags": ["1937-1949", "Education"], "notes": ""}, {"author": "Thomas Cook & Son", "title": "Information For Travellers Landing At Shanghai", "year": "1912", "year_num": 1912, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/information-for-travellers-landing-at-shanghai"}], "tags": ["1840-1911", "1912-1926"], "notes": ""}, {"author": "Tyler, William Ferdinand", "title": "Pulling Strings In China", "year": "1929", "year_num": 1929, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/in.ernet.dli.2015.13785"}], "tags": ["1927-1936"], "notes": ""}, {"author": "Willoughby, Charles", "title": "Shanghai Conspiracy", "year": "1952", "year_num": 1952, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/shanghai-conspiracy"}], "tags": ["1950-", "Communism"], "notes": ""}, {"author": "Wright, Arnold", "title": "Twentieth Century Impressions of Hong-Kong, Shanghai, and Other Treaty Ports of China", "year": "1908", "year_num": 1908, "imprint": "London Lloyd's Greater Britain Pub. Co", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/twentiethcentury00wriguoft"}], "tags": ["1840-1911"], "notes": ""}, {"author": "Yuan, L. Z.", "title": "Sidelights On Shanghai", "year": "1934", "year_num": 1934, "imprint": "The Mercury Press", "language": "", "links": [{"label": "", "url": "http://archive.org/details/sidelights-on-shanghai"}], "tags": ["1927-1936", "Everyday Life"], "notes": ""}, {"author": "Zimmermann, Jean Turner", "title": "Vere, of Shanghai", "year": "1925", "year_num": 1925, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/vere-of-shanghai"}], "tags": ["1912-1926", "Biography"], "notes": ""}, {"author": "", "title": "Bulletin Of The Harvard Club Of Shanghai", "year": "1948", "year_num": 1948, "imprint": "", "language": "English", "links": [{"label": "", "url": "https://archive.org/details/bulletin-of-the-harvard-club-of-shanghai-june-1948"}], "tags": ["1937-1949", "Clubs and Societies"], "notes": ""}, {"author": "", "title": "Christian Education in China", "year": "1922", "year_num": 1922, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/christianeducati0000vari"}], "tags": ["1912-1926", "Education"], "notes": ""}, {"author": "", "title": "Coronation Celebrations Shanghai China May 12th 1937", "year": "1937", "year_num": 1937, "imprint": "", "language": "", "links": [{"label": "", "url": "http://archive.org/details/coronation-celebrations-shanghai-china-may-12th-1937"}], "tags": ["1937-1949"], "notes": ""}, {"author": "", "title": "Photographs: Arthur M. Guttery And YMCA China, 1919-1981", "year": "", "year_num": null, "imprint": "", "language": "", "links": [{"label": "", "url": "https://archive.org/details/photographs-arthur-m.-guttery-and-ymca-china-1919-1981/mode/2up"}], "tags": ["Photographs"], "notes": ""}, {"author": "", "title": "Saint Francis Xavier's College Diamond-Jubilee Souvenir-Album", "year": "1934", "year_num": 1934, "imprint": "", "language": "", "links": [{"label": "", "url": "http://archive.org/details/saint-francis-xaviers-college"}], "tags": ["1927-1936", "Education"], "notes": ""}, {"author": "", "title": "Scenes In Shanghai Areas During the Japanese Invasion", "year": "", "year_num": null, "imprint": "", "language": "", "links": [{"label": "", "url": "http://archive.org/details/scenes-in-shanghai-areas"}], "tags": ["Photographs", "S-J War 1937-1945"], "notes": ""}, {"author": "", "title": "Shanghai And The Rebellion", "year": "1913", "year_num": 1913, "imprint": "", "language": "", "links": [{"label": "", "url": "http://archive.org/details/shanghai-and-the-rebellion"}], "tags": ["1911 Revolution", "1912-1926"], "notes": ""}, {"author": "", "title": "Shanghai Baptist College And Theological Seminary 1922 V3", "year": "1922", "year_num": 1922, "imprint": "", "language": "", "links": [{"label": "", "url": "http://archive.org/details/shanghai-baptist-college-and-theological-seminary-1922-volume.-3"}], "tags": ["1912-1926", "Education", "Missionaries"], "notes": ""}, {"author": "", "title": "Shanghai Defence Forces Souvenir 1927", "year": "1927", "year_num": 1927, "imprint": "", "language": "", "links": [{"label": "", "url": "http://archive.org/details/shanghai-defence-forces-souvenir"}], "tags": ["1927-1936"], "notes": ""}, {"author": "", "title": "Shanghai Dialect Exercises In Romanized And Character With Key To Pronunciation And English Index", "year": "1910", "year_num": 1910, "imprint": "", "language": "", "links": [{"label": "", "url": "http://archive.org/details/shanghai-dialect-exercises-in-romanized-and-character-with-key-to-pronunciation-and-english-index"}], "tags": ["1840-1911", "Language"], "notes": ""}, {"author": "", "title": "Shanghai Gardens: With Notes on the Cultivation of Hot House Plants, Flowers, &c", "year": "1910", "year_num": 1910, "imprint": "Shanghai : Shanghai Mercury", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/cu31924003611914"}], "tags": ["1840-1911", "Leisure"], "notes": ""}, {"author": "", "title": "Shanghai Picture Verse", "year": "1939", "year_num": 1939, "imprint": "", "language": "", "links": [{"label": "", "url": "http://archive.org/details/shanghai-picture-verse"}], "tags": ["1937-1949", "Cartoons"], "notes": ""}, {"author": "", "title": "Shanghai Rotary Club", "year": "1949", "year_num": 1949, "imprint": "", "language": "", "links": [{"label": "", "url": "http://archive.org/details/shanghai-rotary-club"}], "tags": ["1937-1949", "Clubs and Societies"], "notes": ""}, {"author": "", "title": "Shanghai Shantung Road Cemetery", "year": "1946", "year_num": 1946, "imprint": "", "language": "", "links": [{"label": "", "url": "http://archive.org/details/shanghai-shantung-road-cemetery"}], "tags": ["1937-1949", "Cemeteries"], "notes": ""}, {"author": "", "title": "Shanghai Street Guide", "year": "1985", "year_num": 1985, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/shanghai-street-guide"}], "tags": ["1950-"], "notes": ""}, {"author": "", "title": "Shanghai Yacht Club 1868-1934", "year": "", "year_num": null, "imprint": "", "language": "", "links": [{"label": "", "url": "http://archive.org/details/shanghai-yacht-club-1868-1934"}], "tags": ["Clubs and Societies", "Leisure"], "notes": ""}, {"author": "", "title": "Shanghai, by Night and Day", "year": "1902", "year_num": 1902, "imprint": "Shanghai : Shanghai Mercury", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/cu31924023494986"}], "tags": ["1840-1911"], "notes": ""}, {"author": "", "title": "Sino-Japanese Hostilities In The Shanghai Area, January March, 1932", "year": "1932", "year_num": 1932, "imprint": "", "language": "", "links": [{"label": "", "url": "http://archive.org/details/sino-japanese-hostilities-in-the-shanghai-area"}], "tags": ["1927-1936", "1932 War"], "notes": ""}, {"author": "", "title": "St. John's University 1879-1919: A Booklet of Information", "year": "1919", "year_num": 1919, "imprint": "Shanghai", "language": "", "links": [{"label": "", "url": "http://archive.org/details/st.-johns-university-1879-1919"}], "tags": ["1912-1926", "Education"], "notes": ""}, {"author": "", "title": "St. John's University 1879-1929", "year": "", "year_num": null, "imprint": "", "language": "", "links": [{"label": "", "url": "http://archive.org/details/st.-johns-university-1879-1929"}], "tags": ["1927-1936", "Education"], "notes": ""}, {"author": "", "title": "Suppression Of The Taiping Rebellion In The Departments Around Shanghai", "year": "1871", "year_num": 1871, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/suppression-of-the-taiping-rebellion-in-the-departments-around-shanghai"}], "tags": ["1840-1911", "Taiping"], "notes": ""}, {"author": "", "title": "The Mixed Court at Shanghai: Rules of Procedure", "year": "1917", "year_num": 1917, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/mixed-court-rules-shanghai"}], "tags": ["1912-1926"], "notes": ""}, {"author": "", "title": "The Royal Visit To Shanghai", "year": "1890", "year_num": 1890, "imprint": "", "language": "", "links": [{"label": "", "url": "http://archive.org/details/the-royal-visit-to-shanghai"}], "tags": ["1840-1911", "Photographs"], "notes": ""}, {"author": "", "title": "The Shanghai Incident", "year": "1932", "year_num": 1932, "imprint": "", "language": "", "links": [{"label": "", "url": "http://archive.org/details/the-shanghai-incident"}], "tags": ["1927-1936", "1932 War"], "notes": ""}, {"author": "", "title": "The Shanghai War Book", "year": "1915", "year_num": 1915, "imprint": "", "language": "English", "links": [{"label": "", "url": "http://archive.org/details/shanghai-war-book"}], "tags": ["1912-1926"], "notes": ""}, {"author": "", "title": "Views Of Shanghai 上海风景", "year": "1925", "year_num": 1925, "imprint": "", "language": "Chinese", "links": [{"label": "", "url": "http://archive.org/details/views-of-shanghai-1925"}], "tags": ["1912-1926", "Photographs"], "notes": ""}, {"author": "", "title": "Who's Who In China", "year": "1925", "year_num": 1925, "imprint": "", "language": "", "links": [{"label": "", "url": "http://archive.org/details/whos-who-in-china.-3rd-ed"}], "tags": ["1912-1926", "Directories"], "notes": ""}]</script>
+<ul>
+<li>For Chinese language works check out the rich collection of open access books in the book section at <a href="https://www.modernhistory.org.cn/#/SearchResult_list?searchValue=&amp;selectType=ts" target="_blank" rel="noopener">抗日战争与近代中日关系文献数据平台 - 图书</a></li>
+<li><a href="https://www.nlc.cn/web/index.shtml" target="_blank" rel="noopener">中国国家图书馆</a> - See the rich collections available through China&#x27;s national library.</li>
+</ul>
+<p><strong>Books to Borrow on the Internet Archive:</strong> The above list of books are all open access and can be read directly and/or downloaded. In addition there are some books currently available at Internet Archive which may be digitally borrowed for free, as of this posting (some of these books are being taken down as part of an ongoing legal case with publishers). These include:</p>
+<ul>
+<li>Cheng, Nien 鄭念/姚念媛 <a href="https://archive.org/details/lifedeathinshang0000nien" target="_blank" rel="noopener"><em>Life and Death in Shanghai</em></a>, 1987.</li>
+<li>Comninellis, Nicholas. <a href="http://archive.org/details/shanghaidoctoram0000comn" target="_blank" rel="noopener"><em>Shanghai Doctor: An American Physician Confronts Communist China</em></a>.</li>
+<li>Eber, Irene, ed. <a href="http://archive.org/details/voicesfromshangh0000unse" target="_blank" rel="noopener"><em>Voices from Shanghai: Jewish Exiles in Wartime China</em></a>, 2008.</li>
+<li>Finch, Percy. <a href="http://archive.org/details/shanghaibeyond0000perc" target="_blank" rel="noopener"><em>Shanghai and Beyond</em></a>. Scribner, 1953.</li>
+<li>Hahn, Emily <a href="https://archive.org/details/chinatomepartial00hahn" target="_blank" rel="noopener"><em>China to Me: A Partial Autobiography</em></a></li>
+<li>Hinder, Eleanor M. <a href="https://archive.org/details/lifelabourinshan0000hind/page/n3/mode/2up" target="_blank" rel="noopener"><em>Life and Labour in Shanghai</em></a></li>
+<li>Hipps, John Burder. <a href="http://archive.org/details/historyofunivers0000hipp" target="_blank" rel="noopener"><em>History of the University of Shanghai</em></a>, 1964.</li>
+<li>Hunter, Neale. <a href="http://archive.org/details/shanghaijournale0000hunt" target="_blank" rel="noopener"><em>Shanghai Journal; an Eyewitness Account of the Cultural Revolution</em></a>, 1969.</li>
+<li>Lamberton, Mary. <a href="http://archive.org/details/stjohnsuniversit0000lamb" target="_blank" rel="noopener"><em>St. John&#x27;s University, Shanghai, 1879-1951</em></a>.</li>
+<li>Patent, Greg. <a href="http://archive.org/details/shanghaipassage00pate_0" target="_blank" rel="noopener"><em>Shanghai Passage</em></a>, 1990.</li>
+<li>Zhou, Caiqin. 周採芹 <a href="http://archive.org/details/daughterofshangh00tsai" target="_blank" rel="noopener"><em>Daughter of Shanghai</em></a>, 1988.</li>
+</ul>
+<p><em>Fiction:</em></p>
+<ul>
+<li>Baum, Vicki. <a href="http://archive.org/details/hotelshanghai0000unse" target="_blank" rel="noopener"><em>Hotel Shanghai</em></a>, 1939.</li>
+<li>Baum, Vicki. <a href="http://archive.org/details/bwb_W8-BJW-277" target="_blank" rel="noopener"><em>Shanghai &#x27;37</em></a>, 1939.</li>
+<li>Ding, Ling. 丁玲/蒋冰之 <a href="http://archive.org/details/misssophiesdiary00ding" target="_blank" rel="noopener"><em>Miss Sophie&#x27;s Diary and Other Stories</em></a> Translated by William John Francis Jenner, 1985.</li>
+<li>Lau, Joseph S. M., and Howard Goldblatt, eds. <a href="http://archive.org/details/isbn_9780231138413" target="_blank" rel="noopener"><em>The Columbia Anthology of Modern Chinese Literature</em></a>, 2007.</li>
+<li>Lu Xun 魯迅. <em>Selected Works</em> Translated by Yang Xianyi and Gladys Yang <a href="https://archive.org/details/luxunselectedwor0001luxu_j6f2" target="_blank" rel="noopener">Vol 1</a> | <a href="https://archive.org/details/luxunselectedwor0002luxu" target="_blank" rel="noopener">Vol 2</a> | <a href="https://archive.org/details/luxunselectedwor0000luxu_v1t5" target="_blank" rel="noopener">Vol 3</a> | <a href="https://archive.org/details/luxunselectedwor0000luxu_y5j6" target="_blank" rel="noopener">Vol 4</a></li>
+<li>Xiao, Hong. 蕭紅 <a href="http://archive.org/details/dyersdaughtersel0000xiao" target="_blank" rel="noopener"><em>The Dyer&#x27;s Daughter: Selected Stories of Xiao Hong</em></a>, 2005.</li>
+</ul>
+<p><strong>Other Works:</strong> There are also a number of other memoirs as well as works of older works fiction of interest that are available in English and not listed in above. They are not open access, but they are listed here for reference as affordable copies can often be found in the form of reprints and used copies:</p>
+<ul>
+<li>Bacon, Ursula. <em>Shanghai Diary</em>, 2004.</li>
+<li>Barnett, Robert W. <em>Economic Shanghai: Hostage to Politics, 1937-1941</em>, 1941.</li>
+<li>Cao, Guanlong. 曹冠龙/曹冠龍 <em>The Attic – Memoir of a Chinese Landlords Son</em>, 1996.</li>
+<li>Chang, Eileen. 張愛玲. <em>Written on Water</em> Edited by Nicole Huang. Translated by Andrew F. Jones, 2023.</li>
+<li>Chao, Isabel Sun, and Claire Chao. <em>Remembering Shanghai: A Memoir of Socialites, Scholars and Scoundrels</em>, 2021.</li>
+<li>Clayton, Buck, and Nancy M. Elliott. <em>Buck Clayton&#x27;s Jazz World</em>, 1995.</li>
+<li>Collar, Hugh. <em>Captive in Shanghai: A Story of Internment in World War II</em>, 1990.</li>
+<li>Cormie, Daniel G. <em>Memoirs of a Shanghai Policeman</em>, n.d.</li>
+<li>Day, Ruth. <em>Shanghai 1935: An American Lady&#x27;s Account of the City and Its High Society</em>, 2020.</li>
+<li>Denby, Jay. <em>Letters of a Shanghai Griffin</em>, 1923.</li>
+<li>Farmer, Rhodes. <em>Shanghai Harvest: A Diary of Three Years in the China War</em>, 1945.</li>
+<li>Glaser, Ernest. <em>A Life Well Lived: Berlin, Shanghai, and America</em>, 2017.</li>
+<li>Heppner, Ernest G. <em>Shanghai Refuge: A Memoir of the World War II Jewish Ghetto</em>, 1995.</li>
+<li>Hoffmann, Paul. <em>Witness to History: From Vienna to Shanghai: A Memoir of Escape, Survival and Resilience</em>, 2021.</li>
+<li>Hui, Wei. 周衛慧/周卫慧 <em>Shanghai Baby</em>, 2002.</li>
+<li>Jedeikin, Joseph. <em>Shanghai Sanctuary: Growing Up Jewish During the War</em>, 2020.</li>
+<li>Kulstad, George A. <em>A Foreign Kid in World War II Shanghai</em>, 2015.</li>
+<li>Kwok, Daisy. 郭婉瑩 <em>Shanghai Daisy: The Autobiography of Daisy Kwok</em>, 2019.</li>
+<li>Lanning, George. <em>The History of Shanghai</em>, 1921.</li>
+<li>Maher, Tani, and Anatole Mahir. <em>Memoirs: From Old Shanghai to the New World</em>, 2008.</li>
+<li>Marcus, Audrey Friedman, and Rena Krasno. <em>Survival in Shanghai: The Journals of Fred Marcus, 1939-49</em>, 2008.</li>
+<li>Moshinsky, Sam. <em>Goodbye Shanghai: A Memoir</em>, 2016.</li>
+<li>Pal, John. <em>Shanghai Saga: The Story of a City</em>, 2022.</li>
+<li>Peters, E. W., and Robert Bickers. <em>Shanghai Policeman</em>, 2014.</li>
+<li>Whitey, Smith. <em>I Didn&#x27;t Make a Million</em>, 2022.</li>
+<li>Willens, Liliane. <em>Stateless in Shanghai</em>, 2010.</li>
+<li>Williams, Daniel S., and Gerald A. Meehl. <em>A Shanghai American: From an American Childhood in Shanghai to Marine Combat Interpreter on the Pacific Island Battlefields of WWII</em>, 2018.</li>
+</ul>
+<p><em>Fiction:</em></p>
+<ul>
+<li>Ballard, J. G. <em>Empire Of The Sun</em>, 1984</li>
+<li>Chang, Eileen. 張愛玲 <em>Love in a Fallen City</em> Translated by Karen Kingsbury, 2007.</li>
+<li>Chang, Eileen. 張愛玲 <em>Lust, Caution</em> Translated by Julia Lovell, 2007.</li>
+<li>Chang, Eileen 張愛玲 <em>Half a Lifelong Romance</em>. Translated by Karen Kingsbury, 2014.</li>
+<li>Chang, Eileen 張愛玲 <em>Little Reunions</em>. Translated by Jane Weizhen Pan and Martin Merz, 2018.</li>
+<li>Chang, Eileen 張愛玲 <em>Red Rose, White Rose</em>. Translated by Karen Kingsbury, 2011.</li>
+<li>Han, Bangqing 韓邦慶 <em>The Sing-Song Girls of Shanghai</em> Translated by Eileen Chang, 2005.</li>
+<li>Hergé. <em>The Adventures of Tintin: The Blue Lotus</em>, 1936.</li>
+<li>Malraux, André. <em>Man&#x27;s Fate</em>, 1961.</li>
+<li>Mao, Dun. 矛盾 <em>Rainbow</em>, 1992.</li>
+<li>Mao, Dun. 矛盾 <em>Midnight</em>, 2001.</li>
+<li>Mu, Shiying. 穆時英 <em>Mu Shiying: China&#x27;s Lost Modernist: New Translations and an Appreciation</em>, 2014.</li>
+<li>Smolnikoff, Victor. <em>The Diary of a Shanghai Physician</em>, 2020.</li>
+<li>Yokomitsu, Riichi. 横光利一 <em>Shanghai</em>, 2001.</li>
+<li>Zhang, Henshui. 張恨水 <em>Shanghai Express</em> William A. Lyell trans., 1997.</li>
+</ul>
+<p><em>Historical Scholarship:</em> Though not open access works, there is a bibliography of historiography on Shanghai, focused on English language scholarship related to Shanghai from 1850-1949 available here: <a href="https://prosopa.org/smpa/bibliography" target="_blank" rel="noopener">Shanghai Bibliography</a></p>
+    </div>
+  </section>
+  <footer class="credit" id="credits">
+    <p>See also this Frog in a Well resource page: <a href="https://froginawell.net/frog/sources/primary-sources-missionary-perspectives-on-china/" target="_blank" rel="noopener">Primary Sources: Missionary Perspectives on China</a></p>
+    <p>We very much welcome further contributions to this list of resources. If you have suggestions or corrections, please get in touch with Konrad at kmlawson@froginawell.net or @konrad@social.coop on Mastodon.</p>
+    <p>Last Update: 19 Feb, 2024</p>
+    <p class="version">Version 1.0001 · Last Updated: 21 October 2026 ·
+      <a href="https://github.com/kmlawson/primary-sources/tree/master/shanghai" target="_blank" rel="noopener">Source on GitHub</a></p>
+  </footer>
+</div>
+<button id="totop" type="button" class="totop" title="Back to the top" aria-label="Back to the top" hidden>↑</button>
+<script>
+// Each button opens or closes its section; a section's own heading closes it. The books section is
+// always on the page, so its button only scrolls to it.
+const openAll = document.querySelector("nav.jumps button.openall");
+function setOpen(sec, open) {
+  sec.hidden = !open;
+  const b = document.querySelector(`nav.jumps button[data-target="${sec.id}"]`);
+  if (b) b.setAttribute("aria-expanded", open ? "true" : "false");
+}
+function syncOpenAll() {
+  const secs = [...document.querySelectorAll("section.md")];
+  const all = secs.length && secs.every(s => !s.hidden);
+  openAll.textContent = all ? "Close All" : "Open All";
+  openAll.setAttribute("aria-expanded", all ? "true" : "false");
+}
+openAll.addEventListener("click", () => {
+  const secs = [...document.querySelectorAll("section.md")];
+  const open = secs.some(s => s.hidden);
+  for (const s of secs) setOpen(s, open);
+  syncOpenAll();
+  if (open && secs.length) secs[0].scrollIntoView({ behavior: "smooth", block: "start" });
+});
+for (const b of document.querySelectorAll("nav.jumps button:not(.openall)")) {
+  b.addEventListener("click", () => {
+    const sec = document.getElementById(b.dataset.target);
+    if (!sec) return;
+    if (b.classList.contains("search")) { sec.scrollIntoView({ behavior: "smooth", block: "start" }); return; }
+    const open = sec.hidden;
+    setOpen(sec, open);
+    syncOpenAll();
+    if (open) sec.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+}
+// a way back up from the middle of a long list
+const toTop = document.getElementById("totop");
+addEventListener("scroll", () => { toTop.hidden = scrollY < 400; }, { passive: true });
+toTop.addEventListener("click", () => scrollTo({ top: 0, behavior: "smooth" }));
+
+for (const h of document.querySelectorAll("section.md > h2")) {
+  const close = () => {
+    const sec = h.parentElement;
+    setOpen(sec, false);
+    syncOpenAll();
+    const b = document.querySelector(`nav.jumps button[data-target="${sec.id}"]`);
+    if (b) b.scrollIntoView({ behavior: "smooth", block: "center" });
+  };
+  h.addEventListener("click", close);
+  h.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); close(); } });
+}
+</script>
+<script>
+// The table of books online: search, filter, sort, and an entry opened in full. Adapted from the search on
+// the Modern Japanese History page (japan-bib site/app.js); the entries come from page/books.csv, written
+// into the page as JSON when it is built, so there is nothing to download.
+(() => {
+"use strict";
+const $ = id => document.getElementById(id);
+const fold = s => (s || "").normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase();
+const esc = s => (s || "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const EXPORT = $("books").dataset.export || "books";
+let ALL = [], VIEW = [], sortKey = null, sortDir = 1, cur = -1, byMatch = false;
+// tags: a date range ("1886-1942", "Pre-1823", "1945-Present", "1950-") is a period, anything else a topic.
+// One of each can be chosen at a time; they narrow the list together with everything else.
+const PERIOD = /^(pre-?|post-?)?-?\d{4}(\s*[-–]\s*(\d{4}|present))?-?$/i;
+const sel = { period: null, topic: null };
+const TAGS = { period: [], topic: [] };
+
+// who holds a copy, by the host of its URL: the short code shown in the link column and used by the Host filter
+const HOLDER = [[/web\.archive\.org\//, "WB", "Wayback Machine"], [/archive\.org\//, "IA", "Internet Archive"],
+                [/gutenberg\.org\//, "PG", "Project Gutenberg"], [/hathitrust\.org\//, "H", "HathiTrust"],
+                [/dl\.ndl\.go\.jp\//, "NDL", "National Diet Library"], [/usask\.ca\//, "USask", "Taiwan Library (USask)"],
+                [/doi\.org\//, "DOI", "Publisher (DOI)"]];
+const holder = u => (HOLDER.find(([rx]) => rx.test(u || "")) || [null, "Web"])[1];
+const holderName = code => (HOLDER.find(h => h[1] === code) || [, , "Elsewhere online"])[2];
+
+// notes are written in markdown: links and *italics*
+const md = s => esc(s).replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>')
+  .replace(/\*([^*]+)\*/g, "<em>$1</em>");
+const plain = s => (s || "").replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, "$1").replace(/\*/g, "");
+
+function load() {
+  const data = JSON.parse($("books-data").textContent);
+  ALL = data.map((r, i) => {
+    r.id = i + 1;
+    r.nlinks = r.links.length;
+    r.fa = fold(r.author); r.ft = fold(r.title); r.fn = fold(plain(r.notes));
+    r.tags = r.tags || [];
+    r.fall = r.fa + " \u0001 " + r.ft + " \u0001 " + r.fn + " " + fold(r.year + " " + r.language + " " + (r.imprint || "") + " " + r.tags.join(" "));
+    return r;
+  });
+  const langCount = {};
+  for (const r of ALL) if (r.language) langCount[r.language] = (langCount[r.language] || 0) + 1;
+  for (const l of Object.keys(langCount).sort((a, b) => langCount[b] - langCount[a])) {
+    const o = document.createElement("option"); o.value = l; o.textContent = `${l} (${langCount[l]})`; $("blang").appendChild(o);
+  }
+  const hosts = {};
+  for (const r of ALL) for (const u of new Set(r.links.map(l => holder(l.url)))) hosts[u] = (hosts[u] || 0) + 1;
+  for (const h of Object.keys(hosts).sort((a, b) => hosts[b] - hosts[a])) {
+    const o = document.createElement("option"); o.value = h; o.textContent = holderName(h); $("bhost").appendChild(o);
+  }
+  // periods in date order ("Pre-1823" and "-1823" first), topics alphabetically
+  const tagCount = {};
+  for (const r of ALL) for (const t of r.tags) tagCount[t] = (tagCount[t] || 0) + 1;
+  const start = t => /^(pre|-)/i.test(t) ? -1 : parseInt((t.match(/\d{4}/) || [9999])[0]) + (/^post/i.test(t) ? 0.5 : 0);
+  TAGS.period = Object.keys(tagCount).filter(t => PERIOD.test(t)).sort((a, b) => start(a) - start(b));
+  TAGS.topic = Object.keys(tagCount).filter(t => !PERIOD.test(t)).sort((a, b) => fold(a) < fold(b) ? -1 : 1);
+  if (TAGS.period.length || TAGS.topic.length) {
+    $("btags").hidden = false; $("btaghelp").hidden = false;
+    $("btags").innerHTML = ["period", "topic"].filter(g => TAGS[g].length).map(g =>
+      `<div class="tagrow" data-g="${g}"><span class="taglabel">${g === "period" ? "Period" : "Topic"}</span>` +
+      TAGS[g].map((t, i) => `<button type="button" class="tag" data-g="${g}" data-i="${i}" aria-pressed="false">${esc(t)}<span class="n"></span></button>`).join("") +
+      "</div>").join("");
+  }
+  apply();
+}
+function pickTag(g, t) { sel[g] = sel[g] === t ? null : t; apply(); }
+
+function parseQuery(q) {
+  const terms = []; const re = /(-?)(?:(author|title|notes):)?(?:"([^"]+)"|(\S+))/gi; let m;
+  while ((m = re.exec(q))) { const t = fold(m[3] || m[4]); if (t) terms.push({ neg: !!m[1], field: (m[2] || "").toLowerCase(), t }); }
+  return terms;
+}
+
+// How well an entry answers what was typed. The whole phrase in the title counts for most, then how
+// many of the words are in the title, how close together they sit, and whether they fall on word
+// boundaries; the author counts for less and the notes for little. This ordering is used only while
+// the search box has something in it and no column has been clicked.
+const WORDCH = /[a-z0-9]/;
+const wholeWord = (s, i, w) =>
+  (i === 0 || !WORDCH.test(s[i - 1])) && (i + w.length === s.length || !WORDCH.test(s[i + w.length]));
+function relevance(r, words, phrase) {
+  const t = r.ft, a = r.fa, o = r.fn;
+  let s = 0;
+  if (phrase) {
+    if (t === phrase) s += 400;
+    else if (t.startsWith(phrase)) s += 230;
+    else if (phrase.includes(" ") && t.includes(phrase)) s += 170;
+    if (phrase.includes(" ")) { if (a.includes(phrase)) s += 90; else if (o.includes(phrase)) s += 30; }
+  }
+  const spans = []; let inTitle = 0, elsewhere = 0;
+  for (const w of words) {
+    const i = t.indexOf(w);
+    if (i >= 0) { inTitle++; spans.push([i, i + w.length]); s += wholeWord(t, i, w) ? 20 : 11; if (i === 0) s += 8; }
+    else {
+      const j = a.indexOf(w);
+      if (j >= 0) { elsewhere++; s += wholeWord(a, j, w) ? 14 : 8; }
+      else if (o.includes(w)) { elsewhere++; s += 4; }
+    }
+  }
+  if (words.length) {
+    if (inTitle === words.length) s += 70;
+    else if (inTitle + elsewhere === words.length) s += 25;
+    if (spans.length > 1) {
+      const lo = Math.min(...spans.map(x => x[0])), hi = Math.max(...spans.map(x => x[1]));
+      const ideal = words.reduce((n, w) => n + w.length, 0) + words.length - 1;
+      s += Math.max(0, 45 - Math.round((hi - lo - ideal) / 3));
+    }
+  }
+  s -= Math.min(25, t.length / 30);
+  if (r.nlinks) s += 2;
+  return s;
+}
+const searchPhrase = q => fold(q).replace(/(^|\s)-\S+/g, " ").replace(/\b(author|title|notes):/g, " ")
+  .replace(/["']/g, " ").replace(/\s+/g, " ").trim();
+
+function apply() {
+  const terms = parseQuery($("bq").value), fld = $("bfield").value;
+  const y1 = parseInt($("by1").value) || null, y2 = parseInt($("by2").value) || null;
+  const shw = $("bshow").value, hst = $("bhost").value, lng = $("blang").value;
+  const key = f => f === "author" ? "fa" : f === "title" ? "ft" : f === "notes" ? "fn" : "fall";
+  const tagOk = (r, skip) => ["period", "topic"].every(g => g === skip || !sel[g] || r.tags.includes(sel[g]));
+  const base = ALL.filter(r => {
+    if (y1 || y2) { if (r.year_num == null) return false; if (y1 && r.year_num < y1) return false; if (y2 && r.year_num > y2) return false; }
+    if (hst && !r.links.some(l => holder(l.url) === hst)) return false;
+    if (lng && r.language !== lng) return false;
+    if (shw === "ia" && !r.nlinks) return false;
+    for (const t of terms) { const hit = r[key(t.field || fld)].includes(t.t); if (hit === t.neg) return false; }
+    return true;
+  });
+  VIEW = base.filter(r => tagOk(r));
+  // each tag button says how many entries it would leave, given everything else that is chosen
+  for (const b of document.querySelectorAll("#btags button.tag")) {
+    const g = b.dataset.g, t = TAGS[g][b.dataset.i];
+    const n = base.filter(r => tagOk(r, g) && r.tags.includes(t)).length;
+    b.querySelector(".n").textContent = n;
+    b.setAttribute("aria-pressed", sel[g] === t ? "true" : "false");
+    b.disabled = !n && sel[g] !== t;
+  }
+  const words = terms.filter(t => !t.neg && t.field !== "notes").map(t => t.t);
+  byMatch = !sortKey && words.length > 0;
+  if (byMatch) {
+    const phrase = searchPhrase($("bq").value);
+    for (const r of VIEW) r.rel = relevance(r, words, phrase);
+    VIEW.sort((x, y) => y.rel - x.rel || (x.year_num || 9999) - (y.year_num || 9999) || x.id - y.id);
+  }
+  if (sortKey) {
+    const k = sortKey, d = sortDir;
+    VIEW.sort((a, b) => {
+      let x = a[k], y = b[k];
+      if (k === "author") { x = a.fa || "￿"; y = b.fa || "￿"; } else if (k === "title") { x = a.ft; y = b.ft; }
+      if (x == null) return 1; if (y == null) return -1;
+      return (x < y ? -1 : x > y ? 1 : a.id - b.id) * d;
+    });
+  }
+  render(terms);
+}
+function hl(text, terms) {
+  let out = text; if (!terms.length) return esc(out);
+  for (const t of terms) { if (t.neg || t.t.length < 2) continue;
+    const parts = text.split(/(\s+)/); out = parts.map(w => fold(w).includes(t.t) ? "\u0002" + w + "\u0003" : w).join(""); text = out; }
+  return esc(out).replace(/\u0002+/g, "<mark>").replace(/\u0003+/g, "</mark>");
+}
+function render(terms) {
+  terms = terms || parseQuery($("bq").value);
+  $("brows").innerHTML = VIEW.map((r, i) => `<tr data-i="${i}">
+    <td class="au">${hl(r.author, terms) || '<span class="chip">no author</span>'}</td>
+    <td class="title">${hl(r.title, terms)}${r.notes ? `<span class="note">${md(r.notes)}</span>` : ""}${coins(r)}</td>
+    <td class="year">${esc(r.year)}</td>
+    <td class="ia">${r.nlinks ? `<a class="pill" href="${esc(r.links[0].url)}" target="_blank" rel="noopener" title="${esc(holderName(holder(r.links[0].url)))}"><span class="host">${holder(r.links[0].url)}: </span>${esc(r.links[0].label || "read")} ↗</a>${r.nlinks > 1 ? ` <span class="chip" title="more copies or volumes - open the entry">+${r.nlinks - 1}</span>` : ""}` : ""}</td></tr>`).join("");
+  $("bempty").hidden = VIEW.length > 0;
+  if ($("bdlg").open) for (const el of document.querySelectorAll("#brows span.Z3988")) el.className = "Z3988off";
+  zoteroLook();
+  $("bcount").textContent = `${VIEW.length.toLocaleString()} of ${ALL.length.toLocaleString()} entries` + (byMatch ? " · best match first (click a column to sort instead)" : "");
+  document.querySelectorAll(".books th").forEach(th => th.querySelector(".arrow").textContent = th.dataset.k === sortKey ? (sortDir > 0 ? "▲" : "▼") : "");
+}
+function citation(r) { return [r.author ? r.author + (/[.]$/.test(r.author) ? "" : ".") : "", r.title + (/[.?!]$/.test(r.title) ? "" : "."), [r.imprint, r.year].filter(Boolean).join(", ")].filter(Boolean).join(" ").replace(/\s+/g, " ") + (r.imprint || r.year ? "." : ""); }
+function show(i) {
+  if (i < 0 || i >= VIEW.length) return; cur = i; const r = VIEW[i];
+  $("bdtitle").innerHTML = esc(r.title) + coins(r);
+  const tags = r.tags.map(t => `<button type="button" class="chip" data-tag="${esc(t)}" title="List the entries with this tag">${esc(t)}</button>`).join(" ");
+  const links = r.nlinks ? r.links.map(l => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label || r.title)}</a> <span class="chip">${esc(holderName(holder(l.url)))}</span>`).join("<br>") : "no copy found online";
+  $("bddl").innerHTML = [["Author", esc(r.author) || "—"], ["Year", esc(r.year)], ["Imprint", esc(r.imprint)], ["Language", esc(r.language)], ["Tags", tags], ["Notes", md(r.notes)], ["Online copy", links]]
+    .filter(([, v]) => v).map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("");
+  $("bdsearch").href = "https://archive.org/search?query=" + encodeURIComponent(`title:(${r.title.split(/[.;:]/)[0]})` + (r.author ? ` AND creator:(${r.author.split(",")[0]})` : ""));
+  $("bdprev").disabled = i === 0; $("bdnext").disabled = i === VIEW.length - 1;
+  if (!$("bdlg").open) $("bdlg").showModal();
+  coinsMode(true);
+}
+
+// half a second after the last keystroke, so that typing a phrase does not re-filter on every letter; Enter searches at once
+let tmr; const debounced = () => { clearTimeout(tmr); tmr = setTimeout(apply, 500); };
+$("bq").addEventListener("input", debounced);
+$("bq").addEventListener("keydown", e => { if (e.key === "Enter") { clearTimeout(tmr); apply(); } });
+for (const id of ["bfield", "by1", "by2", "bhost", "blang", "bshow"]) $(id).addEventListener("input", apply);
+$("btags").addEventListener("click", e => { const b = e.target.closest("button.tag"); if (b) pickTag(b.dataset.g, TAGS[b.dataset.g][b.dataset.i]); });
+// a tag in an open entry lists everything else with that tag
+$("bddl").addEventListener("click", e => {
+  const b = e.target.closest("button[data-tag]"); if (!b) return;
+  const t = b.dataset.tag, g = PERIOD.test(t) ? "period" : "topic";
+  sel[g] = t; $("bdlg").close(); apply(); $("books").scrollIntoView({ behavior: "smooth", block: "start" });
+});
+$("breset").onclick = () => {
+  $("bq").value = ""; $("bfield").value = "all"; $("by1").value = $("by2").value = ""; $("bhost").value = "";
+  $("blang").value = ""; $("bshow").value = "all"; sel.period = sel.topic = null; sortKey = null; sortDir = 1; apply(); $("bq").focus();
+};
+document.querySelectorAll(".books th").forEach(th => th.onclick = () => { const k = th.dataset.k; if (sortKey === k) { if (sortDir === 1) sortDir = -1; else { sortKey = null; sortDir = 1; } } else { sortKey = k; sortDir = 1; } apply(); });
+$("brows").addEventListener("click", e => { if (e.target.closest("a")) return; const tr = e.target.closest("tr"); if (tr) show(parseInt(tr.dataset.i)); });
+$("bdclose").onclick = () => $("bdlg").close();
+$("bdlg").addEventListener("close", () => coinsMode(false));
+$("bdlg").addEventListener("click", e => { if (e.target === $("bdlg")) $("bdlg").close(); });
+$("bdprev").onclick = () => show(cur - 1); $("bdnext").onclick = () => show(cur + 1);
+document.addEventListener("keydown", e => { if ($("bdlg").open) { if (e.key === "ArrowLeft") show(cur - 1); if (e.key === "ArrowRight") show(cur + 1); } });
+const copy = (t, b) => navigator.clipboard.writeText(t).then(() => { const o = b.textContent; b.textContent = "Copied ✓"; setTimeout(() => b.textContent = o, 1200); });
+$("bdcopy").onclick = e => copy(citation(VIEW[cur]), e.target);
+const save = (text, type, name) => {
+  const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([text], { type })); a.download = name; a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+};
+// the same columns as page/books.csv, so an export can be pasted back into it
+$("bcsv").onclick = () => {
+  const cols = ["author", "title", "year", "imprint", "language", "links", "tags", "notes"];
+  const val = (r, c) => c === "links" ? r.links.map(l => (l.label ? l.label + " " : "") + l.url).join(" ; ") : c === "tags" ? r.tags.join(" ; ") : r[c];
+  const q = v => '"' + String(v == null ? "" : v).replace(/"/g, '""').replace(/\n/g, " ") + '"';
+  save("﻿" + cols.join(",") + "\n" + VIEW.map(r => cols.map(c => q(val(r, c))).join(",")).join("\n"), "text/csv", EXPORT + "-results.csv");
+};
+
+// COinS (the Z3988 span) so that Zotero's connector can take an entry straight off the page: one in
+// every row of the table and one in the open entry. While an entry is open the spans in the rows are
+// set aside (their class changed), so that Zotero offers that one record rather than the whole list.
+function coinsMode(single) {
+  const off = single ? "Z3988" : "Z3988off", on = single ? "Z3988off" : "Z3988";
+  for (const el of document.querySelectorAll("#brows span." + off)) el.className = on;
+  zoteroLook();
+}
+function coins(r) {
+  const f = [["ctx_ver", "Z39.88-2004"], ["rft_val_fmt", "info:ofi/fmt:kev:mtx:book"], ["rft.genre", "book"],
+             ["rft.btitle", r.title], ["rft.title", r.title], ["rft.au", r.author], ["rft.date", r.year],
+             ["rft.language", r.language], ["rft_id", r.nlinks ? r.links[0].url : ""]];
+  const q = f.filter(([, v]) => v).map(([k, v]) => k + "=" + encodeURIComponent(v)).join("&");
+  return `<span class="Z3988" title="${esc(q)}"></span>`;
+}
+let zoteroAt = 0, zoteroTmr;
+function zoteroLook() {
+  clearTimeout(zoteroTmr);
+  const wait = Math.max(0, 3000 - (Date.now() - zoteroAt));
+  zoteroTmr = setTimeout(() => { zoteroAt = Date.now(); document.dispatchEvent(new Event("ZoteroItemUpdated", { bubbles: true, cancelable: true })); }, wait);
+}
+
+// BibTeX for whatever the filters have left, so a result list can go straight into a reference manager
+const bibEsc = s => String(s == null ? "" : s).replace(/[{}]/g, "").replace(/\\/g, "").replace(/\s+/g, " ").trim();
+function bibKey(r, used) {
+  const sur = (r.author || "").split(",")[0].split(/\s+/).filter(Boolean).pop() || "anon";
+  const word = (r.title || "").split(/\s+/).find(w => w.length > 3 && /^[A-Za-z]/.test(w)) || "";
+  let k = (fold(sur) + (r.year_num || "nd") + fold(word)).replace(/[^a-z0-9]/g, "");
+  if (used.has(k)) { let n = 2; while (used.has(k + n)) n++; k += n; }
+  used.add(k);
+  return k;
+}
+function bibEntry(r, used) {
+  const f = [["author", r.author], ["title", r.title], ["year", r.year], ["publisher", r.imprint], ["language", r.language], ["keywords", r.tags.join(", ")],
+             ["url", r.nlinks ? r.links[0].url : ""], ["note", plain(r.notes)]];
+  const lines = f.filter(([, v]) => bibEsc(v)).map(([k, v]) => `  ${k} = {${bibEsc(v)}}`);
+  return `@book{${bibKey(r, used)},\n${lines.join(",\n")}\n}`;
+}
+$("bbib").onclick = () => {
+  const used = new Set();
+  save("% " + VIEW.length + " entries from " + location.origin + location.pathname + " (" + new Date().toISOString().slice(0, 10) + ")\n\n" +
+    VIEW.map(r => bibEntry(r, used)).join("\n\n") + "\n", "application/x-bibtex", EXPORT + "-results.bib");
+};
+
+load();
+})();
+</script>
+</body>
+</html>

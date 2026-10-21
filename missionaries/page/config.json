@@ -1,0 +1,30 @@
+{
+  "title": "Primary Sources: Missionary Perspectives on China",
+  "description": "This page will collect some links to online sources related to missionaries and their perspectives on China.",
+  "lede": [
+    "This page will collect some links to online sources related to missionaries and their perspectives on China. These sources may be especially useful to students studying modern Chinese history wanting to make use of primary sources in their essays but who are a) limited to the English language, b) may have limited access to databases available at universities with strong East Asia collections, and c) are in lockdown due to a global pandemic. If used with a careful critical approach to the sources, there is a wealth of material here to explore.",
+    "Let me start by saying there are already many great library guides to primary sources out there. Some of these I have linked to at the bottom of a growing list of primary sources I provide my own students each semester that you can [find here](https://huginn.net/primary-sources/). I also suggest you pay a visit to the [Biblioteca Sinica 2.0](https://www.univie.ac.at/Geschichte/China-Bibliographie/blog/) which in March, 2020, just posted its last entry after 5,000 entries linking sources on Sino-Western encounters over a period of 10 years. See, for example, just their entries tagged [missionaries](https://www.univie.ac.at/Geschichte/China-Bibliographie/blog/tag/missionaries/) or its [list of digital collections](https://www.univie.ac.at/Geschichte/China-Bibliographie/blog/libraries-digital-collections/).",
+    "First, let us list some of the missionary periodicals available online. These often went well beyond reporting on the success or challenges of individual missions to offer writings on a whole host of aspects of Chinese society."
+  ],
+  "credits": [
+    "This page was put together thanks to the contributions of: Konrad M. Lawson, Joseph W. Ho, Charles Hayford, Felix Boecking, and Yang Rui.",
+    "We most welcome your corrections or suggestions for additions to the page. You can reach Konrad at kmlawson@froginawell.net or @konrad@social.coop on Mastodon.",
+    "Last Updated: 6 October, 2024"
+  ],
+  "books_placeholder": "Search author, title, notes… (e.g.  morrison   \"china inland mission\"   author:broomhall)",
+  "export": "missionaries-books",
+  "colors": {
+    "light": {
+      "accent": "#7b4a26",
+      "accent-ink": "#fff",
+      "hit": "#f1e2d3",
+      "link": "#6e4120"
+    },
+    "dark": {
+      "accent": "#d9a774",
+      "accent-ink": "#1c1208",
+      "hit": "#4a3220",
+      "link": "#e8c39c"
+    }
+  }
+}

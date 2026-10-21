@@ -15,6 +15,7 @@
         <option value="all" selected>All</option><option value="ia">Online</option></select></label>
     </div>
   </div>
+  <div class="tagbar" id="btags" hidden></div>
   <div class="status"><div id="bcount"></div>
     <div class="right"><button id="bcsv" type="button" title="Download the current result list as CSV">Export CSV</button><button id="bbib" type="button" title="Download the current result list as BibTeX">Export BibTeX</button></div></div>
   <div class="tablewrap">
@@ -29,7 +30,7 @@
     </table>
     <div class="empty" id="bempty" hidden>No entries match.</div>
   </div>
-  <p class="help">Words are ANDed; diacritics and case are ignored. Use quotes for phrases, the prefixes <code>author:</code>, <code>title:</code> and <code>notes:</code>, and <code>-word</code> to exclude. With something typed in the search box the best matches come first. Click a column to sort by it instead, or a row for full details.</p>
+  <p class="help">Words are ANDed; diacritics and case are ignored. Use quotes for phrases, the prefixes <code>author:</code>, <code>title:</code> and <code>notes:</code>, and <code>-word</code> to exclude. With something typed in the search box the best matches come first. Click a column to sort by it instead, or a row for full details.<span id="btaghelp" hidden> Choose a tag to narrow the list (a period and a topic can be combined); choose it again to clear it.</span></p>
   <dialog id="bdlg">
     <div class="dhead"><h2 id="bdtitle"></h2><button id="bdclose" type="button" aria-label="Close">✕</button></div>
     <div class="dbody"><dl id="bddl"></dl></div>

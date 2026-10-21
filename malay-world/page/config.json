@@ -1,0 +1,31 @@
+{
+  "title": "Primary Sources: The Malay World",
+  "description": "This page is a list of open access resources and primary sources related to the history of the Malay world, broadly defined including, but not limited to, the lands and peoples in what are today Indonesia, Malaysia, Brunei and Singapore.",
+  "lede": [
+    "*Katak di bawah tempurung* / *Seperti katak dalam tempurung* - Frog under the coconut shell. Let's try to get out from under our shell.",
+    "This page is a list of open access resources and primary sources related to the history of the Malay world, broadly defined including, but not limited to, the lands and peoples in what are today Indonesia, Malaysia, Brunei and Singapore. This is part of a collection of primary source guides here at Frog in a Well that were created first and foremost with students in mind, especially those who are mostly dependent on English language materials and who may have limited access to commercial databases. It should be seen as a work in progress, and corrections or suggestions for additions are most welcome.",
+    "The page inevitably reflects the knowledge and interests of the contributors with, at least so far, a heavy tilt towards materials from the 19th to the 20th centuries. The general focus on English sources and the limited availability of translated materials available open access also means that many of these sources are from the perspective of colonial officials, western travellers and authors, or those who worked in or closely with, especially, Dutch and British colonial regimes in the region. They need to be used with care and with a critical eye."
+  ],
+  "credits": [
+    "**Contributors**",
+    "This list of primary resources was created by **Sahil Bhagat** (email: sahil@froginawell.net twitter: @sbhagat2000). Sahil is a former student of the University of St Andrews class of 2022 and is now a graduate student in the class of 2024 International and World History dual program at Columbia University and LSE. He is interested in the history of South Asian diasporic populations in colonial and post colonial Malaya and Singapore.",
+    "Other contributors to this page: Konrad M. Lawson, Harry Banham.",
+    "We very much welcome further contributions to this list of resources. If you have suggestions or corrections, please get in touch with Konrad at kmlawson@froginawell.net or @konrad@social.coop on Mastodon."
+  ],
+  "books_placeholder": "Search author, title, notes… (e.g.  raffles   \"golden chersonese\"   author:swettenham)",
+  "export": "malay-world-books",
+  "colors": {
+    "light": {
+      "accent": "#0f7b7b",
+      "accent-ink": "#fff",
+      "hit": "#d2efef",
+      "link": "#0b6a6a"
+    },
+    "dark": {
+      "accent": "#4fd1c5",
+      "accent-ink": "#0b1a1a",
+      "hit": "#12494a",
+      "link": "#7fe0d7"
+    }
+  }
+}

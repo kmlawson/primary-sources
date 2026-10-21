@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Primary Sources</title>
-<meta name="description" content="Lists of open access primary sources for the study of modern Korean history and the history of Taiwan.">
+<meta name="description" content="Lists of open access primary sources for the study of East and Southeast Asian history.">
 <style>
-/* the same palette and serif face as the Korea and Taiwan pages (korea/site/page.css) */
+/* the same palette and serif face as the pages themselves (site/page.css) */
 :root{
   --bg:#f3f5f8;--panel:#fff;--ink:#16273d;--muted:#5d6f84;--line:#d9e0e8;--accent:#12539e;--link:#1257a8;
   --serif: Georgia, "Iowan Old Style", "Times New Roman", serif;
@@ -22,9 +22,12 @@ header{padding:26px 0 6px}
 h1{font:700 30px/1.15 var(--serif);margin:0 0 6px}
 p.lede{margin:0 0 18px;color:var(--muted);font-size:15px}
 ul.pages{list-style:none;padding:0;margin:0 0 24px;display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
-ul.pages a{display:block;height:100%;padding:16px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel);color:var(--ink);text-decoration:none}
-ul.pages a:hover{border-color:var(--accent)}
-ul.pages strong{display:block;font-size:19px;color:var(--link);margin-bottom:4px}
+/* each card in the colour of its page */
+ul.pages a{display:block;height:100%;padding:16px 18px;border:1px solid var(--line);border-left:5px solid var(--c);border-radius:12px;background:var(--panel);color:var(--ink);text-decoration:none}
+ul.pages a:hover{border-color:var(--c)}
+ul.pages strong{display:block;font-size:19px;color:var(--c);margin-bottom:4px}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) ul.pages li{--c:var(--cd)}}
+:root[data-theme="dark"] ul.pages li{--c:var(--cd)}
 ul.pages span{font-size:14px;color:var(--muted)}
 footer{padding:14px 0 38px;font-size:13px;color:var(--muted);border-top:1px solid var(--line)}
 footer a{color:var(--link)}
@@ -35,15 +38,23 @@ footer a{color:var(--link)}
 <div class="wrap">
   <header>
     <h1>Primary Sources</h1>
-    <p class="lede">Lists of open access primary sources for the study of East Asian history, aimed primarily at
+    <p class="lede">Lists of open access primary sources for the study of East and Southeast Asian history, aimed primarily at
       students working with sources in English.</p>
   </header>
   <ul class="pages">
-    <li><a href="korea/"><strong>Modern Korean History</strong>
+    <li style="--c:#b3261e;--cd:#ff7a70"><a href="korea/"><strong>Modern Korean History</strong>
       <span>Images and film, colonial reports, missionary records, early periodicals, US government documents, books online, and Korean and Japanese language sources.</span></a></li>
-    <li><a href="taiwan/"><strong>History of Taiwan</strong>
+    <li style="--c:#3f9a5a;--cd:#7fd394"><a href="taiwan/"><strong>History of Taiwan</strong>
       <span>Images and film, colonial reports, missionary records, maps, books online, and Chinese and Japanese language sources.</span></a></li>
-    <li><a href="https://froginawell.net/reference/modern-japan/"><strong>Modern Japanese History</strong>
+    <li style="--c:#6b3fa0;--cd:#b99af0"><a href="shanghai/"><strong>History of Modern Shanghai</strong>
+      <span>Virtual Shanghai, periodicals, municipal and police reports, guides, directories, maps, films, and memoirs and accounts online.</span></a></li>
+    <li style="--c:#7b4a26;--cd:#d9a774"><a href="missionaries/"><strong>Missionary Perspectives on China</strong>
+      <span>Missionary periodicals, medical missionary reports, reference works, memoirs and biographies, photographs, and archival collections.</span></a></li>
+    <li style="--c:#b35c00;--cd:#f0a54a"><a href="burma/"><strong>History of Burma</strong>
+      <span>Pre-colonial sources in translation, government reports, legal history, gazetteers, censuses, maps, and books online.</span></a></li>
+    <li style="--c:#0f7b7b;--cd:#4fd1c5"><a href="malay-world/"><strong>The Malay World</strong>
+      <span>Government reports, maps, newspapers, medical and botanical reports, the National Archives of Singapore, and digitized books.</span></a></li>
+    <li style="--c:#12539e;--cd:#5aa2ff"><a href="https://froginawell.net/reference/modern-japan/"><strong>Modern Japanese History</strong>
       <span>Periodicals, yearbooks, guidebooks and maps, with a searchable database of digitized books.</span></a></li>
   </ul>
   <footer>
