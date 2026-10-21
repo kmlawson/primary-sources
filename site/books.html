@@ -13,11 +13,13 @@
       <label>Language <select id="blang" title="Language of the work"><option value="">All</option></select></label>
       <label>Show <select id="bshow" title="Which entries to list">
         <option value="all" selected>All</option><option value="ia">Online</option></select></label>
+      <label>Per page <select id="bpp" title="How many entries to list at a time"><option>100</option><option selected>200</option><option>500</option><option value="all">All</option></select></label>
     </div>
   </div>
   <div class="tagbar" id="btags" hidden></div>
   <div class="status"><div id="bcount"></div>
-    <div class="right"><button id="bcsv" type="button" title="Download the current result list as CSV">Export CSV</button><button id="bbib" type="button" title="Download the current result list as BibTeX">Export BibTeX</button></div></div>
+    <div class="right"><button id="bcsv" type="button" title="Download the current result list as CSV">Export CSV</button><button id="bbib" type="button" title="Download the current result list as BibTeX">Export BibTeX</button>
+    <div class="pager"><button id="bprev" type="button">‹ Prev</button><span id="bpageinfo"></span><button id="bnext" type="button">Next ›</button></div></div></div>
   <div class="tablewrap">
     <table>
       <thead><tr>
@@ -30,6 +32,7 @@
     </table>
     <div class="empty" id="bempty" hidden>No entries match.</div>
   </div>
+  <div class="pager bottom"><button id="bprev2" type="button">‹ Prev</button><span id="bpageinfo2"></span><button id="bnext2" type="button">Next ›</button></div>
   <p class="help">Words are ANDed; diacritics and case are ignored. Use quotes for phrases, the prefixes <code>author:</code>, <code>title:</code> and <code>notes:</code>, and <code>-word</code> to exclude. With something typed in the search box the best matches come first. Click a column to sort by it instead, or a row for full details.<span id="btaghelp" hidden> Choose a tag to narrow the list (a period and a topic can be combined); choose it again to clear it.</span></p>
   <dialog id="bdlg">
     <div class="dhead"><h2 id="bdtitle"></h2><button id="bdclose" type="button" aria-label="Close">✕</button></div>

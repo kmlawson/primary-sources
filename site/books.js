@@ -7,7 +7,7 @@ const $ = id => document.getElementById(id);
 const fold = s => (s || "").normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase();
 const esc = s => (s || "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const EXPORT = $("books").dataset.export || "books";
-let ALL = [], VIEW = [], sortKey = null, sortDir = 1, cur = -1, byMatch = false;
+let ALL = [], VIEW = [], sortKey = null, sortDir = 1, cur = -1, byMatch = false, page = 0;
 // a title longer than this is cut at a word near it, with "more" to show the rest in place; the full
 // title is the cell's tooltip, and the entry opened in full always has it
 const CUT = 120;
@@ -125,7 +125,7 @@ function relevance(r, words, phrase) {
 const searchPhrase = q => fold(q).replace(/(^|\s)-\S+/g, " ").replace(/\b(author|title|notes):/g, " ")
   .replace(/["']/g, " ").replace(/\s+/g, " ").trim();
 
-function apply() {
+function apply(keepPage) {
   const terms = parseQuery($("bq").value), fld = $("bfield").value;
   const y1 = parseInt($("by1").value) || null, y2 = parseInt($("by2").value) || null;
   const shw = $("bshow").value, hst = $("bhost").value, lng = $("blang").value;
@@ -164,6 +164,7 @@ function apply() {
       return (x < y ? -1 : x > y ? 1 : a.id - b.id) * d;
     });
   }
+  if (!keepPage) page = 0;
   render(terms);
 }
 function titleCell(r, terms) {
@@ -183,7 +184,11 @@ function hl(text, terms) {
 }
 function render(terms) {
   terms = terms || parseQuery($("bq").value);
-  $("brows").innerHTML = VIEW.map((r, i) => `<tr data-i="${i}">
+  // one page of the list at a time; Per page sets how many (All: everything)
+  const pp = parseInt($("bpp").value) || Math.max(1, VIEW.length), pages = Math.max(1, Math.ceil(VIEW.length / pp));
+  page = Math.min(page, pages - 1);
+  const first = page * pp;
+  $("brows").innerHTML = VIEW.slice(first, first + pp).map((r, i) => `<tr data-i="${first + i}">
     <td class="au">${hl(r.author, terms) || '<span class="chip">no author</span>'}</td>
     <td class="title"${r.title.length > CUT + 20 ? ` title="${esc(r.title)}"` : ""}>${titleCell(r, terms)}${r.notes ? `<span class="note">${md(r.notes)}</span>` : ""}${coins(r)}</td>
     <td class="year">${esc(r.year)}</td>
@@ -191,7 +196,13 @@ function render(terms) {
   $("bempty").hidden = VIEW.length > 0;
   if ($("bdlg").open) for (const el of document.querySelectorAll("#brows span.Z3988")) el.className = "Z3988off";
   zoteroLook();
-  $("bcount").textContent = `${VIEW.length.toLocaleString()} of ${ALL.length.toLocaleString()} entries` + (byMatch ? " · best match first (click a column to sort instead)" : "");
+  $("bcount").textContent = `${VIEW.length.toLocaleString()} of ${ALL.length.toLocaleString()} entries` +
+    (pages > 1 ? ` · showing ${(first + 1).toLocaleString()}–${Math.min(first + pp, VIEW.length).toLocaleString()}` : "") +
+    (byMatch ? " · best match first (click a column to sort instead)" : "");
+  for (const [info, prev, next, box] of [["bpageinfo", "bprev", "bnext", $("bprev").parentElement], ["bpageinfo2", "bprev2", "bnext2", $("bprev2").parentElement]]) {
+    $(info).textContent = `Page ${page + 1} / ${pages}`; box.hidden = pages === 1;
+    $(prev).disabled = page === 0; $(next).disabled = page >= pages - 1;
+  }
   document.querySelectorAll(".books th").forEach(th => th.querySelector(".arrow").textContent = th.dataset.k === sortKey ? (sortDir > 0 ? "▲" : "▼") : "");
 }
 function citation(r) { return [r.author ? r.author + (/[.]$/.test(r.author) ? "" : ".") : "", r.title + (/[.?!]$/.test(r.title) ? "" : "."), [r.imprint, r.year].filter(Boolean).join(", ")].filter(Boolean).join(" ").replace(/\s+/g, " ") + (r.imprint || r.year ? "." : ""); }
@@ -212,7 +223,11 @@ function show(i) {
 let tmr; const debounced = () => { clearTimeout(tmr); tmr = setTimeout(apply, 500); };
 $("bq").addEventListener("input", debounced);
 $("bq").addEventListener("keydown", e => { if (e.key === "Enter") { clearTimeout(tmr); apply(); } });
-for (const id of ["bfield", "by1", "by2", "bhost", "blang", "bshow"]) $(id).addEventListener("input", apply);
+for (const id of ["bfield", "by1", "by2", "bhost", "blang", "bshow", "bpp"]) $(id).addEventListener("input", () => apply());
+// a new page starts at the top of the table, where the column headings are
+const turn = d => { page += d; render(); $("books").querySelector(".tablewrap").scrollIntoView({ block: "start" }); };
+for (const id of ["bprev", "bprev2"]) $(id).onclick = () => turn(-1);
+for (const id of ["bnext", "bnext2"]) $(id).onclick = () => turn(1);
 $("btags").addEventListener("click", e => { const b = e.target.closest("button.tag"); if (b) pickTag(b.dataset.g, TAGS[b.dataset.g][b.dataset.i]); });
 // a tag in an open entry lists everything else with that tag
 $("bddl").addEventListener("click", e => {
@@ -222,7 +237,7 @@ $("bddl").addEventListener("click", e => {
 });
 $("breset").onclick = () => {
   $("bq").value = ""; $("bfield").value = "all"; $("by1").value = $("by2").value = ""; $("bhost").value = "";
-  $("blang").value = ""; $("bshow").value = "all"; sel.period = sel.topic = null; sortKey = null; sortDir = 1; apply(); $("bq").focus();
+  $("blang").value = ""; $("bshow").value = "all"; $("bpp").value = "200"; sel.period = sel.topic = null; sortKey = null; sortDir = 1; apply(); $("bq").focus();
 };
 document.querySelectorAll(".books th").forEach(th => th.onclick = () => { const k = th.dataset.k; if (sortKey === k) { if (sortDir === 1) sortDir = -1; else { sortKey = null; sortDir = 1; } } else { sortKey = k; sortDir = 1; } apply(); });
 $("brows").addEventListener("click", e => {

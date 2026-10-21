@@ -141,6 +141,7 @@ footer.site ul { padding-left: 20px; }
 .books .row2 input[type=number]::-webkit-outer-spin-button, .books .row2 input[type=number]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
 .books .row2 label { display: flex; align-items: center; gap: 6px; white-space: nowrap; flex: 0 0 auto; max-width: 100%; }
 .books .row2 select { min-width: 0; max-width: 100%; }
+.books .row2 #bhost { max-width: 11em; }   /* long library names would otherwise push Per page onto a line of its own */
 /* tags: a row of periods and a row of topics; the number is how many entries the tag would leave */
 .books .tagbar { padding: 10px 0 2px; border-bottom: 1px solid var(--line); }
 .books .tagrow { display: flex; flex-wrap: wrap; gap: 6px; align-items: baseline; margin: 0 0 8px; }
@@ -156,6 +157,11 @@ footer.site ul { padding-left: 20px; }
 .books .dbody button.chip:hover { color: var(--link); }
 .books .status { display: flex; justify-content: space-between; gap: 8px; flex-wrap: wrap; align-items: center; margin: 10px 0 6px; color: var(--muted); font-size: 13px; }
 .books .status .right { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+/* pages of the list: at the top beside the exports, and again under the table */
+.books .pager { display: flex; gap: 6px; align-items: center; }
+.books .pager[hidden] { display: none; }
+.books .pager.bottom { justify-content: flex-end; margin: 10px 0 0; font-size: 13px; color: var(--muted); }
+.books .pager button:disabled { opacity: .45; cursor: default; }
 .books .tablewrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; background: var(--panel); }
 .books table { border-collapse: collapse; width: 100%; min-width: 600px; table-layout: fixed; }
 .books th, .books td { padding: 8px 10px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); overflow-wrap: anywhere; }
@@ -453,11 +459,13 @@ footer.site ul { padding-left: 20px; }
       <label>Language <select id="blang" title="Language of the work"><option value="">All</option></select></label>
       <label>Show <select id="bshow" title="Which entries to list">
         <option value="all" selected>All</option><option value="ia">Online</option></select></label>
+      <label>Per page <select id="bpp" title="How many entries to list at a time"><option>100</option><option selected>200</option><option>500</option><option value="all">All</option></select></label>
     </div>
   </div>
   <div class="tagbar" id="btags" hidden></div>
   <div class="status"><div id="bcount"></div>
-    <div class="right"><button id="bcsv" type="button" title="Download the current result list as CSV">Export CSV</button><button id="bbib" type="button" title="Download the current result list as BibTeX">Export BibTeX</button></div></div>
+    <div class="right"><button id="bcsv" type="button" title="Download the current result list as CSV">Export CSV</button><button id="bbib" type="button" title="Download the current result list as BibTeX">Export BibTeX</button>
+    <div class="pager"><button id="bprev" type="button">‹ Prev</button><span id="bpageinfo"></span><button id="bnext" type="button">Next ›</button></div></div></div>
   <div class="tablewrap">
     <table>
       <thead><tr>
@@ -470,6 +478,7 @@ footer.site ul { padding-left: 20px; }
     </table>
     <div class="empty" id="bempty" hidden>No entries match.</div>
   </div>
+  <div class="pager bottom"><button id="bprev2" type="button">‹ Prev</button><span id="bpageinfo2"></span><button id="bnext2" type="button">Next ›</button></div>
   <p class="help">Words are ANDed; diacritics and case are ignored. Use quotes for phrases, the prefixes <code>author:</code>, <code>title:</code> and <code>notes:</code>, and <code>-word</code> to exclude. With something typed in the search box the best matches come first. Click a column to sort by it instead, or a row for full details.<span id="btaghelp" hidden> Choose a tag to narrow the list (a period and a topic can be combined); choose it again to clear it.</span></p>
   <dialog id="bdlg">
     <div class="dhead"><h2 id="bdtitle"></h2><button id="bdclose" type="button" aria-label="Close">✕</button></div>
@@ -485,7 +494,7 @@ footer.site ul { padding-left: 20px; }
     <p>Contributors: Links, suggestions and corrections with help of Konrad M. Lawson, Evan Dawley, Paul Barclay, Yang Chanrong, Brent Ho, Katy Hui-Wen Hung, Kerim Friedman, and Tobie Openshaw. Lots of ideas for links here also came from the <a href="https://www.facebook.com/groups/811812725675036/?ref=group_header" target="_blank" rel="noopener">Taiwan History</a> facebook group.</p>
     <p>We most welcome your corrections or suggestions for additions to the page. You can reach Konrad at kmlawson@froginawell.net or @kmlawson on Twitter.</p>
     <p>The code and design of this page were created with the use of Anthropic Claude with Konrad M. Lawson at the prompt, following the design of the <a href="https://froginawell.net/reference/modern-japan/" target="_blank" rel="noopener">Modern Japanese History</a> page. The links themselves were gathered over several years by Konrad and the contributors named above. Feel free to use this page as a starting point for building your own collection of resources: the list is kept as markdown on GitHub, and pull requests and forks are welcome.</p>
-    <p class="version">Version 1.0006 · Last Updated: 21 October 2026 ·
+    <p class="version">Version 1.0007 · Last Updated: 21 October 2026 ·
       <a href="https://github.com/kmlawson/primary-sources/tree/master/taiwan" target="_blank" rel="noopener">Source on GitHub</a></p>
   </footer>
 </div>
@@ -550,7 +559,7 @@ const $ = id => document.getElementById(id);
 const fold = s => (s || "").normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase();
 const esc = s => (s || "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const EXPORT = $("books").dataset.export || "books";
-let ALL = [], VIEW = [], sortKey = null, sortDir = 1, cur = -1, byMatch = false;
+let ALL = [], VIEW = [], sortKey = null, sortDir = 1, cur = -1, byMatch = false, page = 0;
 // a title longer than this is cut at a word near it, with "more" to show the rest in place; the full
 // title is the cell's tooltip, and the entry opened in full always has it
 const CUT = 120;
@@ -668,7 +677,7 @@ function relevance(r, words, phrase) {
 const searchPhrase = q => fold(q).replace(/(^|\s)-\S+/g, " ").replace(/\b(author|title|notes):/g, " ")
   .replace(/["']/g, " ").replace(/\s+/g, " ").trim();
 
-function apply() {
+function apply(keepPage) {
   const terms = parseQuery($("bq").value), fld = $("bfield").value;
   const y1 = parseInt($("by1").value) || null, y2 = parseInt($("by2").value) || null;
   const shw = $("bshow").value, hst = $("bhost").value, lng = $("blang").value;
@@ -707,6 +716,7 @@ function apply() {
       return (x < y ? -1 : x > y ? 1 : a.id - b.id) * d;
     });
   }
+  if (!keepPage) page = 0;
   render(terms);
 }
 function titleCell(r, terms) {
@@ -726,7 +736,11 @@ function hl(text, terms) {
 }
 function render(terms) {
   terms = terms || parseQuery($("bq").value);
-  $("brows").innerHTML = VIEW.map((r, i) => `<tr data-i="${i}">
+  // one page of the list at a time; Per page sets how many (All: everything)
+  const pp = parseInt($("bpp").value) || Math.max(1, VIEW.length), pages = Math.max(1, Math.ceil(VIEW.length / pp));
+  page = Math.min(page, pages - 1);
+  const first = page * pp;
+  $("brows").innerHTML = VIEW.slice(first, first + pp).map((r, i) => `<tr data-i="${first + i}">
     <td class="au">${hl(r.author, terms) || '<span class="chip">no author</span>'}</td>
     <td class="title"${r.title.length > CUT + 20 ? ` title="${esc(r.title)}"` : ""}>${titleCell(r, terms)}${r.notes ? `<span class="note">${md(r.notes)}</span>` : ""}${coins(r)}</td>
     <td class="year">${esc(r.year)}</td>
@@ -734,7 +748,13 @@ function render(terms) {
   $("bempty").hidden = VIEW.length > 0;
   if ($("bdlg").open) for (const el of document.querySelectorAll("#brows span.Z3988")) el.className = "Z3988off";
   zoteroLook();
-  $("bcount").textContent = `${VIEW.length.toLocaleString()} of ${ALL.length.toLocaleString()} entries` + (byMatch ? " · best match first (click a column to sort instead)" : "");
+  $("bcount").textContent = `${VIEW.length.toLocaleString()} of ${ALL.length.toLocaleString()} entries` +
+    (pages > 1 ? ` · showing ${(first + 1).toLocaleString()}–${Math.min(first + pp, VIEW.length).toLocaleString()}` : "") +
+    (byMatch ? " · best match first (click a column to sort instead)" : "");
+  for (const [info, prev, next, box] of [["bpageinfo", "bprev", "bnext", $("bprev").parentElement], ["bpageinfo2", "bprev2", "bnext2", $("bprev2").parentElement]]) {
+    $(info).textContent = `Page ${page + 1} / ${pages}`; box.hidden = pages === 1;
+    $(prev).disabled = page === 0; $(next).disabled = page >= pages - 1;
+  }
   document.querySelectorAll(".books th").forEach(th => th.querySelector(".arrow").textContent = th.dataset.k === sortKey ? (sortDir > 0 ? "▲" : "▼") : "");
 }
 function citation(r) { return [r.author ? r.author + (/[.]$/.test(r.author) ? "" : ".") : "", r.title + (/[.?!]$/.test(r.title) ? "" : "."), [r.imprint, r.year].filter(Boolean).join(", ")].filter(Boolean).join(" ").replace(/\s+/g, " ") + (r.imprint || r.year ? "." : ""); }
@@ -755,7 +775,11 @@ function show(i) {
 let tmr; const debounced = () => { clearTimeout(tmr); tmr = setTimeout(apply, 500); };
 $("bq").addEventListener("input", debounced);
 $("bq").addEventListener("keydown", e => { if (e.key === "Enter") { clearTimeout(tmr); apply(); } });
-for (const id of ["bfield", "by1", "by2", "bhost", "blang", "bshow"]) $(id).addEventListener("input", apply);
+for (const id of ["bfield", "by1", "by2", "bhost", "blang", "bshow", "bpp"]) $(id).addEventListener("input", () => apply());
+// a new page starts at the top of the table, where the column headings are
+const turn = d => { page += d; render(); $("books").querySelector(".tablewrap").scrollIntoView({ block: "start" }); };
+for (const id of ["bprev", "bprev2"]) $(id).onclick = () => turn(-1);
+for (const id of ["bnext", "bnext2"]) $(id).onclick = () => turn(1);
 $("btags").addEventListener("click", e => { const b = e.target.closest("button.tag"); if (b) pickTag(b.dataset.g, TAGS[b.dataset.g][b.dataset.i]); });
 // a tag in an open entry lists everything else with that tag
 $("bddl").addEventListener("click", e => {
@@ -765,7 +789,7 @@ $("bddl").addEventListener("click", e => {
 });
 $("breset").onclick = () => {
   $("bq").value = ""; $("bfield").value = "all"; $("by1").value = $("by2").value = ""; $("bhost").value = "";
-  $("blang").value = ""; $("bshow").value = "all"; sel.period = sel.topic = null; sortKey = null; sortDir = 1; apply(); $("bq").focus();
+  $("blang").value = ""; $("bshow").value = "all"; $("bpp").value = "200"; sel.period = sel.topic = null; sortKey = null; sortDir = 1; apply(); $("bq").focus();
 };
 document.querySelectorAll(".books th").forEach(th => th.onclick = () => { const k = th.dataset.k; if (sortKey === k) { if (sortDir === 1) sortDir = -1; else { sortKey = null; sortDir = 1; } } else { sortKey = k; sortDir = 1; } apply(); });
 $("brows").addEventListener("click", e => {
