@@ -15,10 +15,15 @@ new one in replacement) stays fixed, and a link marked broken stays broken unles
 the rest, a clear answer sets the status - ok, or broken for 404/410 and names that no longer exist -
 and anything unclear (timeouts, 5xx, bot walls, certificate errors) is left for a person to judge: an
 existing status is kept, a new link is entered as unchecked. The checked date is updated either way.
+It is gentle with servers: one request at a time, at least --gap seconds (default 3) between any
+two, at least --host-gap seconds (default 10) between two to the same host - the queue is ordered so
+other hosts go in between - and a failing link is tried only once more, at least --retry-gap seconds
+(default 30) later. A page of 270 links takes about a quarter of an hour.
+
 A site that blocks or throttles foreign visitors can look dead from one machine and be fine from another,
 so a broken verdict on anything but a 404/410 or a vanished name is worth a second look.
 """
-import concurrent.futures as cf, csv, glob, json, os, re, subprocess, sys, tempfile, time, urllib.parse, urllib.request
+import csv, glob, json, os, re, subprocess, sys, tempfile, time, urllib.parse, urllib.request
 
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
 LINK = re.compile(r"\[([^\[\]]+)\]\(([^)\s]+)\)")
@@ -109,15 +114,51 @@ def verdict(url, a):
         return "moved-ok"
     return "ok"
 
-def check(url):
-    tries = []
-    for i in range(3):                         # a failure has to repeat before it counts
-        a = fetch(url); a["verdict"] = verdict(url, a); tries.append(a)
-        if a["verdict"] in ("ok", "moved-ok", "soft-404", "proxy"):
-            break
-        if a["verdict"] == "http-error" and a["code"] in (404, 410):
-            break
-        time.sleep(4 * (i + 1))
+class Polite:
+    """Hands out one fetch at a time, never sooner than `gap` seconds after the last request, nor
+    `host_gap` seconds after the last request to the same host."""
+    def __init__(self, gap, host_gap):
+        self.gap, self.host_gap, self.last, self.by_host = gap, host_gap, 0.0, {}
+
+    def ready_in(self, url):
+        now, host = time.monotonic(), urllib.parse.urlsplit(url).hostname
+        return max(self.last + self.gap - now, self.by_host.get(host, -1e9) + self.host_gap - now, 0)
+
+    def fetch(self, url):
+        time.sleep(self.ready_in(url))
+        try:
+            return fetch(url)
+        finally:
+            self.last = time.monotonic(); self.by_host[urllib.parse.urlsplit(url).hostname] = self.last
+
+
+def settled(a):
+    """No point asking again: it answered, or said plainly that the page is gone."""
+    return a["verdict"] in ("ok", "moved-ok", "soft-404", "proxy") or (a["verdict"] == "http-error" and a["code"] in (404, 410))
+
+
+def check_all(urls, gap=3, host_gap=10, retry_gap=30):
+    """Check the URLs one at a time. A failure is tried once more, at least retry_gap seconds later,
+    and only a failure that repeats counts. The queue picks whichever URL's host can be asked soonest."""
+    polite = Polite(gap, host_gap)
+    queue = [(0.0, u) for u in urls]                     # (not before, url)
+    tries = {u: [] for u in urls}
+    done = 0
+    while queue:
+        now = time.monotonic()
+        queue.sort(key=lambda q: max(q[0] - now, polite.ready_in(q[1])))
+        not_before, u = queue.pop(0)
+        time.sleep(max(not_before - time.monotonic(), 0))
+        a = polite.fetch(u); a["verdict"] = verdict(u, a); tries[u].append(a)
+        if not settled(a) and len(tries[u]) < 2:
+            queue.append((time.monotonic() + retry_gap, u))
+            continue
+        done += 1
+        print(f"  {done}/{len(urls)} {a['verdict']:<11} {u[:90]}", flush=True)
+    return {u: finish(u, t) for u, t in tries.items()}
+
+
+def finish(url, tries):
     v = tries[-1]["verdict"]
     rec = {"url": url, "verdict": v, "attempts": tries}
     if v == "dns":
@@ -144,6 +185,9 @@ if __name__ == "__main__":
     import argparse, datetime
     ap = argparse.ArgumentParser()
     ap.add_argument("page"); ap.add_argument("--report")
+    ap.add_argument("--gap", type=float, default=3, help="seconds between any two requests")
+    ap.add_argument("--host-gap", type=float, default=10, help="seconds between two requests to the same host")
+    ap.add_argument("--retry-gap", type=float, default=30, help="seconds before a failing link is tried again")
     args = ap.parse_args()
     d = os.path.join(os.path.dirname(os.path.abspath(__file__)), args.page.strip("/"))
     path = os.path.join(d, "page", "links.csv")
@@ -151,8 +195,7 @@ if __name__ == "__main__":
     by_new = {r["replacement"]: r for r in old.values() if r.get("replacement")}
     where = urls_of(d)
     print(len(where), "distinct URLs,", sum(map(len, where.values())), "uses", flush=True)
-    with cf.ThreadPoolExecutor(8) as ex:
-        results = {rec["url"]: rec for rec in ex.map(check, where)}
+    results = check_all(list(where), args.gap, args.host_gap, args.retry_gap)
     today = datetime.date.today().isoformat()
     rows = {u: r for u, r in old.items()}
     for u, rec in results.items():

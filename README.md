@@ -65,6 +65,20 @@ Each `index.html` is generated — never edit it by hand. What the pages share i
 (the look of every page) and `books.html`, `books.css`, `books.js` (the table). They are inlined when a page
 is built, so each page is one self-contained file.
 
+## Checking links
+
+    python3 check_links.py taiwan          # about a quarter of an hour for 270 links
+
+checks every link on a page and keeps `page/links.csv` up to date: one row a URL with its status (`ok`,
+`fixed`, `broken`, `temporary`, `unchecked`), the date checked, and — for a repaired link — the old
+address in `url` and the new one in `replacement`, so the old address stays on record. Decisions made by
+hand are kept; only clear answers (a page that loads, a 404/410, a host name that no longer exists) change
+a status. A broken link stays on the page with a small † after it that searches the Wayback Machine for
+archived copies, and the footer gives the totals from the last check.
+
+The checker is gentle with servers: one request at a time, three seconds between requests, ten between two
+to the same host, and a single retry half a minute later.
+
 ## Publishing
 
 GitHub Pages serves the repository as it is: push, and the pages update in a minute or two.
