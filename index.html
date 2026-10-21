@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Primary Sources</title>
+<meta name="description" content="Lists of open access primary sources for the study of modern Korean history and the history of Taiwan.">
+<style>
+/* the same palette and serif face as the Korea and Taiwan pages (korea/site/page.css) */
+:root{
+  --bg:#f3f5f8;--panel:#fff;--ink:#16273d;--muted:#5d6f84;--line:#d9e0e8;--accent:#12539e;--link:#1257a8;
+  --serif: Georgia, "Iowan Old Style", "Times New Roman", serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f1621;--panel:#16202c;--ink:#e6edf5;--muted:#9ab0c6;--line:#2a3746;--accent:#5aa2ff;--link:#8cc2ff;}}
+:root[data-theme="dark"]{
+  --bg:#0f1621;--panel:#16202c;--ink:#e6edf5;--muted:#9ab0c6;--line:#2a3746;--accent:#5aa2ff;--link:#8cc2ff;}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 var(--serif)}
+.wrap{max-width:980px;margin:0 auto;padding:0 16px}
+header{padding:26px 0 6px}
+h1{font:700 30px/1.15 var(--serif);margin:0 0 6px}
+p.lede{margin:0 0 18px;color:var(--muted);font-size:15px}
+ul.pages{list-style:none;padding:0;margin:0 0 24px;display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+ul.pages a{display:block;height:100%;padding:16px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel);color:var(--ink);text-decoration:none}
+ul.pages a:hover{border-color:var(--accent)}
+ul.pages strong{display:block;font-size:19px;color:var(--link);margin-bottom:4px}
+ul.pages span{font-size:14px;color:var(--muted)}
+footer{padding:14px 0 38px;font-size:13px;color:var(--muted);border-top:1px solid var(--line)}
+footer a{color:var(--link)}
+@media (max-width:640px){h1{font-size:24px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Primary Sources</h1>
+    <p class="lede">Lists of open access primary sources for the study of East Asian history, aimed primarily at
+      students working with sources in English.</p>
+  </header>
+  <ul class="pages">
+    <li><a href="korea/"><strong>Modern Korean History</strong>
+      <span>Images and film, colonial reports, missionary records, early periodicals, US government documents, books online, and Korean and Japanese language sources.</span></a></li>
+    <li><a href="taiwan/"><strong>History of Taiwan</strong>
+      <span>Images and film, colonial reports, missionary records, maps, books online, and Chinese and Japanese language sources.</span></a></li>
+    <li><a href="https://froginawell.net/reference/modern-japan/"><strong>Modern Japanese History</strong>
+      <span>Periodicals, yearbooks, guidebooks and maps, with a searchable database of digitized books.</span></a></li>
+  </ul>
+  <footer>
+    <a href="https://github.com/kmlawson/primary-sources">Source on GitHub</a> ·
+    <a href="https://froginawell.net/frog/sources/">Other Frog in a Well Resources</a>
+  </footer>
+</div>
+</body>
+</html>
