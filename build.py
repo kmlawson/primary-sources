@@ -25,7 +25,8 @@ and the "See also" links after it are set as one line under the title. `## headi
 
 The books: a line of the markdown reading `<!--books-->` becomes the table of books, and the section it is
 in becomes the books section - like the Japan page's Digitized Books, it is always on the page, after the
-other sections, with a solid button of its own at the end of the row. The rows of books.csv are written
+other sections, with a solid button of its own at the end of the row, labelled the same on every page
+(books_button, "Digitized Books"); the section keeps its own heading. The rows of books.csv are written
 into the page as JSON; there is no database. Its columns:
 
     author, title, year     as they should be shown; the first four-digit number in year sorts and filters
@@ -55,6 +56,7 @@ CONFIG = {
     "description": "",          # one sentence for <meta name="description">
     "lede": [],                 # the opening paragraph(s), under the title
     "credits": [],              # the paragraphs at the foot of the page
+    "books_button": "Digitized Books",   # the label of the books section's button, the same on every page
     "books_placeholder": "Search author, title, notes…",
     "export": "books",          # the name the exported CSV and BibTeX files start with
     "colors": {                 # the page's accent: buttons, links, highlights. Light and dark.
@@ -335,8 +337,8 @@ def build(page, bump=True):
     buttons = ['<button type="button" class="jump openall" data-target="all" aria-expanded="false">Open All</button>']
     buttons += [f'<button type="button" class="jump" data-target="{slug(h)}" aria-expanded="false">{html.escape(h)}</button>'
                 for h, _ in body]
-    buttons += [f'<button type="button" class="jump search" data-target="{slug(h)}">{html.escape(h)}</button>'
-                for h, _ in special]
+    buttons += [f'<button type="button" class="jump search" data-target="{slug(h)}" title="{html.escape(h)}">'
+                f'{html.escape(page.cfg["books_button"])}</button>' for h, _ in special]
     lede = "\n    ".join(f'<p class="lede">{inline(p)}</p>' for p in page.cfg["lede"])
 
     parts = [f'''<!doctype html>

@@ -27,7 +27,8 @@ Each page's directory holds its own content, in `page/`:
   bubbles, as on the Japan page.
 - **`books.csv`** — the books online, one row a book (see below). A line `<!--books-->` in the markdown marks
   where the table goes; the section it is in becomes the books section, always on the page after the
-  others with a solid button of its own, like the Japan page's Digitized Books.
+  others with a solid "Digitized Books" button of its own at the end of the button row, like the Japan
+  page's; the section keeps its own heading.
 - **`config.json`** — the title, the opening paragraph(s) (`lede`), the paragraphs at the foot (`credits`),
   the search box's example text, the name of export files, and the page's colours, light and dark.
 - **`version.txt`** — the build number shown at the foot of the page.

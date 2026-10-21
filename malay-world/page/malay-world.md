@@ -887,8 +887,6 @@ Some of the volumes of particular interest include:
 
 Below is a large linked list of some of the many open access books related to the Malay world online (both what you might categorize as primary but also secondary literature). Most of these are available on the [Internet Archive](https://archive.org/), but also on other archives, university libraries, Hathi Trust, or Google Books. Another collection of online books and articles definitely worth consulting is the [Sejarah Melayu Library](http://www.sabrizain.org/malaya/library/index2.html). There is also a very rich collection of ebooks at [BooksSG](https://eresources.nlb.gov.sg/printheritage/).
 
-**Click on the "All Texts by Author" button below** to show the list of all the linked books listed by author, when one is available.
-
 Most of the works are in English. If our collection continues to grow and include significantly more Malay, Indonesian, Dutch, or other languages, we may add language tags. For your convenience, we have also tagged groups of texts, but note that this tagging process is far from complete. Metadata for these texts was usually pulled automatically from their online home and may contain errors, so please check the sources themselves and entries for them in library databases or check [Worldcat](https://www.worldcat.org/). You may also view this list of works directly via this [Zotero group](https://www.zotero.org/groups/4703692/malay_world/library).
 
 <!--books-->
