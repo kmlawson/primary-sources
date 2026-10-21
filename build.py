@@ -12,6 +12,7 @@ Each page's directory holds its own content; everything they share is here and i
     <dir>/page/*.md         the list itself (the one markdown file in page/). Edit it and build again.
     <dir>/page/books.csv    the books online, one row a book (optional; see the books section below)
     <dir>/page/version.txt  the build number shown at the foot of the page, raised by one each build
+    <dir>/page/links.csv    the last check of the page's links (optional; see the links section below)
     site/page.css           the look of every page (serif; the layout of the Japan page)
     site/books.*            the table the books are shown in: search, tags, filters, sorting, an entry in full
 
@@ -38,6 +39,18 @@ into the page as JSON; there is no database. Its columns:
     tags                    separated by " ; ". Each tag becomes a button above the table; tags that are
                             date ranges (1886-1942) are set in a row of their own as periods
     notes                   shown under the title; markdown links and *italics* work
+
+The links: page/links.csv records the last check of every link on the page, one row a URL:
+
+    url                     the address as it was checked (for a repaired link, the OLD address, kept for reference)
+    status                  ok | fixed | broken | temporary | unchecked
+    checked                 the date of the check, YYYY-MM-DD
+    replacement             for a fixed link, the address now used on the page
+    note                    what was found
+
+A broken link keeps its place on the page, followed by a small mark that searches the Wayback Machine
+for archived copies of it; the footer gives the totals. A fixed link's new address is what the markdown
+and books.csv now use.
 
 A bullet ending in the marker `<!--pills-->`, at any depth, becomes bubbles: if it ends in a colon its
 indented list turns into a row of small bubbles, otherwise the bullet itself becomes one. Any other
@@ -79,6 +92,7 @@ class Page:
         self.md = mds[0]
         self.books = os.path.join(self.dir, "page", "books.csv")
         self.version_file = os.path.join(self.dir, "page", "version.txt")
+        self.links = os.path.join(self.dir, "page", "links.csv")
         self.out = os.path.join(self.dir, "index.html")
 
     def version(self, bump=True):
@@ -91,6 +105,63 @@ class Page:
             n = n % 9999 + 1
             open(self.version_file, "w", encoding="utf-8").write(f"{n}\n")
         return f"1.{max(n, 1):04d}"
+
+
+# ---------------------------------------------------------------- links
+DEAD = {}       # url -> date checked, for the links of the page being built that were found broken
+
+
+def read_links(page):
+    """page/links.csv as {url: row}; a fixed row is also found under its replacement."""
+    rows = {}
+    if os.path.exists(page.links):
+        for r in csv.DictReader(open(page.links, encoding="utf-8", newline="")):
+            r = {k: (v or "").strip() for k, v in r.items()}
+            rows[r["url"]] = r
+            if r.get("replacement"):
+                rows.setdefault(r["replacement"], r)
+    return rows
+
+
+def dead_mark(url):
+    """The small mark after a broken link: a search of the Wayback Machine for archived copies of it."""
+    if url not in DEAD:
+        return ""
+    when = DEAD[url]
+    return (f' <a class="dead" href="https://web.archive.org/web/*/{html.escape(url, quote=True)}" target="_blank" rel="noopener" '
+            f'title="This link appears to be broken (checked {when}). Search the Wayback Machine for archived copies." '
+            f'aria-label="Broken link: search the Wayback Machine for archived copies">†</a>')
+
+
+def link_report(page, md, books):
+    """The footer's account of the last link check, over the links the page uses now."""
+    rows = read_links(page)
+    if not rows:
+        return ""
+    used = {m.group(2) for m in LINK.finditer(md)} | {m.group(0).rstrip(".,;") for m in BARE.finditer(LINK.sub("", md))}
+    used |= {l["url"] for b in books for l in b["links"]}
+    for k in ("lede", "credits"):
+        used |= {m.group(2) for p in page.cfg[k] for m in LINK.finditer(p)}
+    used = {u for u in used if u.startswith(("http://", "https://"))}
+    count = {}
+    for u in used:
+        r = rows.get(u)
+        s = "unchecked" if not r else ("fixed" if r.get("replacement") == u else r["status"])
+        count[s] = count.get(s, 0) + 1
+    dates = sorted(r["checked"] for r in rows.values() if r.get("checked"))
+    when = datetime.date.fromisoformat(dates[-1]).strftime("%d %B %Y").lstrip("0") if dates else "?"
+    working = count.get("ok", 0) + count.get("fixed", 0) + count.get("temporary", 0)
+    bits = [f"{working} work"]
+    if count.get("fixed"):
+        bits[-1] += f" ({count['fixed']} of them updated to where their pages moved)"
+    if count.get("temporary"):
+        bits.append(f"{count['temporary']} {'was' if count['temporary'] == 1 else 'were'} down for maintenance")
+    if count.get("broken"):
+        bits.append(f"{count['broken']} are broken and marked † — the mark searches the Wayback Machine for archived copies")
+    if count.get("unchecked"):
+        bits.append(f"{count['unchecked']} could not be checked")
+    return (f'<p class="linkcheck">Link check, {when}: of the {len(used)} links on this page, ' + "; ".join(bits) +
+            '. Please let us know of any others that have moved.</p>')
 
 
 # ---------------------------------------------------------------- markdown
@@ -110,7 +181,7 @@ def inline(text):
     for m in LINK.finditer(text):
         out.append(esc_runs(text[last:m.start()]))
         out.append(f'<a href="{html.escape(m.group(2), quote=True)}" target="_blank" rel="noopener">'
-                   f'{esc_runs(m.group(1))}</a>')
+                   f'{esc_runs(m.group(1))}</a>' + dead_mark(m.group(2)))
         last = m.end()
     out.append(esc_runs(text[last:]))
     return "".join(out)
@@ -312,11 +383,16 @@ def books_block(page):
     """The table of books, with its rows as JSON beside it ("</" escaped so no row can end the script)."""
     if not os.path.exists(page.books):
         return ""
+    rows = read_books(page.books)
+    for r in rows:
+        for l in r["links"]:
+            if l["url"] in DEAD:
+                l["dead"] = DEAD[l["url"]]
     tmpl = open(os.path.join(SITE, "books.html"), encoding="utf-8").read().strip()
     tmpl = tmpl.replace("__PLACEHOLDER__", html.escape(page.cfg["books_placeholder"], quote=True))
     tmpl = tmpl.replace('<div class="books" id="books">',
                         f'<div class="books" id="books" data-export="{html.escape(page.cfg["export"])}">', 1)
-    data = json.dumps(read_books(page.books), ensure_ascii=False).replace("</", "<\\/")
+    data = json.dumps(rows, ensure_ascii=False).replace("</", "<\\/")
     return tmpl + f'\n<script type="application/json" id="books-data">{data}</script>'
 
 
@@ -331,6 +407,8 @@ def palette(colors):
 # ----------------------------------------------------------------- the page
 def build(page, bump=True):
     md = open(page.md, encoding="utf-8").read()
+    DEAD.clear()
+    DEAD.update({u: r["checked"] for u, r in read_links(page).items() if r["status"] == "broken" and not r.get("replacement")})
     secs = sections(md)
     title = page.cfg["title"] or secs[0][0] or "Primary Sources"
     rest = split_intro(secs[0][1])
@@ -391,8 +469,10 @@ def build(page, bump=True):
 
     ver, today = page.version(bump), datetime.date.today().strftime("%d %B %Y").lstrip("0")
     credits = "\n    ".join(f"<p>{inline(c)}</p>" for c in page.cfg["credits"])
+    report = link_report(page, md, read_books(page.books) if os.path.exists(page.books) else [])
     parts.append(f'''  <footer class="credit" id="credits">
     {credits}
+    {report}
     <p class="version">Version {ver} · Last Updated: {today} ·
       <a href="{REPO}{page.name}" target="_blank" rel="noopener">Source on GitHub</a></p>
   </footer>''')

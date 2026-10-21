@@ -34,6 +34,8 @@ const HOLDER = [[/web\.archive\.org\//, "WB", "Wayback Machine"], [/archive\.org
                 [/myanmar-law-library\.org\//, "MLL", "Myanmar Law Library"],
                 [/gutenberg\.org\//, "PG", "Project Gutenberg"], [/dl\.ndl\.go\.jp\//, "NDL", "National Diet Library"],
                 [/usask\.ca\//, "USask", "Taiwan Library (USask)"], [/doi\.org\//, "DOI", "Publisher (DOI)"]];
+// a broken link keeps its place, followed by a small mark that searches the Wayback Machine for copies
+const deadMark = l => l.dead ? ` <a class="dead" href="https://web.archive.org/web/*/${esc(l.url)}" target="_blank" rel="noopener" title="This link appears to be broken (checked ${esc(l.dead)}). Search the Wayback Machine for archived copies." aria-label="Broken link: search the Wayback Machine">†</a>` : "";
 const holder = u => (HOLDER.find(([rx]) => rx.test(u || "")) || [null, "Web"])[1];
 const holderName = code => (HOLDER.find(h => h[1] === code) || [, , "Elsewhere online"])[2];
 
@@ -202,7 +204,7 @@ function render(terms) {
     <td class="au"${r.author.split(";").length >= AUTHORS ? ` title="${esc(r.author)}"` : ""}>${authorCell(r, terms)}</td>
     <td class="title"${r.title.length > CUT + 20 ? ` title="${esc(r.title)}"` : ""}>${titleCell(r, terms)}${r.notes ? `<span class="note">${md(r.notes)}</span>` : ""}${coins(r)}</td>
     <td class="year">${esc(r.year)}</td>
-    <td class="ia">${r.nlinks ? `<a class="pill" href="${esc(r.links[0].url)}" target="_blank" rel="noopener" title="${esc(holderName(holder(r.links[0].url)))}"><span class="host">${holder(r.links[0].url)}: </span>${esc(r.links[0].label || "read")} ↗</a>${r.nlinks > 1 ? ` <span class="chip" title="more copies or volumes - open the entry">+${r.nlinks - 1}</span>` : ""}` : ""}</td></tr>`).join("");
+    <td class="ia">${r.nlinks ? `<a class="pill" href="${esc(r.links[0].url)}" target="_blank" rel="noopener" title="${esc(holderName(holder(r.links[0].url)))}"><span class="host">${holder(r.links[0].url)}: </span>${esc(r.links[0].label || "read")} ↗</a>${deadMark(r.links[0])}${r.nlinks > 1 ? ` <span class="chip" title="more copies or volumes - open the entry">+${r.nlinks - 1}</span>` : ""}` : ""}</td></tr>`).join("");
   $("bempty").hidden = VIEW.length > 0;
   if ($("bdlg").open) for (const el of document.querySelectorAll("#brows span.Z3988")) el.className = "Z3988off";
   zoteroLook();
@@ -220,7 +222,7 @@ function show(i) {
   if (i < 0 || i >= VIEW.length) return; cur = i; const r = VIEW[i];
   $("bdtitle").innerHTML = esc(r.title) + coins(r);
   const tags = r.tags.map(t => `<button type="button" class="chip" data-tag="${esc(t)}" title="List the entries with this tag">${esc(t)}</button>`).join(" ");
-  const links = r.nlinks ? r.links.map(l => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label || r.title)}</a> <span class="chip">${esc(holderName(holder(l.url)))}</span>`).join("<br>") : "no copy found online";
+  const links = r.nlinks ? r.links.map(l => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label || r.title)}</a>${deadMark(l)} <span class="chip">${esc(holderName(holder(l.url)))}</span>`).join("<br>") : "no copy found online";
   $("bddl").innerHTML = [["Author", esc(r.author) || "—"], ["Year", esc(r.year)], ["Imprint", esc(r.imprint)], ["Language", esc(r.language)], ["Tags", tags], ["Notes", md(r.notes)], ["Online copy", links]]
     .filter(([, v]) => v).map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("");
   $("bdsearch").href = "https://archive.org/search?query=" + encodeURIComponent(`title:(${r.title.split(/[.;:]/)[0]})` + (r.author ? ` AND creator:(${r.author.split(",")[0]})` : ""));

@@ -111,6 +111,10 @@ button.totop[hidden] { display: none; }
 footer.credit { padding: 14px 0 38px; font-size: 13px; color: var(--muted); margin-top: 18px; }
 footer.credit p { margin: 10px 0 0; }
 footer.credit p.version { font-size: 12.5px; }
+footer.credit p.linkcheck { font-size: 12.5px; }
+/* after a broken link: a small mark that searches the Wayback Machine for archived copies */
+a.dead { font-size: .72em; vertical-align: super; line-height: 0; text-decoration: none; color: var(--muted); padding: 0 1px; }
+a.dead:hover { color: var(--link); }
 footer.credit a { color: var(--link); }
 footer.site { padding: 18px 0 40px; font-size: 14px; color: var(--muted); }
 footer.site a { color: var(--link); }
