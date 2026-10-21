@@ -112,42 +112,42 @@ Be sure to see the much more extensive list of minutes and reports on the [UCLA 
 
 # Wilson Center Digital Archive
 
-The Wilson Center hosts the world's best online [archive on the Cold War](https://digitalarchive.wilsoncenter.org). Its work around the Korean War and inter-Korean relations, in particular has been at the center of some of the key debates around this historical period in the region. The archive has grouped some of its materials, often with translations, into a number of collections based on themes. Some of those most relevant to Korean history:
+The Wilson Center hosts the world's best online [archive on the Cold War](https://digitalarchive.umd.edu/). Its work around the Korean War and inter-Korean relations, in particular has been at the center of some of the key debates around this historical period in the region. The archive has grouped some of its materials, often with translations, into a number of collections based on themes. Some of those most relevant to Korean history:
 
-- [Korean War Origins, 1945-1950](https://digitalarchive.wilsoncenter.org/collection/134/korean-war-origins-1945-1950)
-- [Korean War, 1950-1953](https://digitalarchive.wilsoncenter.org/collection/50/korean-war-1950-1953)
-- [China and the Korean War](https://digitalarchive.wilsoncenter.org/collection/188/china-and-the-korean-war)
-- [Korean War Armistice](https://digitalarchive.wilsoncenter.org/collection/169/korean-war-armistice)
-- [Korean Workers' Party Congresses](https://digitalarchive.wilsoncenter.org/collection/257/korean-workers-party-congresses)
-- [North Korea's First Five-Year Plan, 1957-1961](https://digitalarchive.wilsoncenter.org/collection/121/north-korea-s-first-five-year-plan-1957-1961)
-- [Syngman Rhee Era](https://digitalarchive.wilsoncenter.org/collection/137/syngman-rhee-era)
-- [Korean War Biological Warfare Allegations](https://digitalarchive.wilsoncenter.org/collection/250/korean-war-biological-warfare-allegations)
-- [North Korean Nuclear History](https://digitalarchive.wilsoncenter.org/collection/113/north-korean-nuclear-history)
-- [South Korean Nuclear History](https://digitalarchive.wilsoncenter.org/collection/128/south-korean-nuclear-history)
-- [Repatriation to North Korea](https://digitalarchive.wilsoncenter.org/collection/122/repatriation-to-north-korea)
-- [North Korean Public Diplomacy](https://digitalarchive.wilsoncenter.org/collection/221/north-korean-public-diplomacy)
-- [The Two Koreas and the Third World](https://digitalarchive.wilsoncenter.org/collection/146/the-two-koreas-and-the-third-world)
-- [Soviet Union-North Korea Relations](https://digitalarchive.wilsoncenter.org/collection/120/soviet-union-north-korea-relations)
-- [South Korean Diplomacy in Asia 1955-1957](https://digitalarchive.wilsoncenter.org/collection/218/south-korean-diplomacy-in-asia-1955-1957)
-- [North Korea August 1956 Plenum Incident](https://digitalarchive.wilsoncenter.org/collection/116/north-korea-august-1956-plenum-incident)
-- [The "Second" Korean War, 1967-1969](https://digitalarchive.wilsoncenter.org/collection/119/the-second-korean-war-1967-1969)
-- [The Two Koreas and the Vietnam War](https://digitalarchive.wilsoncenter.org/collection/139/the-two-koreas-and-the-vietnam-war)
-- [1988 Seoul Olympic Games](https://digitalarchive.wilsoncenter.org/collection/70/1988-seoul-olympic-games)
-- [North Korea and the American Radical Left](https://digitalarchive.wilsoncenter.org/collection/111/north-korea-and-the-american-radical-left)
-- [Inter-Korean Relations](https://digitalarchive.wilsoncenter.org/collection/103/inter-korean-relations)
-- [China-North Korea Relations](https://digitalarchive.wilsoncenter.org/collection/115/china-north-korea-relations)
-- [United States - North Korea Relations](https://digitalarchive.wilsoncenter.org/collection/118/united-states-north-korea-relations)
-- [Conversations with Kim Il Sung](https://digitalarchive.wilsoncenter.org/collection/138/conversations-with-kim-il-sung)
-- [Inter-Korean Relations After the War, 1954-1961](https://digitalarchive.wilsoncenter.org/collection/148/inter-korean-relations-after-the-war-1954-1961)
-- [North Korean Military Adventurism](https://digitalarchive.wilsoncenter.org/collection/165/north-korean-military-adventurism)
-- [Inter-Korean Competition, 1961-1970](https://digitalarchive.wilsoncenter.org/collection/149/inter-korean-competition-1961-1970)
-- [Inter-Korean Dialogue, 1971-1972](https://digitalarchive.wilsoncenter.org/collection/124/inter-korean-dialogue-1971-1972)
-- [Demise of Detente in Korea, 1973-1975](https://digitalarchive.wilsoncenter.org/collection/126/demise-of-detente-in-korea-1973-1975)
-- [Inter-Korean Dialogue, 1977-1980](https://digitalarchive.wilsoncenter.org/collection/129/inter-korean-dialogue-1977-1980)
-- [Asian Peoples' Anti-Communist League](https://digitalarchive.wilsoncenter.org/collection/193/asian-peoples-anti-communist-league)
-- [Japan and the Korean Peninsula](https://digitalarchive.wilsoncenter.org/collection/170/japan-and-the-korean-peninsula)
-- [Korea at the United Nations](https://digitalarchive.wilsoncenter.org/collection/130/korea-at-the-united-nations)
-- [Northern Limit Line Dispute](https://digitalarchive.wilsoncenter.org/collection/112/northern-limit-line-dispute)
+- [Korean War Origins, 1945-1950](https://digitalarchive.umd.edu/topics/korean-war-origins-1945-1950)
+- [Korean War, 1950-1953](https://digitalarchive.umd.edu/topics/korean-war-1950-1953)
+- [China and the Korean War](https://digitalarchive.umd.edu/topics/china-and-korean-war)
+- [Korean War Armistice](https://digitalarchive.umd.edu/topics/korean-war-armistice)
+- [Korean Workers' Party Congresses](https://digitalarchive.umd.edu/topics/korean-workers-party-congresses)
+- [North Korea's First Five-Year Plan, 1957-1961](https://digitalarchive.umd.edu/topics/north-koreas-first-five-year-plan-1957-1961)
+- [Syngman Rhee Era](https://digitalarchive.umd.edu/topics/syngman-rhee-era)
+- [Korean War Biological Warfare Allegations](https://digitalarchive.umd.edu/topics/korean-war-biological-warfare-allegations)
+- [North Korean Nuclear History](https://digitalarchive.umd.edu/topics/north-korean-nuclear-history)
+- [South Korean Nuclear History](https://digitalarchive.umd.edu/topics/south-korean-nuclear-history)
+- [Repatriation to North Korea](https://digitalarchive.umd.edu/topics/repatriation-north-korea)
+- [North Korean Public Diplomacy](https://digitalarchive.umd.edu/topics/north-korean-public-diplomacy)
+- [The Two Koreas and the Third World](https://digitalarchive.umd.edu/topics/two-koreas-and-third-world)
+- [Soviet Union-North Korea Relations](https://digitalarchive.umd.edu/topics/soviet-union-north-korea-relations)
+- [South Korean Diplomacy in Asia 1955-1957](https://digitalarchive.umd.edu/topics/south-korean-diplomacy-asia-1955-1957)
+- [North Korea August 1956 Plenum Incident](https://digitalarchive.umd.edu/topics/north-korea-august-1956-plenum-incident)
+- [The "Second" Korean War, 1967-1969](https://digitalarchive.umd.edu/topics/second-korean-war-1967-1969)
+- [The Two Koreas and the Vietnam War](https://digitalarchive.umd.edu/topics/two-koreas-and-vietnam-war)
+- [1988 Seoul Olympic Games](https://digitalarchive.umd.edu/topics/1988-seoul-olympic-games)
+- [North Korea and the American Radical Left](https://digitalarchive.umd.edu/topics/north-korea-and-american-radical-left)
+- [Inter-Korean Relations](https://digitalarchive.umd.edu/topics/inter-korean-relations)
+- [China-North Korea Relations](https://digitalarchive.umd.edu/topics/china-north-korea-relations)
+- [United States - North Korea Relations](https://digitalarchive.umd.edu/topics/united-states-north-korea-relations)
+- [Conversations with Kim Il Sung](https://digitalarchive.umd.edu/topics/conversations-kim-il-sung)
+- [Inter-Korean Relations After the War, 1954-1961](https://digitalarchive.umd.edu/topics/inter-korean-relations-after-war-1954-1961)
+- [North Korean Military Adventurism](https://digitalarchive.umd.edu/topics/north-korean-military-adventurism)
+- [Inter-Korean Competition, 1961-1970](https://digitalarchive.umd.edu/topics/inter-korean-competition-1961-1970)
+- [Inter-Korean Dialogue, 1971-1972](https://digitalarchive.umd.edu/topics/inter-korean-dialogue-1971-1972)
+- [Demise of Detente in Korea, 1973-1975](https://digitalarchive.umd.edu/topics/demise-detente-korea-1973-1975)
+- [Inter-Korean Dialogue, 1977-1980](https://digitalarchive.umd.edu/topics/inter-korean-dialogue-1977-1980)
+- [Asian Peoples' Anti-Communist League](https://digitalarchive.umd.edu/topics/asian-peoples-anti-communist-league)
+- [Japan and the Korean Peninsula](https://digitalarchive.umd.edu/topics/japan-and-korean-peninsula)
+- [Korea at the United Nations](https://digitalarchive.umd.edu/topics/korea-united-nations)
+- [Northern Limit Line Dispute](https://digitalarchive.umd.edu/topics/northern-limit-line-dispute)
 
 # Foreign Relations of the United States
 
@@ -155,16 +155,16 @@ The Wilson Center hosts the world's best online [archive on the Cold War](https:
 
 *FRUS* - The Foreign Relations of the United States is a series of books which offers a historical record of American foreign relations. It combines documents from a range of state sources relating to foreign diplomacy of the United States and new volumes with new materials are eagerly awaited by historians as they come out. E-book editions of all the volumes can be downloaded directly from the [Office of the Historian](https://history.state.gov/historicaldocuments/ebooks). The University of Wisconsin [digital FRUS collection](https://uwdc.library.wisc.edu/collections/FRUS/) offers nice PDF downloads of the volumes (sometimes several hundred megabytes each). Some of the volumes most relevant to Korean matters:
 
-- [Foreign relations of the United States, 1950. Korea](http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1950v07)
-- [Foreign relations of the United States, 1951. Korea and China](http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1951v07p1) - Part I
-- [Foreign relations of the United States, 1951. Korea and China](http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1951v07p2) - Part II
-- [Foreign relations of the United States, 1952-1954. Korea](http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS195254v15p1) - Part I
-- [Foreign relations of the United States, 1952-1954. Korea](http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS195254v15p2) - Part II
-- [Foreign relations of the United States, 1955-1957. Korea](http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS195557v23p2)
-- [Foreign relations of the United States, 1958-1960. Japan; Korea](http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS195860v18)
+- [Foreign relations of the United States, 1950. Korea](https://history.state.gov/historicaldocuments/frus1950v07)
+- [Foreign relations of the United States, 1951. Korea and China](https://history.state.gov/historicaldocuments/frus1951v07p1) - Part I
+- [Foreign relations of the United States, 1951. Korea and China](https://history.state.gov/historicaldocuments/frus1951v07p2) - Part II
+- [Foreign relations of the United States, 1952-1954. Korea](https://history.state.gov/historicaldocuments/frus1952-54v15p1) - Part I
+- [Foreign relations of the United States, 1952-1954. Korea](https://history.state.gov/historicaldocuments/frus1952-54v15p2) - Part II
+- [Foreign relations of the United States, 1955-1957. Korea](https://history.state.gov/historicaldocuments/frus1955-57v23p2)
+- [Foreign relations of the United States, 1958-1960. Japan; Korea](https://history.state.gov/historicaldocuments/frus1958-60v18)
 - [Foreign Relations of the United States, 1964–1968, Vol XXIX, Part 1, Korea](https://history.state.gov/historicaldocuments/frus1964-68v29p1).
 - [Foreign Relations of the United States, Vol XIX, Part 1, Korea, 1969–1972](https://history.state.gov/historicaldocuments/frus1969-76v19p1).
-- For matters relating to colonial Korea, as well as other postwar items, be sure to check the Japan or the general "Far East" volumes in the [general list](http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=browse&scope=FRUS.FRUS1).
+- For matters relating to colonial Korea, as well as other postwar items, be sure to check the Japan or the general "Far East" volumes in the [general list](https://digital.library.wisc.edu/1711.dl/FRUS).
 
 # US Government Documents
 
