@@ -91,12 +91,12 @@ class Page:
 
 
 # ---------------------------------------------------------------- markdown
-LINK = re.compile(r"\[([^\]]+)\]\(([^)\s]+)\)")
+LINK = re.compile(r"\[([^\[\]]+)\]\(([^)\s]+)\)")   # no [ in the text: "[an aside [link](url)]" keeps its bracket
 BARE = re.compile(r"(?<![\"'=(>])\bhttps?://[^\s<>)\]]+")
 BOLD = re.compile(r"\*\*([^*]+)\*\*")
 ITAL = re.compile(r"(?<!\*)\*([^*]+)\*(?!\*)")
 CODE = re.compile(r"`([^`]+)`")
-ITAL_LINK = re.compile(r"(?<!\*)\*\[([^\]]+)\]\(([^)\s]+)\)\*(?!\*)")
+ITAL_LINK = re.compile(r"(?<!\*)\*\[([^\[\]]+)\]\(([^)\s]+)\)\*(?!\*)")
 
 
 def inline(text):

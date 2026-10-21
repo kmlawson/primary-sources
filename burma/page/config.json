@@ -1,0 +1,29 @@
+{
+  "title": "Primary Sources: History of Burma",
+  "description": "This page, on the history of Burma and Myanmar (since 1989) is part of a collection assembling links to historical primary sources that are open on the web.",
+  "lede": [
+    "This page, on the history of Burma and Myanmar (since 1989) is part of a collection assembling links to historical primary sources that are open on the web. It should be seen as a work in progress, and corrections or suggestions for additions are most welcome. These pages were primarily created for the convenience of students who depend heavily on English language sources and may have limited access to large research libraries or commercial databases. Most of the materials below focus on the colonial period sources up to independence in 1948 or various travel accounts published prior to British colonial rule that available online in digital form."
+  ],
+  "credits": [
+    "**Contributors**: Konrad M. Lawson. I would very much welcome other contributors to join in this effort. Please expect significant updates to this new page, especially during the fall of 2021. Please do help out: What are digital collections and resources that should be added to this page? You can reach Konrad at kmlawson@froginawell.net or [@konrad@social.coop](https://social.coop/@konrad) on Mastodon.",
+    "Rory Gill. I am a former student of [MO4971](https://www.spatialhistory.net/cities/) at the University of St Andrews and it was a privilege to be able to contribute to this resource for future students. Hopefully Myanmar will see many more archival sources digitised in the future and so there will be more opportunities for other people to contribute valuable material from the colonial period. For information on my academic or professional experience, please contact rory@froginawell.net.",
+    "See also our other [Primary Source guides](https://www.froginawell.net/frog/sources/).",
+    "**Last Updated**: October, 2023."
+  ],
+  "books_placeholder": "Search author, title, notes… (e.g.  irrawaddy   \"shan states\"   author:scott)",
+  "export": "burma-books",
+  "colors": {
+    "light": {
+      "accent": "#b35c00",
+      "accent-ink": "#fff",
+      "hit": "#fbe6cc",
+      "link": "#9a4d00"
+    },
+    "dark": {
+      "accent": "#f0a54a",
+      "accent-ink": "#1f1300",
+      "hit": "#5a3a10",
+      "link": "#f6bf7a"
+    }
+  }
+}

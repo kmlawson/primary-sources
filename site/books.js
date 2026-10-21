@@ -16,9 +16,18 @@ const TAGS = { period: [], topic: [] };
 
 // who holds a copy, by the host of its URL: the short code shown in the link column and used by the Host filter
 const HOLDER = [[/web\.archive\.org\//, "WB", "Wayback Machine"], [/archive\.org\//, "IA", "Internet Archive"],
-                [/gutenberg\.org\//, "PG", "Project Gutenberg"], [/hathitrust\.org\//, "H", "HathiTrust"],
-                [/dl\.ndl\.go\.jp\//, "NDL", "National Diet Library"], [/usask\.ca\//, "USask", "Taiwan Library (USask)"],
-                [/doi\.org\//, "DOI", "Publisher (DOI)"]];
+                [/indianculture\.gov\.in\//, "ICR", "Indian Culture Repository"],
+                [/hathitrust\.org\/|hdl\.handle\.net\/2027\//, "H", "HathiTrust"],
+                [/hdl\.handle\.net\/10079\//, "Yale", "Yale University Library"],
+                [/nlb\.gov\.sg\//, "NLB", "National Library Board Singapore"], [/bl\.uk\//, "BL", "British Library"],
+                [/sea\.lib\.niu\.edu\//, "NIU", "SEAsite, Northern Illinois University"],
+                [/seasiavisions\.library\.cornell\.edu\//, "Cornell", "Southeast Asia Visions (Cornell)"],
+                [/deutsche-digitale-bibliothek\.de\//, "DDB", "Deutsche Digitale Bibliothek"],
+                [/nla\.gov\.au\//, "NLA", "National Library of Australia"], [/kb\.nl\//, "KB", "KB, National Library of the Netherlands"],
+                [/books\.google\./, "GB", "Google Books"], [/nls\.uk\//, "NLS", "National Library of Scotland"],
+                [/myanmar-law-library\.org\//, "MLL", "Myanmar Law Library"],
+                [/gutenberg\.org\//, "PG", "Project Gutenberg"], [/dl\.ndl\.go\.jp\//, "NDL", "National Diet Library"],
+                [/usask\.ca\//, "USask", "Taiwan Library (USask)"], [/doi\.org\//, "DOI", "Publisher (DOI)"]];
 const holder = u => (HOLDER.find(([rx]) => rx.test(u || "")) || [null, "Web"])[1];
 const holderName = code => (HOLDER.find(h => h[1] === code) || [, , "Elsewhere online"])[2];
 

@@ -480,7 +480,7 @@ footer.site ul { padding-left: 20px; }
     <p>Contributors: Links, suggestions and corrections with help of Konrad M. Lawson, Evan Dawley, Paul Barclay, Yang Chanrong, Brent Ho, Katy Hui-Wen Hung, Kerim Friedman, and Tobie Openshaw. Lots of ideas for links here also came from the <a href="https://www.facebook.com/groups/811812725675036/?ref=group_header" target="_blank" rel="noopener">Taiwan History</a> facebook group.</p>
     <p>We most welcome your corrections or suggestions for additions to the page. You can reach Konrad at kmlawson@froginawell.net or @kmlawson on Twitter.</p>
     <p>The code and design of this page were created with the use of Anthropic Claude with Konrad M. Lawson at the prompt, following the design of the <a href="https://froginawell.net/reference/modern-japan/" target="_blank" rel="noopener">Modern Japanese History</a> page. The links themselves were gathered over several years by Konrad and the contributors named above. Feel free to use this page as a starting point for building your own collection of resources: the list is kept as markdown on GitHub, and pull requests and forks are welcome.</p>
-    <p class="version">Version 1.0003 · Last Updated: 21 October 2026 ·
+    <p class="version">Version 1.0004 · Last Updated: 21 October 2026 ·
       <a href="https://github.com/kmlawson/primary-sources/tree/master/taiwan" target="_blank" rel="noopener">Source on GitHub</a></p>
   </footer>
 </div>
@@ -554,9 +554,18 @@ const TAGS = { period: [], topic: [] };
 
 // who holds a copy, by the host of its URL: the short code shown in the link column and used by the Host filter
 const HOLDER = [[/web\.archive\.org\//, "WB", "Wayback Machine"], [/archive\.org\//, "IA", "Internet Archive"],
-                [/gutenberg\.org\//, "PG", "Project Gutenberg"], [/hathitrust\.org\//, "H", "HathiTrust"],
-                [/dl\.ndl\.go\.jp\//, "NDL", "National Diet Library"], [/usask\.ca\//, "USask", "Taiwan Library (USask)"],
-                [/doi\.org\//, "DOI", "Publisher (DOI)"]];
+                [/indianculture\.gov\.in\//, "ICR", "Indian Culture Repository"],
+                [/hathitrust\.org\/|hdl\.handle\.net\/2027\//, "H", "HathiTrust"],
+                [/hdl\.handle\.net\/10079\//, "Yale", "Yale University Library"],
+                [/nlb\.gov\.sg\//, "NLB", "National Library Board Singapore"], [/bl\.uk\//, "BL", "British Library"],
+                [/sea\.lib\.niu\.edu\//, "NIU", "SEAsite, Northern Illinois University"],
+                [/seasiavisions\.library\.cornell\.edu\//, "Cornell", "Southeast Asia Visions (Cornell)"],
+                [/deutsche-digitale-bibliothek\.de\//, "DDB", "Deutsche Digitale Bibliothek"],
+                [/nla\.gov\.au\//, "NLA", "National Library of Australia"], [/kb\.nl\//, "KB", "KB, National Library of the Netherlands"],
+                [/books\.google\./, "GB", "Google Books"], [/nls\.uk\//, "NLS", "National Library of Scotland"],
+                [/myanmar-law-library\.org\//, "MLL", "Myanmar Law Library"],
+                [/gutenberg\.org\//, "PG", "Project Gutenberg"], [/dl\.ndl\.go\.jp\//, "NDL", "National Diet Library"],
+                [/usask\.ca\//, "USask", "Taiwan Library (USask)"], [/doi\.org\//, "DOI", "Publisher (DOI)"]];
 const holder = u => (HOLDER.find(([rx]) => rx.test(u || "")) || [null, "Web"])[1];
 const holderName = code => (HOLDER.find(h => h[1] === code) || [, , "Elsewhere online"])[2];
 
