@@ -117,9 +117,9 @@ def read_links(page):
     if os.path.exists(page.links):
         for r in csv.DictReader(open(page.links, encoding="utf-8", newline="")):
             r = {k: (v or "").strip() for k, v in r.items()}
-            rows[r["url"]] = r
+            rows.setdefault(r["url"], r)
             if r.get("replacement"):
-                rows.setdefault(r["replacement"], r)
+                rows[r["replacement"]] = r      # a repaired link is reported as repaired, even once its new address has been checked
     return rows
 
 
