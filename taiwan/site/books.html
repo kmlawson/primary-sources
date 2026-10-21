@@ -1,0 +1,39 @@
+<div class="books" id="books">
+  <div class="controls">
+    <div class="row1">
+      <input id="bq" type="search" placeholder='__PLACEHOLDER__' autocomplete="off">
+      <select id="bfield" title="Where to search">
+        <option value="all">All fields</option><option value="author">Author</option><option value="title">Title</option><option value="notes">Notes</option>
+      </select>
+      <button id="breset" type="button" title="Clear all filters">Reset</button>
+    </div>
+    <div class="row2">
+      <label>Year <input id="by1" type="number" min="1500" max="2100" placeholder="from"> – <input id="by2" type="number" min="1500" max="2100" placeholder="to"></label>
+      <label>Host <select id="bhost" title="Where the online copy is held"><option value="">All</option></select></label>
+      <label>Language <select id="blang" title="Language of the work"><option value="">All</option></select></label>
+      <label>Show <select id="bshow" title="Which entries to list">
+        <option value="all" selected>All</option><option value="ia">Online</option></select></label>
+    </div>
+  </div>
+  <div class="status"><div id="bcount"></div>
+    <div class="right"><button id="bcsv" type="button" title="Download the current result list as CSV">Export CSV</button><button id="bbib" type="button" title="Download the current result list as BibTeX">Export BibTeX</button></div></div>
+  <div class="tablewrap">
+    <table>
+      <thead><tr>
+        <th data-k="author">Author<span class="arrow"></span></th>
+        <th data-k="title">Title<span class="arrow"></span></th>
+        <th data-k="year_num">Year<span class="arrow"></span></th>
+        <th data-k="nlinks">Online copy<span class="arrow"></span></th>
+      </tr></thead>
+      <tbody id="brows"></tbody>
+    </table>
+    <div class="empty" id="bempty" hidden>No entries match.</div>
+  </div>
+  <p class="help">Words are ANDed; diacritics and case are ignored. Use quotes for phrases, the prefixes <code>author:</code>, <code>title:</code> and <code>notes:</code>, and <code>-word</code> to exclude. With something typed in the search box the best matches come first. Click a column to sort by it instead, or a row for full details.</p>
+  <dialog id="bdlg">
+    <div class="dhead"><h2 id="bdtitle"></h2><button id="bdclose" type="button" aria-label="Close">✕</button></div>
+    <div class="dbody"><dl id="bddl"></dl></div>
+    <div class="dfoot"><button id="bdprev" type="button">‹ Previous</button><button id="bdnext" type="button">Next ›</button><button id="bdcopy" type="button">Copy citation</button>
+      <a id="bdsearch" target="_blank" rel="noopener"><button type="button">Search archive.org</button></a></div>
+  </dialog>
+</div>

@@ -5,14 +5,19 @@
     build_page.py --from "/path/to/modern-korea.md"     copy that file into page/ first, then build
     build_page.py --no-bump                             rebuild without a new version number
 
-The page is made of three things, none of which this script edits by hand:
+The page is made of these, none of which this script edits by hand:
 
     page/modern-korea.md   the list itself. Edit it and run this script again.
     page/version.txt       the build number shown at the foot of the page, raised by one each build
-    site/page.css          the look of the page (serif, same white/blue/grey palette as the Japan page)
+    page/books.csv         the books online: one row a book (author, title, year, language, links, notes)
+    site/page.css          the look of the page (serif, the layout of the Japan page)
+    site/books.*           the table the books are shown in: search, filters, sorting, an entry in full
 
-It follows the design of the Modern Japanese History page (github.com/kmlawson/japan-bib), without the
-bibliography search that page carries.
+It follows the design of the Modern Japanese History page (github.com/kmlawson/japan-bib). The books
+are shown in the same searchable, sortable table that page has, but with no database behind it: the rows
+of books.csv are written into the page as JSON, wherever a line of the markdown reads `<!--books-->`.
+In books.csv, `links` holds one or more copies separated by " ; ", each a URL with an optional label
+before it ("Vol 1 https://..."); `notes` may use markdown links and *italics*.
 
 A bullet ending in the marker `<!--pills-->`, at any depth, becomes bubbles: if it ends in a colon its
 indented list turns into a row of small bubbles, otherwise the bullet itself becomes one. Any other
@@ -24,13 +29,17 @@ button reveals that section, pressing it again - or clicking the section's own h
 The first `# heading` is the page title; the list of sections underneath it is left out, since the
 buttons say the same thing, and the "See also" links after it are set as one line under the title.
 """
-import argparse, datetime, html, os, re, shutil
+import argparse, csv, datetime, html, json, os, re, shutil
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 MD = os.path.join(HERE, "page", "modern-korea.md")
 OUT = os.path.join(HERE, "index.html")
 SITE = os.path.join(HERE, "site")
 VERSION = os.path.join(HERE, "page", "version.txt")   # the number shown at the foot, one per published build
+BOOKS = os.path.join(HERE, "page", "books.csv")
+BOOKS_MARK = "<!--books-->"     # a line of the markdown that reads this becomes the table of books
+BOOKS_PLACEHOLDER = 'Search author, title, notes… (e.g.  gale   "korean folk"   author:underwood   -german)'
+BOOKS_EXPORT = 'korea-books'            # the name the exported CSV and BibTeX files start with
 REPO = "https://github.com/kmlawson/primary-sources/tree/master/korea"
 DESCRIPTION = ("A list of open access primary sources for the study of modern Korean history, aimed "
                "primarily at students working with sources in English.")
@@ -76,10 +85,12 @@ BARE = re.compile(r"(?<![\"'=(>])\bhttps?://[^\s<>)\]]+")
 BOLD = re.compile(r"\*\*([^*]+)\*\*")
 ITAL = re.compile(r"(?<!\*)\*([^*]+)\*(?!\*)")
 CODE = re.compile(r"`([^`]+)`")
+ITAL_LINK = re.compile(r"(?<!\*)\*\[([^\]]+)\]\(([^)\s]+)\)\*(?!\*)")
 
 
 def inline(text):
     """One line of markdown to HTML: links (plain or bare), bold, italic, code."""
+    text = ITAL_LINK.sub(r"[*\1*](\2)", text)   # *[title](url)*: the italics go inside the link
     out, last = [], 0
     for m in LINK.finditer(text):
         out.append(esc_runs(text[last:m.start()]))
@@ -122,13 +133,13 @@ def pill_item(text):
             f'rel="noopener">{esc_runs(m.group(1))}</a>{note}</li>')
 
 
-def render(lines):
+def render(lines, books=""):
     """A section's body: bullet lists (nested to any depth), sub-headings and paragraphs.
 
     A bullet ending in the marker <!--pills--> becomes bubbles, at any depth: if its text ends in a
     colon, its indented list becomes a row of small bubbles (ul.pills); otherwise the bullet itself is
     the bubble, and anything indented under it stays an ordinary list beneath it. The marker itself
-    never shows."""
+    never shows. A line reading <!--books--> is replaced by the table of books."""
     out, para, items = [], [], []          # items: [(indent, text), ...] of the list being read
 
     def close_para():
@@ -196,6 +207,10 @@ def render(lines):
         if not line.strip():
             close_para()
             continue
+        if line.strip() == BOOKS_MARK:
+            close_para(); close_lists()
+            out.append(books)
+            continue
         m = re.match(r"^(\s*)[-*+]\s+(.*)$", line)
         if m:
             close_para()
@@ -261,6 +276,39 @@ def split_intro(lines):
     return lines[i:]
 
 
+# ----------------------------------------------------------------- the books
+def read_books(path=BOOKS):
+    """The rows of books.csv as the table wants them: links split into {label, url}, and the first year
+    as a number for sorting and the year filter."""
+    out = []
+    with open(path, encoding="utf-8", newline="") as f:
+        for r in csv.DictReader(f):
+            links = []
+            for part in (r.get("links") or "").split(" ; "):
+                part = part.strip()
+                if not part:
+                    continue
+                label, _, url = part.rpartition(" ")
+                links.append({"label": label.strip(), "url": url})
+            m = re.search(r"\d{4}", r.get("year") or "")
+            out.append({"author": (r.get("author") or "").strip(), "title": (r.get("title") or "").strip(),
+                        "year": (r.get("year") or "").strip(), "year_num": int(m.group(0)) if m else None,
+                        "language": (r.get("language") or "").strip(), "links": links,
+                        "notes": (r.get("notes") or "").strip()})
+    return out
+
+
+def books_block():
+    """The table of books, with its rows as JSON beside it ("</" escaped so no row can end the script)."""
+    if not os.path.exists(BOOKS):
+        return ""
+    tmpl = open(os.path.join(SITE, "books.html"), encoding="utf-8").read().strip()
+    tmpl = tmpl.replace("__PLACEHOLDER__", html.escape(BOOKS_PLACEHOLDER, quote=True))
+    tmpl = tmpl.replace('<div class="books" id="books">', f'<div class="books" id="books" data-export="{BOOKS_EXPORT}">', 1)
+    data = json.dumps(read_books(), ensure_ascii=False).replace("</", "<\\/")
+    return tmpl + f'\n<script type="application/json" id="books-data">{data}</script>'
+
+
 # ----------------------------------------------------------------- the page
 def build(md_path, out_path, bump=True):
     md = open(md_path, encoding="utf-8").read()
@@ -269,7 +317,11 @@ def build(md_path, out_path, bump=True):
     rest = split_intro(secs[0][1])
     body = secs[1:]
 
-    css = open(os.path.join(SITE, "page.css"), encoding="utf-8").read().strip()
+    part = lambda name: open(os.path.join(SITE, name), encoding="utf-8").read().strip()
+    css = part("page.css")
+    books = books_block()
+    if books:
+        css += "\n" + part("books.css")
 
     buttons = ['<button type="button" class="jump openall" data-target="all" aria-expanded="false">Open All</button>']
     buttons += [f'<button type="button" class="jump" data-target="{slug(h)}" aria-expanded="false">{html.escape(h)}</button>'
@@ -303,7 +355,7 @@ def build(md_path, out_path, bump=True):
         parts.append(f'''  <section class="md" id="{slug(h)}" hidden>
     <h2 tabindex="0" role="button" title="Hide this section">{html.escape(h)}</h2>
     <div class="body">
-{render(lines)}
+{render(lines, books)}
     </div>
   </section>''')
 
@@ -365,7 +417,7 @@ for (const h of document.querySelectorAll("section.md > h2")) {
   h.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); close(); } });
 }
 </script>
-</body>
+''' + (f"<script>\n{part('books.js')}\n</script>\n" if books else "") + '''</body>
 </html>
 ''')
     open(out_path, "w", encoding="utf-8").write("\n".join(parts))
