@@ -21,7 +21,8 @@ The markdown: each `# heading` becomes a section of the page with a button of it
 order they are written. Nothing but the buttons is shown when the page opens: pressing a button reveals
 that section, pressing it again - or clicking the section's own heading - hides it. The first `# heading`
 is the page title; the list of sections underneath it is left out, since the buttons say the same thing,
-and the "See also" links after it are set as one line under the title. `## heading` is a sub-heading.
+and the "See also" links after it are set as one line under the title. `## heading` is a sub-heading. A line `![caption](file)` is a picture, as a thumbnail
+that opens full size; keep the file in the page's directory (burma/img/...) and give its path from there.
 
 The books: a line of the markdown reading `<!--books-->` becomes the table of books, and the section it is
 in becomes the books section - like the Japan page's Digitized Books, it is always on the page, after the
@@ -98,6 +99,7 @@ BARE = re.compile(r"(?<![\"'=(>])\bhttps?://[^\s<>)\]]+")
 BOLD = re.compile(r"\*\*([^*]+)\*\*")
 ITAL = re.compile(r"(?<!\*)\*([^*]+)\*(?!\*)")
 CODE = re.compile(r"`([^`]+)`")
+IMAGE = re.compile(r"^!\[([^\]]*)\]\(([^)\s]+)\)$")   # ![caption](file) on a line of its own
 ITAL_LINK = re.compile(r"(?<!\*)\*\[([^\[\]]+)\]\(([^)\s]+)\)\*(?!\*)")
 
 
@@ -220,6 +222,13 @@ def render(lines, books=""):
         if line.strip() == BOOKS_MARK:
             close_para(); close_lists()
             out.append(books)
+            continue
+        m = IMAGE.match(line.strip())
+        if m:                                   # a picture of its own: a thumbnail that opens full size
+            close_para(); close_lists()
+            alt, src = html.escape(m.group(1), quote=True), html.escape(m.group(2), quote=True)
+            out.append(f'<p class="figure"><a href="{src}" target="_blank" rel="noopener" title="Open full size">'
+                       f'<img src="{src}" alt="{alt}" loading="lazy"></a></p>')
             continue
         m = re.match(r"^(\s*)[-*+]\s+(.*)$", line)
         if m:

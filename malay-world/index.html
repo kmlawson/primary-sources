@@ -94,6 +94,9 @@ section.md .body .pill-note { font-size: 12.5px; color: var(--muted); }
 section.md .body li.pill-own { list-style: none; }
 section.md .body li.pill-own > ul.pills { margin: 4px 0 2px; }
 section.md .body p { margin: 10px 0; }
+/* a picture: a thumbnail that opens full size */
+section.md .body p.figure { margin: 12px 0; }
+section.md .body p.figure img { display: block; width: 100%; max-width: 280px; height: auto; border: 1px solid var(--line); border-radius: 6px; }
 section.md .body em { font-style: italic; }
 
 
@@ -206,7 +209,8 @@ footer.site ul { padding-left: 20px; }
   .books .dfoot { gap: 6px; padding: 8px 10px; } .books .dfoot button { font-size: 13px; padding: 6px 8px; }
   .books table { min-width: 0; }
   .books th:nth-child(1) { width: 26%; } .books th:nth-child(2) { width: auto; } .books th:nth-child(3) { width: 14%; } .books th:nth-child(4) { width: 24%; }
-  .books th { white-space: normal; }   /* "Online copy" wraps rather than being cut off */
+  .books th { white-space: normal; overflow-wrap: normal; }   /* "Online copy" wraps between its words, never inside one */
+  .books th, .books td { padding-left: 7px; padding-right: 7px; }
   .books a.pill .host { display: none; }   /* a narrow column: the pill keeps to its label; the entry names the host */
   .books td.ia { white-space: normal; }   /* and a +1 drops below it */
   .books .taglabel { min-width: 0; flex-basis: 100%; }
@@ -239,7 +243,7 @@ footer.site ul { padding-left: 20px; }
       <button type="button" class="jump" data-target="s-jfk-archives-on-the-malay-world" aria-expanded="false">JFK Archives on the Malay World</button>
       <button type="button" class="jump" data-target="s-national-archives-of-singapore" aria-expanded="false">National Archives of Singapore</button>
       <button type="button" class="jump" data-target="s-frus-us-diplomatic-materials" aria-expanded="false">FRUS US Diplomatic Materials</button>
-      <button type="button" class="jump search" data-target="s-digititized-historical-books-online" title="Digititized Historical Books Online">Digitized Books</button>
+      <button type="button" class="jump search" data-target="s-digitized-historical-books-online" title="Digitized Historical Books Online">Digitized Books</button>
     </div>
   </nav>
   <section class="md" id="s-general-online-resources" hidden>
@@ -292,7 +296,7 @@ footer.site ul { padding-left: 20px; }
 <li><a href="https://sea.lib.niu.edu/seadl/singapore/journals" target="_blank" rel="noopener">Online Research Journals for Singapore</a></li>
 <li><a href="https://sea.lib.niu.edu/seadl/indonesia/journals" target="_blank" rel="noopener">Online Research Journals for Indonesia</a></li>
 <li><a href="https://sea.lib.niu.edu/seadl/islandora/object/SEAImages%3ALMPVideos" target="_blank" rel="noopener">The Living Memory Project</a> - The project was a list of photographs and videos of experiences of East Timorese nationalists who were imprisoned under the Indonesian occupation.</li>
-<li><a href="https://sea.lib.niu.edu/islandora/object/SEAImages%3AJawi#:~:text=The%20Jawi%20Transliteration%20Project%20focuses,Malay%20aspirations%20and%20intellectual%20thought." target="_blank" rel="noopener">Jawi Translation Project</a> - The Jawi Translation Project is an initiative to translate 2000 jawi script newspapers and magazine articles written between 1930-1941 in the Strait Settlements and Malaya. They have been translated from Jawi script to the latin Malay script. Its a translation of four major publications: Saudara, Warta Malaya, Majalah Guru, and Majlis</li>
+<li><a href="https://sea.lib.niu.edu/islandora/object/SEAImages%3AJawi#:~:text=The%20Jawi%20Transliteration%20Project%20focuses,Malay%20aspirations%20and%20intellectual%20thought." target="_blank" rel="noopener">Jawi Translation Project</a> - The Jawi Translation Project is an initiative to translate 2000 jawi script newspapers and magazine articles written between 1930-1941 in the Straits Settlements and Malaya. They have been translated from Jawi script to the latin Malay script. Its a translation of four major publications: Saudara, Warta Malaya, Majalah Guru, and Majlis</li>
 </ul>
 </li>
 <li><a href="https://www.ipohworld.org/" target="_blank" rel="noopener">ipohWorld</a> - Includes articles, sources, and historical database focused mainly on the history of Perak.</li>
@@ -461,7 +465,7 @@ footer.site ul { padding-left: 20px; }
 <li><a href="https://archive.org/details/biostor-176460" target="_blank" rel="noopener">The History of Perak from Native Sources</a></li>
 <li><a href="https://archive.org/details/biostor-176187" target="_blank" rel="noopener">The Ruling Family of Selangor</a></li>
 </ul>
-<h3>Publications from Frank Swettenham (British Resident of Perak and Selangor, Resident-General of Federated Malay States and Governor of Strait Settlements)</h3>
+<h3>Publications from Frank Swettenham (British Resident of Perak and Selangor, Resident-General of Federated Malay States and Governor of Straits Settlements)</h3>
 <ul>
 <li><a href="https://archive.org/details/cu31924023141306" target="_blank" rel="noopener">About Perak</a></li>
 <li><a href="https://archive.org/details/in.ernet.dli.2015.181983" target="_blank" rel="noopener">The Real Malay</a></li>
@@ -519,7 +523,7 @@ footer.site ul { padding-left: 20px; }
 <li><a href="https://archive.org/details/biostor-176403/mode/1up" target="_blank" rel="noopener">Two Legends of Malacca</a></li>
 <li><a href="https://archive.org/details/biostor-176095" target="_blank" rel="noopener">A Malay Pantheist Charm</a></li>
 </ul>
-<h3>Publications by Thomas Horsefield (Physician)</h3>
+<h3>Publications by Thomas Horsfield (Physician)</h3>
 <ul>
 <li><a href="https://archive.org/details/dli.granth.53216" target="_blank" rel="noopener">Descriptive Catalogue of the Lepidopterous Insects contained in the Museum of the Honourable East-India Company</a></li>
 <li><a href="https://archive.org/details/in.ernet.dli.2015.31079" target="_blank" rel="noopener">A Catalogue Of The Birds In The Museum Of The Hon. East - India Company Vol. 1</a></li>
@@ -1189,8 +1193,8 @@ footer.site ul { padding-left: 20px; }
 </ul>
     </div>
   </section>
-  <section class="books-section" id="s-digititized-historical-books-online">
-    <h2>Digititized Historical Books Online</h2>
+  <section class="books-section" id="s-digitized-historical-books-online">
+    <h2>Digitized Historical Books Online</h2>
     <div class="body">
 <p><strong>Open Access Books</strong></p>
 <p>Below is a large linked list of some of the many open access books related to the Malay world online (both what you might categorize as primary but also secondary literature). Most of these are available on the <a href="https://archive.org/" target="_blank" rel="noopener">Internet Archive</a>, but also on other archives, university libraries, Hathi Trust, or Google Books. Another collection of online books and articles definitely worth consulting is the <a href="http://www.sabrizain.org/malaya/library/index2.html" target="_blank" rel="noopener">Sejarah Melayu Library</a>. There is also a very rich collection of ebooks at <a href="https://eresources.nlb.gov.sg/printheritage/" target="_blank" rel="noopener">BooksSG</a>.</p>
@@ -1246,7 +1250,7 @@ footer.site ul { padding-left: 20px; }
     <p>This list of primary resources was created by <strong>Sahil Bhagat</strong> (email: sahil@froginawell.net twitter: @sbhagat2000). Sahil is a former student of the University of St Andrews class of 2022 and is now a graduate student in the class of 2024 International and World History dual program at Columbia University and LSE. He is interested in the history of South Asian diasporic populations in colonial and post colonial Malaya and Singapore.</p>
     <p>Other contributors to this page: Konrad M. Lawson, Harry Banham.</p>
     <p>We very much welcome further contributions to this list of resources. If you have suggestions or corrections, please get in touch with Konrad at kmlawson@froginawell.net or @konrad@social.coop on Mastodon.</p>
-    <p class="version">Version 1.0004 · Last Updated: 21 October 2026 ·
+    <p class="version">Version 1.0005 · Last Updated: 21 October 2026 ·
       <a href="https://github.com/kmlawson/primary-sources/tree/master/malay-world" target="_blank" rel="noopener">Source on GitHub</a></p>
   </footer>
 </div>
@@ -1316,6 +1320,8 @@ let ALL = [], VIEW = [], sortKey = null, sortDir = 1, cur = -1, byMatch = false,
 // title is the cell's tooltip, and the entry opened in full always has it
 const CUT = 120;
 const expanded = new Set();          // ids of the entries whose long titles are shown in full
+const AUTHORS = 3;                   // from this many authors on, a row names the first and "et al."
+const expandedAu = new Set();        // ids of the entries whose author lists are shown in full
 // tags: a date range ("1886-1942", "Pre-1823", "1945-Present", "1950-") is a period, anything else a topic.
 // One of each can be chosen at a time; they narrow the list together with everything else.
 const PERIOD = /^(pre-?|post-?)?-?\d{4}(\s*[-–]\s*(\d{4}|present))?-?$/i;
@@ -1480,6 +1486,14 @@ function titleCell(r, terms) {
   return `<span class="tshort"${open ? " hidden" : ""}>${hl(short, terms)}… <button type="button" class="more" aria-expanded="false" title="Show the full title">more</button></span>` +
     `<span class="tfull"${open ? "" : " hidden"}>${hl(r.title, terms)} <button type="button" class="more" aria-expanded="true" title="Shorten the title">less</button></span>`;
 }
+function authorCell(r, terms) {
+  if (!r.author) return '<span class="chip">no author</span>';
+  const names = r.author.split(/\s*;\s*/);
+  if (names.length < AUTHORS) return hl(r.author, terms);
+  const open = expandedAu.has(r.id);
+  return `<span class="tshort"${open ? " hidden" : ""}>${hl(names[0], terms)} et al. <button type="button" class="more" aria-expanded="false" title="Show all ${names.length} names">more</button></span>` +
+    `<span class="tfull"${open ? "" : " hidden"}>${hl(r.author, terms)} <button type="button" class="more" aria-expanded="true" title="Shorten the list">less</button></span>`;
+}
 function hl(text, terms) {
   let out = text; if (!terms.length) return esc(out);
   for (const t of terms) { if (t.neg || t.t.length < 2) continue;
@@ -1493,7 +1507,7 @@ function render(terms) {
   page = Math.min(page, pages - 1);
   const first = page * pp;
   $("brows").innerHTML = VIEW.slice(first, first + pp).map((r, i) => `<tr data-i="${first + i}">
-    <td class="au">${hl(r.author, terms) || '<span class="chip">no author</span>'}</td>
+    <td class="au"${r.author.split(";").length >= AUTHORS ? ` title="${esc(r.author)}"` : ""}>${authorCell(r, terms)}</td>
     <td class="title"${r.title.length > CUT + 20 ? ` title="${esc(r.title)}"` : ""}>${titleCell(r, terms)}${r.notes ? `<span class="note">${md(r.notes)}</span>` : ""}${coins(r)}</td>
     <td class="year">${esc(r.year)}</td>
     <td class="ia">${r.nlinks ? `<a class="pill" href="${esc(r.links[0].url)}" target="_blank" rel="noopener" title="${esc(holderName(holder(r.links[0].url)))}"><span class="host">${holder(r.links[0].url)}: </span>${esc(r.links[0].label || "read")} ↗</a>${r.nlinks > 1 ? ` <span class="chip" title="more copies or volumes - open the entry">+${r.nlinks - 1}</span>` : ""}` : ""}</td></tr>`).join("");
@@ -1548,8 +1562,9 @@ $("brows").addEventListener("click", e => {
   const more = e.target.closest("button.more");
   if (more) {                        // more / less: the title opens or closes where it is, the entry stays shut
     const td = more.closest("td"), id = VIEW[parseInt(td.parentElement.dataset.i)].id;
-    if (expanded.has(id)) expanded.delete(id); else expanded.add(id);
-    td.querySelector(".tshort").hidden = expanded.has(id); td.querySelector(".tfull").hidden = !expanded.has(id);
+    const set = td.classList.contains("au") ? expandedAu : expanded;
+    if (set.has(id)) set.delete(id); else set.add(id);
+    td.querySelector(".tshort").hidden = set.has(id); td.querySelector(".tfull").hidden = !set.has(id);
     return;
   }
   if (e.target.closest("a")) return; const tr = e.target.closest("tr"); if (tr) show(parseInt(tr.dataset.i)); });

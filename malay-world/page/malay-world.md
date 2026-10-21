@@ -13,7 +13,7 @@
 - JFK Archives on the Malay World
 - National Archives of Singapore
 - FRUS US Diplomatic Materials
-- Digititized Historical Books Online
+- Digitized Historical Books Online
 
 See also:
 
@@ -60,7 +60,7 @@ See also:
     - [Online Research Journals for Singapore](https://sea.lib.niu.edu/seadl/singapore/journals)
     - [Online Research Journals for Indonesia](https://sea.lib.niu.edu/seadl/indonesia/journals)
     - [The Living Memory Project](https://sea.lib.niu.edu/seadl/islandora/object/SEAImages%3ALMPVideos) - The project was a list of photographs and videos of experiences of East Timorese nationalists who were imprisoned under the Indonesian occupation.
-    - [Jawi Translation Project](https://sea.lib.niu.edu/islandora/object/SEAImages%3AJawi#:~:text=The%20Jawi%20Transliteration%20Project%20focuses,Malay%20aspirations%20and%20intellectual%20thought.) - The Jawi Translation Project is an initiative to translate 2000 jawi script newspapers and magazine articles written between 1930-1941 in the Strait Settlements and Malaya. They have been translated from Jawi script to the latin Malay script. Its a translation of four major publications: Saudara, Warta Malaya, Majalah Guru, and Majlis
+    - [Jawi Translation Project](https://sea.lib.niu.edu/islandora/object/SEAImages%3AJawi#:~:text=The%20Jawi%20Transliteration%20Project%20focuses,Malay%20aspirations%20and%20intellectual%20thought.) - The Jawi Translation Project is an initiative to translate 2000 jawi script newspapers and magazine articles written between 1930-1941 in the Straits Settlements and Malaya. They have been translated from Jawi script to the latin Malay script. Its a translation of four major publications: Saudara, Warta Malaya, Majalah Guru, and Majlis
 - [ipohWorld](https://www.ipohworld.org/) - Includes articles, sources, and historical database focused mainly on the history of Perak.
 - [Indian Ocean and Maritime Asia Slave Trade Databases](https://datasets.iisg.amsterdam/dataverse/IOMASTD)
 - [Singapore War Crimes Trials](https://www.singaporewarcrimestrials.com/) - Archival Material on the Singapore War Crimes Trials
@@ -194,7 +194,7 @@ Below are some links to just a selection of the vast number of historical maps a
 - [The History of Perak from Native Sources](https://archive.org/details/biostor-176460)
 - [The Ruling Family of Selangor](https://archive.org/details/biostor-176187)
 
-## Publications from Frank Swettenham (British Resident of Perak and Selangor, Resident-General of Federated Malay States and Governor of Strait Settlements)
+## Publications from Frank Swettenham (British Resident of Perak and Selangor, Resident-General of Federated Malay States and Governor of Straits Settlements)
 
 - [About Perak](https://archive.org/details/cu31924023141306)
 - [The Real Malay](https://archive.org/details/in.ernet.dli.2015.181983)
@@ -252,7 +252,7 @@ Below are some links to just a selection of the vast number of historical maps a
 - [Two Legends of Malacca](https://archive.org/details/biostor-176403/mode/1up)
 - [A Malay Pantheist Charm](https://archive.org/details/biostor-176095)
 
-## Publications by Thomas Horsefield (Physician)
+## Publications by Thomas Horsfield (Physician)
 
 - [Descriptive Catalogue of the Lepidopterous Insects contained in the Museum of the Honourable East-India Company](https://archive.org/details/dli.granth.53216)
 - [A Catalogue Of The Birds In The Museum Of The Hon. East - India Company Vol. 1](https://archive.org/details/in.ernet.dli.2015.31079)
@@ -881,7 +881,7 @@ Some of the volumes of particular interest include:
 - [1969–1976, Volume E–12, Documents on East and Southeast Asia, 1973–1976](https://history.state.gov/historicaldocuments/frus1969-76ve12)
 - [1977–1980, Volume XXII, Southeast Asia and the Pacific](https://history.state.gov/historicaldocuments/frus1977-80v22)
 
-# Digititized Historical Books Online
+# Digitized Historical Books Online
 
 **Open Access Books**
 

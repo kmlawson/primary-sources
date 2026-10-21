@@ -107,6 +107,8 @@ Other legal sources:
 
 For the following volumes, you may wish to refer to this [Wikimedia map](https://en.wikipedia.org/wiki/British_rule_in_Burma#/media/File:Burma_Province_1931.png) based on 1931 colonial period districts:
 
+![Map of Burma Province, 1931 colonial period districts](img/burma-province-1931.png)
+
 - Arakan Hills [Vol A 1910](https://archive.org/details/burma-gazetteer-northern-arakan-district-vol-a-1910) | [Vol B 1912](https://archive.org/details/in.ernet.dli.2015.17165) | [Vol B No 2 1924](https://archive.org/details/in.ernet.dli.2015.17160/page/n1/mode/2up)
 - Akyab [Vol A 1917](https://archive.org/details/burma-gazetteer-akyab-district-vol-a-1917) | [Vol B No 1 1912](https://archive.org/details/dli.ernet.17154) | [Vol B No 1 1924](https://archive.org/details/in.ernet.dli.2015.17142)
 - Amherst [Vol A 1913](https://archive.org/details/burma-gazetteer-amherst-district-vol-a-1913/page/n1/mode/2up) | [Vol B No 19 1913](https://archive.org/details/in.ernet.dli.2015.17139/mode/2up)
@@ -196,7 +198,7 @@ See [Burma Library Census section](https://www.burmalibrary.org/en/category/cens
 
 # Other Online Collections Related to Burma
 
-(Items in bold are the most reccomended)
+(Items in bold are the most recommended)
 
 - [**Hathi Trust**](https://www.hathitrust.org/) **is probably the best for finding unique material** that will not appear in other collections.
 - For ideas of additional sources, see this [Selected Reference List](https://babel.hathitrust.org/cgi/pt?id=uc1.b4910607&view=1up&seq=1) by Cecil Hobbs, 17 pages worth of British White Papers considered important to understanding Myanmar.
@@ -205,7 +207,7 @@ See [Burma Library Census section](https://www.burmalibrary.org/en/category/cens
 - [Burma and British India album, circa 1900s](https://digital.wolfsonian.org/node/59499/object-media) - A collection of photographs from an album made available by The Wolfsonian - Florida International University [photos are untitled on the download list]. The Wolfsonian has [a number of maps, photos, and objects from Burma digitalised](https://digital.wolfsonian.org/solr-search/content?search_api_fulltext=burma&sort_by=search_api_relevance&sort_order=DESC&items_per_page=10).
 - [Burma Library](https://www.burmalibrary.org/) - "Classified and annotated links to more than 60,000 full text documents on Burma/Myanmar". See for example the [history](https://www.burmalibrary.org/en/category/history) subsection.
 - [The Anglo-Burmese Library](https://www.angloburmeselibrary.com/) - This organization, which requires membership for access to its member-only collection of documents, preserves records of families in colonial-era Burma and maintaining a list of 1942 evacuation and casualties. The library has a [non-member area](https://www.angloburmeselibrary.com/non-members-area.html) with a limited number of materials.
-- [Digital Bodleian](https://digital.bodleian.ox.ac.uk/) - The Boldeian library at Oxford, has [several digitized materials](https://digital.bodleian.ox.ac.uk/search/?q=burma) related to Burma.
+- [Digital Bodleian](https://digital.bodleian.ox.ac.uk/) - The Bodleian library at Oxford, has [several digitized materials](https://digital.bodleian.ox.ac.uk/search/?q=burma) related to Burma.
 - [Pathé Films](https://www.britishpathe.com/) - This archive of film clips has [several dozen clips](https://www.britishpathe.com/search/?searchQuery=burma&page=1) from Burma, including curated lists (mostly from the Second World War) such as: [Burma](https://www.britishpathe.com/groupitem/3258/) | [War in Burma](https://www.britishpathe.com/groupitem/2212/) | [1943, Burma](https://www.britishpathe.com/groupitem/1224/) | [Back from Burma](https://www.britishpathe.com/groupitem/927/)
 - [Digital South Asia Library](http://dsal.uchicago.edu/) - This collection, based at the University of Chicago is especially useful for the period when Burma was treated by the British as part of its administration of India, up to 1937.
 - **Medical History of British India - This National Library of Scotland collection includes** the [Annual reports on the working of the Harcourt Butler Institute of Public Health, Rangoon 1927-1940](https://digital.nls.uk/indiapapers/browse/archive/74949806?mode=gallery_list&sn=1). It also has reports related to [Vaccination in Burma 1889-1933](https://digital.nls.uk/indiapapers/browse/archive/91546117). See more on the [catalogue entry](https://search.nls.uk/primo-explore/fulldisplay?vid=44NLS_VU1&docid=44NLS_ALMA21452856000004341) for the institute reports, and the [entry](https://search.nls.uk/primo-explore/fulldisplay?vid=44NLS_VU1&docid=44NLS_ALMA21488841460004341) for the vaccination reports. It may take a deeper dive to uncover the mentions of Burma in various reports surveying the whole of British India, such as the [reports of various diseases](https://digital.nls.uk/indiapapers/browse/archive/74466617?from_row=1) which would uncover some interesting tidbits. There is also an excellent selection of [secondary sources on South Asian colonial medical history](https://digital.nls.uk/indiapapers/resources.html) on this webpage. For a quick view of how medical issues were mapped, graphed, and photographed, you can also [narrow the search for resources on this site to just images](https://digital.nls.uk/indiapapers/browse/?format=02), of which there are thousands. This slightly more obscure search mechanic can be used to pinpoint [every mention of Burma the cataloguers have found on specific pages in general surveys](https://digital.nls.uk/indiapapers/browse/?place=1000004%3E1000108), though this is not totally exhaustive of mentions of Burma.
@@ -348,6 +350,6 @@ Details of newspapers, including their language and the political leanings of th
 
 # List of Books and Sources Available Online Related to Burma / Myanmar
 
-The button below will display a list of over 200 mostly published sources related to Burma. With a few exceptions, they are linked to an online open access version of the work. Most of these are available on the Internet Archive, but some of these links take you to Google Books or the digital collections of various libraries and archives.
+The table below lists over 1,100 mostly published sources related to Burma. With a few exceptions, they are linked to an online open access version of the work. Most of these are available on the Internet Archive, but some of these links take you to Google Books or the digital collections of various libraries and archives.
 
 <!--books-->

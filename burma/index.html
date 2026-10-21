@@ -94,6 +94,9 @@ section.md .body .pill-note { font-size: 12.5px; color: var(--muted); }
 section.md .body li.pill-own { list-style: none; }
 section.md .body li.pill-own > ul.pills { margin: 4px 0 2px; }
 section.md .body p { margin: 10px 0; }
+/* a picture: a thumbnail that opens full size */
+section.md .body p.figure { margin: 12px 0; }
+section.md .body p.figure img { display: block; width: 100%; max-width: 280px; height: auto; border: 1px solid var(--line); border-radius: 6px; }
 section.md .body em { font-style: italic; }
 
 
@@ -206,7 +209,8 @@ footer.site ul { padding-left: 20px; }
   .books .dfoot { gap: 6px; padding: 8px 10px; } .books .dfoot button { font-size: 13px; padding: 6px 8px; }
   .books table { min-width: 0; }
   .books th:nth-child(1) { width: 26%; } .books th:nth-child(2) { width: auto; } .books th:nth-child(3) { width: 14%; } .books th:nth-child(4) { width: 24%; }
-  .books th { white-space: normal; }   /* "Online copy" wraps rather than being cut off */
+  .books th { white-space: normal; overflow-wrap: normal; }   /* "Online copy" wraps between its words, never inside one */
+  .books th, .books td { padding-left: 7px; padding-right: 7px; }
   .books a.pill .host { display: none; }   /* a narrow column: the pill keeps to its label; the entry names the host */
   .books td.ia { white-space: normal; }   /* and a +1 drops below it */
   .books .taglabel { min-width: 0; flex-basis: 100%; }
@@ -337,6 +341,7 @@ footer.site ul { padding-left: 20px; }
 </ul>
 <p><em>Burma Gazetteer District Volumes</em></p>
 <p>For the following volumes, you may wish to refer to this <a href="https://en.wikipedia.org/wiki/British_rule_in_Burma#/media/File:Burma_Province_1931.png" target="_blank" rel="noopener">Wikimedia map</a> based on 1931 colonial period districts:</p>
+<p class="figure"><a href="img/burma-province-1931.png" target="_blank" rel="noopener" title="Open full size"><img src="img/burma-province-1931.png" alt="Map of Burma Province, 1931 colonial period districts" loading="lazy"></a></p>
 <ul>
 <li>Arakan Hills <a href="https://archive.org/details/burma-gazetteer-northern-arakan-district-vol-a-1910" target="_blank" rel="noopener">Vol A 1910</a> | <a href="https://archive.org/details/in.ernet.dli.2015.17165" target="_blank" rel="noopener">Vol B 1912</a> | <a href="https://archive.org/details/in.ernet.dli.2015.17160/page/n1/mode/2up" target="_blank" rel="noopener">Vol B No 2 1924</a></li>
 <li>Akyab <a href="https://archive.org/details/burma-gazetteer-akyab-district-vol-a-1917" target="_blank" rel="noopener">Vol A 1917</a> | <a href="https://archive.org/details/dli.ernet.17154" target="_blank" rel="noopener">Vol B No 1 1912</a> | <a href="https://archive.org/details/in.ernet.dli.2015.17142" target="_blank" rel="noopener">Vol B No 1 1924</a></li>
@@ -434,7 +439,7 @@ footer.site ul { padding-left: 20px; }
   <section class="md" id="s-other-online-collections-related-to-burma" hidden>
     <h2 tabindex="0" role="button" title="Hide this section">Other Online Collections Related to Burma</h2>
     <div class="body">
-<p>(Items in bold are the most reccomended)</p>
+<p>(Items in bold are the most recommended)</p>
 <ul>
 <li><a href="https://www.hathitrust.org/" target="_blank" rel="noopener"><strong>Hathi Trust</strong></a> <strong>is probably the best for finding unique material</strong> that will not appear in other collections.</li>
 <li>For ideas of additional sources, see this <a href="https://babel.hathitrust.org/cgi/pt?id=uc1.b4910607&amp;view=1up&amp;seq=1" target="_blank" rel="noopener">Selected Reference List</a> by Cecil Hobbs, 17 pages worth of British White Papers considered important to understanding Myanmar.</li>
@@ -443,7 +448,7 @@ footer.site ul { padding-left: 20px; }
 <li><a href="https://digital.wolfsonian.org/node/59499/object-media" target="_blank" rel="noopener">Burma and British India album, circa 1900s</a> - A collection of photographs from an album made available by The Wolfsonian - Florida International University [photos are untitled on the download list]. The Wolfsonian has <a href="https://digital.wolfsonian.org/solr-search/content?search_api_fulltext=burma&amp;sort_by=search_api_relevance&amp;sort_order=DESC&amp;items_per_page=10" target="_blank" rel="noopener">a number of maps, photos, and objects from Burma digitalised</a>.</li>
 <li><a href="https://www.burmalibrary.org/" target="_blank" rel="noopener">Burma Library</a> - &quot;Classified and annotated links to more than 60,000 full text documents on Burma/Myanmar&quot;. See for example the <a href="https://www.burmalibrary.org/en/category/history" target="_blank" rel="noopener">history</a> subsection.</li>
 <li><a href="https://www.angloburmeselibrary.com/" target="_blank" rel="noopener">The Anglo-Burmese Library</a> - This organization, which requires membership for access to its member-only collection of documents, preserves records of families in colonial-era Burma and maintaining a list of 1942 evacuation and casualties. The library has a <a href="https://www.angloburmeselibrary.com/non-members-area.html" target="_blank" rel="noopener">non-member area</a> with a limited number of materials.</li>
-<li><a href="https://digital.bodleian.ox.ac.uk/" target="_blank" rel="noopener">Digital Bodleian</a> - The Boldeian library at Oxford, has <a href="https://digital.bodleian.ox.ac.uk/search/?q=burma" target="_blank" rel="noopener">several digitized materials</a> related to Burma.</li>
+<li><a href="https://digital.bodleian.ox.ac.uk/" target="_blank" rel="noopener">Digital Bodleian</a> - The Bodleian library at Oxford, has <a href="https://digital.bodleian.ox.ac.uk/search/?q=burma" target="_blank" rel="noopener">several digitized materials</a> related to Burma.</li>
 <li><a href="https://www.britishpathe.com/" target="_blank" rel="noopener">Pathé Films</a> - This archive of film clips has <a href="https://www.britishpathe.com/search/?searchQuery=burma&amp;page=1" target="_blank" rel="noopener">several dozen clips</a> from Burma, including curated lists (mostly from the Second World War) such as: <a href="https://www.britishpathe.com/groupitem/3258/" target="_blank" rel="noopener">Burma</a> | <a href="https://www.britishpathe.com/groupitem/2212/" target="_blank" rel="noopener">War in Burma</a> | <a href="https://www.britishpathe.com/groupitem/1224/" target="_blank" rel="noopener">1943, Burma</a> | <a href="https://www.britishpathe.com/groupitem/927/" target="_blank" rel="noopener">Back from Burma</a></li>
 <li><a href="http://dsal.uchicago.edu/" target="_blank" rel="noopener">Digital South Asia Library</a> - This collection, based at the University of Chicago is especially useful for the period when Burma was treated by the British as part of its administration of India, up to 1937.</li>
 <li><strong>Medical History of British India - This National Library of Scotland collection includes</strong> the <a href="https://digital.nls.uk/indiapapers/browse/archive/74949806?mode=gallery_list&amp;sn=1" target="_blank" rel="noopener">Annual reports on the working of the Harcourt Butler Institute of Public Health, Rangoon 1927-1940</a>. It also has reports related to <a href="https://digital.nls.uk/indiapapers/browse/archive/91546117" target="_blank" rel="noopener">Vaccination in Burma 1889-1933</a>. See more on the <a href="https://search.nls.uk/primo-explore/fulldisplay?vid=44NLS_VU1&amp;docid=44NLS_ALMA21452856000004341" target="_blank" rel="noopener">catalogue entry</a> for the institute reports, and the <a href="https://search.nls.uk/primo-explore/fulldisplay?vid=44NLS_VU1&amp;docid=44NLS_ALMA21488841460004341" target="_blank" rel="noopener">entry</a> for the vaccination reports. It may take a deeper dive to uncover the mentions of Burma in various reports surveying the whole of British India, such as the <a href="https://digital.nls.uk/indiapapers/browse/archive/74466617?from_row=1" target="_blank" rel="noopener">reports of various diseases</a> which would uncover some interesting tidbits. There is also an excellent selection of <a href="https://digital.nls.uk/indiapapers/resources.html" target="_blank" rel="noopener">secondary sources on South Asian colonial medical history</a> on this webpage. For a quick view of how medical issues were mapped, graphed, and photographed, you can also <a href="https://digital.nls.uk/indiapapers/browse/?format=02" target="_blank" rel="noopener">narrow the search for resources on this site to just images</a>, of which there are thousands. This slightly more obscure search mechanic can be used to pinpoint <a href="https://digital.nls.uk/indiapapers/browse/?place=1000004%3E1000108" target="_blank" rel="noopener">every mention of Burma the cataloguers have found on specific pages in general surveys</a>, though this is not totally exhaustive of mentions of Burma.</li>
@@ -586,7 +591,7 @@ footer.site ul { padding-left: 20px; }
   <section class="books-section" id="s-list-of-books-and-sources-available-online-related-to-burma-myanmar">
     <h2>List of Books and Sources Available Online Related to Burma / Myanmar</h2>
     <div class="body">
-<p>The button below will display a list of over 200 mostly published sources related to Burma. With a few exceptions, they are linked to an online open access version of the work. Most of these are available on the Internet Archive, but some of these links take you to Google Books or the digital collections of various libraries and archives.</p>
+<p>The table below lists over 1,100 mostly published sources related to Burma. With a few exceptions, they are linked to an online open access version of the work. Most of these are available on the Internet Archive, but some of these links take you to Google Books or the digital collections of various libraries and archives.</p>
 <div class="books" id="books" data-export="burma-books">
   <div class="controls">
     <div class="row1">
@@ -638,7 +643,7 @@ footer.site ul { padding-left: 20px; }
     <p>Rory Gill. I am a former student of <a href="https://www.spatialhistory.net/cities/" target="_blank" rel="noopener">MO4971</a> at the University of St Andrews and it was a privilege to be able to contribute to this resource for future students. Hopefully Myanmar will see many more archival sources digitised in the future and so there will be more opportunities for other people to contribute valuable material from the colonial period. For information on my academic or professional experience, please contact rory@froginawell.net.</p>
     <p>See also our other <a href="https://www.froginawell.net/frog/sources/" target="_blank" rel="noopener">Primary Source guides</a>.</p>
     <p><strong>Last Updated</strong>: October, 2023.</p>
-    <p class="version">Version 1.0004 · Last Updated: 21 October 2026 ·
+    <p class="version">Version 1.0005 · Last Updated: 21 October 2026 ·
       <a href="https://github.com/kmlawson/primary-sources/tree/master/burma" target="_blank" rel="noopener">Source on GitHub</a></p>
   </footer>
 </div>
@@ -708,6 +713,8 @@ let ALL = [], VIEW = [], sortKey = null, sortDir = 1, cur = -1, byMatch = false,
 // title is the cell's tooltip, and the entry opened in full always has it
 const CUT = 120;
 const expanded = new Set();          // ids of the entries whose long titles are shown in full
+const AUTHORS = 3;                   // from this many authors on, a row names the first and "et al."
+const expandedAu = new Set();        // ids of the entries whose author lists are shown in full
 // tags: a date range ("1886-1942", "Pre-1823", "1945-Present", "1950-") is a period, anything else a topic.
 // One of each can be chosen at a time; they narrow the list together with everything else.
 const PERIOD = /^(pre-?|post-?)?-?\d{4}(\s*[-–]\s*(\d{4}|present))?-?$/i;
@@ -872,6 +879,14 @@ function titleCell(r, terms) {
   return `<span class="tshort"${open ? " hidden" : ""}>${hl(short, terms)}… <button type="button" class="more" aria-expanded="false" title="Show the full title">more</button></span>` +
     `<span class="tfull"${open ? "" : " hidden"}>${hl(r.title, terms)} <button type="button" class="more" aria-expanded="true" title="Shorten the title">less</button></span>`;
 }
+function authorCell(r, terms) {
+  if (!r.author) return '<span class="chip">no author</span>';
+  const names = r.author.split(/\s*;\s*/);
+  if (names.length < AUTHORS) return hl(r.author, terms);
+  const open = expandedAu.has(r.id);
+  return `<span class="tshort"${open ? " hidden" : ""}>${hl(names[0], terms)} et al. <button type="button" class="more" aria-expanded="false" title="Show all ${names.length} names">more</button></span>` +
+    `<span class="tfull"${open ? "" : " hidden"}>${hl(r.author, terms)} <button type="button" class="more" aria-expanded="true" title="Shorten the list">less</button></span>`;
+}
 function hl(text, terms) {
   let out = text; if (!terms.length) return esc(out);
   for (const t of terms) { if (t.neg || t.t.length < 2) continue;
@@ -885,7 +900,7 @@ function render(terms) {
   page = Math.min(page, pages - 1);
   const first = page * pp;
   $("brows").innerHTML = VIEW.slice(first, first + pp).map((r, i) => `<tr data-i="${first + i}">
-    <td class="au">${hl(r.author, terms) || '<span class="chip">no author</span>'}</td>
+    <td class="au"${r.author.split(";").length >= AUTHORS ? ` title="${esc(r.author)}"` : ""}>${authorCell(r, terms)}</td>
     <td class="title"${r.title.length > CUT + 20 ? ` title="${esc(r.title)}"` : ""}>${titleCell(r, terms)}${r.notes ? `<span class="note">${md(r.notes)}</span>` : ""}${coins(r)}</td>
     <td class="year">${esc(r.year)}</td>
     <td class="ia">${r.nlinks ? `<a class="pill" href="${esc(r.links[0].url)}" target="_blank" rel="noopener" title="${esc(holderName(holder(r.links[0].url)))}"><span class="host">${holder(r.links[0].url)}: </span>${esc(r.links[0].label || "read")} ↗</a>${r.nlinks > 1 ? ` <span class="chip" title="more copies or volumes - open the entry">+${r.nlinks - 1}</span>` : ""}` : ""}</td></tr>`).join("");
@@ -940,8 +955,9 @@ $("brows").addEventListener("click", e => {
   const more = e.target.closest("button.more");
   if (more) {                        // more / less: the title opens or closes where it is, the entry stays shut
     const td = more.closest("td"), id = VIEW[parseInt(td.parentElement.dataset.i)].id;
-    if (expanded.has(id)) expanded.delete(id); else expanded.add(id);
-    td.querySelector(".tshort").hidden = expanded.has(id); td.querySelector(".tfull").hidden = !expanded.has(id);
+    const set = td.classList.contains("au") ? expandedAu : expanded;
+    if (set.has(id)) set.delete(id); else set.add(id);
+    td.querySelector(".tshort").hidden = set.has(id); td.querySelector(".tfull").hidden = !set.has(id);
     return;
   }
   if (e.target.closest("a")) return; const tr = e.target.closest("tr"); if (tr) show(parseInt(tr.dataset.i)); });

@@ -23,7 +23,8 @@ Each page's directory holds its own content, in `page/`:
 - **`*.md`** — the list itself. Each `# heading` becomes a section with a button of its own at the top of
   the page; the first `# heading` is the page title, and the "See also" links under it are set as one line
   beneath the title. Ordinary markdown links, `*italic*`, `**bold**`, `` `code` ``, `## sub-headings` and
-  nested bullet lists (indent by four spaces) all work. A bullet ending in `<!--pills-->` becomes small
+  nested bullet lists (indent by four spaces) all work. A line `![caption](img/file.png)` shows a picture as a
+  thumbnail that opens full size; keep the file in the page's own directory. A bullet ending in `<!--pills-->` becomes small
   bubbles, as on the Japan page.
 - **`books.csv`** — the books online, one row a book (see below). A line `<!--books-->` in the markdown marks
   where the table goes; the section it is in becomes the books section, always on the page after the

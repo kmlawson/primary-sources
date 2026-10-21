@@ -83,6 +83,9 @@ section.md .body .pill-note { font-size: 12.5px; color: var(--muted); }
 section.md .body li.pill-own { list-style: none; }
 section.md .body li.pill-own > ul.pills { margin: 4px 0 2px; }
 section.md .body p { margin: 10px 0; }
+/* a picture: a thumbnail that opens full size */
+section.md .body p.figure { margin: 12px 0; }
+section.md .body p.figure img { display: block; width: 100%; max-width: 280px; height: auto; border: 1px solid var(--line); border-radius: 6px; }
 section.md .body em { font-style: italic; }
 
 

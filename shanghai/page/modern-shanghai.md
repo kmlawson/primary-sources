@@ -3,7 +3,7 @@
 - Virtual Shanghai
 - Periodicals
 - Shanghai Municipal Council, French Concession, and other Reports
-- Shanghai Muncipal Police
+- Shanghai Municipal Police
 - Guides to Shanghai
 - Directories and Almanacs
 - Visual Sources
@@ -157,18 +157,18 @@ There are a range of useful sources online related to the administration of the 
 - Returns of Trade at the Treaty Ports [1859/1864](https://babel.hathitrust.org/cgi/pt?id=coo.31924069747842&view=2up&seq=6) | [1865](https://archive.org/details/reportsontradea02shugoog) | [1864](https://babel.hathitrust.org/cgi/pt?id=hvd.hy14tn&view=2up&seq=1) | [1867](https://babel.hathitrust.org/cgi/pt?id=coo.31924069747883&seq=7) | [1868](https://archive.org/details/reportsontradea03shugoog) | [1869](https://archive.org/details/reportsontradea04shugoog) | [1870-1872](https://babel.hathitrust.org/cgi/pt?id=coo.31924069747891&view=2up&seq=6) | [1870](https://archive.org/details/reportsontradea01shugoog) | [1873](https://babel.hathitrust.org/cgi/pt?id=coo.31924069747909&seq=7) | [1875](https://babel.hathitrust.org/cgi/pt?id=coo.31924069747917&view=2up&seq=6) | [1876](https://babel.hathitrust.org/cgi/pt?id=coo.31924069747925&seq=7) | [1879](https://archive.org/details/reportsontradea00shugoog) |
 - Customs' Gazette [1869](https://archive.org/details/CustomsGazettes1869/page/n3/mode/2up)
 - [Shanghai Municipal Council Censuses, 1865-1942](https://www.virtualshanghai.net/Texts/E-Library?ID=1354)
-- Correspondance relating to International Settlement extension [1912](https://www.bnasie.eu/BN/Archives?ID=55) | [1914a](https://www.bnasie.eu/BN/Archives?ID=57) | [1914b](https://www.bnasie.eu/BN/Archives?ID=58) | [1915](https://www.bnasie.eu/BN/Archives?ID=56) | [1922](https://www.bnasie.eu/BN/Archives?ID=59)
+- Correspondence relating to International Settlement extension [1912](https://www.bnasie.eu/BN/Archives?ID=55) | [1914a](https://www.bnasie.eu/BN/Archives?ID=57) | [1914b](https://www.bnasie.eu/BN/Archives?ID=58) | [1915](https://www.bnasie.eu/BN/Archives?ID=56) | [1922](https://www.bnasie.eu/BN/Archives?ID=59)
 - [*Instructions to Inspectors*](https://archive.org/details/instructions-to-inspectors-shanghai)
-- *Henry Lester Institute of Medical Researech Annual Report* [1930](https://archive.org/details/lester-report-1930) | [1934](https://archive.org/details/lester-report-1934) | [1935](https://archive.org/details/lester-report-1935) | [1936](https://archive.org/details/lester-report-1936)
+- *Henry Lester Institute of Medical Research Annual Report* [1930](https://archive.org/details/lester-report-1930) | [1934](https://archive.org/details/lester-report-1934) | [1935](https://archive.org/details/lester-report-1935) | [1936](https://archive.org/details/lester-report-1936)
 - *Annual Reports of the Chinese Hospital at Shanghai* [1848](https://archive.org/details/b22344639) | [1849](https://archive.org/details/b22344640) | [1850](https://archive.org/details/b22344597) | [1852](https://archive.org/details/b22344603) | [1855](https://archive.org/details/b22344615) | [1856](https://archive.org/details/b22344627)
 - [Refugee Relief Work Final Report - International Relief Committee, Shanghai](https://archive.org/details/refugees-final-report) (1940)
 - [*The Mixed Court at Shanghai: Rules of Procedure*](https://archive.org/details/mixed-court-rules-shanghai) (1917)
 - [*Handbook of Licence Conditions*](https://archive.org/details/handbook-of-licence-conditions-1921) (1921)
 - [*The Code Of Criminal Procedure Of The Republic Of China and the Court Agreement Relating to the Chinese Courts in the International Settlement of Shanghai, China*](https://archive.org/details/the-code-of-criminal-procedure-of-the-republic-of-china)
 
-# Shanghai Muncipal Police
+# Shanghai Municipal Police
 
-The US National Archives index and guide to this massive collection of documents related to the International Settlement's Shanghai Municipal Police can be browsed diretly on the Internet Archive:
+The US National Archives index and guide to this massive collection of documents related to the International Settlement's Shanghai Municipal Police can be browsed directly on the Internet Archive:
 
 [**Microfilm Pamphlet: Records Of The Shanghai Municipal Police 1894-1949**](https://archive.org/details/records-of-the-shanghai-municipal-police-1894-1949-microfilm-pamphlet) - Records of the Central Intelligence Agency Record Group 263. Another copy of this is here: [BNA copy](https://www.bnasie.eu/BN/Books?ID=2712)
 
@@ -340,7 +340,7 @@ There are also a number of Shanghai related films and film clips here:
 
 # Memoirs, Accounts, and Other Sources
 
-**Open Access Books Online:** The buttons below will offer a list of various other primary sources related to Shanghai that are available open access online.
+**Open Access Books Online:** The table below offers a list of various other primary sources related to Shanghai that are available open access online.
 
 <!--books-->
 

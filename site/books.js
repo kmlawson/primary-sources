@@ -12,6 +12,8 @@ let ALL = [], VIEW = [], sortKey = null, sortDir = 1, cur = -1, byMatch = false,
 // title is the cell's tooltip, and the entry opened in full always has it
 const CUT = 120;
 const expanded = new Set();          // ids of the entries whose long titles are shown in full
+const AUTHORS = 3;                   // from this many authors on, a row names the first and "et al."
+const expandedAu = new Set();        // ids of the entries whose author lists are shown in full
 // tags: a date range ("1886-1942", "Pre-1823", "1945-Present", "1950-") is a period, anything else a topic.
 // One of each can be chosen at a time; they narrow the list together with everything else.
 const PERIOD = /^(pre-?|post-?)?-?\d{4}(\s*[-–]\s*(\d{4}|present))?-?$/i;
@@ -176,6 +178,14 @@ function titleCell(r, terms) {
   return `<span class="tshort"${open ? " hidden" : ""}>${hl(short, terms)}… <button type="button" class="more" aria-expanded="false" title="Show the full title">more</button></span>` +
     `<span class="tfull"${open ? "" : " hidden"}>${hl(r.title, terms)} <button type="button" class="more" aria-expanded="true" title="Shorten the title">less</button></span>`;
 }
+function authorCell(r, terms) {
+  if (!r.author) return '<span class="chip">no author</span>';
+  const names = r.author.split(/\s*;\s*/);
+  if (names.length < AUTHORS) return hl(r.author, terms);
+  const open = expandedAu.has(r.id);
+  return `<span class="tshort"${open ? " hidden" : ""}>${hl(names[0], terms)} et al. <button type="button" class="more" aria-expanded="false" title="Show all ${names.length} names">more</button></span>` +
+    `<span class="tfull"${open ? "" : " hidden"}>${hl(r.author, terms)} <button type="button" class="more" aria-expanded="true" title="Shorten the list">less</button></span>`;
+}
 function hl(text, terms) {
   let out = text; if (!terms.length) return esc(out);
   for (const t of terms) { if (t.neg || t.t.length < 2) continue;
@@ -189,7 +199,7 @@ function render(terms) {
   page = Math.min(page, pages - 1);
   const first = page * pp;
   $("brows").innerHTML = VIEW.slice(first, first + pp).map((r, i) => `<tr data-i="${first + i}">
-    <td class="au">${hl(r.author, terms) || '<span class="chip">no author</span>'}</td>
+    <td class="au"${r.author.split(";").length >= AUTHORS ? ` title="${esc(r.author)}"` : ""}>${authorCell(r, terms)}</td>
     <td class="title"${r.title.length > CUT + 20 ? ` title="${esc(r.title)}"` : ""}>${titleCell(r, terms)}${r.notes ? `<span class="note">${md(r.notes)}</span>` : ""}${coins(r)}</td>
     <td class="year">${esc(r.year)}</td>
     <td class="ia">${r.nlinks ? `<a class="pill" href="${esc(r.links[0].url)}" target="_blank" rel="noopener" title="${esc(holderName(holder(r.links[0].url)))}"><span class="host">${holder(r.links[0].url)}: </span>${esc(r.links[0].label || "read")} ↗</a>${r.nlinks > 1 ? ` <span class="chip" title="more copies or volumes - open the entry">+${r.nlinks - 1}</span>` : ""}` : ""}</td></tr>`).join("");
@@ -244,8 +254,9 @@ $("brows").addEventListener("click", e => {
   const more = e.target.closest("button.more");
   if (more) {                        // more / less: the title opens or closes where it is, the entry stays shut
     const td = more.closest("td"), id = VIEW[parseInt(td.parentElement.dataset.i)].id;
-    if (expanded.has(id)) expanded.delete(id); else expanded.add(id);
-    td.querySelector(".tshort").hidden = expanded.has(id); td.querySelector(".tfull").hidden = !expanded.has(id);
+    const set = td.classList.contains("au") ? expandedAu : expanded;
+    if (set.has(id)) set.delete(id); else set.add(id);
+    td.querySelector(".tshort").hidden = set.has(id); td.querySelector(".tfull").hidden = !set.has(id);
     return;
   }
   if (e.target.closest("a")) return; const tr = e.target.closest("tr"); if (tr) show(parseInt(tr.dataset.i)); });
