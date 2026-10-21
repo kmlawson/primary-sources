@@ -65,25 +65,25 @@ The Wilson Center's [Digital Archive](https://digitalarchive.wilsoncenter.org) r
 
 # Foreign Relations of the United States
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Foreign_Relations_of_the_United_States_%28book_series%29#E-books) | [Office of the Historian FRUS E-books](https://history.state.gov/historicaldocuments/ebooks) | [University of Wisconsin FRUS Collection](https://uwdc.library.wisc.edu/collections/FRUS/)
+- [Wikipedia](https://en.wikipedia.org/wiki/Foreign_Relations_of_the_United_States_%28book_series%29#E-books) | [Office of the Historian FRUS E-books](https://history.state.gov/historicaldocuments/ebooks) | [University of Wisconsin FRUS Collection](https://digital.library.wisc.edu/1711.dl/FRUS)
 
-*FRUS* - The Foreign Relations of the United States is a series of books which offers a historical record of American foreign relations. It combines documents from a range of state sources relating to foreign diplomacy of the United States and new volumes with new materials are eagerly awaited by historians as they come out. E-book editions of all the volumes can be downloaded directly from the [Office of the Historian](https://history.state.gov/historicaldocuments/ebooks). The University of Wisconsin [digital FRUS collection](https://uwdc.library.wisc.edu/collections/FRUS/) offers nice PDF downloads of the volumes (sometimes several hundred megabytes each). Some of the volumes most relevant to Taiwan:
+*FRUS* - The Foreign Relations of the United States is a series of books which offers a historical record of American foreign relations. It combines documents from a range of state sources relating to foreign diplomacy of the United States and new volumes with new materials are eagerly awaited by historians as they come out. E-book editions of all the volumes can be downloaded directly from the [Office of the Historian](https://history.state.gov/historicaldocuments/ebooks). The University of Wisconsin [digital FRUS collection](https://digital.library.wisc.edu/1711.dl/FRUS) offers nice PDF downloads of the volumes (sometimes several hundred megabytes each). Some of the volumes most relevant to Taiwan:
 
-- [FRUS : diplomatic papers, 1945. The Far East, China](http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1945v07) (1945)
-- [FRUS, 1946. The Far East: China](http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1946v09) (v9 1946)
-- [FRUS, 1946. The Far East: China](http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1946v10) (v10 1946)
-- [FRUS, 1947. The Far East: China](http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1947v07) (1947)
-- [FRUS, 1948. The Far East: China](http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1948v07) (v7 1948)
-- [FRUS, 1948. The Far East: China](http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1948v08) (1948)
-- [FRUS, 1949. The Far East: China](http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1949v08) (v8 1978)
-- [FRUS, 1949. The Far East: China](http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1949v09) (v9 1974)
-- [FRUS, 1951. Korea and China (in two parts)](http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1951v07p1) (v7.1 1951)
-- [FRUS, 1951. Korea and China (in two parts)](http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1951v07p2) (v7.2 1951)
-- [FRUS, 1952-1954. China and Japan (in two parts)](http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS195254v14p1) (14.1 1952-1954)
-- [FRUS, 1952-1954. China and Japan (in two parts)](http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS195254v14p2) (14.2 1952-1954)
-- [FRUS, 1955-1957. China](http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS195557v02) (v2 1955-1957)
-- [FRUS, 1955-1957. China](http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS195557v03) (v3 1955-1957)
-- [FRUS, 1958-1960. China](http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS195860v19) (1958-1960)
+- [FRUS : diplomatic papers, 1945. The Far East, China](https://digital.library.wisc.edu/1711.dl/L6X4VWUCIHTFZ8M) (1945)
+- [FRUS, 1946. The Far East: China](https://digital.library.wisc.edu/1711.dl/2PS4H5UHBBVXT87) (v9 1946)
+- [FRUS, 1946. The Far East: China](https://digital.library.wisc.edu/1711.dl/YNQUYOJ3VA6TG8G) (v10 1946)
+- [FRUS, 1947. The Far East: China](https://digital.library.wisc.edu/1711.dl/ECRCWL24HCL7R8D) (1947)
+- [FRUS, 1948. The Far East: China](https://digital.library.wisc.edu/1711.dl/3ZRT6AWATPVI383) (v7 1948)
+- [FRUS, 1948. The Far East: China](https://digital.library.wisc.edu/1711.dl/RD27ZRAGAU7KQ8A) (1948)
+- [FRUS, 1949. The Far East: China](https://digital.library.wisc.edu/1711.dl/NQZE5N6WAPUCX9A) (v8 1978)
+- [FRUS, 1949. The Far East: China](https://digital.library.wisc.edu/1711.dl/REMRICVU5MPTS8Q) (v9 1974)
+- [FRUS, 1951. Korea and China (in two parts)](https://digital.library.wisc.edu/1711.dl/DMRJE2KOOOAFA8V) (v7.1 1951)
+- [FRUS, 1951. Korea and China (in two parts)](https://digital.library.wisc.edu/1711.dl/6KIW6T74T4FMS8M) (v7.2 1951)
+- [FRUS, 1952-1954. China and Japan (in two parts)](https://digital.library.wisc.edu/1711.dl/2LWVT7DTTEDZP8W) (14.1 1952-1954)
+- [FRUS, 1952-1954. China and Japan (in two parts)](https://digital.library.wisc.edu/1711.dl/K2LAZMHNOB6AG83) (14.2 1952-1954)
+- [FRUS, 1955-1957. China](https://digital.library.wisc.edu/1711.dl/K7LYDN2XR55Z78Q) (v2 1955-1957)
+- [FRUS, 1955-1957. China](https://digital.library.wisc.edu/1711.dl/E2Y7M4YSBVFD68M) (v3 1955-1957)
+- [FRUS, 1958-1960. China](https://digital.library.wisc.edu/1711.dl/ICXSFFJ5EOUXD86) (1958-1960)
 
 # Travel Guidebooks
 
