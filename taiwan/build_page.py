@@ -34,9 +34,13 @@ VERSION = os.path.join(HERE, "page", "version.txt")   # the number shown at the 
 REPO = "https://github.com/kmlawson/primary-sources/tree/master/taiwan"
 DESCRIPTION = ("A list of open access primary sources for the study of the history of Taiwan, aimed "
                "primarily at students working with sources in English.")
-LEDE = ("A list of open access primary sources for the study of the history of Taiwan. Aimed primarily at "
-        "students working with sources in English, though some Chinese and Japanese language sources are "
-        "listed too. Choose a heading to open it. See also:")
+LEDE = ("This page is part of a collection assembling links to historical primary sources that are open "
+        "on the web. It should be seen as a work in progress, and corrections or suggestions for "
+        "additions are most welcome. These resources may be especially useful to students studying "
+        "Taiwanese history who are looking for inspiration and primary sources for use in their essays "
+        "who a) are limited to the English language (though some Chinese language sources will also be "
+        "listed below too) b) lack access to subscription databases that universities with strong East "
+        "Asia collections may offer, and c) are in lockdown due to a global pandemic.")
 # the foot of the page: who helped, and how to reach the editor. Markdown links are allowed.
 CREDITS = [
     "Contributors: Links, suggestions and corrections with help of Konrad M. Lawson, Evan Dawley, Paul "
