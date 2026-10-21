@@ -3,6 +3,9 @@
 
     check_links.py taiwan                 check every link on the Taiwan page
     check_links.py taiwan --report r.json also write every attempt, for a closer look
+    check_links.py korea --skip dl.ndl.go.jp archive.org
+                                          leave out links to hosts known to be fine (and their subdomains):
+                                          they are recorded as ok, with a note that they were not fetched
 
 Each link is fetched as a browser would (following redirects, up to three tries) and given a verdict:
 ok, moved-ok (it answered after redirecting elsewhere), soft-404 (it answered with a "not found" page,
@@ -188,6 +191,7 @@ if __name__ == "__main__":
     ap.add_argument("--gap", type=float, default=3, help="seconds between any two requests")
     ap.add_argument("--host-gap", type=float, default=10, help="seconds between two requests to the same host")
     ap.add_argument("--retry-gap", type=float, default=30, help="seconds before a failing link is tried again")
+    ap.add_argument("--skip", nargs="*", default=[], metavar="HOST", help="hosts known to be fine: not fetched, recorded as ok")
     args = ap.parse_args()
     d = os.path.join(os.path.dirname(os.path.abspath(__file__)), args.page.strip("/"))
     path = os.path.join(d, "page", "links.csv")
@@ -195,10 +199,22 @@ if __name__ == "__main__":
     by_new = {r["replacement"]: r for r in old.values() if r.get("replacement")}
     where = urls_of(d)
     print(len(where), "distinct URLs,", sum(map(len, where.values())), "uses", flush=True)
-    results = check_all(list(where), args.gap, args.host_gap, args.retry_gap)
+    skip = lambda u: any((urllib.parse.urlsplit(u).hostname or "").lower() in (h, "www." + h) or
+                         (urllib.parse.urlsplit(u).hostname or "").lower().endswith("." + h) for h in args.skip)
+    skipped = [u for u in where if skip(u)]
+    if skipped:
+        print(f"skipping {len(skipped)} links to {', '.join(args.skip)}", flush=True)
+    results = check_all([u for u in where if not skip(u)], args.gap, args.host_gap, args.retry_gap)
+    for u in skipped:
+        results[u] = {"url": u, "verdict": "skipped", "attempts": [{"code": 0, "final": "", "error": ""}]}
     today = datetime.date.today().isoformat()
     rows = {u: r for u, r in old.items()}
     for u, rec in results.items():
+        if rec["verdict"] == "skipped":
+            if u not in rows and u not in by_new:
+                rows[u] = {"url": u, "status": "ok", "checked": today, "replacement": "",
+                           "note": "not fetched: on a host known to be fine (" + ", ".join(args.skip) + ")"}
+            continue
         clear = clear_status(rec)
         a = rec["attempts"][-1]
         seen = f'{rec["verdict"]}: HTTP {a["code"]}' + (f' -> {a["final"]}' if a["final"] and a["final"] != u else "")
