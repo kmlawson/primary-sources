@@ -1,0 +1,271 @@
+url,status,checked,replacement,note
+http://digital.lafayette.edu/collections/eastasia/tjwar-postcards/browse?fbclid=IwAR1mZ3WW5NwoZLzNRtDRUgqxAXo0ZJQnibXaxV4hEl_l8Fb2w_ov_tz4aQ0,broken,2026-10-21,,"digital.lafayette.edu collection pages are retired; the URL goes to ldr.lafayette.edu/redirect, and the fbclid parameter is mangled into the path (the check got a 404) | possible new home, not confirmed: https://ldr.lafayette.edu/collections/6d56zx101"
+http://digital.lafayette.edu/islandora/search/*:*?f[0]=cdm.Relation.IsPartOf:%22East%20Asia%20Image%20Collection%22&f[1]=eastasia.Coverage.Location.Country:%22Taiwan%22,broken,2026-10-21,,"Old Islandora search; digital.lafayette.edu now 301-redirects this URL to the Digital Scholarship Services front page (dss.lafayette.edu), so readers see no images | possible new home, not confirmed: https://ldr.lafayette.edu/collections/dz010q56p"
+http://dore.tacp.gov.tw/tacp/pingpu/index.html,broken,2026-10-21,,"Host dore.tacp.gov.tw no longer exists (NXDOMAIN from tacp.gov.tw's own nameserver). | possible new home, not confirmed: https://digitalarchives.tacp.gov.tw/"
+http://ds3.th.gov.tw/ds3/app000/,broken,2026-10-21,,"Host ds3.th.gov.tw no longer exists (NXDOMAIN from th.gov.tw's own nameserver); access applications for 臺灣總督府檔案 now go through the 文獻檔案查詢系統. | possible new home, not confirmed: https://onlinearchives.th.gov.tw/index.php?act=Archive"
+http://dtrap.lib.ntu.edu.tw/DTRAP/en/project.htm,broken,2026-10-21,,"Host dtrap.lib.ntu.edu.tw no longer resolves; no English project page exists on the new platforms | possible new home, not confirmed: http://web.archive.org/web/20201205080837/http://dtrap.lib.ntu.edu.tw/DTRAP/en/project.htm"
+http://ebooks.lib.ntu.edu.tw/Home/ListBooks,broken,2026-10-21,,Host ebooks.lib.ntu.edu.tw no longer resolves; NTU Library's homepage now sends 電子書 to its Primo database list and has no open-access ebook system
+http://findit.library.yale.edu/?id=digcoll%3A2819769&per_page=100&q=Taiwan&search_field=topic&utf8=%E2%9C%93,broken,2026-10-21,,"findit.library.yale.edu is retired; the URL redirects to the collections.library.yale.edu front page, so the search for Taiwan is lost | possible new home, not confirmed: https://collections.library.yale.edu/catalog?q=Taiwan"
+http://findit.library.yale.edu/?utf8=%E2%9C%93&id=digcoll%3A2819769&search_field=creator&q=Department+of+Education%2C+Taiwan,broken,2026-10-21,,"findit.library.yale.edu is retired; the URL redirects to the collections.library.yale.edu front page, so the search for 'Department of Education, Taiwan' is lost | possible new home, not confirmed: https://collections.library.yale.edu/catalog?q=%22Department+of+Education%2C+Taiwan%22"
+http://homepage.usask.ca/~llr130/taiwanlibrary/formosacalling/formosaframes.htm,broken,2026-10-21,,homepage.usask.ca no longer resolves in DNS.
+http://homepage.usask.ca/~llr130/taiwanlibrary/kerr/,broken,2026-10-21,,"homepage.usask.ca no longer resolves in DNS. | possible new home, not confirmed: https://romanization.com/books/formosabetrayed/"
+http://homepage.usask.ca/~llr130/taiwanlibrary/kerr/kerr.pdf,broken,2026-10-21,,homepage.usask.ca no longer resolves in DNS.
+http://homepage.usask.ca/~llr130/taiwanlibrary/peng/freeframes.htm,broken,2026-10-21,,"homepage.usask.ca no longer resolves in DNS. | possible new home, not confirmed: https://romanization.com/books/peng/"
+https://across.archives.gov.tw/naahyint/sendurl.jsp?dbid=DB3174,broken,2026-10-21,,"Soft 404: the NAA cross-archive portal redirects this deep link (and intro.jsp?id=DB3174) to its front page; the 蔣中正總統文物 collection itself lives in Academia Historica's own system. | possible new home, not confirmed: https://ahonline.drnh.gov.tw/index.php?act=Archive"
+https://twtjcdb.tjc.gov.tw/Manual/Detail/1025,broken,2026-10-21,,"Old TJC host is gone; the successor database has a 資料庫介紹 page covering the same content scope, data sources and coding work. | possible new home, not confirmed: https://twtjdb.nhrm.gov.tw/introudce-1.html"
+https://www.lib.ntu.edu.tw/doc/CG/resources/project/drapexbi01/e_map_index.html,broken,2026-10-21,,NTU's server now returns an 'error page' (with HTTP 200) for the English exhibition; the Chinese version in the same folder still works
+https://www.nationaltreasure.tw/en,broken,2026-10-21,,"Site appears defunct: www.nationaltreasure.tw is a CNAME to a CloudFront distribution that no longer resolves (no A record), and the apex redirects to www."
+https://www.th.gov.tw/new_site/01archives/04introduction/,broken,2026-10-21,,Old /new_site/ page returns 404; no equivalent 'introduction to the holdings' page found on the new site.
+http://digital.soas.ac.uk/LOAA003941/00001,unchecked,2026-10-21,,SOAS Digital Collections moved to a Quartex (AM Digital) platform. The whole host returns 403 'Page not available' to our sandbox; WebFetch got only the JS page shell with no item data.
+http://newnrch.digital.ntu.edu.tw/prototype/index.php,unchecked,2026-10-21,,"Our egress proxy cannot connect: it returns 503 'upstream connect error ... connection timeout' (an Envoy message, not the site's own), and WebFetch also got 503. There is no evidence it is up or down"
+http://nhd.drnh.gov.tw/AHDPortal/index.jsp,unchecked,2026-10-21,,"Host resolves but times out / resets from here (proxy 503 'connection timeout', https reset); no current reference to nhd.drnh.gov.tw or AHDPortal found online, so it is probably retired. | possible new home: https://nha.drnh.gov.tw/"
+http://rarebooks.ith.sinica.edu.tw/sinicafrsFront99/index.htm,unchecked,2026-10-21,,"Probably alive: 503 came from our proxy ('upstream connect error'); the host now redirects to https on port 8443, which our sandbox cannot reach (connection reset). | possible new home: https://rarebooks.ith.sinica.edu.tw:8443/sinicafrsFront99/index.htm"
+http://sotokufu.sinica.edu.tw/,unchecked,2026-10-21,,Host answers (redirects to https) but serves an ASCDC '關於本服務暫時中斷' (service temporarily interrupted) page with HTTP 503; may be a temporary outage or a block on foreign IPs.
+https://web.archive.org/save/http://homepage.usask.ca/~llr130/taiwanlibrary/peng/freeframes.htm,unchecked,2026-10-21,,"the Wayback Machine refuses connections from the checking machine; Wayback copies are usually stable | this is a /save/ address, which asks the Wayback Machine to make a new copy rather than opening one: it should be replaced with a snapshot address"
+https://web.archive.org/web/20180216100821/http://www.taipics.com/,unchecked,2026-10-21,,the Wayback Machine refuses connections from the checking machine; Wayback copies are usually stable
+https://web.archive.org/web/20191008224559/http://homepage.usask.ca/~llr130/taiwanlibrary/formosacalling/formosaframes.htm,unchecked,2026-10-21,,the Wayback Machine refuses connections from the checking machine; Wayback copies are usually stable
+https://web.archive.org/web/20191010063006fw_/http://homepage.usask.ca/~llr130/taiwanlibrary/formosacalling/formosa-calling.pdf,unchecked,2026-10-21,,the Wayback Machine refuses connections from the checking machine; Wayback copies are usually stable
+https://web.archive.org/web/20200508090937/http://homepage.usask.ca/~llr130/taiwanlibrary/kerr/,unchecked,2026-10-21,,the Wayback Machine refuses connections from the checking machine; Wayback copies are usually stable
+https://tme.ncl.edu.tw/en/old-photographs?fbclid=IwAR3vLxNE9mE_Irt7MhuAN8_IutFb3cpvL_WYkISdXQWNzMXWolDPxkTnhDw,temporary,2026-10-21,,the site showed a maintenance notice (系統臨時維護公告)
+http://archives.ith.sinica.edu.tw/news_con.php?no=230,fixed,2026-10-21,https://archives.ith.sinica.edu.tw/news_con.php?no=230,the site now answers only over https; same page
+http://archives.ith.sinica.edu.tw/resources_list.php?fbclid=IwAR1z1A4i6fQlKlSlO5OYYfrxB9NwcB7EQd8lC4buiZv7NLU5JRnxCSetjr8,fixed,2026-10-21,https://archives.ith.sinica.edu.tw/resources_list.php,the site now answers only over https; same page
+http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1945v07,fixed,2026-10-21,https://history.state.gov/historicaldocuments/frus1945v07,"the old UW address now lands on a general collection page; the same volume at the State Department's Office of the Historian: ""Foreign Relations of the United States, Diplomatic Papers, 1945, The Far East, China, Volume VII"""
+http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1946v09,fixed,2026-10-21,https://history.state.gov/historicaldocuments/frus1946v09,"the old UW address now lands on a general collection page; the same volume at the State Department's Office of the Historian: ""Foreign Relations of the United States, 1946, The Far East: China, Volume IX"""
+http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1946v10,fixed,2026-10-21,https://history.state.gov/historicaldocuments/frus1946v10,"the old UW address now lands on a general collection page; the same volume at the State Department's Office of the Historian: ""Foreign Relations of the United States, 1946, The Far East: China, Volume X"""
+http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1947v07,fixed,2026-10-21,https://history.state.gov/historicaldocuments/frus1947v07,"the old UW address now lands on a general collection page; the same volume at the State Department's Office of the Historian: ""Foreign Relations of the United States, 1947, The Far East: China, Volume VII"""
+http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1948v07,fixed,2026-10-21,https://history.state.gov/historicaldocuments/frus1948v07,"the old UW address now lands on a general collection page; the same volume at the State Department's Office of the Historian: ""Foreign Relations of the United States, 1948, The Far East: China, Volume VII"""
+http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1948v08,fixed,2026-10-21,https://history.state.gov/historicaldocuments/frus1948v08,"the old UW address now lands on a general collection page; the same volume at the State Department's Office of the Historian: ""Foreign Relations of the United States, 1948, The Far East: China, Volume VIII"""
+http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1949v08,fixed,2026-10-21,https://history.state.gov/historicaldocuments/frus1949v08,"the old UW address now lands on a general collection page; the same volume at the State Department's Office of the Historian: ""Foreign Relations of the United States, 1949, The Far East: China, Volume VIII"""
+http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1949v09,fixed,2026-10-21,https://history.state.gov/historicaldocuments/frus1949v09,"the old UW address now lands on a general collection page; the same volume at the State Department's Office of the Historian: ""Foreign Relations of the United States, 1949, The Far East: China, Volume IX"""
+http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1951v07p1,fixed,2026-10-21,https://history.state.gov/historicaldocuments/frus1951v07p1,"the old UW address now lands on a general collection page; the same volume at the State Department's Office of the Historian: ""Foreign Relations of the United States, 1951, Korea and China, Volume VII, Part 1"""
+http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS1951v07p2,fixed,2026-10-21,https://history.state.gov/historicaldocuments/frus1951v07p2,"the old UW address now lands on a general collection page; the same volume at the State Department's Office of the Historian: ""Foreign Relations of the United States, 1951, Korea and China, Volume VII, Part 2"""
+http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS195254v14p1,fixed,2026-10-21,https://history.state.gov/historicaldocuments/frus1952-54v14p1,"the old UW address now lands on a general collection page; the same volume at the State Department's Office of the Historian: ""Foreign Relations of the United States, 1952–1954, China and Japan, Volume XIV, Part 1"""
+http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS195254v14p2,fixed,2026-10-21,https://history.state.gov/historicaldocuments/frus1952-54v14p2,"the old UW address now lands on a general collection page; the same volume at the State Department's Office of the Historian: ""Foreign Relations of the United States, 1952–1954, China and Japan, Volume XIV, Part 2"""
+http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS195557v02,fixed,2026-10-21,https://history.state.gov/historicaldocuments/frus1955-57v02,"the old UW address now lands on a general collection page; the same volume at the State Department's Office of the Historian: ""Foreign Relations of the United States, 1955–1957, China, Volume II"""
+http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS195557v03,fixed,2026-10-21,https://history.state.gov/historicaldocuments/frus1955-57v03,"the old UW address now lands on a general collection page; the same volume at the State Department's Office of the Historian: ""Foreign Relations of the United States, 1955–1957, China, Volume III"""
+http://digicoll.library.wisc.edu/cgi-bin/FRUS/FRUS-idx?type=header&id=FRUS.FRUS195860v19,fixed,2026-10-21,https://history.state.gov/historicaldocuments/frus1958-60v19,"the old UW address now lands on a general collection page; the same volume at the State Department's Office of the Historian: ""Foreign Relations of the United States, 1958–1960, China, Volume XIX"""
+http://dtrap.lib.ntu.edu.tw/DTRAP/index.htm,fixed,2026-10-21,https://speccoll.lib.ntu.edu.tw/node/58,"host gone; NTU Library's page for the 深化臺灣研究核心 project, linking each sub-database's new home"
+http://dtrap.lib.ntu.edu.tw/DTRAP/index.htm,fixed,2026-10-21,https://dl.lib.ntu.edu.tw/s/deBeausset/page/Home,"host gone; as the link for the V. S. Beausset Collection: 狄寶賽文庫 on NTU Library's digital collections (1,711 items)"
+http://dtrap.lib.ntu.edu.tw/DTRAP/intro.htm,fixed,2026-10-21,https://speccoll.lib.ntu.edu.tw/node/58,speccoll.lib.ntu.edu.tw/node/58 carries NTU Library's own '內容簡介' of the 深化臺灣研究核心 project (fetched; the content matches the old intro's scope). It returns HTTP 500 status but renders. The old intro may have been longer.
+http://journal.th.gov.tw/,fixed,2026-10-21,https://journal.th.gov.tw/,the site now answers only over https; same page
+http://nrch.culture.tw/Default.aspx,fixed,2026-10-21,https://nrch.culture.tw/Default.aspx,the site now answers only over https; same page
+http://ntur.lib.ntu.edu.tw/,fixed,2026-10-21,https://scholars.lib.ntu.edu.tw/,"Fetched lib.ntu.edu.tw/node/2631: '圖書館整合機構典藏（NTUR）與學術庫（AH）不同功能平台，成為臺大學術典藏NTU Scholars'. Fetched scholars.lib.ntu.edu.tw: HTTP 200, title 'NTU SCHOLARS 臺大學術典藏'. The original link is to a front page, so a front-page succes"
+http://photo.lib.ntu.edu.tw/pic/db/oldphoto.jsp,fixed,2026-10-21,https://dl.lib.ntu.edu.tw/s/photo/page/Home,NTU special-collections page speccoll.lib.ntu.edu.tw/node/110 ('臺灣舊照片資料庫') links to dl.lib.ntu.edu.tw/s/photo. Fetched it: title '臺灣舊照片資料庫 · 首頁 · 國立臺灣大學圖書館數位典藏館'. The text describes the same 2001 國家文化資料庫 old-photo projec
+http://tais.ith.sinica.edu.tw/sinicafrsFront/index.jsp,fixed,2026-10-21,https://tais.ith.sinica.edu.tw/,"the site now answers only over https, and the old start page redirects to its front page"
+http://who.ith.sinica.edu.tw/,fixed,2026-10-21,https://who.ith.sinica.edu.tw/,the site now answers only over https; same page
+https://catalog.princeton.edu/catalog/7702659,fixed,2026-10-21,https://catalog.princeton.edu/catalog/9977026593506421,"With Mozilla's CA bundle, https://catalog.princeton.edu/catalog/7702659.json returned 302 to /catalog/9977026593506421; the JSON for record 9977026593506421: map, published Leipzig: Engelmann; Gotha: Petermann's Geogr. M"
+https://catalog.princeton.edu/catalog/7768571,fixed,2026-10-21,https://catalog.princeton.edu/catalog/9977685713506421,"With Mozilla's CA bundle, https://catalog.princeton.edu/catalog/7768571.json returned 302 to /catalog/9977685713506421; the JSON for record 9977685713506421: map set, author 'Prussia (Germany). Landesaufnahme. Kartogr. A"
+https://digitalarchive.wilsoncenter.org,fixed,2026-10-21,https://digitalarchive.umd.edu/,"Wilson Center Digital Archive moved to the University of Maryland (History and Public Policy Program, School of Public Policy); digitalarchive.wilsoncenter.org now has a dangling Cloudflare CNAME (no A record via dns.goo"
+https://digitalarchive.wilsoncenter.org/collection/177/taiwan-strait-crises,fixed,2026-10-21,https://digitalarchive.umd.edu/topics/taiwan-strait-crises,"Wilson Center Digital Archive moved to the University of Maryland (History and Public Policy Program, School of Public Policy); digitalarchive.wilsoncenter.org now has a dangling Cloudflare CNAME (no A record via dns.goo"
+https://digitalarchive.wilsoncenter.org/collection/178/china-at-the-united-nations,fixed,2026-10-21,https://digitalarchive.umd.edu/topics/china-united-nations,"Wilson Center Digital Archive moved to the University of Maryland (History and Public Policy Program, School of Public Policy); digitalarchive.wilsoncenter.org now has a dangling Cloudflare CNAME (no A record via dns.goo"
+https://digitalarchive.wilsoncenter.org/collection/193/asian-peoples-anti-communist-league,fixed,2026-10-21,https://digitalarchive.umd.edu/topics/asian-peoples-anti-communist-league,"Wilson Center Digital Archive moved to the University of Maryland (History and Public Policy Program, School of Public Policy); digitalarchive.wilsoncenter.org now has a dangling Cloudflare CNAME (no A record via dns.goo"
+https://digitalarchive.wilsoncenter.org/collection/201/the-overseas-chinese-and-the-cold-war,fixed,2026-10-21,https://digitalarchive.umd.edu/topics/overseas-chinese-and-cold-war,"Wilson Center Digital Archive moved to the University of Maryland (History and Public Policy Program, School of Public Policy); digitalarchive.wilsoncenter.org now has a dangling Cloudflare CNAME (no A record via dns.goo"
+https://digitalarchive.wilsoncenter.org/collection/270/taiwan-s-cold-war-in-southeast-asia,fixed,2026-10-21,https://digitalarchive.umd.edu/topics/taiwans-cold-war-southeast-asia,"Wilson Center Digital Archive moved to the University of Maryland (History and Public Policy Program, School of Public Policy); digitalarchive.wilsoncenter.org now has a dangling Cloudflare CNAME (no A record via dns.goo"
+https://enwww.ncl.edu.tw/,fixed,2026-10-21,https://www.ncl.edu.tw/en,"Fetched https://www.ncl.edu.tw/: the 'English' link points to https://www.ncl.edu.tw/en; fetched that: HTTP 200, title 'Home | National Central Library'. enwww.ncl.edu.tw: 503 'Avi Vantage' page."
+https://geodata.mit.edu/catalog/princeton-08612q284,fixed,2026-10-21,https://maps.princeton.edu/catalog/princeton-08612q284,"Fetched https://maps.princeton.edu/catalog/princeton-08612q284.json (Princeton's own GeoBlacklight portal, same record id): title 'Takao.Takao-Shu, Formosa (Taiwan). A.M.S. L991' matches the link text. The HTML page show"
+https://geodata.mit.edu/catalog/princeton-1g05fd153,fixed,2026-10-21,https://maps.princeton.edu/catalog/princeton-1g05fd153,"Fetched https://maps.princeton.edu/catalog/princeton-1g05fd153.json (Princeton's own GeoBlacklight portal, same record id): title 'Okayama, Formosa (Taiwan), Takao-shu. A.M.S. L991.' matches the link text. The HTML page "
+https://geodata.mit.edu/catalog/princeton-1n79h577j,fixed,2026-10-21,https://maps.princeton.edu/catalog/princeton-1n79h577j,"Fetched https://maps.princeton.edu/catalog/princeton-1n79h577j.json (Princeton's own GeoBlacklight portal, same record id): title 'Shoka' matches the link text. The HTML page shows a Cloudflare Turnstile 'verify you are "
+https://geodata.mit.edu/catalog/princeton-2227mr10z,fixed,2026-10-21,https://maps.princeton.edu/catalog/princeton-2227mr10z,"Fetched https://maps.princeton.edu/catalog/princeton-2227mr10z.json (Princeton's own GeoBlacklight portal, same record id): title 'Suo, Formosa (Taiwan), Taihoku-Shu. A.M.S. L991' matches the link text. The HTML page sho"
+https://geodata.mit.edu/catalog/princeton-2801pj08m,fixed,2026-10-21,https://maps.princeton.edu/catalog/princeton-2801pj08m,"Fetched https://maps.princeton.edu/catalog/princeton-2801pj08m.json (Princeton's own GeoBlacklight portal, same record id): title 'Hokko, Formosa (Taiwan), Tainan-Shu. A.M.S. L991' matches the link text. The HTML page sh"
+https://geodata.mit.edu/catalog/princeton-2r36v011g,fixed,2026-10-21,https://maps.princeton.edu/catalog/princeton-2r36v011g,"Fetched https://maps.princeton.edu/catalog/princeton-2r36v011g.json (Princeton's own GeoBlacklight portal, same record id): title 'Toshien / prepared under the direction of the Chief of Engineers by the Army Map Service "
+https://geodata.mit.edu/catalog/princeton-3b591b081,fixed,2026-10-21,https://maps.princeton.edu/catalog/princeton-3b591b081,"Fetched https://maps.princeton.edu/catalog/princeton-3b591b081.json (Princeton's own GeoBlacklight portal, same record id): title 'Rokko, Formosa (Taiwan), Taichu-shu. A.M.S. L991.' matches the link text. The HTML page s"
+https://geodata.mit.edu/catalog/princeton-5999n5049,fixed,2026-10-21,https://maps.princeton.edu/catalog/princeton-5999n5049,"Fetched https://maps.princeton.edu/catalog/princeton-5999n5049.json (Princeton's own GeoBlacklight portal, same record id): title 'Mako, Formosa (Taiwan), Boko-cho, Mako-Shicho. A.M.S. L991' matches the link text. The HT"
+https://geodata.mit.edu/catalog/princeton-8336h361c,fixed,2026-10-21,https://maps.princeton.edu/catalog/princeton-8336h361c,"Fetched https://maps.princeton.edu/catalog/princeton-8336h361c.json (Princeton's own GeoBlacklight portal, same record id): title 'Toen, Formosa (Taiwan), Shinchiku-shu. A.M.S. L991' matches the link text. The HTML page "
+https://geodata.mit.edu/catalog/princeton-8s45qc32k,fixed,2026-10-21,https://maps.princeton.edu/catalog/princeton-8s45qc32k,"Fetched https://maps.princeton.edu/catalog/princeton-8s45qc32k.json (Princeton's own GeoBlacklight portal, same record id): title 'Formosa, southern part, to illustrate the paper by M. Beazeley, M. Inst. C.E.' matches th"
+https://geodata.mit.edu/catalog/princeton-bk128c47c,fixed,2026-10-21,https://maps.princeton.edu/catalog/princeton-bk128c47c,"Fetched https://maps.princeton.edu/catalog/princeton-bk128c47c.json (Princeton's own GeoBlacklight portal, same record id): title 'Taito, Formosa, Taito-cho, Taito-gun. A.M.S. L991' matches the link text. The HTML page s"
+https://geodata.mit.edu/catalog/princeton-dv13zv971,fixed,2026-10-21,https://maps.princeton.edu/catalog/princeton-dv13zv971,"Fetched https://maps.princeton.edu/catalog/princeton-dv13zv971.json (Princeton's own GeoBlacklight portal, same record id): title 'Toko, Formosa (Taiwan), Takao-shu. A.M.S. L991' matches the link text. The HTML page show"
+https://geodata.mit.edu/catalog/princeton-f7623g10h,fixed,2026-10-21,https://maps.princeton.edu/catalog/princeton-f7623g10h,"Fetched https://maps.princeton.edu/catalog/princeton-f7623g10h.json (Princeton's own GeoBlacklight portal, same record id): title 'Originalkarte der Insel Taiwan (Formosa)' matches the link text. The HTML page shows a Cl"
+https://geodata.mit.edu/catalog/princeton-gb19f742n,fixed,2026-10-21,https://maps.princeton.edu/catalog/princeton-gb19f742n,"Fetched https://maps.princeton.edu/catalog/princeton-gb19f742n.json (Princeton's own GeoBlacklight portal, same record id): title 'Hozan, Formosa (Taiwan), Hozan-shu. A.M.S. L991' matches the link text. The HTML page sho"
+https://geodata.mit.edu/catalog/princeton-h989r4907,fixed,2026-10-21,https://maps.princeton.edu/catalog/princeton-h989r4907,"Fetched https://maps.princeton.edu/catalog/princeton-h989r4907.json (Princeton's own GeoBlacklight portal, same record id): title 'Kagi, Formosa (Taiwan), Kagi-shu. A.M.S. L991' matches the link text. The HTML page shows"
+https://geodata.mit.edu/catalog/princeton-k0698893d,fixed,2026-10-21,https://maps.princeton.edu/catalog/princeton-k0698893d,"Fetched https://maps.princeton.edu/catalog/princeton-k0698893d.json (Princeton's own GeoBlacklight portal, same record id): title 'Giran, Formosa (Taiwan), Taihoku Shu. A.M.S. L991' matches the link text. The HTML page s"
+https://geodata.mit.edu/catalog/princeton-kw52j970z,fixed,2026-10-21,https://maps.princeton.edu/catalog/princeton-kw52j970z,"Fetched https://maps.princeton.edu/catalog/princeton-kw52j970z.json (Princeton's own GeoBlacklight portal, same record id): title 'Taichu, Formosa (Taiwan), Taichu Shu. A.M.S. L991' matches the link text. The HTML page s"
+https://geodata.mit.edu/catalog/princeton-m613n015x,fixed,2026-10-21,https://maps.princeton.edu/catalog/princeton-m613n015x,"Fetched https://maps.princeton.edu/catalog/princeton-m613n015x.json (Princeton's own GeoBlacklight portal, same record id): title 'Tansui, Formosa (Taiwan), Taihoku-shu. A.M.S. L991' matches the link text. The HTML page "
+https://geodata.mit.edu/catalog/princeton-nz806114c,fixed,2026-10-21,https://maps.princeton.edu/catalog/princeton-nz806114c,"Fetched https://maps.princeton.edu/catalog/princeton-nz806114c.json (Princeton's own GeoBlacklight portal, same record id): title 'Heito, Formosa (Taiwan), Takao-Shu. A.M.S. L991' matches the link text. The HTML page sho"
+https://geodata.mit.edu/catalog/princeton-pk02cd236,fixed,2026-10-21,https://maps.princeton.edu/catalog/princeton-pk02cd236,"Fetched https://maps.princeton.edu/catalog/princeton-pk02cd236.json (Princeton's own GeoBlacklight portal, same record id): title 'Sketch map of southern Formosa to accompany the paper by J. Thomson Esqre' matches the li"
+https://geodata.mit.edu/catalog/princeton-q811km34m,fixed,2026-10-21,https://maps.princeton.edu/catalog/princeton-q811km34m,"Fetched https://maps.princeton.edu/catalog/princeton-q811km34m.json (Princeton's own GeoBlacklight portal, same record id): title 'Kiirun, Formosa (Taiwan), Taihoku-shu. A.M.S. L991' matches the link text. The HTML page "
+https://geodata.mit.edu/catalog/princeton-r207tq881,fixed,2026-10-21,https://maps.princeton.edu/catalog/princeton-r207tq881,"Fetched https://maps.princeton.edu/catalog/princeton-r207tq881.json (Princeton's own GeoBlacklight portal, same record id): title 'Seira, Formosa (Taiwan). A.M.S. L991' matches the link text. The HTML page shows a Cloudf"
+https://geodata.mit.edu/catalog/princeton-rb68xd49j,fixed,2026-10-21,https://maps.princeton.edu/catalog/princeton-rb68xd49j,"Fetched https://maps.princeton.edu/catalog/princeton-rb68xd49j.json (Princeton's own GeoBlacklight portal, same record id): title 'Chikunan, Shinchiku-shu, Formosa (Taiwan). A.M.S. L991' matches the link text. The HTML p"
+https://geodata.mit.edu/catalog/princeton-vd66w162q,fixed,2026-10-21,https://maps.princeton.edu/catalog/princeton-vd66w162q,"Fetched https://maps.princeton.edu/catalog/princeton-vd66w162q.json (Princeton's own GeoBlacklight portal, same record id): title 'Rato, Formosa (Taiwan), Taihoku-shu. A.M.S. L991.' matches the link text. The HTML page s"
+https://geodata.mit.edu/catalog/princeton-ws859h33r,fixed,2026-10-21,https://maps.princeton.edu/catalog/princeton-ws859h33r,"Fetched https://maps.princeton.edu/catalog/princeton-ws859h33r.json (Princeton's own GeoBlacklight portal, same record id): title 'Karenko, Formosa (Taiwan), Karenko-Cho. A.M.S. L991' matches the link text. The HTML page"
+https://geodata.mit.edu/catalog/princeton-zk51vj296,fixed,2026-10-21,https://maps.princeton.edu/catalog/princeton-zk51vj296,"Fetched https://maps.princeton.edu/catalog/princeton-zk51vj296.json (Princeton's own GeoBlacklight portal, same record id): title 'Kato, Formosa (Taiwan), Takao-shu. A.M.S. L991' matches the link text. The HTML page show"
+https://geodata.mit.edu/catalog/princeton-zk51vj366,fixed,2026-10-21,https://maps.princeton.edu/catalog/princeton-zk51vj366,"Fetched https://maps.princeton.edu/catalog/princeton-zk51vj366.json (Princeton's own GeoBlacklight portal, same record id): title 'Shinchiku, Formosa (Taiwan), Shinchiku-Shu. A.M.S. L991' matches the link text. The HTML "
+https://twtjcdb.tjc.gov.tw/,fixed,2026-10-21,https://twtjdb.nhrm.gov.tw/,"NHRM news (nhrm.gov.tw/w/nhrm/News_22053110173592810): 促轉會「臺灣轉型正義資料庫」自111年5月31日起改由國家人權博物館維運. Fetched https://twtjdb.nhrm.gov.tw/: 臺灣轉型正義資料庫系統, says it was built by 促進轉型正義委員會 in 2019 and is now expanded by 國家人權博物館. (Searc"
+https://uwdc.library.wisc.edu/collections/FRUS/,fixed,2026-10-21,https://digital.library.wisc.edu/1711.dl/FRUS,the old collection address now lands on a general UW search page; this is the FRUS collection's permanent address in UW Digital Collections
+https://www.soas.ac.uk/library/archives/news/file55128.pdf,fixed,2026-10-21,https://www.soas.ac.uk/sites/default/files/library/archives/news/file55128.pdf,SOAS's Missionary collections page links 'Guide to the Presbyterian Church of England Archive' to /sites/default/files/library/archives/news/file55128.pdf. Fetched it: a 10-page PDF titled 'Guide to the Archive of the ov
+https://www.th.gov.tw/new_site/01archives/01file_archives/,fixed,2026-10-21,https://www.th.gov.tw/CL/47,"Fetched https://www.th.gov.tw/CL/47 (redirects to /CL/47/): title 國史館-臺灣文獻館-檔案查詢系統, lists 文獻檔案查詢系統 (onlinearchives.th.gov.tw), 臺灣省議會史料總庫, 地方議會議事錄總庫; linked from the homepage as 檔案查詢."
+https://www.th.gov.tw/new_site/index.php,fixed,2026-10-21,https://www.th.gov.tw/,"Fetched https://www.th.gov.tw/: HTTP 200, 國史館臺灣文獻館 homepage with 2026 news items; old link was to the front page."
+http://buddhistinformatics.dila.edu.tw/taiwanbuddhism/tb/,ok,2026-10-21,,
+http://buddhistinformatics.dila.edu.tw/taiwanbuddhism/tb/mq/mq_gaz.html,ok,2026-10-21,,
+http://buddhistinformatics.dila.edu.tw/taiwanbuddhism/tb/ny_new.html,ok,2026-10-21,,
+http://ecaidata.org/zh_TW/dataset/carte-de-l-isle-formose-et-aux-costes-de-la-chine,ok,2026-10-21,,
+http://ecaidata.org/zh_TW/dataset/formosa?fbclid=IwAR3_7D0l4eC-tibqXAUvvrn1lXa6qLb4nnWq_CEZMU_719XYGMXkM1_ot2M,ok,2026-10-21,,
+http://froginawell.net/guides/japanese-colonialism.html,ok,2026-10-21,,
+http://japanmaps.davidrumsey.com/luna/servlet/view/all/where/Taiwan?fbclid=IwAR3gvhtXTHu-fOe_6ifpXzjXA6BlVI-usupXVj7fPOG_GjH3lJLfqyuMCzA,ok,2026-10-21,,
+http://legacy.lib.utexas.edu/maps/taiwan.html,ok,2026-10-21,,works; redirects to https://maps.lib.utexas.edu/maps/taiwan.html
+http://taco.ith.sinica.edu.tw/tdk/,ok,2026-10-21,,works (behind a bot check / login / certificate quirk on the checking machine)
+http://tcbfm.digital.ntu.edu.tw/#,ok,2026-10-21,,
+http://tccra.lib.ntu.edu.tw/tccra_develop/,ok,2026-10-21,,
+http://tcsd.lib.ntu.edu.tw/,ok,2026-10-21,,
+http://thdl.ntu.edu.tw/,ok,2026-10-21,,works; redirects to http://thdl.ntu.edu.tw/index.html
+http://thdl.ntu.edu.tw/thdl_pdf/%E5%8F%B0%E7%81%A3%E5%8F%A4%E5%A5%91%E7%B4%84%E6%96%87%E6%9B%B8%E5%85%A8%E6%96%87%E8%B3%87%E6%96%99%E5%BA%AB%E7%9A%84%E5%BB%BA%E7%BD%AE%EF%BC%88%E9%A0%85%E6%BD%94%EF%BC%89.pdf,ok,2026-10-21,,
+http://thdl.ntu.edu.tw/tools/,ok,2026-10-21,,
+http://thdlgis.digital.ntu.edu.tw/,ok,2026-10-21,,
+http://thdltm.digital.ntu.edu.tw/treemap-infovis.php,ok,2026-10-21,,
+http://www.digital.ntu.edu.tw/en/achievements.jsp,ok,2026-10-21,,
+http://www.gutenberg.org/ebooks/53746,ok,2026-10-21,,
+http://www.taiwandocuments.org/,ok,2026-10-21,,
+https://228.drnh.gov.tw/,ok,2026-10-21,,works (behind a bot check / login / certificate quirk on the checking machine)
+https://ahonline.drnh.gov.tw/index.php?act=Archive,ok,2026-10-21,,
+https://archive.org/details/accountofmission02camp/page/n4/mode/2up,ok,2026-10-21,,
+https://archive.org/details/ahandbookfortra00chamgoog/page/n7/mode/2up,ok,2026-10-21,,
+https://archive.org/details/ahandbookfortra00masogoog/page/n4/mode/2up,ok,2026-10-21,,
+https://archive.org/details/ahandbookfortra04firgoog/page/n12/mode/2up,ok,2026-10-21,,
+https://archive.org/details/ahandbookfortra14firgoog/page/n6/mode/2up,ok,2026-10-21,,
+https://archive.org/details/amongheadhunters00mcgouoft,ok,2026-10-21,,
+https://archive.org/details/annual-report-on-the-trade-of-north-formosa-1886-1909/page/n6/mode/2up,ok,2026-10-21,,
+https://archive.org/details/annual-report-on-the-trade-of-south-formosa.-1887-1909/page/n5/mode/2up,ok,2026-10-21,,
+https://archive.org/details/annual-return-of-the-trade-of-taiwan-formosa.-1905-full-view/mode/2up,ok,2026-10-21,,
+https://archive.org/details/annual-return-of-the-trade-of-taiwan-formosa.-1907-full-view/page/n10/mode/2up,ok,2026-10-21,,
+https://archive.org/details/annual-return-on-trade-on-the-island-of-formosa-1918/page/n4/mode/2up,ok,2026-10-21,,
+https://archive.org/details/armyofficeronlea00mausiala/page/n12/mode/2up,ok,2026-10-21,,
+https://archive.org/details/ausdenwaldungen00hofmgoog/page/n9/mode/2up,ok,2026-10-21,,
+https://archive.org/details/ballantine-formosa/page/iii/mode/2up,ok,2026-10-21,,
+https://archive.org/details/bigelow-japan-and-her-colonies-being-extracts-from/page/iii/mode/2up,ok,2026-10-21,,
+https://archive.org/details/blackbeardedbar00keit/page/n5/mode/2up,ok,2026-10-21,,
+https://archive.org/details/bub_gb_pB87AQAAIAAJ/mode/2up,ok,2026-10-21,,
+https://archive.org/details/callofeastromanc0000fras/mode/2up,ok,2026-10-21,,
+https://archive.org/details/chinaformosastor00john,ok,2026-10-21,,
+https://archive.org/details/christianmovemen00conf/page/n8/mode/2up,ok,2026-10-21,,
+https://archive.org/details/christianmovemen16conf/page/n9/mode/2up,ok,2026-10-21,,
+https://archive.org/details/christianmovemen17conf/page/n8/mode/2up,ok,2026-10-21,,
+https://archive.org/details/christianmovemen18conf/page/n12/mode/2up,ok,2026-10-21,,
+https://archive.org/details/cruiseofmarchesa02guil/page/n10/mode/2up,ok,2026-10-21,,
+https://archive.org/details/cu31924022972396/page/n10/mode/2up,ok,2026-10-21,,
+https://archive.org/details/cu31924023021458/mode/2up,ok,2026-10-21,,
+https://archive.org/details/cu31924023225463/page/n6/mode/2up,ok,2026-10-21,,
+https://archive.org/details/cu31924023514403/page/n6/mode/2up,ok,2026-10-21,,
+https://archive.org/details/cu31924023514452/page/n4/mode/2up,ok,2026-10-21,,
+https://archive.org/details/cu31924023931680,ok,2026-10-21,,
+https://archive.org/details/cu31924024005807/page/n6/mode/2up,ok,2026-10-21,,
+https://archive.org/details/dickson-these-my-people/page/1/mode/2up,ok,2026-10-21,,
+https://archive.org/details/dictionaryofamoy00camp/page/n14/mode/2up,ok,2026-10-21,,
+https://archive.org/details/diehygienischenv00form/page/n10/mode/2up,ok,2026-10-21,,
+https://archive.org/details/easternseasvoya00baxgoog/page/n7/mode/2up,ok,2026-10-21,,
+https://archive.org/details/economic-study-of-land-use-in-the-taipei-area-taiwan-1961,ok,2026-10-21,,
+https://archive.org/details/educationinformo00arno/page/n8/mode/2up,ok,2026-10-21,,
+https://archive.org/details/fischer-streifzuge-durch-formosa.-full-view/page/n8/mode/2up,ok,2026-10-21,,
+https://archive.org/details/fitch-formosa-beachhead./page/n6/mode/2up,ok,2026-10-21,,
+https://archive.org/details/formosa-under-chinese-nationalist-rule/page/n6/mode/2up,ok,2026-10-21,,
+https://archive.org/details/formosa00unkngoog,ok,2026-10-21,,
+https://archive.org/details/fromfarformosai00macdgoog,ok,2026-10-21,,
+https://archive.org/details/gazetteer-to-maps-and-charts-of-formosa/page/i/mode/2up,ok,2026-10-21,,
+https://archive.org/details/gazetteer-to-maps-of-formosa-taiwan/page/n6/mode/2up,ok,2026-10-21,,
+https://archive.org/details/georgelesliemack00carr/mode/2up,ok,2026-10-21,,
+https://archive.org/details/ginsburg-the-economic-resources-and-development-of-formosa/page/n6/mode/2up,ok,2026-10-21,,
+https://archive.org/details/handbookfortrav00cham/page/n8/mode/2up,ok,2026-10-21,,
+https://archive.org/details/handbookfortrave00murr/page/n7/mode/2up,ok,2026-10-21,,
+https://archive.org/details/handbookfortrave01john/page/n16/mode/2up,ok,2026-10-21,,
+https://archive.org/details/handbookfortravejohn/page/n10/mode/2up,ok,2026-10-21,,
+https://archive.org/details/hannah-korea-japan-taiwan-formosa-and-the-philippines/page/n3/mode/2up,ok,2026-10-21,,
+https://archive.org/details/historicalgeogra00psal,ok,2026-10-21,,
+https://archive.org/details/in.ernet.dli.2015.173812/page/n3/mode/2up,ok,2026-10-21,,
+https://archive.org/details/in.ernet.dli.2015.31822/page/n9/mode/2up,ok,2026-10-21,,
+https://archive.org/details/is-aboriginal-formosa-a-part-of-the-chinese-empire/mode/2up,ok,2026-10-21,,
+https://archive.org/details/islandbeautifuls00macl/mode/2up,ok,2026-10-21,,
+https://archive.org/details/islandofformosap00davi/page/n10/mode/2up,ok,2026-10-21,,
+https://archive.org/details/isoda-the-island-of-formosa/mode/2up,ok,2026-10-21,,
+https://archive.org/details/japan-1913-14-trade-on-the-island-of-formosa_202005/mode/2up,ok,2026-10-21,,
+https://archive.org/details/japan-korea-and-formosa/page/n4/mode/2up,ok,2026-10-21,,
+https://archive.org/details/japaneseexpedit03housgoog/page/n7/mode/2up,ok,2026-10-21,,
+https://archive.org/details/japaneseruleinf00takegoog,ok,2026-10-21,,
+https://archive.org/details/luzon-vs-formosa/page/n4/mode/2up,ok,2026-10-21,,
+https://archive.org/details/mailla-the-early-history-of-formosa/page/1/mode/2up,ok,2026-10-21,,
+https://archive.org/details/mc-govern-the-butterflies-of-taiwan-full-view/page/n6/mode/2up,ok,2026-10-21,,
+https://archive.org/details/memoirsof00psaluoft/page/n8/mode/2up,ok,2026-10-21,,
+https://archive.org/details/mitchell-camphor-in-japan-and-in-formosa/page/n10/mode/2up,ok,2026-10-21,,
+https://archive.org/details/moody-the-heathen-heart-full-view,ok,2026-10-21,,
+https://archive.org/details/okamatsu-provisional-report-on-investigations-of-laws-and-customs-in-the-island-of-formosa/page/n6/mode/2up,ok,2026-10-21,,
+https://archive.org/details/past-and-future-of-formosa/page/n1/mode/2up,ok,2026-10-21,,
+https://archive.org/details/people-of-formosa/page/n1/mode/2up,ok,2026-10-21,,
+https://archive.org/details/perkins-report-on-formosa/page/1/mode/2up,ok,2026-10-21,,
+https://archive.org/details/presbyterianchur00pres_43/page/n1/mode/2up,ok,2026-10-21,,
+https://archive.org/details/presbyterianchur00pres_44/mode/2up,ok,2026-10-21,,
+https://archive.org/details/presbyterianchur00pres_45/mode/2up,ok,2026-10-21,,
+https://archive.org/details/presbyterianchur00pres_46/mode/2up,ok,2026-10-21,,
+https://archive.org/details/presbyterianchur00pres_47/mode/2up,ok,2026-10-21,,
+https://archive.org/details/presbyterianchur00pres_48/mode/2up,ok,2026-10-21,,
+https://archive.org/details/presbyterianchur00pres_49/mode/2up,ok,2026-10-21,,
+https://archive.org/details/presbyterianchur00pres_50/mode/2up,ok,2026-10-21,,
+https://archive.org/details/presbyterianchur00pres_51/mode/2up,ok,2026-10-21,,
+https://archive.org/details/presbyterianchur00pres_52/mode/2up,ok,2026-10-21,,
+https://archive.org/details/presbyterianchur00pres_53/mode/2up,ok,2026-10-21,,
+https://archive.org/details/presbyterianchur00pres_54/mode/2up,ok,2026-10-21,,
+https://archive.org/details/presbyterianchur00pres_55/mode/2up,ok,2026-10-21,,
+https://archive.org/details/presbyterianchur00pres_56/mode/2up,ok,2026-10-21,,
+https://archive.org/details/presbyterianchur00pres_57/mode/2up,ok,2026-10-21,,
+https://archive.org/details/presbyterianchur00pres_58/mode/2up,ok,2026-10-21,,
+https://archive.org/details/presbyterianchur00pres_59/mode/2up,ok,2026-10-21,,
+https://archive.org/details/presbyterianchur00pres_60/mode/2up,ok,2026-10-21,,
+https://archive.org/details/presbyterianchur00pres_61/mode/2up,ok,2026-10-21,,
+https://archive.org/details/presbyterianchur00pres_62/mode/2up,ok,2026-10-21,,
+https://archive.org/details/presentdayimpres00came/page/n14/mode/2up,ok,2026-10-21,,
+https://archive.org/details/riess-geschichte-der-insel-formosa.-full-view/page/n2/mode/2up,ok,2026-10-21,,
+https://archive.org/details/sketches-from-formosa/page/n6/mode/2up,ok,2026-10-21,,
+https://archive.org/details/stanford-university.-bibliography-of-taiwan-formosa/page/n1/mode/2up,ok,2026-10-21,,
+https://archive.org/details/taihoku-sokkojo.-the-climate-typhoons-and-earthquakes-full-view/page/n10/mode/2up,ok,2026-10-21,,
+https://archive.org/details/taiwan-formosa-economic-supplement/page/n4/mode/2up,ok,2026-10-21,,
+https://archive.org/details/taiwan-formosa-shinchiku-province-1944/page/n4/mode/2up,ok,2026-10-21,,
+https://archive.org/details/taiwan-formosa-taichu-province-1944/page/i/mode/2up,ok,2026-10-21,,
+https://archive.org/details/taiwan-formosa-tainan-province-1944/mode/2up,ok,2026-10-21,,
+https://archive.org/details/taiwan-railway-map-1931,ok,2026-10-21,,
+https://archive.org/details/taiwan.-report-on-the-control-of-the-aborigines-in-formosa/page/n4/mode/2up,ok,2026-10-21,,
+https://archive.org/details/terry_terrysguidetothejapaneseempire_1928/page/i/mode/2up,ok,2026-10-21,,
+https://archive.org/details/terry_terrysguidetothejapaneseempireincludingkoreaandformosawithchaptersonmanchuriathetrans-si_1927,ok,2026-10-21,,
+https://archive.org/details/terry_terrysjapaneseempireincludingkoreaandformosawithchaptersonmanchuriathetrans-siberianrail_1919/page/n4/mode/2up,ok,2026-10-21,,
+https://archive.org/details/terrysjapaneseem00terr/page/n6/mode/2up,ok,2026-10-21,,
+https://archive.org/details/the-fishing-industry-in-taiwan-formosa/page/1944/mode/2up,ok,2026-10-21,,
+https://archive.org/details/the-hot-springs-of-japan-including-formosa/page/iii/mode/2up,ok,2026-10-21,,
+https://archive.org/details/the-progress-of-taiwan-1905/page/1/mode/2up,ok,2026-10-21,,
+https://archive.org/details/throughformosaac00ruttuoft/page/n9/mode/2up,ok,2026-10-21,,
+https://archive.org/details/tverwaerloosdef00coyegoog/page/n10/mode/2up,ok,2026-10-21,,
+https://archive.org/details/u.-s.-economic-assistance-to-formosa/mode/2up,ok,2026-10-21,,
+https://archive.org/details/unfathomed-japan/page/1/mode/2up,ok,2026-10-21,,
+https://archive.org/details/united-states-tariff-commission.-annotated-tabular-taiwan/mode/2up,ok,2026-10-21,,
+https://archive.org/details/united-states.-japanese-administrative-organization/page/n2/mode/2up,ok,2026-10-21,,
+https://archive.org/details/united-states.-taiwan-formosa-karenko-and-taito-provinces.-full-view/mode/2up,ok,2026-10-21,,
+https://archive.org/details/united-states.-taiwan-formosa-the-pescadores-islands.-full-view/page/1944/mode/2up,ok,2026-10-21,,
+https://archive.org/details/wanderingswonde01aubegoog/page/n10/mode/2up,ok,2026-10-21,,
+https://archive.org/details/wiedfeldt-wirtschaftliche-rechtliche-und-soziale-grundtatsachen/page/n8/mode/2up,ok,2026-10-21,,
+https://archive.org/search.php?query=title%3A%28report%20of%20the%20Foreign%20Missions%20China%2C%20Formosa%29,ok,2026-10-21,,works; redirects to https://archive.org/search?query=title%3A%28report%20of%20the%20Foreign%20Missions%20China%2C%20Formosa%29
+https://babel.hathitrust.org/,ok,2026-10-21,,works (behind a bot check / login / certificate quirk on the checking machine)
+https://cartotecadigital.icgc.cat/digital/collection/fonscec/id/382,ok,2026-10-21,,
+https://chenwillie.blogspot.com/,ok,2026-10-21,,
+https://collections.lib.uwm.edu/digital/collection/agdm/id/25449,ok,2026-10-21,,
+https://collections.lib.uwm.edu/digital/collection/agdm/id/9133,ok,2026-10-21,,
+https://danshuihistory.blogspot.com/,ok,2026-10-21,,
+https://digitalarchives.tw/Apps/TaipeiHistoricalMaps/index_en.html,ok,2026-10-21,,
+https://dl.ndl.go.jp/,ok,2026-10-21,,
+https://doi.org/10.1525/luminos.41,ok,2026-10-21,,works; redirects to http://www.luminosoa.org/books/m/10.1525/luminos.41
+https://drtpa.th.gov.tw/,ok,2026-10-21,,works (behind a bot check / login / certificate quirk on the checking machine)
+https://en.wikipedia.org/wiki/Foreign_Relations_of_the_United_States_%28book_series%29#E-books,ok,2026-10-21,,
+https://froginawell.net/frog/sources/,ok,2026-10-21,,
+https://froginawell.net/reference/modern-japan/,ok,2026-10-21,,
+https://history.state.gov/historicaldocuments/ebooks,ok,2026-10-21,,
+https://jcb.lunaimaging.com/luna/servlet/detail/JCBMAPS~1~1~5969~115902035:%C3%96en-Forsmos-og-et-stykke-af-Landkan;JSESSIONID=c6753d93-4d30-4c40-a790-9bb9f801877b?qvq=q%3Ataiwan%3Bsort%3Anormalized_date%2Cfile_name%2Csource_author%2Csource_title%3Blc%3AJCBMAPS%7E1%7E1&sort=normalized_date%2Cfile_name%2Csource_author%2Csource_title&mi=5&trs=8&cic=JCBMAPS%7E1%7E1,ok,2026-10-21,,
+https://rdc.reed.edu/c/formosa/home/?fbclid=IwAR2E09-KcgvTBuHLTAA1d93ZZwiT9Cg5WTydhvzplEkUHCLKlQSA6cU9caU,ok,2026-10-21,,
+https://taipeiairstation.blogspot.com/2019/11/frank-smiths-photos-of-taipei-area.html?fbclid=IwAR0OifbU4wYGD04pXRAv6FwbOXUykexZckR9DjqjILKvR5vvTrUzQ6SbjYc,ok,2026-10-21,,
+https://taiwaninsight.org/,ok,2026-10-21,,
+https://taiwanleaftea.com/info/history-of-tea-in-taiwan,ok,2026-10-21,,
+https://tm.ncl.edu.tw/index?lang=chn,ok,2026-10-21,,
+https://wellcomecollection.org/works,ok,2026-10-21,,works; redirects to https://wellcomecollection.org/search/works
+https://wellcomecollection.org/works?query=formosa&fbclid=IwAR1LP1tc-0dYeoMyvxmP9kXWyuzfH1QrIUC9B2DbVyRgREF7kaI6iu7F1cc,ok,2026-10-21,,works; redirects to https://wellcomecollection.org/search/works?query=formosa
+https://www.facebook.com/groups/811812725675036/?ref=group_header,ok,2026-10-21,,works; redirects to https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F811812725675036%2F%3Fref%3Dgroup_header
+https://www.froginawell.net/frog/sources/primary-sources-missionary-perspectives-on-china/,ok,2026-10-21,,
+https://www.froginawell.net/frog/sources/primary-sources-modern-korean-history/,ok,2026-10-21,,
+https://www.jacar.go.jp/,ok,2026-10-21,,
+https://www.jacar.go.jp/english/jacarbl-fsjwar-e/index.html,ok,2026-10-21,,works; redirects to https://www.jacar.go.jp/english/exhibition/jacarbl-fsjwar-e/index.html
+https://www.lib.ntu.edu.tw/doc/CG/resources/project/drapexbi01/index.html,ok,2026-10-21,,
+https://www.ntl.edu.tw/,ok,2026-10-21,,works; redirects to https://www.ntl.edu.tw/wSite/mp?mp=1
+https://www.ntm.gov.tw/en/,ok,2026-10-21,,
+https://www.taiwangazette.org/,ok,2026-10-21,,
+https://www.taiwangazette.org/news/2019/3/5/the-228-massacre-in-chiayi-the-airport-and-train-station-were-washed-with-blood?fbclid=IwAR1CSGujoEQumpLrbKgSr07slZfidRQ0DOkGh4nKAmXOpdNVF79pjMYa-Nw,ok,2026-10-21,,
