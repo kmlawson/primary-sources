@@ -8,6 +8,10 @@ const fold = s => (s || "").normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCas
 const esc = s => (s || "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const EXPORT = $("books").dataset.export || "books";
 let ALL = [], VIEW = [], sortKey = null, sortDir = 1, cur = -1, byMatch = false;
+// a title longer than this is cut at a word near it, with "more" to show the rest in place; the full
+// title is the cell's tooltip, and the entry opened in full always has it
+const CUT = 120;
+const expanded = new Set();          // ids of the entries whose long titles are shown in full
 // tags: a date range ("1886-1942", "Pre-1823", "1945-Present", "1950-") is a period, anything else a topic.
 // One of each can be chosen at a time; they narrow the list together with everything else.
 const PERIOD = /^(pre-?|post-?)?-?\d{4}(\s*[-–]\s*(\d{4}|present))?-?$/i;
@@ -162,6 +166,15 @@ function apply() {
   }
   render(terms);
 }
+function titleCell(r, terms) {
+  if (r.title.length <= CUT + 20) return hl(r.title, terms);   // not worth cutting a few words off
+  let at = r.title.lastIndexOf(" ", CUT);
+  if (at < CUT * 0.6) at = CUT;
+  const short = r.title.slice(0, at).replace(/[\s,.;:]+$/, "");
+  const open = expanded.has(r.id);
+  return `<span class="tshort"${open ? " hidden" : ""}>${hl(short, terms)}… <button type="button" class="more" aria-expanded="false" title="Show the full title">more</button></span>` +
+    `<span class="tfull"${open ? "" : " hidden"}>${hl(r.title, terms)} <button type="button" class="more" aria-expanded="true" title="Shorten the title">less</button></span>`;
+}
 function hl(text, terms) {
   let out = text; if (!terms.length) return esc(out);
   for (const t of terms) { if (t.neg || t.t.length < 2) continue;
@@ -172,7 +185,7 @@ function render(terms) {
   terms = terms || parseQuery($("bq").value);
   $("brows").innerHTML = VIEW.map((r, i) => `<tr data-i="${i}">
     <td class="au">${hl(r.author, terms) || '<span class="chip">no author</span>'}</td>
-    <td class="title">${hl(r.title, terms)}${r.notes ? `<span class="note">${md(r.notes)}</span>` : ""}${coins(r)}</td>
+    <td class="title"${r.title.length > CUT + 20 ? ` title="${esc(r.title)}"` : ""}>${titleCell(r, terms)}${r.notes ? `<span class="note">${md(r.notes)}</span>` : ""}${coins(r)}</td>
     <td class="year">${esc(r.year)}</td>
     <td class="ia">${r.nlinks ? `<a class="pill" href="${esc(r.links[0].url)}" target="_blank" rel="noopener" title="${esc(holderName(holder(r.links[0].url)))}"><span class="host">${holder(r.links[0].url)}: </span>${esc(r.links[0].label || "read")} ↗</a>${r.nlinks > 1 ? ` <span class="chip" title="more copies or volumes - open the entry">+${r.nlinks - 1}</span>` : ""}` : ""}</td></tr>`).join("");
   $("bempty").hidden = VIEW.length > 0;
@@ -212,7 +225,15 @@ $("breset").onclick = () => {
   $("blang").value = ""; $("bshow").value = "all"; sel.period = sel.topic = null; sortKey = null; sortDir = 1; apply(); $("bq").focus();
 };
 document.querySelectorAll(".books th").forEach(th => th.onclick = () => { const k = th.dataset.k; if (sortKey === k) { if (sortDir === 1) sortDir = -1; else { sortKey = null; sortDir = 1; } } else { sortKey = k; sortDir = 1; } apply(); });
-$("brows").addEventListener("click", e => { if (e.target.closest("a")) return; const tr = e.target.closest("tr"); if (tr) show(parseInt(tr.dataset.i)); });
+$("brows").addEventListener("click", e => {
+  const more = e.target.closest("button.more");
+  if (more) {                        // more / less: the title opens or closes where it is, the entry stays shut
+    const td = more.closest("td"), id = VIEW[parseInt(td.parentElement.dataset.i)].id;
+    if (expanded.has(id)) expanded.delete(id); else expanded.add(id);
+    td.querySelector(".tshort").hidden = expanded.has(id); td.querySelector(".tfull").hidden = !expanded.has(id);
+    return;
+  }
+  if (e.target.closest("a")) return; const tr = e.target.closest("tr"); if (tr) show(parseInt(tr.dataset.i)); });
 $("bdclose").onclick = () => $("bdlg").close();
 $("bdlg").addEventListener("close", () => coinsMode(false));
 $("bdlg").addEventListener("click", e => { if (e.target === $("bdlg")) $("bdlg").close(); });
