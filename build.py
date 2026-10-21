@@ -138,7 +138,8 @@ def link_report(page, md, books):
     rows = read_links(page)
     if not rows:
         return ""
-    used = {m.group(2) for m in LINK.finditer(md)} | {m.group(0).rstrip(".,;") for m in BARE.finditer(LINK.sub("", md))}
+    prose = CODE.sub("", md)                    # a URL inside `code` (a search tip, say) is text, not a link
+    used = {m.group(2) for m in LINK.finditer(prose)} | {m.group(0).rstrip(".,;") for m in BARE.finditer(LINK.sub("", prose))}
     used |= {l["url"] for b in books for l in b["links"]}
     for k in ("lede", "credits"):
         used |= {m.group(2) for p in page.cfg[k] for m in LINK.finditer(p)}
@@ -150,7 +151,7 @@ def link_report(page, md, books):
         count[s] = count.get(s, 0) + 1
     dates = sorted(r["checked"] for r in rows.values() if r.get("checked"))
     when = datetime.date.fromisoformat(dates[-1]).strftime("%d %B %Y").lstrip("0") if dates else "?"
-    working = count.get("ok", 0) + count.get("fixed", 0) + count.get("temporary", 0)
+    working = count.get("ok", 0) + count.get("fixed", 0)          # the parts below add up to the total
     bits = [f"{working} work"]
     if count.get("fixed"):
         bits[-1] += f" ({count['fixed']} of them updated to where their pages moved)"

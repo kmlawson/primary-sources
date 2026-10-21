@@ -17,8 +17,9 @@ static pages at <https://kmlawson.github.io/primary-sources/>. They follow the d
 `index.html` at the root is the home page linking to them; it is written by hand.
 
 How the pages came to be, the decisions made along the way and what is still to do are in
-[docs/HISTORY.md](docs/HISTORY.md); the October 2026 link check of the Taiwan page is reported in
-[docs/link-check-taiwan-2026-10.md](docs/link-check-taiwan-2026-10.md).
+[docs/HISTORY.md](docs/HISTORY.md); the October 2026 link checks are reported in
+[docs/link-check-taiwan-2026-10.md](docs/link-check-taiwan-2026-10.md) and
+[docs/link-check-korea-2026-10.md](docs/link-check-korea-2026-10.md).
 
 ## Editing a page
 
@@ -72,6 +73,7 @@ is built, so each page is one self-contained file.
 ## Checking links
 
     python3 check_links.py taiwan          # about a quarter of an hour for 270 links
+    python3 check_links.py korea --skip dl.ndl.go.jp archive.org   # leave out hosts known to be fine
 
 checks every link on a page and keeps `page/links.csv` up to date: one row a URL with its status (`ok`,
 `fixed`, `broken`, `temporary`, `unchecked`), the date checked, and — for a repaired link — the old

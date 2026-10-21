@@ -1,0 +1,702 @@
+{
+ "/topics/korean-war-1950-1953": {
+  "name": "Korean War, 1950-1953",
+  "docs": 372
+ },
+ "/topics/cuban-missile-crisis": {
+  "name": "Cuban Missile Crisis",
+  "docs": 706
+ },
+ "/topics/berlin-wall": {
+  "name": "Berlin Wall",
+  "docs": 51
+ },
+ "/topics/soviet-invasion-afghanistan": {
+  "name": "Soviet Invasion of Afghanistan",
+  "docs": 212
+ },
+ "/topics/space-race": {
+  "name": "Space Race",
+  "docs": 44
+ },
+ "/topics/acrs-oral-history-project": {
+  "name": "ACRS Oral History Project",
+  "docs": 50
+ },
+ "/topics/allied-occupation-korea-1945-1948": {
+  "name": "Allied Occupation of Korea, 1945-1948",
+  "docs": 44
+ },
+ "/topics/anti-nuclear-peace-movements": {
+  "name": "Anti-Nuclear Peace Movements",
+  "docs": 56
+ },
+ "/topics/archivio-andreottis-nato-series": {
+  "name": "Archivio Andreotti's NATO Series",
+  "docs": 199
+ },
+ "/topics/asian-peoples-anti-communist-league": {
+  "name": "Asian Peoples' Anti-Communist League",
+  "docs": 81
+ },
+ "/topics/austria-and-german-unification": {
+  "name": "Austria and German Unification",
+  "docs": 20
+ },
+ "/topics/bandung-conference-1955": {
+  "name": "Bandung Conference, 1955",
+  "docs": 114
+ },
+ "/topics/baruch-plan-international-control-atomic-energy": {
+  "name": "Baruch Plan for International Control of Atomic Energy",
+  "docs": 14
+ },
+ "/topics/ben-sanders-papers": {
+  "name": "Ben Sanders Papers",
+  "docs": 104
+ },
+ "/topics/brazilian-nuclear-history": {
+  "name": "Brazilian Nuclear History",
+  "docs": 107
+ },
+ "/topics/british-nuclear-history": {
+  "name": "British Nuclear History",
+  "docs": 9
+ },
+ "/topics/cambodian-vietnamese-war-1977-1991": {
+  "name": "Cambodian-Vietnamese War, 1977-1991",
+  "docs": 54
+ },
+ "/topics/ceausescus-diplomacy-middle-east": {
+  "name": "Ceausescu's Diplomacy in the Middle East",
+  "docs": 43
+ },
+ "/topics/chernobyl-nuclear-accident-1986": {
+  "name": "Chernobyl Nuclear Accident, 1986",
+  "docs": 50
+ },
+ "/topics/china-and-africa": {
+  "name": "China and Africa",
+  "docs": 55
+ },
+ "/topics/china-and-latin-america-and-caribbean": {
+  "name": "China and Latin America and the Caribbean",
+  "docs": 62
+ },
+ "/topics/china-and-south-asia": {
+  "name": "China and South Asia",
+  "docs": 167
+ },
+ "/topics/china-and-end-world-war-ii": {
+  "name": "China and the End of World War II",
+  "docs": 21
+ },
+ "/topics/china-and-korean-war": {
+  "name": "China and the Korean War",
+  "docs": 99
+ },
+ "/topics/china-and-middle-eastnorth-africa": {
+  "name": "China and the Middle East/North Africa",
+  "docs": 80
+ },
+ "/topics/china-and-soviet-union-xinjiang-1934-1949": {
+  "name": "China and the Soviet Union in Xinjiang, 1934-1949",
+  "docs": 112
+ },
+ "/topics/china-united-nations": {
+  "name": "China at the United Nations",
+  "docs": 44
+ },
+ "/topics/china-eastern-europe-relations": {
+  "name": "China-Eastern Europe Relations",
+  "docs": 224
+ },
+ "/topics/china-europe-relations": {
+  "name": "China-Europe Relations",
+  "docs": 327
+ },
+ "/topics/china-north-korea-relations": {
+  "name": "China-North Korea Relations",
+  "docs": 326
+ },
+ "/topics/china-southeast-asia-relations": {
+  "name": "China-Southeast Asia Relations",
+  "docs": 172
+ },
+ "/topics/china-western-europe-relations": {
+  "name": "China-Western Europe Relations",
+  "docs": 113
+ },
+ "/topics/china-1989": {
+  "name": "China, 1989",
+  "docs": 70
+ },
+ "/topics/chinas-cultural-revolution-1966-1976": {
+  "name": "China's Cultural Revolution, 1966-1976",
+  "docs": 73
+ },
+ "/topics/chinas-foreign-aid": {
+  "name": "China's Foreign Aid",
+  "docs": 22
+ },
+ "/topics/chinas-great-leap-forward-1958-1961": {
+  "name": "China's Great Leap Forward, 1958-1961",
+  "docs": 31
+ },
+ "/topics/chinese-civil-war-1946-1950": {
+  "name": "Chinese Civil War, 1946-1950",
+  "docs": 113
+ },
+ "/topics/chinese-cultural-diplomacy-1949-1976": {
+  "name": "Chinese Cultural Diplomacy, 1949-1976",
+  "docs": 12
+ },
+ "/topics/chinese-nuclear-history": {
+  "name": "Chinese Nuclear History",
+  "docs": 101
+ },
+ "/topics/chinese-nuclear-testing": {
+  "name": "Chinese Nuclear Testing",
+  "docs": 26
+ },
+ "/topics/cia-reports-collapse-communism-europe": {
+  "name": "CIA Reports on the Collapse of Communism in Europe",
+  "docs": 221
+ },
+ "/topics/civil-society-and-nuclear-risk-reduction": {
+  "name": "Civil Society and Nuclear Risk Reduction",
+  "docs": 41
+ },
+ "/topics/cold-war-ice": {
+  "name": "Cold War on Ice",
+  "docs": 9
+ },
+ "/topics/cold-war-origins": {
+  "name": "Cold War Origins",
+  "docs": 75
+ },
+ "/topics/conference-security-and-cooperation-europe": {
+  "name": "Conference on Security and Cooperation in Europe",
+  "docs": 20
+ },
+ "/topics/conversations-deng-xiaoping": {
+  "name": "Conversations with Deng Xiaoping",
+  "docs": 59
+ },
+ "/topics/demise-detente-korea-1973-1975": {
+  "name": "Demise of Detente in Korea, 1973-1975",
+  "docs": 65
+ },
+ "/topics/east-german-uprising": {
+  "name": "East German Uprising",
+  "docs": 114
+ },
+ "/topics/economic-cold-war": {
+  "name": "Economic Cold War",
+  "docs": 13
+ },
+ "/topics/emir-farid-chehab-collection": {
+  "name": "Emir Farid Chehab Collection",
+  "docs": 1952
+ },
+ "/topics/end-cold-war": {
+  "name": "End of the Cold War",
+  "docs": 238
+ },
+ "/topics/euratom": {
+  "name": "Euratom",
+  "docs": 36
+ },
+ "/topics/euromissiles-crisis": {
+  "name": "Euromissiles Crisis",
+  "docs": 52
+ },
+ "/topics/first-indochina-war": {
+  "name": "First Indochina War",
+  "docs": 59
+ },
+ "/topics/foundations-chinese-foreign-policy": {
+  "name": "Foundations of Chinese Foreign Policy",
+  "docs": 17
+ },
+ "/topics/french-nuclear-history": {
+  "name": "French Nuclear History",
+  "docs": 94
+ },
+ "/topics/geneva-conference-1954": {
+  "name": "Geneva Conference of 1954",
+  "docs": 120
+ },
+ "/topics/german-reunification": {
+  "name": "German Reunification",
+  "docs": 42
+ },
+ "/topics/gulf-war-1990-1991": {
+  "name": "Gulf War, 1990-1991",
+  "docs": 58
+ },
+ "/topics/helmut-kohl-transcripts": {
+  "name": "Helmut Kohl Transcripts",
+  "docs": 167
+ },
+ "/topics/horn-africa-crisis": {
+  "name": "Horn of Africa Crisis",
+  "docs": 61
+ },
+ "/topics/indian-and-nepali-reports-lhasa-1949-1954": {
+  "name": "Indian and Nepali Reports from Lhasa, 1949-1954",
+  "docs": 39
+ },
+ "/topics/indian-nuclear-history": {
+  "name": "Indian Nuclear History",
+  "docs": 329
+ },
+ "/topics/intelligence-operations-cold-war": {
+  "name": "Intelligence Operations in the Cold War",
+  "docs": 203
+ },
+ "/topics/inter-korean-competition-1961-1970": {
+  "name": "Inter-Korean Competition, 1961-1970",
+  "docs": 35
+ },
+ "/topics/inter-korean-dialogue-1971-1972": {
+  "name": "Inter-Korean Dialogue, 1971-1972",
+  "docs": 90
+ },
+ "/topics/inter-korean-dialogue-1977-1980": {
+  "name": "Inter-Korean Dialogue, 1977-1980",
+  "docs": 58
+ },
+ "/topics/inter-korean-relations": {
+  "name": "Inter-Korean Relations",
+  "docs": 435
+ },
+ "/topics/inter-korean-relations-after-war-1954-1961": {
+  "name": "Inter-Korean Relations after the War, 1954-1961",
+  "docs": 91
+ },
+ "/topics/interkit-1966-1987": {
+  "name": "Interkit, 1966-1987",
+  "docs": 101
+ },
+ "/topics/international-dimensions-decolonization-middle-east-and-north-africa": {
+  "name": "International Dimensions of Decolonization in the Middle East and North Africa",
+  "docs": 57
+ },
+ "/topics/interviews-avner-cohen": {
+  "name": "Interviews by Avner Cohen",
+  "docs": 10
+ },
+ "/topics/iran-iraq-war": {
+  "name": "Iran-Iraq War",
+  "docs": 28
+ },
+ "/topics/iran-soviet-relations": {
+  "name": "Iran-Soviet Relations",
+  "docs": 189
+ },
+ "/topics/irans-tudeh-party": {
+  "name": "Iran's Tudeh Party",
+  "docs": 105
+ },
+ "/topics/israeli-nuclear-history": {
+  "name": "Israeli Nuclear History",
+  "docs": 120
+ },
+ "/topics/japan-and-korean-peninsula": {
+  "name": "Japan and the Korean Peninsula",
+  "docs": 76
+ },
+ "/topics/japan-and-us-hostage-crisis-lebanon": {
+  "name": "Japan and the U.S. Hostage Crisis in Lebanon",
+  "docs": 85
+ },
+ "/topics/japanese-nuclear-history": {
+  "name": "Japanese Nuclear History",
+  "docs": 51
+ },
+ "/topics/katyn-massacre": {
+  "name": "Katyn Massacre",
+  "docs": 13
+ },
+ "/topics/kim-il-sung-tito-correspondences-1973-1979": {
+  "name": "Kim Il Sung-Tito Correspondences, 1973-1979",
+  "docs": 26
+ },
+ "/topics/korea-united-nations": {
+  "name": "Korea at the United Nations",
+  "docs": 132
+ },
+ "/topics/korean-war-armistice": {
+  "name": "Korean War Armistice",
+  "docs": 99
+ },
+ "/topics/korean-war-biological-warfare-allegations": {
+  "name": "Korean War Biological Warfare Allegations",
+  "docs": 34
+ },
+ "/topics/korean-war-origins-1945-1950": {
+  "name": "Korean War Origins, 1945-1950",
+  "docs": 73
+ },
+ "/topics/korean-workers-party-congresses": {
+  "name": "Korean Workers' Party Congresses",
+  "docs": 91
+ },
+ "/topics/kuril-islandsnorthern-territories-dispute": {
+  "name": "Kuril Islands/Northern Territories Dispute",
+  "docs": 36
+ },
+ "/topics/laos-crisis-1960-1963": {
+  "name": "Laos Crisis, 1960-1963",
+  "docs": 29
+ },
+ "/topics/leonid-brezhnev-collection": {
+  "name": "Leonid Brezhnev Collection",
+  "docs": 32
+ },
+ "/topics/long-live-mao-zedong-thought-1968": {
+  "name": "Long Live Mao Zedong Thought",
+  "docs": 1968
+ },
+ "/topics/making-sino-soviet-alliance-1945-1950": {
+  "name": "Making of the Sino-Soviet Alliance, 1945-1950",
+  "docs": 123
+ },
+ "/topics/mass-media-and-censorship": {
+  "name": "Mass Media and Censorship",
+  "docs": 24
+ },
+ "/topics/mitrokhin-archive": {
+  "name": "Mitrokhin Archive",
+  "docs": 75
+ },
+ "/topics/nehrus-china-papers": {
+  "name": "Nehru's China Papers",
+  "docs": 1
+ },
+ "/topics/nikita-khrushchev-collection": {
+  "name": "Nikita Khrushchev Collection",
+  "docs": 166
+ },
+ "/topics/non-aligned-movement": {
+  "name": "Non-Aligned Movement",
+  "docs": 38
+ },
+ "/topics/non-proliferation-treaty-npt": {
+  "name": "Non-Proliferation Treaty (NPT)",
+  "docs": 182
+ },
+ "/topics/north-korea-and-american-radical-left": {
+  "name": "North Korea and the American Radical Left",
+  "docs": 10
+ },
+ "/topics/north-korea-august-1956-plenum-incident": {
+  "name": "North Korea August 1956 Plenum Incident",
+  "docs": 129
+ },
+ "/topics/north-koreas-first-five-year-plan-1957-1961": {
+  "name": "North Korea's First Five-Year Plan, 1957-1961",
+  "docs": 114
+ },
+ "/topics/north-korean-military-adventurism": {
+  "name": "North Korean Military Adventurism",
+  "docs": 93
+ },
+ "/topics/north-korean-nuclear-history": {
+  "name": "North Korean Nuclear History",
+  "docs": 77
+ },
+ "/topics/north-korean-public-diplomacy": {
+  "name": "North Korean Public Diplomacy",
+  "docs": 13
+ },
+ "/topics/north-korean-smuggling": {
+  "name": "North Korean Smuggling",
+  "docs": 88
+ },
+ "/topics/north-vietnamese-decision-making-1973-1975": {
+  "name": "North Vietnamese Decision-Making, 1973-1975",
+  "docs": 86
+ },
+ "/topics/northern-limit-line-dispute": {
+  "name": "Northern Limit Line Dispute",
+  "docs": 19
+ },
+ "/topics/nuclear-debate-pamphlets": {
+  "name": "Nuclear Debate Pamphlets",
+  "docs": 27
+ },
+ "/topics/nuclear-proliferation": {
+  "name": "Nuclear Proliferation",
+  "docs": 235
+ },
+ "/topics/origins-brazil-argentina-nuclear-cooperation": {
+  "name": "Origins of Brazil-Argentina Nuclear Cooperation",
+  "docs": 45
+ },
+ "/topics/pakistani-nuclear-history": {
+  "name": "Pakistani Nuclear History",
+  "docs": 153
+ },
+ "/topics/papers-higher-school-kgb": {
+  "name": "Papers of the Higher School of the KGB",
+  "docs": 26
+ },
+ "/topics/planning-post-war-japan": {
+  "name": "Planning for Post-War Japan",
+  "docs": 27
+ },
+ "/topics/post-stalin-succession-struggle": {
+  "name": "Post-Stalin Succession Struggle",
+  "docs": 12
+ },
+ "/topics/prague-spring-1968": {
+  "name": "Prague Spring, 1968",
+  "docs": 83
+ },
+ "/topics/prc-state-council-gazettes": {
+  "name": "PRC State Council Gazettes",
+  "docs": 163
+ },
+ "/topics/project-ryan": {
+  "name": "Project RYaN",
+  "docs": 31
+ },
+ "/topics/purges-1950s-china": {
+  "name": "Purges in 1950s China",
+  "docs": 11
+ },
+ "/topics/radio-free-europe-and-radio-liberty": {
+  "name": "Radio Free Europe and Radio Liberty",
+  "docs": 319
+ },
+ "/topics/rapacki-plan": {
+  "name": "Rapacki Plan",
+  "docs": 52
+ },
+ "/topics/reform-and-opening-china-1978": {
+  "name": "Reform and Opening in China, 1978-",
+  "docs": 99
+ },
+ "/topics/reforms-long-shadows": {
+  "name": "Reform's Long Shadows",
+  "docs": 10
+ },
+ "/topics/repatriation-north-korea": {
+  "name": "Repatriation to North Korea",
+  "docs": 58
+ },
+ "/topics/ryszard-kuklinski-collection": {
+  "name": "Ryszard Kukliński Collection",
+  "docs": 85
+ },
+ "/topics/sino-american-confrontation-1949-1971": {
+  "name": "Sino-American Confrontation, 1949-1971",
+  "docs": 72
+ },
+ "/topics/sino-american-cooperation-1972-1989": {
+  "name": "Sino-American Cooperation, 1972-1989",
+  "docs": 77
+ },
+ "/topics/sino-french-normalization-1964": {
+  "name": "Sino-French Normalization, 1964",
+  "docs": 12
+ },
+ "/topics/sino-indian-border-war-1962": {
+  "name": "Sino-Indian Border War, 1962",
+  "docs": 93
+ },
+ "/topics/sino-japanese-relations": {
+  "name": "Sino-Japanese Relations",
+  "docs": 180
+ },
+ "/topics/sino-soviet-alliance-1950-1959": {
+  "name": "Sino-Soviet Alliance, 1950-1959",
+  "docs": 238
+ },
+ "/topics/sino-soviet-border-conflict-1969": {
+  "name": "Sino-Soviet Border Conflict, 1969",
+  "docs": 41
+ },
+ "/topics/sino-soviet-rapprochement-1985-1989": {
+  "name": "Sino-Soviet Rapprochement, 1985-1989",
+  "docs": 56
+ },
+ "/topics/sino-soviet-relations": {
+  "name": "Sino-Soviet Relations",
+  "docs": 860
+ },
+ "/topics/sino-soviet-split-1960-1984": {
+  "name": "Sino-Soviet Split, 1960-1984",
+  "docs": 409
+ },
+ "/topics/sino-us-ambassadorial-talks-1955-1970": {
+  "name": "Sino-US Ambassadorial Talks, 1955-1970",
+  "docs": 63
+ },
+ "/topics/sino-vietnamese-war-1979": {
+  "name": "Sino-Vietnamese War, 1979",
+  "docs": 60
+ },
+ "/topics/south-african-nuclear-history": {
+  "name": "South African Nuclear History",
+  "docs": 202
+ },
+ "/topics/south-korean-diplomacy-asia-1955-1957": {
+  "name": "South Korean Diplomacy in Asia, 1955-1957",
+  "docs": 339
+ },
+ "/topics/south-korean-nuclear-history": {
+  "name": "South Korean Nuclear History",
+  "docs": 36
+ },
+ "/topics/soviet-foreign-policy": {
+  "name": "Soviet Foreign Policy",
+  "docs": 179
+ },
+ "/topics/soviet-invasion-czechoslovakia": {
+  "name": "Soviet Invasion of Czechoslovakia",
+  "docs": 94
+ },
+ "/topics/soviet-nuclear-history": {
+  "name": "Soviet Nuclear History",
+  "docs": 175
+ },
+ "/topics/soviet-union-and-olympics": {
+  "name": "Soviet Union and the Olympics",
+  "docs": 11
+ },
+ "/topics/soviet-union-north-korea-relations": {
+  "name": "Soviet Union-North Korea Relations",
+  "docs": 180
+ },
+ "/topics/sport-cold-war": {
+  "name": "Sport in the Cold War",
+  "docs": 30
+ },
+ "/topics/stalin-and-cold-war": {
+  "name": "Stalin and the Cold War",
+  "docs": 218
+ },
+ "/topics/syngman-rhee-era": {
+  "name": "Syngman Rhee Era",
+  "docs": 389
+ },
+ "/topics/taiwan-strait-crises": {
+  "name": "Taiwan Strait Crises",
+  "docs": 48
+ },
+ "/topics/taiwans-international-status": {
+  "name": "Taiwan's International Status",
+  "docs": 68
+ },
+ "/topics/taiwans-cold-war-southeast-asia": {
+  "name": "Taiwan’s Cold War in Southeast Asia",
+  "docs": 7
+ },
+ "/topics/territorial-disputes-south-china-sea": {
+  "name": "Territorial Disputes in the South China Sea",
+  "docs": 13
+ },
+ "/topics/second-korean-war-1967-1969": {
+  "name": "The \"Second\" Korean War, 1967-1969",
+  "docs": 37
+ },
+ "/topics/1995-npt-review-and-extension-conference": {
+  "name": "The 1995 NPT Review and Extension Conference",
+  "docs": 63
+ },
+ "/topics/algerian-revolution-and-communist-bloc": {
+  "name": "The Algerian Revolution and the Communist Bloc",
+  "docs": 25
+ },
+ "/topics/iranazerbaijian-crisis-1946": {
+  "name": "The Iran/Azerbaijian Crisis, 1946",
+  "docs": 87
+ },
+ "/topics/osirak-air-raid": {
+  "name": "The Osirak Air Raid",
+  "docs": 20
+ },
+ "/topics/overseas-chinese-and-cold-war": {
+  "name": "The Overseas Chinese and the Cold War",
+  "docs": 59
+ },
+ "/topics/saddam-files": {
+  "name": "The Saddam Files",
+  "docs": 143
+ },
+ "/topics/second-asian-african-conference": {
+  "name": "The Second Asian-African Conference",
+  "docs": 41
+ },
+ "/topics/six-day-war-1967": {
+  "name": "The Six-Day War",
+  "docs": 1967
+ },
+ "/topics/soviet-union-horn-africa": {
+  "name": "The Soviet Union in the Horn of Africa",
+  "docs": 19
+ },
+ "/topics/two-koreas-and-third-world": {
+  "name": "The Two Koreas and the Third World",
+  "docs": 89
+ },
+ "/topics/two-koreas-and-vietnam-war": {
+  "name": "The Two Koreas and the Vietnam War",
+  "docs": 52
+ },
+ "/topics/yi-ta-incident-1962": {
+  "name": "The Yi-ta Incident, 1962",
+  "docs": 52
+ },
+ "/topics/todor-zhivkov-collection": {
+  "name": "Todor Zhivkov Collection",
+  "docs": 93
+ },
+ "/topics/ukrainian-nuclear-history": {
+  "name": "Ukrainian Nuclear History",
+  "docs": 93
+ },
+ "/topics/united-states-non-recognition-policy": {
+  "name": "United States Non-Recognition Policy",
+  "docs": 16
+ },
+ "/topics/united-states-north-korea-relations": {
+  "name": "United States-North Korea Relations",
+  "docs": 45
+ },
+ "/topics/united-states-soviet-relations": {
+  "name": "United States-Soviet Relations",
+  "docs": 221
+ },
+ "/topics/uss-pueblo-crisis": {
+  "name": "USS Pueblo Crisis",
+  "docs": 64
+ },
+ "/topics/vassiliev-notebooks": {
+  "name": "Vassiliev Notebooks",
+  "docs": 12
+ },
+ "/topics/vietnam-war": {
+  "name": "Vietnam War",
+  "docs": 349
+ },
+ "/topics/warsaw-pact": {
+  "name": "Warsaw Pact",
+  "docs": 103
+ },
+ "/topics/warsaw-pact-military-planning": {
+  "name": "Warsaw Pact Military Planning",
+  "docs": 82
+ },
+ "/topics/yom-kippur-war-1973": {
+  "name": "Yom Kippur War, 1973",
+  "docs": 17
+ },
+ "/topics/yuri-gagarin-first-human-space-flight": {
+  "name": "Yuri Gagarin & the First Human Space Flight",
+  "docs": 20
+ }
+}

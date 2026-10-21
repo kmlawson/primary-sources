@@ -130,15 +130,15 @@ owner's instruction it is gentle with servers: one request at a time, three seco
 between two requests to the same host, and a single retry half a minute later. The first run (before that
 instruction) fetched eight at a time; nothing since has.
 
-The Taiwan page was the first to be checked and repaired; see the
-[report](link-check-taiwan-2026-10.md). The other five pages have not been checked yet.
+The Taiwan and Korea pages have been checked and repaired; see the [Taiwan report](link-check-taiwan-2026-10.md)
+and the [Korea report](link-check-korea-2026-10.md). The other four pages have not been checked yet. The
+checker can leave out hosts known to be fine (`--skip`), and a URL inside a `code` example (a search tip) is
+not counted as a link.
 
 ## Still to do
 
 - **Taiwan:** the owner's decisions listed at the end of the [link-check report](link-check-taiwan-2026-10.md).
-- **Korea:** six FRUS links use the same retired Wisconsin addresses the Taiwan page had; the State
-  Department's Office of the Historian has the same volumes. Its Wilson Center links will also need the
-  University of Maryland addresses. A full check of the page is the next step.
+- **Korea:** the owner's decisions listed at the end of the [Korea report](link-check-korea-2026-10.md).
 - **Shanghai, Missionaries, Burma, Malay World:** not yet link-checked.
 - **"See also" links** on the new pages still point at the old WordPress addresses of the Korea, Taiwan and
   Missionaries pages, and the "Source on GitHub" footer links point at `master`: both should change once

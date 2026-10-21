@@ -1,0 +1,130 @@
+[
+ {
+  "url": "http://www.digitalhorizonsonline.org/digital/collection/ndsu-korea",
+  "broken": true,
+  "reason": "Plain http:// URL returns 404 (no http->https redirect); the same collection works over https",
+  "replacement": "https://digitalhorizonsonline.org/digital/collection/ndsu-korea",
+  "confidence": "high",
+  "evidence": "Fetched https URL: 200, CONTENTdm page naming 'Korean War Propaganda Leaflets (NDSU)'; the site's dmGetCollectionList API lists alias /ndsu-korea with that name, and dmQuery returns 133 leaflet records (e.g. '10th North Korean Division Losses')."
+ },
+ {
+  "url": "https://library.duke.edu/rubenstein/findingaids/aframersoldiersalbumkoreaorjapan/",
+  "broken": "unknown",
+  "reason": "Old URL correctly redirects to Duke's new ArchivesSpace finding aid, but archives.lib.duke.edu answered 503 'Service Unavailable ... maintenance downtime or capacity problems' (curl twice, and WebFetch) - looks temporary",
+  "replacement": "https://archives.lib.duke.edu/catalog/aframersoldiersalbumkoreaorjapan",
+  "confidence": "medium",
+  "evidence": "Duke's own redirect points here; web search indexes this exact URL as 'African American soldier's Korean War photograph album, circa 1950-1953' (RL.11430). Could not fetch the page itself (503)."
+ },
+ {
+  "url": "http://koreanchristianity.cdh.ucla.edu/",
+  "broken": true,
+  "reason": "Server-side 502 Bad Gateway on the whole site (backend down); no successor site found - may be a temporary or a permanent outage",
+  "replacement": null,
+  "confidence": null,
+  "evidence": "All UCLA archive URLs (root, /sources/reports/, /sources/books/) return the server's own nginx/1.28.3 '502 Bad Gateway' (application backend down) from curl and WebFetch alike, on retry too; older host koreanchristianity.humnet.ucla.edu returns 503. Web search finds no new home for Sung-Deuk Oak's archive."
+ },
+ {
+  "url": "http://koreanchristianity.cdh.ucla.edu/sources/reports/",
+  "broken": true,
+  "reason": "Server-side 502 Bad Gateway on the whole site (backend down); no successor site found - may be a temporary or a permanent outage",
+  "replacement": null,
+  "confidence": null,
+  "evidence": "All UCLA archive URLs (root, /sources/reports/, /sources/books/) return the server's own nginx/1.28.3 '502 Bad Gateway' (application backend down) from curl and WebFetch alike, on retry too; older host koreanchristianity.humnet.ucla.edu returns 503. Web search finds no new home for Sung-Deuk Oak's archive."
+ },
+ {
+  "url": "http://digitallibrary.usc.edu/cdm/landingpage/collection/p15799coll126",
+  "broken": true,
+  "reason": "Old CONTENTdm landing page returns 404; USC Digital Library moved to a new (Orange Logic) platform",
+  "replacement": "https://digitallibrary.usc.edu/asset-management/2A3BF1O4W5P",
+  "confidence": "medium",
+  "evidence": "USC Libraries' own guide 'Digital Library Navigation - All Collections' (libguides.usc.edu/c.php?g=1191693&p=8761268, fetched) links 'Korean American Digital Archive' to this URL; the page itself returned 403 to curl and WebFetch (bot blocking), so its content was not seen."
+ },
+ {
+  "url": "https://exhibitions.cul.columbia.edu/exhibits/show/kio",
+  "broken": true,
+  "reason": "404; Columbia moved its online exhibitions from exhibitions.cul.columbia.edu to exhibitions.library.columbia.edu",
+  "replacement": "https://exhibitions.library.columbia.edu/exhibits/show/kio",
+  "confidence": "high",
+  "evidence": "Fetched: 200, title 'Columbia University Libraries Online Exhibitions | Korean Independence Outbreak Movement'; same exhibit slug 'kio'."
+ },
+ {
+  "url": "https://www.cia.gov/library/readingroom/collection/baptism-fire-cia-analysis-korean-war-overview",
+  "broken": "unknown",
+  "reason": "Redirects to the reading room front page - but so does every deep reading-room URL we tried, including the current-pattern collection URL, a document page, a print page and /readingroom/historical-collections (linked from the front page itself), from curl and WebFetch",
+  "replacement": null,
+  "confidence": null,
+  "evidence": "Current URL pattern would be https://www.cia.gov/readingroom/collection/baptism-fire-cia-analysis-korean-war-overview (seen in search results) but it too lands on the front page from here; looks like site-wide/anti-bot behaviour - owner should check in a browser. A copy exists at permanent.fdlp.gov (GPO web archive) per search."
+ },
+ {
+  "url": "https://oregondigital.org/sets/easia/",
+  "broken": false,
+  "reason": "Works for readers: redirects to the new platform's collection page; the sandbox TLS error is an incomplete certificate chain on the server (browsers fetch the missing intermediate)",
+  "replacement": "https://oregondigital.org/collections/easia",
+  "confidence": "high",
+  "evidence": "With the missing InCommon RSA OV SSL CA 3 intermediate (from the cert's AIA URL) added to our CA bundle, the old URL redirected to https://oregondigital.org/collections/easia/ - 200, title 'e-Asia Digital Library | Oregon Digital'. Replacement is optional (saves a redirect)."
+ },
+ {
+  "url": "https://oregondigital.org/sets/easia?f%5Bdesc_metadata__lcsubject_label_sim%5D%5B%5D=Korea+%28North%29%24http%3A%2F%2Fid.loc.gov%2Fauthorities%2Fnames%2Fn81074720",
+  "broken": true,
+  "reason": "Old Blacklight facet URL now redirects to the new Oregon Digital collection page, which ignores the old facet field and shows all ~4,000 e-Asia items unfiltered (not just Korea (North))",
+  "replacement": "https://oregondigital.org/collections/easia?f%5Btopic_combined_label_sim%5D%5B%5D=Korea+%28North%29",
+  "confidence": "medium",
+  "evidence": "Facet field 'f[topic_combined_label_sim][]' with value 'Korea (North)' (536 items) read from the new collection page's own facet form; the constructed URL returned 403 to curl and 503 to WebFetch (the site has bot detection), so the filtered results could not be seen from here. Sandbox TLS errors are an incomplete chain (server omits InCommon RSA OV SSL CA 3); fetched OK once that AIA intermediate was added."
+ },
+ {
+  "url": "https://oregondigital.org/sets/easia?f%5Bdesc_metadata__lcsubject_label_sim%5D%5B%5D=Korea+%28South%29%24http%3A%2F%2Fid.loc.gov%2Fauthorities%2Fnames%2Fn79126802",
+  "broken": true,
+  "reason": "Old Blacklight facet URL now redirects to the new Oregon Digital collection page, which ignores the old facet field and shows all ~4,000 e-Asia items unfiltered (not just Korea (South))",
+  "replacement": "https://oregondigital.org/collections/easia?f%5Btopic_combined_label_sim%5D%5B%5D=Korea+%28South%29",
+  "confidence": "medium",
+  "evidence": "Facet field 'f[topic_combined_label_sim][]' with value 'Korea (South)' (listed in the same subject facet) read from the new collection page's own facet form; the constructed URL returned 403 to curl and 503 to WebFetch (the site has bot detection), so the filtered results could not be seen from here. Sandbox TLS errors are an incomplete chain (server omits InCommon RSA OV SSL CA 3); fetched OK once that AIA intermediate was added."
+ },
+ {
+  "url": "http://koreanchristianity.cdh.ucla.edu/sources/books/",
+  "broken": true,
+  "reason": "Server-side 502 Bad Gateway on the whole site (backend down); no successor site found - may be a temporary or a permanent outage",
+  "replacement": null,
+  "confidence": null,
+  "evidence": "All UCLA archive URLs (root, /sources/reports/, /sources/books/) return the server's own nginx/1.28.3 '502 Bad Gateway' (application backend down) from curl and WebFetch alike, on retry too; older host koreanchristianity.humnet.ucla.edu returns 503. Web search finds no new home for Sung-Deuk Oak's archive."
+ },
+ {
+  "url": "http://koreanchristianity.cdh.ucla.edu/sources/tracts-pamphlets/",
+  "broken": true,
+  "reason": "Server-side 502 Bad Gateway on the whole site (backend down); no successor site found - may be a temporary or a permanent outage",
+  "replacement": null,
+  "confidence": null,
+  "evidence": "All UCLA archive URLs (root, /sources/reports/, /sources/books/) return the server's own nginx/1.28.3 '502 Bad Gateway' (application backend down) from curl and WebFetch alike, on retry too; older host koreanchristianity.humnet.ucla.edu returns 503. Web search finds no new home for Sung-Deuk Oak's archive."
+ },
+ {
+  "url": "http://koreanchristianity.cdh.ucla.edu/topical-bibliography/",
+  "broken": true,
+  "reason": "Server-side 502 Bad Gateway on the whole site (backend down); no successor site found - may be a temporary or a permanent outage",
+  "replacement": null,
+  "confidence": null,
+  "evidence": "All UCLA archive URLs (root, /sources/reports/, /sources/books/) return the server's own nginx/1.28.3 '502 Bad Gateway' (application backend down) from curl and WebFetch alike, on retry too; older host koreanchristianity.humnet.ucla.edu returns 503. Web search finds no new home for Sung-Deuk Oak's archive."
+ },
+ {
+  "url": "https://projects.iq.harvard.edu/yenchinglib/galleries/national-library-korea-harvard-yenching-library-korean-rare-book-digitization",
+  "broken": true,
+  "reason": "403 Access Denied - Harvard retired the OpenScholar projects.iq.harvard.edu sites",
+  "replacement": "https://koreanvernacularbooks.omeka.fas.harvard.edu/korean-rare-books--the-harvard-yenching-library",
+  "confidence": "medium",
+  "evidence": "Fetched: Harvard page 'Korean Rare Books @ Harvard-Yenching Library' with a 'Digitization of Korean rare books at the HYL' section listing the projects 'With National Library of Korea (2007-2010) (721 titles)' and 'With Minsokwon (2010-2011) (75 titles)', each linked to a HOLLIS search (e.g. lsr38 'Minsokwon Harvard-Yenching Library Korean rare book digitization project'). Not the same gallery page, but the official successor description of the same digitized collections."
+ },
+ {
+  "url": "http://www.hawaii.edu/korea/biblio/BiblioOpen.html",
+  "broken": true,
+  "reason": "404 (UH Center for Korean Studies moved to manoa.hawaii.edu/koreanstudies and the bibliography was not carried over)",
+  "replacement": null,
+  "confidence": null,
+  "evidence": "Searches for Kenneth Robinson's 'Korean History: A Bibliography' find only old references (Scout Report, 2008 KS list post giving this URL); manoa.hawaii.edu/koreanstudies/library/ (fetched) does not mention it. Wayback API returned 429, so an archived copy could not be checked - a web.archive.org link is the likely fix."
+ },
+ {
+  "url": "https://www.oregondigital.org/catalog/oregondigital:df72k116b#page/19/mode/1up",
+  "broken": false,
+  "reason": "Works for readers: the site redirects the old record URL to the same ID on the new platform; the sandbox TLS error is the server's incomplete certificate chain",
+  "replacement": "https://oregondigital.org/concern/documents/df72k116b",
+  "confidence": "high",
+  "evidence": "With the missing intermediate added, the old URL redirected (site's own redirect) to /concern/documents/df72k116b (then a bot-detection page for curl, so content not seen); same record ID; search shows df72k116b as 'Occidental Literature on Korea', Underwood, Trans. RASKB vol. XX (1931). The '#page/19' viewer fragment has no equivalent."
+ }
+]

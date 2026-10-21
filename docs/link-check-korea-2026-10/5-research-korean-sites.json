@@ -1,0 +1,114 @@
+[
+ {
+  "url": "http://contents.history.go.kr/photo?lang=en",
+  "broken": true,
+  "reason": "404 on two tries; the English main page of 우리역사넷 (History Net) still links to /photo?lang=en, but the target is gone and the Korean menu no longer lists a photo collection.",
+  "replacement": null,
+  "confidence": "low",
+  "evidence": "Fetched https://contents.history.go.kr/front/eng/main.do?lang=en (link 'Photograph Collection Relating to Korean Modern and Contemporary History' -> /photo?lang=en, 404). Closest surviving section is 한국사 이미지 자료 https://contents.history.go.kr/front/ki/main.do (2,265 images, all periods incl. 근대/현대) - not the same collection; web search found no new home."
+ },
+ {
+  "url": "http://anthony.sogang.ac.kr/Repository/",
+  "broken": false,
+  "reason": "False positive: page loads (200) with title 'The Korean Repository' and a full table of monthly issue PDFs/DOCs for Vols 1-5 (1892, 1895-98).",
+  "replacement": null,
+  "confidence": null,
+  "evidence": "Fetched page: 'The Korean Repository in monthly installments ... 1892, 1895-98' with links VOL01.pdf, Vol0101.pdf...; HEAD of Repository/Vol0101.pdf -> 200 application/pdf, 20.8 MB."
+ },
+ {
+  "url": "https://library.ltikorea.or.kr/ebook?f=y&field_classification%5B%5D=6727&field_classification%5B%5D=6733&field_classification%5B%5D=6737&field_series_ebook%5B%5D=29238&field_publisher%5B%5D=15132",
+  "broken": true,
+  "reason": "The LTI Korea Digital Library was rebuilt: old Drupal-style /ebook?field_...[] filter URL now returns 400 Bad Request; e-books now live at /ebooks with new facet parameters (seri_facet, pubr_facet...), so the old filter IDs do not carry over.",
+  "replacement": "https://library.ltikorea.or.kr/ebooks",
+  "confidence": "medium",
+  "evidence": "Fetched https://library.ltikorea.or.kr/ebooks: title 'Ebooks | Digital Library of Korean Literature(LTI Korea)', '1-10 of 1059 E-books' with Series/Publisher/Classification filters; individual records at /ebooks/<id> (seen in search). Unfiltered list, not the original filtered selection; owner may want to re-apply a series/publisher filter in a browser and copy that URL."
+ },
+ {
+  "url": "http://www.518archives.go.kr/books/ebook/6/#page=1",
+  "broken": true,
+  "reason": "Old e-book viewer path /books/ebook/N/ returns 404; the 5.18 Archives site was rebuilt under /dcma/ and the old date-range e-books (Jan-July 1979) no longer exist as such.",
+  "replacement": "https://www.518archives.go.kr/dcma/DcmaPageLink.do?link=2030200&baseMenuNo=2030000",
+  "confidence": "medium",
+  "evidence": "Fetched new site menu: 아카이브 > 5·18세계기록유산 > 미국해제문서 holds Tim Shorrock's FOIA collection (1,256 items, categories incl. '팀 셔록의 정보공개 청구 서한', '1979년 부산-마산', '12.12 사태', '5월18일~27일 광주 관련 미국 보고서'). This is the Cherokee-files collection but itemized by topic, not the same date-range e-book volume; the new 전자자료총서 e-book list (63 items) contains only 5·18민주화운동자료총서 vols 1-61 + indexes, and site search for 체로키 found nothing. Consider replacing the five links with one link to this collection."
+ },
+ {
+  "url": "http://www.518archives.go.kr/books/ebook/7/#page=1",
+  "broken": true,
+  "reason": "Old e-book viewer path /books/ebook/N/ returns 404; the 5.18 Archives site was rebuilt under /dcma/ and the old date-range e-books (Aug-Nov 1979) no longer exist as such.",
+  "replacement": "https://www.518archives.go.kr/dcma/DcmaPageLink.do?link=2030200&baseMenuNo=2030000",
+  "confidence": "medium",
+  "evidence": "Fetched new site menu: 아카이브 > 5·18세계기록유산 > 미국해제문서 holds Tim Shorrock's FOIA collection (1,256 items, categories incl. '팀 셔록의 정보공개 청구 서한', '1979년 부산-마산', '12.12 사태', '5월18일~27일 광주 관련 미국 보고서'). This is the Cherokee-files collection but itemized by topic, not the same date-range e-book volume; the new 전자자료총서 e-book list (63 items) contains only 5·18민주화운동자료총서 vols 1-61 + indexes, and site search for 체로키 found nothing. Consider replacing the five links with one link to this collection."
+ },
+ {
+  "url": "http://www.518archives.go.kr/books/ebook/8/#page=1",
+  "broken": true,
+  "reason": "Old e-book viewer path /books/ebook/N/ returns 404; the 5.18 Archives site was rebuilt under /dcma/ and the old date-range e-books (Dec 1979-April 1980) no longer exist as such.",
+  "replacement": "https://www.518archives.go.kr/dcma/DcmaPageLink.do?link=2030200&baseMenuNo=2030000",
+  "confidence": "medium",
+  "evidence": "Fetched new site menu: 아카이브 > 5·18세계기록유산 > 미국해제문서 holds Tim Shorrock's FOIA collection (1,256 items, categories incl. '팀 셔록의 정보공개 청구 서한', '1979년 부산-마산', '12.12 사태', '5월18일~27일 광주 관련 미국 보고서'). This is the Cherokee-files collection but itemized by topic, not the same date-range e-book volume; the new 전자자료총서 e-book list (63 items) contains only 5·18민주화운동자료총서 vols 1-61 + indexes, and site search for 체로키 found nothing. Consider replacing the five links with one link to this collection."
+ },
+ {
+  "url": "http://www.518archives.go.kr/books/ebook/9/#page=1",
+  "broken": true,
+  "reason": "Old e-book viewer path /books/ebook/N/ returns 404; the 5.18 Archives site was rebuilt under /dcma/ and the old date-range e-books (May-July 1980) no longer exist as such.",
+  "replacement": "https://www.518archives.go.kr/dcma/DcmaPageLink.do?link=2030200&baseMenuNo=2030000",
+  "confidence": "medium",
+  "evidence": "Fetched new site menu: 아카이브 > 5·18세계기록유산 > 미국해제문서 holds Tim Shorrock's FOIA collection (1,256 items, categories incl. '팀 셔록의 정보공개 청구 서한', '1979년 부산-마산', '12.12 사태', '5월18일~27일 광주 관련 미국 보고서'). This is the Cherokee-files collection but itemized by topic, not the same date-range e-book volume; the new 전자자료총서 e-book list (63 items) contains only 5·18민주화운동자료총서 vols 1-61 + indexes, and site search for 체로키 found nothing. Consider replacing the five links with one link to this collection."
+ },
+ {
+  "url": "http://www.518archives.go.kr/books/ebook/10/#page=1",
+  "broken": true,
+  "reason": "Old e-book viewer path /books/ebook/N/ returns 404; the 5.18 Archives site was rebuilt under /dcma/ and the old date-range e-books (Aug-Dec 1980) no longer exist as such.",
+  "replacement": "https://www.518archives.go.kr/dcma/DcmaPageLink.do?link=2030200&baseMenuNo=2030000",
+  "confidence": "medium",
+  "evidence": "Fetched new site menu: 아카이브 > 5·18세계기록유산 > 미국해제문서 holds Tim Shorrock's FOIA collection (1,256 items, categories incl. '팀 셔록의 정보공개 청구 서한', '1979년 부산-마산', '12.12 사태', '5월18일~27일 광주 관련 미국 보고서'). This is the Cherokee-files collection but itemized by topic, not the same date-range e-book volume; the new 전자자료총서 e-book list (63 items) contains only 5·18민주화운동자료총서 vols 1-61 + indexes, and site search for 체로키 found nothing. Consider replacing the five links with one link to this collection."
+ },
+ {
+  "url": "http://www.e-coreana.or.kr/info/engSystemInfo.jsp",
+  "broken": "unknown",
+  "reason": "Host resolves (61.72.180.98) but the server never answers: connection timeout (503 from our proxy) on deep page and root, and WebFetch also got 503. Could be down or blocking foreign traffic.",
+  "replacement": null,
+  "confidence": null,
+  "evidence": "curl to /info/engSystemInfo.jsp, / (www and bare) -> 'upstream connect error ... connection timeout'; web searches found no recent reference to e-coreana.or.kr and no announced new home for the Myongji-LG Korean Studies Library's digital texts. Owner should test from a Korean/desktop browser."
+ },
+ {
+  "url": "http://www.dlibrary.go.kr/",
+  "broken": "unknown",
+  "reason": "Our proxy refuses the host (CONNECT 502) and WebFetch got 503, but the National Library of Korea still links to http://www.dlibrary.go.kr/ as '국가전자도서관 바로가기', so it may be fine for readers in a browser.",
+  "replacement": "https://www.nl.go.kr/NL/contents/N10700000000.do",
+  "confidence": "medium",
+  "evidence": "Fetched nl.go.kr page titled '국립중앙도서관>자료검색>국가전자도서관': it describes 국가전자도서관 and offers its search box (전체/서명/저자/발행처) inside nl.go.kr, with a button to http://www.dlibrary.go.kr/. Use the nl.go.kr page only if dlibrary.go.kr is confirmed down."
+ },
+ {
+  "url": "http://www.koreanhistory.or.kr/",
+  "broken": true,
+  "reason": "Domain no longer resolves (NXDOMAIN). NIKH's own '한국사 정보화' page no longer lists 한국역사정보통합시스템; its services are now 한국사데이터베이스 (db.history.go.kr) and sister sites.",
+  "replacement": "https://db.history.go.kr/",
+  "confidence": "medium",
+  "evidence": "Fetched history.go.kr 한국사 정보화 page: lists 한국사데이터베이스 (https://db.history.go.kr) as NIKH's main historical-source DB, plus sillok/sjw/contents/hgis - no koreanhistory.or.kr. db.history.go.kr fetched OK. It is the same institution's successor portal, but the cross-institution integrated search of 한국역사정보통합시스템 is not reproduced, so not an exact equivalent."
+ },
+ {
+  "url": "http://www.koreanhistory.or.kr/newsPaper.do",
+  "broken": true,
+  "reason": "Domain no longer resolves; the newspaper DB (독립신문, 皇城新聞 etc.) has no counterpart on db.history.go.kr (only 공립신보, 신문스크랩자료, 자유신문, 경남신문계열 etc.).",
+  "replacement": "https://www.nl.go.kr/newspaper/",
+  "confidence": "low",
+  "evidence": "db.history.go.kr front page lists no 독립신문/황성신문. The National Library's 대한민국 신문아카이브 (fetched introduce.do: digitized newspapers 1883-1960s, free to use) is where BigKinds says old newspapers were transferred; it covers the same titles but is a different institution's service, so it is an alternative, not the moved resource."
+ },
+ {
+  "url": "https://www.bigkinds.or.kr/news/library90.do",
+  "broken": true,
+  "reason": "Old path redirects to the BigKinds front page; the current site has no 1960-1989 newspaper archive menu (only 고신문 아카이브, which says old newspapers moved to NLK's 대한민국 신문 아카이브, coverage up to the 1960s).",
+  "replacement": null,
+  "confidence": "low",
+  "evidence": "Fetched bigkinds.or.kr front and /v2/news/oldNews.do ('고신문 서비스가 국립중앙도서관 대한민국 신문 아카이브로 이관'); NLK intro page says its archive covers 1883-1960s only. Searches found no new home for the post-1960 PDF archive. Suggest removing the clause or pointing to the newspapers' own archives."
+ },
+ {
+  "url": "http://search.i815.or.kr/subContent.do",
+  "broken": true,
+  "reason": "Old subContent.do page returns 404; the 한국독립운동정보시스템 itself is up at the site root.",
+  "replacement": "https://search.i815.or.kr/",
+  "confidence": "high",
+  "evidence": "Fetched https://search.i815.or.kr/ (200, title '독립기념관 한국독립운동정보시스템', with 소장자료/신문자료/독립운동가 자료/인명사전 search). The link text is just the institution name, so the system's home page is the equivalent of the old landing page."
+ }
+]

@@ -48,7 +48,7 @@ def urls_of(d):
                 section = line[2:].strip()
             for m in LINK.finditer(line):
                 add(m.group(2), f"{section} (line {n}): {m.group(1)[:70]}")
-            for m in BARE.finditer(LINK.sub("", line)):
+            for m in BARE.finditer(LINK.sub("", re.sub(r"`[^`]+`", "", line))):     # not URLs inside `code`
                 add(m.group(0), f"{section} (line {n})")
     books = os.path.join(page, "books.csv")
     if os.path.exists(books):
